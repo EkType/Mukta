@@ -1,0 +1,7 @@
+This is the FONTLOG file for the Ek Mukta Font Family
+
+
+Change Log:
+
+Version 1.1, 12 May 2014 (Girish Dalvi) 
+- Initial open source release
