@@ -30,7 +30,7 @@ First download the font binaries (TTF files) from the master branch, then follow
 
 ## Building the font from source
 
-Please follow the instructions given in the `sources.txt` file.
+Please follow the instructions given in the `SOURCE.md` file.
 
 ## Getting Involved
 
