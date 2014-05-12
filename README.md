@@ -30,8 +30,65 @@ First download the font binaries (TTF files) from the master branch, then follow
 
 ## Building the font from source
 
-Please follow the instructions given in the `SOURCE.md` file.
+----------
+
+ `.vfb` design files are used with FontLab Studio 5.
+ `.vtp` files are used with Microsoft Volt
+   
+----------
+####**Softwares required to build the font**
+
+####Free of cost programs can be found at :
+
+[**MS Volt**](http://www.microsoft.com/typography/VOLT.mspx): Microsoft Volt is a tool used for creating Open Type Tables
+
+[**ttfautohint**](http://www.freetype.org/ttfautohint/): Free and Open Source auto hinting program written by Werner Lemberg
+
+[**MS CacheTT**](http://www.microsoft.com/typography/tools/tools.aspx): Tool which allows the creation and modification of VDMX, hdmx and LTSH tables, can be used separately or in conjunction with Fontlab.
+
+####Commercial programs, with limited trial version:
+
+[**Fontlab**](http://www.fontlab.com/font-editor/fontlab-studio/): Fontlab is a font editor for windows and Mac, which will be required for editing `.vfb` files.
+
+----------
+####**The build process used by Ek Type is as follows**
+
+   1. Make changes in FontLab `.vfb` file
+   2. Generate the `.ttf` file
+   3. Open the `.ttf` file in MS Volt, import the appropriate `.vtp` file
+   4. Make changes if required in the `.vtp` file.
+   5. Ship the font from MS Volt
+   6. Run the Autohinter using the batch file. `$ Autohint.bat`
+
 
 ## Getting Involved
 
-Refer to the `contributing.md` file for instructions and guidelines on how you can contribute to the font.
+Would you like to contribute to the development of this font? Here is how ***you*** can help.
+
+----------
+####**Reporting Bugs, Issues and Enhancements**
+
+Send bug reports, feature enhancements or glyph requests,  to the **Git Issue Tracker**. Bugs must be isolated and reproducible problems that we can fix. Please read the following guidelines to ensure you are submit relevant and reproducible bug reports.
+
+#####**Guidelines to follow for Bug reports:**
+
+**Search for existing issues.** We do not want duplicate issues, and you'd help us out a lot by first checking if someone else has reported the same issue. 
+
+**Share as much information as possible.** Include operating system and version, application and version, etc. where appropriate. Also include steps to reproduce the bug.
+
+----------
+####**TO DO List**
+
+ - Port to AFDKO
+
+----------
+####**Branches and Pull requests**
+
+- `master` is the latest, stable, tested version 
+
+----------
+
+- Please submit all pull requests against the appropriate `development` branch for easier merging
+- In the pull request along with your design/code, please add changes to the fontlog file and the contributors file.
+- Try to share which tests have been done before you submit your design/code
+
