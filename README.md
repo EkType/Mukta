@@ -2,23 +2,21 @@
 
 Ek Mukta is a Unicode compliant, versatile, contemporary, humanist, mono-linear typeface available in seven weights, supporting Devanagari and Latin scripts. This type family is an open source version the Ek multi-script family which is an ongoing project to develop a unified type family for a large number of Indian scripts. The goal is to build one harmonious family across all Indian scripts without letting the visual features of one script dominate over others. This ensures that the font can be used successfully for both single and multi-script purposes.
 
-## License
-
-Ek Mukta is licensed under the SIL OFL 1.1 <http://scripts.sil.org/OFL>
-
-To view the copyright and specific terms and conditions please refer [OFL.txt](https://github.com/girish-dalvi/Ek-Mukta/blob/master/OFL.txt)
-
-## Designers
-
 Ek Mukta was designed by Girish Dalvi and Yashodeep Gholap with extensive support from Noopur Datye and many others. 
 
 For a complete list of contributors please refer to [CONTRIBUTORS.txt](https://github.com/girish-dalvi/Ek-Mukta/blob/master/CONTRIBUTORS.txt)
+
+## License
+
+Ek Mukta is licensed under the SIL Open Font License v1.1 (<http://scripts.sil.org/OFL>)
+
+To view the copyright and specific terms and conditions please refer to [OFL.txt](https://github.com/girish-dalvi/Ek-Mukta/blob/master/OFL.txt)
 
 ## Downloading font binaries (TTF files)
 
 Find binary releases on <https://github.com/girish-dalvi/Ek-Mukta/releases>
 
-The font binaries are not directly part of this repository, as it only contains source files; however, the binaries are directly build from the ttx files in the `TTX` directory.
+The font binaries are not directly part of this repository, as it only contains source files; however, the binaries are directly built from the ttx files in the `TTX` directory.
 
 ## How do I install the font on my computer?
 
@@ -50,16 +48,6 @@ Send us bug reports, feature enhancements or glyph requests, using the [Github I
 
 ## Building the font from source
    
-Software required to build the fonts:
-
-- **[Fontlab Studio](http://www.fontlab.com/font-editor/fontlab-studio/):** `.vfb` design files are used by this font editor, for Windows and Mac from the Fontlab company with a proprietary license and requiring a license fee from each user. 
-
-- **[ttfautohint](http://www.freetype.org/ttfautohint/):** Auto-hinter, for all platforms, from the Freetype Project, with a libre license
-
-- **[VOLT](http://www.microsoft.com/typography/VOLT.mspx):** `.vtp` files are used with this OpenType Layout (GPOS, GSUB) table editor, for Windows from Microsoft, with a proprietary license and free of charge
-
-- **[MS CacheTT](http://www.microsoft.com/typography/tools/tools.aspx):** Font engineering tool for VDMX, hdmx and LTSH tables, for Windows from Microsoft, with a proprietary license and free of charge
-
 The build process used by Ek Type is as follows:
 
 1. Make changes in FontLab `.vfb` file
@@ -74,15 +62,25 @@ The build process used by Ek Type is as follows:
 
 6. Run ttfautohint using the batch file. `$ Autohint.bat`
 
-### Branches and Pull requests
+This requires the following programs:
+
+- **[Fontlab Studio](http://www.fontlab.com/font-editor/fontlab-studio/):** `.vfb` design files are used by this font editor, for Windows and Mac from the Fontlab company with a proprietary license and requiring a license fee from each user. 
+
+- **[VOLT](http://www.microsoft.com/typography/VOLT.mspx):** `.vtp` files are used with this OpenType Layout (GPOS, GSUB) table editor, for Windows from Microsoft, with a proprietary license and free of charge
+
+- **[MS CacheTT](http://www.microsoft.com/typography/tools/tools.aspx):** Font engineering tool for VDMX, hdmx and LTSH tables, for Windows from Microsoft, with a proprietary license and free of charge
+
+- **[ttfautohint](http://www.freetype.org/ttfautohint/):** Auto-hinter, for all platforms, from the Freetype Project, with a libre license
+
+### Branches and Pull Requests
+
+To learn more about Pull Requests, see Github's great article on [using pull requests](https://help.github.com/articles/using-pull-requests) and play the [interactive learning game](http://try.github.com) that takes around 15 minutes to complete.
 
 - `master` is the latest, stable, tested version 
 
-- Please submit all pull requests against the appropriate `development` branch for easier merging
+- Add your name to the contributors file
 
-- In the pull request along with your design/code, please add changes to the fontlog file and the contributors file.
-
-- Try to share which tests have been done before you submit your design/code
+- Explain in the pull request how you have tested your contribution
 
 ### Roadmap
 
