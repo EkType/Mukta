@@ -6,7 +6,7 @@ Ek Mukta is a Unicode compliant, versatile, contemporary, humanist, mono-linear 
 
 Ek Mukta is licensed under the SIL OFL 1.1 <http://scripts.sil.org/OFL>
 
-To view the copyright and specific terms and conditions please refer `License.txt`, but in general
+To view the copyright and specific terms and conditions please refer [OFL.txt](https://github.com/girish-dalvi/Ek-Mukta/blob/master/OFL.txt)
 
 ## Designers
 
