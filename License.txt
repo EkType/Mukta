@@ -1,7 +1,7 @@
 ﻿
 एवं मे सुतं ... सब्बे संखारा अनिच्चा, yet we claim Ek Mukta is Copyright (c) 2013-2014 Ek Type (www.ektype.in)
 
-Permission to use, copy, modify, and distribute this font software and its documentation is hereby granted without fee provided that the copyright notice (Copyright.txt), this permission notice (License.txt) and the contributing Author Names (AUTHORS.md) appear in all copies and modifications of the font as well as the supporting documentation, and that the names of the copyright holder or authors/designers must not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. 
+Permission to use, copy, modify, and distribute this font software and its documentation is hereby granted without fee provided that the copyright notice (Copyright.txt), this permission notice (License.txt) and the contributing Author Names (AUTHORS.txt, CONTRIBUTORS.txt) appear in all copies and modifications of the font as well as the supporting documentation, and that the names of the copyright holder or authors/designers must not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. 
 
 This software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
   
