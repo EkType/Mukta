@@ -1,8 +1,8 @@
 # Ek Mukta
 
-Ek Mukta is a Unicode compliant, versatile, contemporary, humanist, mono-linear typeface available in seven weights, supporting Devanagari and Latin scripts. This type family is an open source version the Ek multi-script family which is an ongoing project to develop a unified type family for a large number of Indian scripts. The goal is to build one harmonious family across all Indian scripts without letting the visual features of one script dominate over others. This ensures that the font can be used successfully for both single and multi-script purposes.
+Ek Mukta is a Unicode compliant, versatile, contemporary, humanist, mono-linear typeface available in seven weights, supporting Devanagari and Latin scripts. This type family is a libre licensed version the Ek multi-script family, an ongoing project to develop a unified type family for each Indian script. The goal is to build one harmonious family across all Indian scripts without letting the visual features of one script dominate over others. This ensures that the fonts can be used successfully for both single and multi-script purposes.
 
-Ek Mukta was designed by Girish Dalvi and Yashodeep Gholap with extensive support from Noopur Datye and many others. 
+Ek Mukta was designed by Girish Dalvi and Yashodeep Gholap with extensive support from Noopur Datye and many others. It was initially published as Ek Devanagari and Ek Latin.
 
 For a complete list of contributors please refer to [CONTRIBUTORS.txt](https://github.com/girish-dalvi/Ek-Mukta/blob/master/CONTRIBUTORS.txt)
 
