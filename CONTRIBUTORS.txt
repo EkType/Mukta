@@ -19,7 +19,7 @@
 N: Girish Dalvi
 E: girish.dalvi@gmail.com
 W: 
-D: Original Type Design and Font Engineering for Ek Mukta (Originally, Ek Devanagari & Ek Latin), Devanagari glyph-set development, Devanagari Font Testing Scripts
+D: Original Type Design and Font Engineering, Devanagari glyph-set development, Devanagari Font Testing Scripts
 
 N: Yashodeep Gholap
 E: yashodeep.gholap@gmail.com
