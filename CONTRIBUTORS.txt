@@ -40,5 +40,4 @@ N: Maithili Shingre
 E: maithili@whitecrow.in
 D: Kerning, OpenType Testing, Platform Testing and Application Testing
 
-The contributers would like to thank, Vinay Saynekar, Santosh Kshirsagar, Shubhanand Jog, Yogesh Jahargirdar, Pradnya Naik, Snehal Patil, Pallavi Karambelkar, Omkar Shende, for their suggestions and feedback during the font design process. We would also like to thank faculty and friends from the Industrial Design Centre, IIT Bombay and from Sir J J Institute of Applied Art for their support and encouragement. This font was designed and developed by Ek Type — a collective of type designers based in Mumbai focused on designing contemporary Indian typefaces.
-
+The contributors would like to thank Vinay Saynekar, Santosh Kshirsagar, Shubhanand Jog, Yogesh Jahargirdar, Pradnya Naik, Snehal Patil, Pallavi Karambelkar, Omkar Shende, for their suggestions and feedback during the font design process. We would also like to thank faculty and friends from the Industrial Design Centre, IIT Bombay and from Sir J J Institute of Applied Art for their support and encouragement. This typeface family was designed and developed by Ek Type — a collective of type designers based in Mumbai focused on designing contemporary Indian typefaces.
