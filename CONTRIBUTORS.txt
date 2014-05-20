@@ -15,11 +15,16 @@
 #     E: <email>
 #     W: <website>
 #     D: <description of role>
-   
+
+N: Ek Type
+E: info@ektype.in
+W: http://ektype.in
+D: A collective of type designers based in Mumbai focused on designing contemporary Indian typefaces
+
 N: Girish Dalvi
 E: girish.dalvi@gmail.com
-W: 
-D: Original Type Design and Font Engineering for Ek Mukta (Originally, Ek Devanagari & Ek Latin), Devanagari glyph-set development, Devanagari Font Testing Scripts
+W: http://ektype.in
+D: Original Type Design and Font Engineering, Devanagari glyph-set development, Devanagari Font Testing Scripts
 
 N: Yashodeep Gholap
 E: yashodeep.gholap@gmail.com
@@ -40,5 +45,32 @@ N: Maithili Shingre
 E: maithili@whitecrow.in
 D: Kerning, OpenType Testing, Platform Testing and Application Testing
 
-The contributers would like to thank, Vinay Saynekar, Santosh Kshirsagar, Shubhanand Jog, Yogesh Jahargirdar, Pradnya Naik, Snehal Patil, Pallavi Karambelkar, Omkar Shende, for their suggestions and feedback during the font design process. We would also like to thank faculty and friends from the Industrial Design Centre, IIT Bombay and from Sir J J Institute of Applied Art for their support and encouragement. This font was designed and developed by Ek Type — a collective of type designers based in Mumbai focused on designing contemporary Indian typefaces.
+N: Vinay Saynekar
+D: Suggestions and feedback during the font design process
 
+N: Santosh Kshirsagar
+D: Suggestions and feedback during the font design process
+
+N: Shubhanand Jog
+D: Suggestions and feedback during the font design process
+
+N: Yogesh Jahargirdar
+D: Suggestions and feedback during the font design process
+
+N: Pradnya Naik
+D: Suggestions and feedback during the font design process
+
+N: Snehal Patil
+D: Suggestions and feedback during the font design process
+
+N: Pallavi Karambelkar
+D: Suggestions and feedback during the font design process
+
+N: Omkar Shende
+D: Suggestions and feedback during the font design process
+
+N: Industrial Design Centre, IIT Bombay
+D: Support and encouragement
+
+N: Sir J J Institute of Applied Art
+D: Support and encouragement
