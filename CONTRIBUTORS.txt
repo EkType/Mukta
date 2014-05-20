@@ -23,7 +23,7 @@ D: A collective of type designers based in Mumbai focused on designing contempor
 
 N: Girish Dalvi
 E: girish.dalvi@gmail.com
-W: http://ektype.in
+W: 
 D: Original Type Design and Font Engineering, Devanagari glyph-set development, Devanagari Font Testing Scripts
 
 N: Yashodeep Gholap
