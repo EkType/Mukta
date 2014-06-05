@@ -4,7 +4,7 @@ Ek Mukta is a Unicode compliant, versatile, contemporary, humanist, mono-linear 
 
 Ek Mukta was designed by Girish Dalvi and Yashodeep Gholap, with extensive support from Noopur Datye, Sarang Kulkarni and Maithili Shingre. We would like to thank Vinay Saynekar, Santosh Kshirsagar, Shubhanand Jog, Yogesh Jahargirdar, Pradnya Naik, Snehal Patil, Pallavi Karambelkar, and Omkar Shende for their suggestions and feedback during the font design process. We would also like to thank faculty and friends from the Industrial Design Centre, IIT Bombay and from Sir J J Institute of Applied Art for their support and encouragement.
 
-This project is led by Ek Type, a collective of type designers based in Mumbai focused on designing contemporary Indian typefaces. To contribute, see [Ek-Mukta on GitHub](https://github.com/girish-dalvi/Ek-Mukta).
+This project is led by Ek Type, a collective of type designers based in Mumbai focused on designing contemporary Indian typefaces. A short demonstration on the possibilities of using Indic webfonts on the web can be seen here. [Possibilities while using Devanagari Web Fonts (Marathi Version)](http://www.idc.iitb.ac.in/~girish/demo/).
 
 ## License
 
