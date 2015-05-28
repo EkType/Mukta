@@ -2,3 +2,8 @@
 *.otf
 *.ttf
 *.exe
+*.zip
+*.pfa
+*.inf
+#OTF Folder
+OTF/

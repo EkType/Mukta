@@ -1,0 +1,3272 @@
+
+#----------------------------------------------------------------------------------------------------------------
+#*****  K E R N I N G  ******#
+#----------------------------------------------------------------------------------------------------------------
+
+feature dist{
+lookup dist1 useExtension {
+lookupflag IgnoreMarks;
+
+
+   pos space space -32;
+   pos numbersign one 20;
+   pos numbersign two -10;
+   pos numbersign Ek.dv 20;
+   pos numbersign Teen.dv 10;
+   pos numbersign Paach.dv 10;
+   pos numbersign Aath.dv -10;
+   pos percent zero 20;
+   pos percent one -40;
+   pos percent four 30;
+   pos percent six 10;
+   pos percent seven -30;
+   pos percent Shunya.dv 20;
+   pos percent Ek.dv 20;
+   pos percent Don.dv 20;
+   pos percent Chaar.dv -30;
+   pos percent Saha.dv 10;
+   pos percent Saat.dv 10;
+   pos percent Aath.dv 10;
+   pos percent Nau.dv -30;
+   pos asterisk one 30;
+   pos asterisk two 10;
+   pos asterisk three 50;
+   pos asterisk four -50;
+   pos asterisk seven 30;
+   pos asterisk Chaar.dv 20;
+   pos asterisk Paach.dv 40;
+   pos asterisk Saha.dv 20;
+   pos asterisk Aath.dv -60;
+   pos hyphen v -15;
+   pos slash q -50;
+   pos slash V 10;
+   pos slash four -50;
+   pos slash five -20;
+   pos slash six -20;
+   pos slash Chaar.dv 10;
+   pos slash Saha.dv -10;
+   pos slash Saat.dv -10;
+   pos slash Aath.dv -70;
+   pos slash vowelU.dv 20;
+   pos slash vowelUu.dv 20;
+   pos slash vowelRu.dv 20;
+   pos zero dollar -10;
+   pos zero vowelU.dv 100;
+   pos zero vowelUu.dv 100;
+   pos zero vowelRu.dv 100;
+   pos one two 25;
+   pos one question -20;
+   pos one bar 40;
+   pos one numbersign 20;
+   pos one vowelU.dv 100;
+   pos one vowelUu.dv 100;
+   pos one vowelRu.dv 100;
+   pos two three -15;
+   pos two four -40;
+   pos two five -10;
+   pos two six -10;
+   pos two bar 40;
+   pos two asterisk 20;
+   pos two numbersign 10;
+   pos two vowelU.dv 100;
+   pos two vowelUu.dv 100;
+   pos two vowelRu.dv 100;
+   pos three six -5;
+   pos three less -30;
+   pos three question -30;
+   pos three dollar -30;
+   pos three asterisk -10;
+   pos three bar 20;
+   pos three vowelU.dv 100;
+   pos three vowelUu.dv 100;
+   pos three vowelRu.dv 100;
+   pos four zero -5;
+   pos four three -35;
+   pos four seven -30;
+   pos four percent -20;
+   pos four bar 30;
+   pos four backslash -20;
+   pos four vowelU.dv 100;
+   pos four vowelUu.dv 100;
+   pos four vowelRu.dv 100;
+   pos five one -5;
+   pos five slash -10;
+   pos five less -10;
+   pos five dollar -10;
+   pos five bar 10;
+   pos five vowelU.dv 100;
+   pos five vowelUu.dv 100;
+   pos five vowelRu.dv 100;
+   pos six seven -10;
+   pos six nine -10;
+   pos six numbersign 10;
+   pos six percent -20;
+   pos six bar 30;
+   pos six backslash -10;
+   pos six vowelU.dv 100;
+   pos six vowelUu.dv 100;
+   pos six vowelRu.dv 100;
+   pos seven zero -30;
+   pos seven three -30;
+   pos seven six -30;
+   pos seven eight -30;
+   pos seven nine -35;
+   pos seven slash -100;
+   pos seven less -60;
+   pos seven percent 30;
+   pos seven bar 30;
+   pos seven backslash 40;
+   pos seven vowelU.dv 100;
+   pos seven vowelUu.dv 100;
+   pos seven vowelRu.dv 100;
+   pos eight two -5;
+   pos eight three -35;
+   pos eight seven -10;
+   pos eight nine -15;
+   pos eight bar 30;
+   pos eight vowelU.dv 100;
+   pos eight vowelUu.dv 100;
+   pos eight vowelRu.dv 100;
+   pos nine one -5;
+   pos nine two -15;
+   pos nine eight -10;
+   pos nine three -5;
+   pos nine bar 30;
+   pos nine backslash -10;
+   pos nine vowelU.dv 100;
+   pos nine vowelUu.dv 100;
+   pos nine vowelRu.dv 100;
+   pos less one -30;
+   pos less five -20;
+   pos greater one -100;
+   pos greater three -40;
+   pos greater five -30;
+   pos greater seven -70;
+   pos greater Teen.dv -20;
+   pos greater Chaar.dv -60;
+   pos greater Paach.dv -20;
+   pos greater Nau.dv -40;
+   pos question one 20;
+   pos question four -20;
+   pos question five -20;
+   pos question Chaar.dv 10;
+   pos question Aath.dv -30;
+   pos backslash v -40;
+   pos backslash f -20;
+   pos backslash V -40;
+   pos backslash one -40;
+   pos backslash two 20;
+   pos backslash three 20;
+   pos backslash seven -10;
+   pos backslash nine 20;
+   pos backslash Chaar.dv -20;
+   pos backslash Paach.dv -10;
+   pos backslash Aath.dv 10;
+   pos backslash Nau.dv -50;
+   pos braceleft Shunya.dv -40;
+   pos braceleft Saha.dv -30;
+   pos bar one 30;
+   pos bar two 30;
+   pos bar three 30;
+   pos bar four 40;
+   pos bar five 10;
+   pos bar six 30;
+   pos bar seven 30;
+   pos bar eight 30;
+   pos bar nine 30;
+   pos bar Shunya.dv 10;
+   pos bar Don.dv 40;
+   pos bar Teen.dv 30;
+   pos bar Chaar.dv 30;
+   pos bar Paach.dv 30;
+   pos bar Saha.dv 30;
+   pos bar Saat.dv 40;
+   pos bar Aath.dv 30;
+   pos bar Nau.dv 20;
+   pos dollar one -40;
+   pos dollar zero -10;
+   pos dollar two -20;
+   pos dollar three -30;
+   pos dollar five -20;
+   pos dollar seven -30;
+   pos dollar Shunya.dv 10;
+   pos dollar Chaar.dv 20;
+   pos dollar Paach.dv 20;
+   pos dollar Saat.dv 20;
+   pos dollar Ek.dv 20;
+   pos dollar Don.dv 20;
+   pos dollar Teen.dv 20;
+   pos dollar Saha.dv 20;
+   pos dollar Aath.dv 20;
+   pos dollar Paanch.dv 20;
+   pos dollar Aanth.dv 20;
+   pos B v -5;
+   pos B Asmall -30;
+   pos B Jsmall -5;
+   pos B X -20;
+   pos F Asmall -60;
+   pos F Jsmall -30;
+   pos F Osmall -10;
+   pos F Ssmall -15;
+   pos F slash -50;
+   pos F backslash 20;
+   pos P v 10;
+   pos P Asmall -60;
+   pos P Jsmall -15;
+   pos P X -30;
+   pos Q Jsmall 40;
+   pos Q X -30;
+   pos V Asmall -70;
+   pos V Osmall -50;
+   pos V q -40;
+   pos V p -10;
+   pos V Bsmall -20;
+   pos V Dsmall -20;
+   pos V Esmall -20;
+   pos V Fsmall -20;
+   pos V Hsmall -40;
+   pos V Csmall -50;
+   pos V Gsmall -50;
+   pos V Ismall -20;
+   pos V Jsmall -20;
+   pos V Lsmall -20;
+   pos V Msmall -20;
+   pos V Nsmall -20;
+   pos V Psmall -20;
+   pos V Qsmall -50;
+   pos V Ksmall -20;
+   pos V Rsmall -20;
+   pos V Ssmall -40;
+   pos V Usmall -20;
+   pos V slash -40;
+   pos V backslash 10;
+   pos X Osmall -15;
+   pos X Q -30;
+   pos X f -10;
+   pos X q -35;
+   pos f comma -30;
+   pos f f 10;
+   pos f V 60;
+   pos f X 20;
+   pos f backslash 50;
+   pos f slash -50;
+   pos p V -40;
+   pos p X -35;
+   pos q V -10;
+   pos q backslash -10;
+   pos q slash 20;
+   pos v hyphen -15;
+   pos v slash -50;
+   pos Euro Shunya.dv 40;
+   pos Euro Ek.dv 40;
+   pos Euro Don.dv 40;
+   pos Euro Teen.dv 40;
+   pos Euro Chaar.dv 40;
+   pos Euro Paach.dv 40;
+   pos Euro Saha.dv 40;
+   pos Euro Saat.dv 40;
+   pos Euro Aath.dv 40;
+   pos Euro Nau.dv 40;
+   pos Euro Paanch.dv 40;
+   pos Euro Aanth.dv 40;
+   pos cent Aath.dv 10;
+   pos cent Chaar.dv 20;
+   pos cent Paanch.dv 10;
+   pos cent Aanth.dv 20;
+   pos sterling Shunya.dv 20;
+   pos sterling Ek.dv 20;
+   pos sterling Don.dv 20;
+   pos sterling Teen.dv 20;
+   pos sterling Chaar.dv 20;
+   pos sterling Paach.dv 20;
+   pos sterling Saha.dv 20;
+   pos sterling Saat.dv 20;
+   pos sterling Aath.dv 20;
+   pos sterling Nau.dv 20;
+   pos sterling Paanch.dv 20;
+   pos sterling Aanth.dv 20;
+   pos yen Shunya.dv 50;
+   pos yen Ek.dv 50;
+   pos yen Don.dv 50;
+   pos yen Teen.dv 50;
+   pos yen Chaar.dv 50;
+   pos yen Paach.dv 50;
+   pos yen Saha.dv 50;
+   pos yen Saat.dv 50;
+   pos yen Aath.dv 50;
+   pos yen Nau.dv 50;
+   pos yen Paanch.dv 50;
+   pos yen Aanth.dv 60;
+   pos Asmall Asmall -5;
+   pos Asmall Csmall -20;
+   pos Asmall Gsmall -15;
+   pos Asmall Osmall -15;
+   pos Asmall Psmall -10;
+   pos Asmall Qsmall -10;
+   pos Asmall Tsmall -47;
+   pos Asmall Vsmall -40;
+   pos Asmall Wsmall -40;
+   pos Asmall Ysmall -50;
+   pos Asmall V -70;
+   pos Bsmall Asmall -15;
+   pos Bsmall Jsmall -5;
+   pos Csmall Csmall -35;
+   pos Csmall Osmall -30;
+   pos Dsmall Asmall -20;
+   pos Dsmall Jsmall -10;
+   pos Dsmall Nsmall -20;
+   pos Dsmall Ysmall -25;
+   pos Dsmall Zsmall -5;
+   pos Dsmall V -50;
+   pos Esmall Csmall -15;
+   pos Esmall Gsmall -30;
+   pos Esmall Osmall -10;
+   pos Esmall Qsmall -5;
+   pos Esmall Vsmall -5;
+   pos Esmall Ysmall -5;
+   pos Esmall V -20;
+   pos Fsmall Asmall -45;
+   pos Fsmall Jsmall -20;
+   pos Fsmall Osmall -10;
+   pos Fsmall Ssmall -15;
+   pos Gsmall Tsmall -15;
+   pos Gsmall Wsmall -30;
+   pos Gsmall Ysmall -15;
+   pos Gsmall V -30;
+   pos Hsmall V -20;
+   pos Ismall Esmall -5;
+   pos Ismall V -20;
+   pos Jsmall Asmall -20;
+   pos Jsmall V -20;
+   pos Ksmall Osmall -45;
+   pos Ksmall Ssmall -15;
+   pos Ksmall Usmall -15;
+   pos Lsmall Osmall -15;
+   pos Lsmall Qsmall -40;
+   pos Lsmall Tsmall -80;
+   pos Lsmall Usmall -30;
+   pos Lsmall Vsmall -60;
+   pos Lsmall Wsmall -60;
+   pos Lsmall Ysmall -94;
+   pos Lsmall V -80;
+   pos Msmall V -20;
+   pos Nsmall Osmall -15;
+   pos Nsmall V -20;
+   pos Osmall Asmall -15;
+   pos Osmall Esmall -10;
+   pos Osmall Jsmall -20;
+   pos Osmall Lsmall -15;
+   pos Osmall Tsmall -25;
+   pos Osmall Vsmall -15;
+   pos Osmall Wsmall -15;
+   pos Osmall Xsmall -20;
+   pos Osmall Ysmall -15;
+   pos Osmall V -50;
+   pos Psmall Asmall -40;
+   pos Psmall Jsmall -15;
+   pos Psmall V -20;
+   pos Qsmall Jsmall 60;
+   pos Qsmall Tsmall -10;
+   pos Rsmall Tsmall -5;
+   pos Rsmall Usmall -15;
+   pos Rsmall Vsmall -5;
+   pos Rsmall Ysmall -20;
+   pos Rsmall V -40;
+   pos Ssmall Asmall -20;
+   pos Ssmall Ssmall -20;
+   pos Ssmall Tsmall -15;
+   pos Ssmall Wsmall -15;
+   pos Ssmall V -30;
+   pos Tsmall Asmall -45;
+   pos Tsmall Osmall -20;
+   pos Tsmall Tsmall 15;
+   pos Tsmall Wsmall 15;
+   pos Tsmall Ysmall 15;
+   pos Usmall Rsmall -15;
+   pos Usmall V -20;
+   pos Vsmall Asmall -45;
+   pos Vsmall Osmall -15;
+   pos Wsmall Asmall -45;
+   pos Wsmall Osmall -15;
+   pos Wsmall Tsmall 15;
+   pos Wsmall Ysmall 15;
+   pos Xsmall Osmall -20;
+   pos Ysmall Asmall -50;
+   pos Ysmall Csmall -25;
+   pos Ysmall Osmall -20;
+   pos Ysmall Ssmall -15;
+   pos Zsmall Csmall -15;
+   pos Zsmall Osmall -20;
+   pos Zsmall Usmall -10;
+   pos uni20B9 Ek.dv 50;
+   pos uni20B9 Don.dv 40;
+   pos uni20B9 Teen.dv 20;
+   pos uni20B9 Chaar.dv 40;
+   pos uni20B9 Paach.dv 40;
+   pos uni20B9 Saha.dv 40;
+   pos uni20B9 Saat.dv 40;
+   pos uni20B9 Aath.dv 20;
+   pos uni20B9 Nau.dv 40;
+   pos uni20B9 Paanch.dv 40;
+   pos uni20B9 Aanth.dv 40;
+   pos vowelU.dv Nna.dv -10;
+   pos vowelU.dv Sha.dv 5;
+   pos vowelU.dv registered 60;
+   pos vowelU.dv asterisk 60;
+   pos vowelU.dv question 60;
+   pos vowelU.dv exclam 60;
+   pos vowelU.dv trademark 60;
+   pos vowelU.dv copyright 60;
+   pos vowelUu.dv Ga.dv 5;
+   pos vowelUu.dv Da.dv -10;
+   pos vowelUu.dv Ra.dv 5;
+   pos vowelUu.dv Sa.dv 5;
+   pos vowelUu.dv registered 60;
+   pos vowelUu.dv asterisk 60;
+   pos vowelUu.dv question 60;
+   pos vowelUu.dv exclam 60;
+   pos vowelUu.dv trademark 60;
+   pos vowelUu.dv copyright 60;
+   pos vowelUu.dv slash -30;
+   pos vowelRu.dv registered 60;
+   pos vowelRu.dv asterisk 60;
+   pos vowelRu.dv question 60;
+   pos vowelRu.dv exclam 60;
+   pos vowelRu.dv trademark 60;
+   pos vowelRu.dv copyright 60;
+   pos Gha.dv Nga.dv 4;
+   pos Nga.dv vowelU.dv -10;
+   pos Nga.dv Ca.dv 10;
+
+   pos Ttha.dv Ga.dv 15;
+   pos Ttha.dv Ra.dv 20;
+
+   pos Ddha.dv Ca.dv -20;
+   pos Ddha.dv La.dv 10;
+   pos Pha.dv Cha.dv 10;
+   pos Lla.dv Cha.dv 15;
+   pos Ha.dv Sha.dv 10;
+   pos Ha.dv Nga.dv 10;
+
+   pos Danda.dv space -120;
+   pos Doubledanda.dv space -120;
+   pos Doubledanda.dv Ek.dv 20;
+   pos Shunya.dv Ek.dv 10;
+   pos Shunya.dv numbersign 30;
+   pos Shunya.dv backslash -20;
+   pos Shunya.dv uni20B9 100;
+   pos Shunya.dv uni20A8 100;
+   pos Shunya.dv Aath.dv 10;
+   pos Shunya.dv Chaar.dv -10;
+   pos Shunya.dv asterisk -20;
+   pos Shunya.dv braceright -40;
+   pos Shunya.dv trademark -30;
+   pos Shunya.dv dollar 20;
+   pos Shunya.dv Euro 90;
+   pos Shunya.dv cent 40;
+   pos Shunya.dv sterling 40;
+   pos Shunya.dv yen 70;
+   pos Shunya.dv vowelU.dv 100;
+   pos Shunya.dv vowelUu.dv 100;
+   pos Shunya.dv vowelRu.dv 100;
+   pos Ek.dv Aath.dv -20;
+   pos Ek.dv Nau.dv 10;
+   pos Ek.dv numbersign 20;
+   pos Ek.dv less -50;
+   pos Ek.dv greater -20;
+   pos Ek.dv question -20;
+   pos Ek.dv asterisk 20;
+   pos Ek.dv braceleft -20;
+   pos Ek.dv percent 40;
+   pos Ek.dv uni20B9 100;
+   pos Ek.dv uni20A8 100;
+   pos Ek.dv Ek.dv 10;
+   pos Ek.dv Teen.dv -10;
+   pos Ek.dv Chaar.dv 10;
+   pos Ek.dv Paach.dv 15;
+   pos Ek.dv dollar 40;
+   pos Ek.dv Euro 60;
+   pos Ek.dv sterling 20;
+   pos Ek.dv yen 70;
+   pos Ek.dv vowelU.dv 100;
+   pos Ek.dv vowelUu.dv 100;
+   pos Ek.dv vowelRu.dv 100;
+   pos Don.dv Aath.dv -24;
+   pos Don.dv less -40;
+   pos Don.dv question -40;
+   pos Don.dv percent 10;
+   pos Don.dv bar 20;
+   pos Don.dv asterisk 20;
+   pos Don.dv uni20A8 90;
+   pos Don.dv uni20B9 90;
+   pos Don.dv Ek.dv 10;
+   pos Don.dv Teen.dv -20;
+   pos Don.dv dollar 20;
+   pos Don.dv Euro 60;
+   pos Don.dv cent 30;
+   pos Don.dv sterling 20;
+   pos Don.dv yen 70;
+   pos Don.dv vowelU.dv 100;
+   pos Don.dv vowelUu.dv 100;
+   pos Don.dv vowelRu.dv 100;
+   pos Teen.dv asterisk 20;
+   pos Teen.dv uni20B9 90;
+   pos Teen.dv uni20A8 90;
+   pos Teen.dv Paach.dv -14;
+   pos Teen.dv dollar 20;
+   pos Teen.dv Euro 90;
+   pos Teen.dv cent 40;
+   pos Teen.dv sterling 40;
+   pos Teen.dv yen 70;
+   pos Teen.dv vowelU.dv 100;
+   pos Teen.dv vowelUu.dv 100;
+   pos Teen.dv vowelRu.dv 100;
+   pos Chaar.dv Aath.dv -30;
+   pos Chaar.dv slash -40;
+   pos Chaar.dv backslash 40;
+   pos Chaar.dv percent 20;
+   pos Chaar.dv asterisk 30;
+   pos Chaar.dv bar 20;
+   pos Chaar.dv uni20B9 100;
+   pos Chaar.dv uni20A8 100;
+   pos Chaar.dv Saha.dv -20;
+   pos Chaar.dv perthousand 20;
+   pos Chaar.dv dollar 20;
+   pos Chaar.dv Euro 40;
+   pos Chaar.dv cent -20;
+   pos Chaar.dv yen 40;
+   pos Chaar.dv vowelU.dv 100;
+   pos Chaar.dv vowelUu.dv 100;
+   pos Chaar.dv vowelRu.dv 100;
+   pos Paach.dv Nau.dv -35;
+   pos Paach.dv Chaar.dv -40;
+   pos Paach.dv Paach.dv -20;
+   pos Paach.dv less -20;
+   pos Paach.dv numbersign 20;
+   pos Paach.dv dollar 30;
+   pos Paach.dv percent -50;
+   pos Paach.dv backslash -50;
+   pos Paach.dv bar 20;
+   pos Paach.dv asterisk -50;
+   pos Paach.dv uni20B9 90;
+   pos Paach.dv uni20A8 90;
+   pos Paach.dv Don.dv -10;
+   pos Paach.dv Saat.dv -20;
+   pos Paach.dv perthousand -50;
+   pos Paach.dv degree -50;
+   pos Paach.dv trademark -60;
+   pos Paach.dv Euro 60;
+   pos Paach.dv sterling 50;
+   pos Paach.dv yen 80;
+   pos Paach.dv vowelU.dv 100;
+   pos Paach.dv vowelUu.dv 100;
+   pos Paach.dv vowelRu.dv 100;
+   pos Paach.dv cent 20;
+   pos Saha.dv Paach.dv -10;
+   pos Saha.dv Nau.dv -30;
+   pos Saha.dv Teen.dv 20;
+   pos Saha.dv slash 60;
+   pos Saha.dv backslash -10;
+   pos Saha.dv less -20;
+   pos Saha.dv greater 20;
+   pos Saha.dv numbersign 20;
+   pos Saha.dv bar 40;
+   pos Saha.dv uni20B9 80;
+   pos Saha.dv uni20A8 80;
+   pos Saha.dv Chaar.dv -10;
+   pos Saha.dv degree -20;
+   pos Saha.dv braceright 40;
+   pos Saha.dv uni2126 50;
+   pos Saha.dv dollar 50;
+   pos Saha.dv Euro 70;
+   pos Saha.dv cent 20;
+   pos Saha.dv sterling 40;
+   pos Saha.dv yen 50;
+   pos Saha.dv vowelU.dv 100;
+   pos Saha.dv vowelUu.dv 100;
+   pos Saha.dv vowelRu.dv 100;
+   pos Saat.dv Chaar.dv -30;
+   pos Saat.dv Paach.dv -20;
+   pos Saat.dv Nau.dv -20;
+   pos Saat.dv question -30;
+   pos Saat.dv uni20B9 90;
+   pos Saat.dv uni20A8 90;
+   pos Saat.dv Teen.dv -30;
+   pos Saat.dv Saha.dv -20;
+   pos Saat.dv Don.dv -10;
+   pos Saat.dv percent -20;
+   pos Saat.dv perthousand -20;
+   pos Saat.dv asterisk -30;
+   pos Saat.dv degree -20;
+   pos Saat.dv trademark -40;
+   pos Saat.dv slash -20;
+   pos Saat.dv dollar 20;
+   pos Saat.dv Euro 60;
+   pos Saat.dv sterling 20;
+   pos Saat.dv yen 50;
+   pos Saat.dv Aath.dv -30;
+   pos Saat.dv vowelU.dv 100;
+   pos Saat.dv vowelUu.dv 100;
+   pos Saat.dv vowelRu.dv 100;
+   pos Aath.dv Paach.dv -10;
+   pos Aath.dv Nau.dv -20;
+   pos Aath.dv Don.dv -20;
+   pos Aath.dv Saat.dv -10;
+   pos Aath.dv slash 60;
+   pos Aath.dv less -40;
+   pos Aath.dv greater 20;
+   pos Aath.dv question -10;
+   pos Aath.dv percent 10;
+   pos Aath.dv bar 30;
+   pos Aath.dv uni20A8 80;
+   pos Aath.dv uni20B9 80;
+   pos Aath.dv degree -20;
+   pos Aath.dv dollar 60;
+   pos Aath.dv Euro 80;
+   pos Aath.dv sterling 60;
+   pos Aath.dv yen 70;
+   pos Aath.dv vowelU.dv 100;
+   pos Aath.dv vowelUu.dv 100;
+   pos Aath.dv vowelRu.dv 100;
+   pos Nau.dv Chaar.dv -3;
+   pos Nau.dv less -20;
+   pos Nau.dv percent 20;
+   pos Nau.dv bar 20;
+   pos Nau.dv backslash 20;
+   pos Nau.dv uni20B9 90;
+   pos Nau.dv uni20A8 90;
+   pos Nau.dv Ek.dv 10;
+   pos Nau.dv slash 10;
+   pos Nau.dv vowelU.dv 100;
+   pos Nau.dv vowelUu.dv 100;
+   pos Nau.dv vowelRu.dv 100;
+   pos uni20A8 Ek.dv 50;
+   pos uni20A8 Don.dv 40;
+   pos uni20A8 Teen.dv 20;
+   pos uni20A8 Chaar.dv 40;
+   pos uni20A8 Paach.dv 40;
+   pos uni20A8 Saha.dv 40;
+   pos uni20A8 Saat.dv 40;
+   pos uni20A8 Aath.dv 20;
+   pos uni20A8 Nau.dv 40;
+   pos uni20A8 Paanch.dv 40;
+   pos uni20A8 Aanth.dv 40;
+
+   pos KaHalant.dv Ca.dv -40;
+   pos KaHalant.dv Ga.dv -70;
+   pos KaHalant.dv Nna.dv 20;
+   pos KaHalant.dv Tha.dv 20;
+   pos KaHalant.dv Pha.dv 40;
+   pos KaHalant.dv Sha.dv -40;
+   pos KaHalant.dv Sa.dv 50;
+   pos KaHalant.dv Cha.dv 25;
+   pos KaHalant.dv CaHalant.dv 30;
+   pos KaHalant.dv GaHalant.dv -60;
+   pos KaHalant.dv NyaHalant.dv 10;
+   pos KaHalant.dv ShaHalant.dv -34;
+   pos KhaHalant.dv Ssa.dv -10;
+   pos KhaHalant.dv Ha.dv -20;
+   pos KhaHalant.dv Dha.dv -20;
+   pos KhaHalant.dv Ca.dv 20;
+   pos KhaHalant.dv Nya.dv 20;
+   pos KhaHalant.dv Nna.dv -30;
+   pos KhaHalant.dv Na.dv -20;
+   pos KhaHalant.dv Pha.dv -30;
+   pos KhaHalant.dv Cha.dv -50;
+   pos GaHalant.dv Dha.dv 10;
+   pos GaHalant.dv Tha.dv 10;
+   pos GaHalant.dv Jha.dv 10;
+   pos GaHalant.dv Ha.dv 10;
+   pos GhaHalant.dv Ca.dv -29;
+   pos GhaHalant.dv Cha.dv 20;
+   pos GhaHalant.dv Jha.dv 10;
+   pos GhaHalant.dv Nya.dv 30;
+   pos GhaHalant.dv La.dv 30;
+   pos GhaHalant.dv Lla.dv 40;
+   pos GhaHalant.dv LlaNukta.dv 30;
+   pos CaHalant.dv Ca.dv -100;
+   pos CaHalant.dv Jha.dv -20;
+   pos CaHalant.dv Ha.dv -20;
+   pos CaHalant.dv HaHalant.dv -20;
+   pos CaHalant.dv BhaHalant.dv -50;
+   pos CaHalant.dv JhaHalant.dv -20;
+   pos JaHalant.dv Ga.dv 20;
+   pos JaHalant.dv Ca.dv -80;
+   pos JaHalant.dv La.dv -30;
+   pos JaHalant.dv Lla.dv -20;
+   pos JaHalant.dv LlaNukta.dv -20;
+   pos JaHalant.dv Sha.dv -10;
+   pos JhaHalant.dv Sha.dv 20;
+   pos JhaHalant.dv Nya.dv 20;
+   pos JhaHalant.dv Ca.dv -50;
+   pos JhaHalant.dv Dha.dv -10;
+   pos JhaHalant.dv Cha.dv -20;
+   pos NyaHalant.dv Ca.dv -60;
+   pos NyaHalant.dv Cha.dv -50;
+   pos NyaHalant.dv Dha.dv -20;
+   pos NyaHalant.dv Sha.dv 30;
+   pos NnaHalant.dv Ha.dv -10;
+   pos NnaHalant.dv Dha.dv -10;
+   pos TaHalant.dv Ga.dv -80;
+   pos TaHalant.dv Ca.dv -90;
+   pos TaHalant.dv Cha.dv -10;
+   pos TaHalant.dv Nya.dv -60;
+   pos TaHalant.dv Tha.dv 20;
+   pos TaHalant.dv La.dv -20;
+   pos TaHalant.dv Lla.dv -20;
+   pos TaHalant.dv LlaNukta.dv -20;
+   pos TaHalant.dv Sha.dv -90;
+   pos TaHalant.dv Sa.dv 20;
+   pos ThaHalant.dv Ca.dv -60;
+   pos ThaHalant.dv Cha.dv -10;
+   pos DhaHalant.dv Nga.dv -16;
+   pos DhaHalant.dv Ca.dv -50;
+   pos DhaHalant.dv Jha.dv -20;
+   pos DhaHalant.dv Nna.dv -10;
+   pos DhaHalant.dv Pha.dv -20;
+   pos DhaHalant.dv Ssa.dv -20;
+   pos DhaHalant.dv Sha.dv -30;
+   pos NaHalant.dv Ca.dv -40;
+   pos NaHalant.dv Cha.dv -30;
+   pos NaHalant.dv Dha.dv -40;
+   pos NaHalant.dv Na.dv -20;
+   pos NaHalant.dv Sha.dv 20;
+   pos NaHalant.dv Sa.dv 30;
+   pos PaHalant.dv Ddha.dv -10;
+   pos PaHalant.dv Dha.dv -40;
+   pos PaHalant.dv Ca.dv -70;
+   pos PaHalant.dv Cha.dv -60;
+   pos PaHalant.dv Sha.dv -10;
+   pos PaHalant.dv Sa.dv -30;
+   pos PaHalant.dv Na.dv -30;
+   pos PhaHalant.dv Dha.dv -60;
+   pos PhaHalant.dv Nya.dv -10;
+   pos PhaHalant.dv CaHalant.dv -70;
+   pos PhaHalant.dv Na.dv -40;
+   pos BaHalant.dv Ga.dv 20;
+   pos BaHalant.dv Nga.dv 15;
+   pos BaHalant.dv Jha.dv -5;
+   pos BaHalant.dv Nya.dv 40;
+   pos BaHalant.dv Ddha.dv 10;
+   pos BaHalant.dv Da.dv 10;
+   pos BaHalant.dv Dha.dv 10;
+   pos BaHalant.dv Lla.dv 10;
+   pos BaHalant.dv LlaNukta.dv 20;
+   pos BaHalant.dv Sa.dv 20;
+   pos BaHalant.dv Ha.dv -15;
+   pos BhaHalant.dv Ca.dv -30;
+   pos MaHalant.dv Ca.dv -30;
+   pos MaHalant.dv LlaNukta.dv 10;
+   pos MaHalant.dv Lla.dv 10;
+   pos MaHalant.dv Ha.dv -10;
+   pos YaHalant.dv Ha.dv -20;
+   pos YaHalant.dv Jha.dv -10;
+   pos YaHalant.dv Ca.dv -60;
+   pos LaHalant.dv Cha.dv -60;
+   pos LaHalant.dv Dha.dv -60;
+   pos LaHalant.dv Ca.dv -10;
+   pos LaHalant.dv Nya.dv -30;
+   pos LaHalant.dv La.dv -10;
+   pos LaHalant.dv Tha.dv 20;
+   pos LaHalant.dv Sha.dv -76;
+   pos LaHalant.dv Ha.dv -10;
+   pos LaHalant.dv Na.dv -40;
+   pos LlaHalant.dv Nga.dv -15;
+   pos LlaHalant.dv Ca.dv -20;
+   pos LlaHalant.dv Cha.dv -15;
+   pos LlaHalant.dv Jha.dv -5;
+   pos LlaHalant.dv Nya.dv 40;
+   pos LlaHalant.dv Sa.dv 10;
+   pos LlaHalant.dv Dha.dv -10;
+   pos VaHalant.dv Cha.dv 6;
+   pos VaHalant.dv Jha.dv 5;
+   pos VaHalant.dv Ca.dv 10;
+   pos VaHalant.dv Ttha.dv 20;
+   pos VaHalant.dv Tha.dv 10;
+   pos VaHalant.dv Dha.dv 2;
+   pos VaHalant.dv Na.dv -10;
+   pos VaHalant.dv Sa.dv 50;
+   pos VaHalant.dv Ha.dv 3;
+   pos VaHalant.dv Da.dv 20;
+   pos VaHalant.dv Ddha.dv 20;
+   pos VaHalant.dv Lla.dv 30;
+   pos VaHalant.dv LlaNukta.dv 30;
+   pos ShaHalant.dv Lla.dv -10;
+   pos ShaHalant.dv LlaNukta.dv -10;
+   pos ShaHalant.dv Sha.dv -20;
+   pos ShaHalant.dv Da.dv -10;
+   pos ShaHalant.dv Ga.dv -10;
+   pos ShaHalant.dv Ddha.dv -10;
+   pos ShaHalant.dv Na.dv -20;
+   pos ShaHalant.dv NaNukta.dv -20;
+   pos SsaHalant.dv Ca.dv -60;
+   pos SsaHalant.dv Cha.dv -30;
+   pos SsaHalant.dv Nya.dv -20;
+   pos SsaHalant.dv Ha.dv -10;
+   pos SaHalant.dv Dha.dv -30;
+   pos SaHalant.dv Cha.dv -50;
+   pos SaHalant.dv Ca.dv -60;
+   pos HaHalant.dv Ca.dv -30;
+   pos HaHalant.dv La.dv 22;
+   pos HaHalant.dv Sha.dv 40;
+   pos HaHalant.dv Ha.dv -10;
+   pos KaSsaHalant.dv Dha.dv -40;
+   pos KaSsaHalant.dv Cha.dv -40;
+   pos KaSsaHalant.dv Ddha.dv -17;
+   pos KaSsaHalant.dv La.dv -5;
+   pos KaSsaHalant.dv Sha.dv 20;
+   pos KaSsaHalant.dv LlaNukta.dv -10;
+   pos JaNyaHalant.dv Dha.dv 10;
+
+   pos Paanch.dv Nau.dv -60;
+   pos Paanch.dv Shunya.dv -30;
+   pos Paanch.dv perthousand -50;
+   pos Paanch.dv percent -50;
+   pos Paanch.dv asterisk -50;
+   pos Paanch.dv trademark -60;
+   pos Paanch.dv slash 20;
+   pos Paanch.dv vowelU.dv 100;
+   pos Paanch.dv vowelUu.dv 100;
+   pos Paanch.dv vowelRu.dv 100;
+   pos Paanch.dv dollar 20;
+   pos Paanch.dv Euro 60;
+   pos Paanch.dv sterling 40;
+   pos Paanch.dv yen 70;
+   pos Paanch.dv uni20B9 80;
+   pos Paanch.dv uni20A8 80;
+   pos Aanth.dv percent 40;
+   pos Aanth.dv perthousand 40;
+   pos Aanth.dv degree 20;
+   pos Aanth.dv vowelU.dv 100;
+   pos Aanth.dv vowelUu.dv 100;
+   pos Aanth.dv vowelRu.dv 100;
+   pos Aanth.dv dollar 30;
+   pos Aanth.dv Euro 60;
+   pos Aanth.dv sterling 50;
+   pos Aanth.dv yen 70;
+   pos Aanth.dv uni20B9 80;
+   pos Aanth.dv uni20A8 80;
+
+} dist1;
+ 
+
+
+lookup dist2 useExtension {
+
+   pos Ttha.dv matraIione.dv -30;
+   pos Ddha.dv matraIione.dv 20;
+   pos matraU.dv HamatraRu.dv 20;
+   pos matraU.dv comma 50;
+   pos matraU.dv NgaGa.dv 20;
+   pos matraRu.dv comma 50;
+   pos RamatraUu.dv DaDha.dv 10;
+   pos NgaKa.dv matraIione.dv -10;
+   pos NgaMa.dv matraIione.dv -20;
+   pos TtaTta.dv matraIione.dv 10;
+   pos TtaTtha.dv matraIione.dv 10;
+   pos DdaDda.dv matraIione.dv 15;
+   pos DdaDdha.dv matraIione.dv 15;
+   pos KaTa.dv matraIi3.dv -40;
+
+   pos matraIone.dv RaNukta.dv -20;
+   pos matraItwo.dv Da.dv -10;
+   pos matraItwo.dv NgaGa.dv 10;
+   pos matraItwo.dv DaGa.dv -5;
+   pos matraItwo.dv DaNa.dv -5;
+   pos matraItwo.dv DaBa.dv -5;
+   pos matraItwo.dv DaVa.dv -10;
+   pos matraIsix.dv LlaNukta.dv -10;
+   pos matraIsix.dv ShaRa.dv -10;
+   pos matraIsix.dv ShaNa.dv -10;
+   pos matraIseven.dv Nna.dv -20;
+   pos matraIeight.dv KaSsaRa.dv 17;
+   pos matraIten.dv BaVa.dv -20;
+   pos matraIten.dv BaDa.dv -10;
+   pos matraIten.dv SsaSsa.dv -10;
+   pos matraIten.dv SsaPha.dv -10;
+   pos matraIten.dv SsaPa.dv -10;
+   pos matraIten.dv SsaKa.dv -10;
+   pos matraIeleven.dv TaRaYa.dv 10;
+   pos matraIeleven.dv GaDha.dv -10;
+   pos matraIeleven.dv NnaTtha.dv -10;
+   pos matraIeleven.dv BaBha.dv 10;
+   pos matraIeleven.dv BhaVa.dv -20;
+   pos matraIeleven.dv SaKaRa.dv -10;
+   pos matraIeleven.dv NyaJaYa.dv -10;
+   pos matraIeleven.dv NyaCaYa.dv -10;
+   pos matraIseventeen.dv KhaYa.dv 15;
+   pos matraIseventeen.dv JaJha.dv -10;
+   pos matraInineteen.dv TaPaLa.dv 6;
+
+   enum pos @bracketleft zero -10;
+   enum pos @bracketleft six -10;
+   enum pos @bracketleft four -10;
+   enum pos @bracketleft one -10;
+   enum pos @bracketleft q -20;
+   enum pos @bracketleft Dha.dv -10;
+   enum pos @bracketleft Sha.dv -10;
+   enum pos @bracketleft Tha.dv -10;
+   enum pos @bracketleft five -10;
+   enum pos @bracketleft nine -20;
+   enum pos [parenleft bracketleft] Shunya.dv -20;
+   enum pos @bracketleft Ek.dv -20;
+   enum pos @bracketleft Saat.dv -20;
+   enum pos @bracketleft Aath.dv -20;
+   enum pos @bracketleft Nau.dv -20;
+   enum pos @bracketleft vowelU.dv 20;
+   enum pos @bracketleft vowelUu.dv 20;
+   enum pos @bracketleft vowelRu.dv 20;
+   enum pos @bracketright zero 40;
+   enum pos @bracketright three 30;
+   enum pos @bracketright four 30;
+   enum pos @bracketright six 30;
+   enum pos @bracketright nine 30;
+   enum pos @bracketright Shunya.dv 40;
+   enum pos @bracketright Ek.dv 40;
+   enum pos @bracketright Don.dv 30;
+   enum pos @bracketright Teen.dv 30;
+   enum pos @bracketright Chaar.dv 20;
+   enum pos @bracketright Paach.dv 30;
+   enum pos @bracketright Saha.dv 40;
+   enum pos @bracketright Saat.dv 40;
+   enum pos @bracketright Aath.dv 30;
+   enum pos @bracketright Nau.dv 20;
+   enum pos @quotesingle vowelU.dv 20;
+   enum pos @quotesingle vowelUu.dv 20;
+   enum pos @quotesingle vowelRu.dv 20;
+   enum pos @quoteleft Aath.dv -100;
+   enum pos @quoteleft Shunya.dv -70;
+   enum pos @quoteleft vowelU.dv 20;
+   enum pos @quoteleft vowelUu.dv 20;
+   enum pos @quoteleft vowelRu.dv 20;
+   enum pos @quoteright space -40;
+   enum pos @period zero 10;
+   enum pos @period two 15;
+   enum pos @period three 30;
+   enum pos @period eight 8;
+   enum pos @period Ek.dv 10;
+   enum pos @period Teen.dv 10;
+   enum pos @period Saha.dv -10;
+   enum pos @period Saat.dv -10;
+   enum pos @period Aath.dv -10;
+   enum pos @period Nau.dv -40;
+   enum pos @period space -30;
+   enum pos @A Q -10;
+   enum pos @A V -60;
+   enum pos @A q -10;
+   enum pos @A v -35;
+   enum pos @A Csmall -20;
+   enum pos @A Gsmall -15;
+   enum pos @A Osmall -20;
+   enum pos @A Qsmall -20;
+   enum pos @A Tsmall -50;
+   enum pos @A Vsmall -40;
+   enum pos @A Wsmall -40;
+   enum pos @A Ysmall -45;
+   enum pos @A Usmall -10;
+   enum pos @A backslash -40;
+   enum pos @A slash 10;
+   enum pos @C Csmall -30;
+   enum pos @C Osmall -30;
+   enum pos @C Ysmall -5;
+   enum pos @C q -20;
+   enum pos @C slash 10;
+   enum pos @D Asmall -20;
+   enum pos @D Jsmall -10;
+   enum pos @D Nsmall -20;
+   enum pos @D Ysmall -15;
+   enum pos @D Zsmall -5;
+   enum pos @D X -50;
+   enum pos @D slash -30;
+   enum pos @E Q -5;
+   enum pos @E V -5;
+   enum pos @E q -15;
+   enum pos @E v -15;
+   enum pos @E Csmall -10;
+   enum pos @E Gsmall -30;
+   enum pos @E Osmall -5;
+   enum pos @E Qsmall -5;
+   enum pos @E Vsmall -5;
+   enum pos @E Ysmall -5;
+   enum pos @E backslash 20;
+   enum pos @G F 41;
+   enum pos @G Fsmall -10;
+   enum pos @G Tsmall -15;
+   enum pos @G Wsmall -5;
+   enum pos @G Ysmall -5;
+   enum pos @I f -10;
+   enum pos @I Esmall -10;
+   enum pos @J Asmall -20;
+   enum pos @K Osmall -50;
+   enum pos @K Ssmall -15;
+   enum pos @K Usmall -20;
+   enum pos @K Ysmall -10;
+   enum pos @K slash 10;
+   enum pos @L Q -40;
+   enum pos @L V -60;
+   enum pos @L Osmall -30;
+   enum pos @L Qsmall -40;
+   enum pos @L Tsmall -70;
+   enum pos @L Usmall -30;
+   enum pos @L Vsmall -60;
+   enum pos @L Wsmall -50;
+   enum pos @L Ysmall -80;
+   enum pos @L backslash -50;
+   enum pos @L slash 20;
+   enum pos @O V -15;
+   enum pos @O X -30;
+   enum pos @O x -15;
+   enum pos @O Jsmall -20;
+   enum pos @O Vsmall -15;
+   enum pos @O Xsmall -15;
+   enum pos @O Ysmall -15;
+   enum pos @R V -5;
+   enum pos @R Tsmall -5;
+   enum pos @R Usmall -15;
+   enum pos @R Vsmall -10;
+   enum pos @R Ysmall -20;
+   enum pos @S v -15;
+   enum pos @S Asmall -25;
+   enum pos @S Ssmall -20;
+   enum pos @S Tsmall -15;
+   enum pos @S Wsmall -15;
+   enum pos @T x -20;
+   enum pos @T Asmall -70;
+   enum pos @T Osmall -60;
+   enum pos @T Tsmall 15;
+   enum pos @T Wsmall 15;
+   enum pos @T q -50;
+   enum pos @T Bsmall -20;
+   enum pos @T Dsmall -20;
+   enum pos @T Csmall -60;
+   enum pos @T Esmall -20;
+   enum pos @T Fsmall -20;
+   enum pos @T Gsmall -70;
+   enum pos @T Hsmall -20;
+   enum pos @T Ismall -20;
+   enum pos @T Jsmall -20;
+   enum pos @T Ksmall -20;
+   enum pos @T Lsmall -10;
+   enum pos @T Msmall -20;
+   enum pos @T Nsmall -20;
+   enum pos @T Psmall -20;
+   enum pos @T Qsmall -60;
+   enum pos @T Rsmall -20;
+   enum pos @T Ssmall -50;
+   enum pos @T Usmall -20;
+   enum pos @T backslash 10;
+   enum pos @T slash -60;
+   enum pos @U X -20;
+   enum pos @U Asmall -30;
+   enum pos @W Asmall -45;
+   enum pos @W Osmall -30;
+   enum pos @W Ysmall 10;
+   enum pos @W Q -10;
+   enum pos @W q -10;
+   enum pos @W Csmall -30;
+   enum pos @W Dsmall -10;
+   enum pos @W Bsmall -10;
+   enum pos @W Esmall -10;
+   enum pos @W Fsmall -10;
+   enum pos @W Hsmall -10;
+   enum pos @W Ismall -10;
+   enum pos @W Jsmall -10;
+   enum pos @W Ksmall -10;
+   enum pos @W Lsmall -10;
+   enum pos @W Msmall -10;
+   enum pos @W Psmall -10;
+   enum pos @W Rsmall -10;
+   enum pos @W Usmall -10;
+   enum pos @W Ssmall -20;
+   enum pos @W Qsmall -30;
+   enum pos @W Nsmall -10;
+   enum pos @W Gsmall -30;
+   enum pos @W slash -20;
+   enum pos @W backslash 10;
+   enum pos @Y comma -25;
+   enum pos @Y p -40;
+   enum pos @Y Asmall -70;
+   enum pos @Y Csmall -30;
+   enum pos @Y Osmall -45;
+   enum pos @Y Ssmall -20;
+   enum pos @Y Q -40;
+   enum pos @Y q -60;
+   enum pos @Y x -20;
+   enum pos @Y v -10;
+   enum pos @Y backslash 30;
+   enum pos @Y slash -90;
+   enum pos @Z Csmall -10;
+   enum pos @Z Osmall -15;
+   enum pos @Z Usmall -15;
+   enum pos @a v -5;
+   enum pos @a V -40;
+   enum pos @a backslash -20;
+   enum pos @a slash 10;
+   enum pos @b v -5;
+   enum pos @b V -40;
+   enum pos @b X -20;
+   enum pos @b backslash -40;
+   enum pos @b slash -10;
+   enum pos @c q -15;
+   enum pos @c backslash -20;
+   enum pos @d backslash 20;
+   enum pos @e v -10;
+   enum pos @e x -10;
+   enum pos @e V -50;
+   enum pos @e backslash -20;
+   enum pos @g f 10;
+   enum pos @g slash 20;
+   enum pos @h f -5;
+   enum pos @h V -40;
+   enum pos @k f 5;
+   enum pos @k q -15;
+   enum pos @k v 10;
+   enum pos @k x 10;
+   enum pos @m V -20;
+   enum pos @n f -5;
+   enum pos @n V -20;
+   enum pos @n backslash -30;
+   enum pos @o v -10;
+   enum pos @o x -25;
+   enum pos @o V -40;
+   enum pos @o X -40;
+   enum pos @o backslash -10;
+   enum pos @r comma -30;
+   enum pos @r hyphen -30;
+   enum pos @r v 20;
+   enum pos @r x -5;
+   enum pos @r slash -50;
+   enum pos @s slash 10;
+   enum pos @s V -40;
+   enum pos @s X -30;
+   enum pos @t v 10;
+   enum pos @t slash 10;
+   enum pos @w slash -20;
+   enum pos @y f 20;
+   enum pos @y v 20;
+   enum pos @z comma 10;
+   enum pos @Antadandaright backslash 40;
+   enum pos @Antadandaright bar 20;
+   enum pos @Antadandaright question 60;
+   enum pos @Antadandaright exclam 60;
+   enum pos @Antadandaright hyphen 20;
+   enum pos @Antadandaright registered 60;
+   subtable;
+   enum pos @Antadandaright asterisk 60;
+   enum pos @Antadandaright trademark 60;
+   enum pos @Antadandaright copyright 60;
+   enum pos @Antadandaright vowelI.dv 10;
+   enum pos @Antadandaright vowelIi.dv 10;
+   enum pos @Antadandaright vowelIiBindu.dv 10;
+   enum pos @Antadandaright vowelIiChandrabindu.dv 10;
+   enum pos @KaPharight vowelI.dv 25;
+   enum pos @KaPharight vowelE.dv 10;
+   enum pos @KaPharight vowelU.dv -10;
+   enum pos @KaPharight vowelUu.dv -15;
+   enum pos @KaPharight Ka.dv 10;
+   enum pos [Ka.dv LlaNukta.dv KaNukta.dv PhaNukta.dv KaRa.dv PhaRa.dv TaKaRa.dv SsaKaRa.dv SaKaRa.dv KaKa.dv KaTa.dv KaPha.dv TaKa.dv TaPha.dv NaKa.dv NaPha.dv PaPha.dv PhaPha.dv KaNuktaRa.dv PhaNuktaRa.dv JaKa.dv LaKa.dv LaPha.dv ShaKaNukta.dv ShaKa.dv SsaKa.dv SsaPha.dv SaKa.dv SaPha.dv KaNuktaPha.dv KaNuktaKaNukta.dv KaNuktaPhaNukta.dv PhaNuktaPhaNukta.dv TaSaPha.dv MaPha.dv] Cha.dv 5;
+   enum pos @KaPharight quotedblright 30;
+   enum pos @KaPharight backslash 40;
+   enum pos @KaPharight bar 30;
+   enum pos @KaPharight question 40;
+   enum pos @KaPharight exclam 60;
+   enum pos @KaPharight hyphen 30;
+   enum pos @KaPharight registered 60;
+   enum pos @KaPharight asterisk 60;
+   enum pos @KaPharight trademark 60;
+   enum pos @KaPharight copyright 60;
+   enum pos @KaPharight vowelIiBindu.dv 25;
+   enum pos @KaPharight vowelIiChandrabindu.dv 25;
+   enum pos @KaPharight vowelIi.dv 25;
+   enum pos @KaPharight slash -20;
+   enum pos @KaPharight colon 30;
+   enum pos @KaPharight semicolon 30;
+   enum pos @Ttaright Ssa.dv -5;
+   enum pos @Ttaright backslash 40;
+   enum pos @Ttaright bar 20;
+   enum pos @Ttaright question 50;
+   enum pos @Ttaright exclam 60;
+   enum pos @Ttaright hyphen 20;
+   enum pos @Ttaright registered 60;
+   enum pos @Ttaright asterisk 60;
+   enum pos @Ttaright trademark 60;
+   enum pos @Ttaright copyright 60;
+   enum pos @Ttaright slash 20;
+   enum pos @Ra Ga.dv -20;
+   enum pos @Ra Ddha.dv -10;
+   enum pos @Ra Ra.dv 5;
+   enum pos @Ra exclam 60;
+   enum pos @Ra asterisk 60;
+   enum pos @Ra hyphen 30;
+   enum pos @Ra question 30;
+   enum pos @Ra bar 30;
+   enum pos @Ra trademark 60;
+   enum pos @Ra copyright 60;
+   enum pos @Ra colon 30;
+   enum pos @Ra semicolon 30;
+   enum pos @daright Ha.dv 20;
+   enum pos @daright Dha.dv 10;
+   enum pos @daright Sha.dv 15;
+   enum pos @daright Nya.dv 10;
+   enum pos @daright exclam 60;
+   enum pos @daright asterisk 60;
+   enum pos @daright hyphen 30;
+   enum pos @daright slash 40;
+   enum pos @daright question 40;
+   enum pos @daright bar 30;
+   enum pos @daright trademark 60;
+   enum pos @daright copyright 60;
+   enum pos @daright colon 40;
+   enum pos @daright semicolon 40;
+   enum pos @Ddaright backslash 40;
+   enum pos @Ddaright bar 20;
+   enum pos @Ddaright question 40;
+   enum pos @Ddaright exclam 60;
+   enum pos @Ddaright hyphen 20;
+   enum pos @Ddaright registered 60;
+   enum pos @Ddaright asterisk 60;
+   enum pos @Ddaright trademark 60;
+   enum pos @Ddaright copyright 60;
+   enum pos @Ddaright slash 40;
+   enum pos @Eright Ga.dv 10;
+   enum pos @Eright vowelU.dv -20;
+   enum pos @Eright exclam 60;
+   enum pos @Eright asterisk 60;
+   enum pos @Eright hyphen 30;
+   enum pos @Eright question 40;
+   enum pos @Eright bar 30;
+   enum pos @Eright trademark 60;
+   enum pos @Eright copyright 60;
+   enum pos @Eright colon 20;
+   enum pos @Eright semicolon 20;
+   enum pos @Charight Lla.dv 10;
+   enum pos @Charight matraIione.dv -20;
+   enum pos @Charight exclam 60;
+   enum pos @Charight asterisk 60;
+   enum pos @Charight hyphen 30;
+   enum pos @Charight slash -20;
+   enum pos @Charight question 40;
+   enum pos @Charight bar 30;
+   enum pos @Charight trademark 60;
+   enum pos @Charight copyright 60;
+   enum pos @Charight colon 30;
+   enum pos @Charight semicolon 30;
+   enum pos @Ikaarmatra Ddha.dv -20;
+   enum pos @Ikaarmatra TaRa.dv 10;
+   enum pos @Ikaarmatra Va.dv -10;
+   enum pos @Kana registered 60;
+   enum pos @Kana asterisk 60;
+   enum pos @Kana question 60;
+   enum pos @Kana exclam 60;
+   enum pos @Kana trademark 60;
+   enum pos @Kana copyright 60;
+   enum pos @Kana vowelI.dv 10;
+   subtable;
+   enum pos @Kana vowelIi.dv 10;
+   enum pos @Kana vowelIiBindu.dv 10;
+   enum pos @Kana vowelIiChandrabindu.dv 10;
+   enum pos @Kana hyphen 30;
+   enum pos @Kana bar 30;
+   enum pos [matraUu.dv NuktaVattumatraRu.dv NuktaVattumatraUu.dv  matraLruu.dv VattumatraUu.dv Vattusmall.dv matraUusmall.dv matraLru.dv matraUsmall.dv matraRusmall.dv matraLrusmall.dv Vattu.dv VattumatraU.dv VattumatraUsmall.dv VattumatraUusmall.dv matraRuu.dv VattumatraRu.dv VattumatraRusmall.dv NuktaVattumatraU.dv] comma 100;
+   enum pos @Belowbasematra exclam 40;
+   enum pos @Belowbasematra TtaTta.dv 20;
+   enum pos @Belowbasematra braceright 120;
+   subtable;
+   enum pos space @quoteleft -40;
+   enum pos asterisk @period -40;
+   enum pos hyphen @Ba 20;
+   enum pos hyphen @Kha 20;
+   enum pos hyphen @Gha 20;
+   enum pos hyphen @Ja 20;
+   enum pos hyphen @Tta 20;
+   enum pos hyphen @Dda 20;
+   enum pos hyphen @Ta 20;
+   enum pos hyphen @Pa 20;
+   enum pos hyphen @Bha 10;
+   enum pos hyphen @Ma 20;
+   enum pos hyphen @Ya 20;
+   enum pos slash @m -10;
+   enum pos slash @a -50;
+   enum pos slash @s -10;
+   enum pos slash @r -40;
+   enum pos slash @o -40;
+   enum pos slash @n -20;
+   enum pos slash @g -60;
+   enum pos slash @e -50;
+   enum pos slash @d -50;
+   enum pos slash @c -60;
+   enum pos slash @b 10;
+   enum pos slash @Y 20;
+   enum pos slash @W 10;
+   enum pos slash @T 40;
+   enum pos slash @S -10;
+   enum pos slash @K -20;
+   enum pos slash @G -30;
+   enum pos slash @C -20;
+   enum pos slash @A -40;
+   enum pos slash @Ba 20;
+   enum pos slash @Kha 20;
+   enum pos slash @Gha 20;
+   enum pos slash @Ja 20;
+   enum pos slash @Tta 20;
+   enum pos slash @Dda 20;
+   enum pos slash @Ta 20;
+   enum pos slash @Pa 20;
+   enum pos slash @Ma 20;
+   enum pos slash @Ya 20;
+   enum pos zero @bracketright -10;
+   enum pos zero @bracketleft 50;
+   enum pos zero @Aa 100;
+   enum pos zero @Kha 100;
+   enum pos zero @Gha 100;
+   enum pos zero @Ja 100;
+   enum pos zero @Tta 100;
+   enum pos zero @Dda 100;
+   enum pos zero @Ta 100;
+   enum pos zero @Pa 100;
+   enum pos zero @Ba 100;
+   enum pos zero @Bha 100;
+   enum pos zero @Ma 100;
+   enum pos zero @Ya 100;
+   enum pos one @bracketleft 30;
+   enum pos one @Aa 100;
+   enum pos one @Kha 100;
+   enum pos one @Gha 100;
+   enum pos one @Ja 100;
+   enum pos one @Tta 100;
+   enum pos one @Dda 100;
+   enum pos one @Ta 100;
+   enum pos one @Pa 100;
+   enum pos one @Ba 100;
+   enum pos one @Bha 100;
+   enum pos one @Ma 100;
+   enum pos one @Ya 100;
+   enum pos two @bracketleft 30;
+   enum pos two @Aa 100;
+   enum pos two @Kha 100;
+   enum pos two @Gha 100;
+   enum pos two @Ja 100;
+   enum pos two @Tta 100;
+   enum pos two @Dda 100;
+   enum pos two @Ta 100;
+   enum pos two @Pa 100;
+   enum pos two @Ba 100;
+   enum pos two @Bha 100;
+   enum pos two @Ma 100;
+   enum pos two @Ya 100;
+   enum pos three @period -10;
+   enum pos three @bracketleft 30;
+   enum pos three @Aa 100;
+   enum pos three @Kha 100;
+   enum pos three @Gha 100;
+   enum pos three @Ja 100;
+   enum pos three @Tta 100;
+   enum pos three @Dda 100;
+   enum pos three @Ta 100;
+   enum pos three @Pa 100;
+   enum pos three @Ba 100;
+   enum pos three @Bha 100;
+   enum pos three @Ma 100;
+   enum pos three @Ya 100;
+   enum pos four @bracketleft 40;
+   enum pos four @bracketright -20;
+   enum pos four @Aa 100;
+   enum pos four @Kha 100;
+   enum pos four @Gha 100;
+   enum pos four @Ja 100;
+   enum pos four @Tta 100;
+   enum pos four @Dda 100;
+   enum pos four @Ta 100;
+   enum pos four @Pa 100;
+   enum pos four @Ba 100;
+   enum pos four @Bha 100;
+   enum pos four @Ma 100;
+   enum pos four @Ya 10;
+   enum pos five @bracketright -8;
+   enum pos five @period -20;
+   enum pos five @bracketleft 20;
+   enum pos five @Aa 100;
+   enum pos five @Kha 100;
+   enum pos five @Gha 100;
+   enum pos five @Ja 100;
+   enum pos five @Tta 100;
+   enum pos five @Dda 100;
+   enum pos five @Ta 100;
+   enum pos five @Pa 100;
+   enum pos five @Ba 100;
+   subtable;
+   enum pos five @Bha 100;
+   enum pos five @Ma 100;
+   enum pos five @Ya 10;
+   enum pos six @bracketleft 30;
+   enum pos six @Aa 100;
+   enum pos six @Kha 100;
+   enum pos six @Gha 100;
+   enum pos six @Ja 100;
+   enum pos six @Tta 100;
+   enum pos six @Dda 100;
+   enum pos six @Ta 100;
+   enum pos six @Pa 100;
+   enum pos six @Ba 100;
+   enum pos six @Bha 100;
+   enum pos six @Ma 100;
+   enum pos six @Ya 100;
+   enum pos seven @period -20;
+   enum pos seven @Aa 100;
+   enum pos seven @Gha 100;
+   enum pos seven @Ja 100;
+   enum pos seven @Kha 100;
+   enum pos seven @Tta 100;
+   enum pos seven @Dda 100;
+   enum pos seven @Ta 100;
+   enum pos seven @Pa 100;
+   enum pos seven @Ba 100;
+   enum pos seven @Bha 100;
+   enum pos seven @Ma 100;
+   enum pos seven @Ya 100;
+   enum pos eight @Aa 100;
+   enum pos eight @Kha 100;
+   enum pos eight @Ja 100;
+   enum pos eight @Gha 100;
+   enum pos eight @Tta 100;
+   enum pos eight @Dda 100;
+   enum pos eight @Ta 100;
+   enum pos eight @Pa 10;
+   enum pos eight @Ba 100;
+   enum pos eight @Bha 100;
+   enum pos eight @Ma 100;
+   enum pos eight @Ya 100;
+   enum pos nine @bracketright -10;
+   enum pos nine @bracketleft 40;
+   enum pos nine @Aa 100;
+   enum pos nine @Kha 100;
+   enum pos nine @Gha 100;
+   enum pos nine @Ja 100;
+   enum pos nine @Tta 100;
+   enum pos nine @Dda 100;
+   enum pos nine @Ta 100;
+   enum pos nine @Pa 100;
+   enum pos nine @Ba 100;
+   enum pos nine @Bha 100;
+   enum pos nine @Ma 100;
+   enum pos nine @Ya 100;
+   enum pos backslash @t -10;
+   enum pos backslash @w -20;
+   enum pos backslash @g 20;
+   enum pos backslash @a 10;
+   enum pos backslash @Y -60;
+   enum pos backslash @W -20;
+   enum pos backslash @T -40;
+   enum pos backslash @J 30;
+   enum pos backslash @A 10;
+   enum pos underscore @j 100;
+   enum pos bar @Ba 20;
+   enum pos bar @Kha 20;
+   enum pos bar @Gha 20;
+   enum pos bar @Ja 20;
+   enum pos bar @Tta 20;
+   enum pos bar @Dda 20;
+   enum pos bar @Ta 20;
+   enum pos bar @Pa 20;
+   enum pos bar @Ma 20;
+   enum pos bar @Ya 20;
+   enum pos B @A -15;
+   enum pos B @J -5;
+   enum pos B @z -10;
+   enum pos F @A -40;
+   enum pos F @J -20;
+   enum pos F @O -5;
+   enum pos F @S -15;
+   enum pos F @a -30;
+   enum pos F @e -30;
+   enum pos F @i -15;
+   enum pos F @j -15;
+   enum pos F @m -30;
+   enum pos F @o -15;
+   enum pos F @r -30;
+   enum pos F @s -15;
+   enum pos F @u -30;
+   enum pos F @y -15;
+   enum pos F @period -20;
+   enum pos P @period -63;
+   enum pos P @A -60;
+   enum pos P @J -15;
+   enum pos P @s -10;
+   enum pos P @t 10;
+   enum pos P @w 10;
+   enum pos P @y 5;
+   enum pos Q @J 40;
+   enum pos Q @T -15;
+   enum pos Q @Y -40;
+   enum pos Q @j 30;
+   enum pos V @A -60;
+   enum pos V @O -15;
+   enum pos V @e -45;
+   enum pos V @d -50;
+   enum pos V @c -50;
+   enum pos V @a -40;
+   enum pos V @g -50;
+   enum pos V @s -40;
+   enum pos V @o -40;
+   enum pos V @n -10;
+   enum pos V @m -10;
+   enum pos V @period -30;
+   enum pos X @O -30;
+   enum pos X @a -15;
+   enum pos X @e -25;
+   enum pos X @i -10;
+   enum pos X @y -20;
+   enum pos X @G -50;
+   enum pos X @C -50;
+   enum pos X @U -20;
+   enum pos X @d -30;
+   enum pos X @o -40;
+   enum pos X @s -30;
+   enum pos f @a -20;
+   enum pos f @c -15;
+   enum pos f @d -15;
+   enum pos f @e -15;
+   enum pos f @g -15;
+   enum pos f @o -20;
+   enum pos f @r -15;
+   enum pos f @t -10;
+   enum pos f @y 20;
+   enum pos f @W 40;
+   enum pos f @Y 40;
+   enum pos f @T 40;
+   enum pos f @quoteright 75;
+   enum pos p @y -5;
+   enum pos p @z -10;
+   enum pos p @W -10;
+   enum pos p @Y -60;
+   enum pos p @T -50;
+   enum pos p @bracketright -20;
+   enum pos q @Y -40;
+   enum pos v @a -10;
+   enum pos v @d -5;
+   enum pos v @e -10;
+   enum pos v @o -10;
+   enum pos v @t 10;
+   enum pos v @Y -10;
+   enum pos v @A -35;
+   enum pos v @g -20;
+   enum pos x @e -25;
+   enum pos x @C -30;
+   enum pos x @Y -20;
+   enum pos x @T -20;
+   enum pos trademark @period -40;
+   enum pos registered @period -50;
+   enum pos aacute @s 10;
+   enum pos Asmall @T -70;
+   enum pos Asmall @U -30;
+   enum pos Asmall @W -45;
+   enum pos Bsmall @T -50;
+   enum pos Bsmall @W -30;
+   enum pos Csmall @T -20;
+   enum pos Csmall @W -10;
+   enum pos Dsmall @T -70;
+   enum pos Dsmall @W -30;
+   enum pos Esmall @T -20;
+   enum pos Esmall @W -10;
+   enum pos Fsmall @T -20;
+   enum pos Gsmall @T -30;
+   enum pos Hsmall @T -20;
+   enum pos Hsmall @W -10;
+   enum pos Ismall @T -20;
+   enum pos Ismall @W -10;
+   enum pos Jsmall @T -20;
+   enum pos Jsmall @W -10;
+   enum pos Ksmall @T -10;
+   enum pos Lsmall @T -70;
+   enum pos Lsmall @W -50;
+   enum pos Msmall @T -20;
+   enum pos Msmall @W -10;
+   enum pos Nsmall @T -20;
+   enum pos Nsmall @W -10;
+   enum pos Osmall @A -20;
+   enum pos Osmall @T -60;
+   enum pos Osmall @W -30;
+   enum pos Psmall @A -70;
+   enum pos Psmall @T -50;
+   enum pos Psmall @W -20;
+   enum pos Qsmall @T -60;
+   enum pos Rsmall @T -60;
+   enum pos Ssmall @T -50;
+   enum pos Ssmall @W -20;
+   enum pos Ssmall @A -20;
+   enum pos Tsmall @W 15;
+   enum pos Tsmall @A -50;
+   enum pos Usmall @A -10;
+   enum pos Usmall @T -20;
+   enum pos Usmall @W -10;
+   enum pos Vsmall @A -40;
+   enum pos Wsmall @A -40;
+   enum pos Ysmall @A -45;
+   enum pos vowelU.dv @Aa 10;
+   enum pos vowelU.dv @bracketright 30;
+   enum pos vowelU.dv @quoteright 20;
+   enum pos vowelU.dv @quotesingle 20;
+   enum pos vowelUu.dv @Pa -10;
+   enum pos vowelUu.dv [Kha.dv RaNukta.dv Sha.dv KhaNukta.dv GaNukta.dv uni097B Sha.MAR.dv KhaRa.dv GaRa.dv ShaRa.dv SaRa.dv KhaNuktaRa.dv GaNuktaRa.dv ShaRaHalant.dv SaRaHalant.dv GaRaHalant.dv GaDhaVa.dv GaDhaYa.dv GaNaYa.dv GaBhaYa.dv GaRaYa.dv SaKaRa.dv SaKaVa.dv SaTaYa.dv SaTaRa.dv SaTaVa.dv SaThaYa.dv SaPaRa.dv SaMaYa.dv KhaKha.dv KhaTa.dv KhaNa.dv KhaMa.dv KhaYa.dv KhaVa.dv KhaSha.dv GaGa.dv GaGha.dv GaJa.dv GaNna.dv GaDa.dv GaDha.dv GaNa.dv GaBa.dv GaBha.dv GaMa.dv GaYa.dv GaLa.dv GaVa.dv GaSa.dv ShaKa.dv ShaCa.dv ShaCha.dv ShaTta.dv ShaTa.dv ShaNa.dv ShaMa.dv ShaYa.dv ShaLa.dv ShaVa.dv ShaSha.dv ShaKaNukta.dv SaKa.dv SaKha.dv SaJa.dv SaTta.dv SaTa.dv SaTha.dv SaDa.dv SaNa.dv SaPa.dv SaPha.dv SaBa.dv SaMa.dv SaYa.dv SaLa.dv SaVa.dv SaSa.dv KhaNuktaTa.dv KhaNuktaMa.dv KhaNuktaYa.dv KhaNuktaVa.dv KhaNuktaSha.dv KhaNuktaSa.dv KhaHalant.dv GaHalant.dv ShaHalant.dv SaHalant.dv KhaNuktaHalant.dv GaNuktaHalant.dv ShaRaYa.dv ShamatraRu.dv RamatraU.dv RamatraUu.dv] 5;
+   enum pos vowelUu.dv @bracketright 20;
+   enum pos vowelUu.dv @quoteright 20;
+   enum pos vowelUu.dv @quotesingle 20;
+   enum pos vowelUu.dv [Ba.dv Ka.dv Lla.dv LlaNukta.dv Va.dv KaNukta.dv uni097F KaRa.dv DaRa.dv BaRa.dv VaRa.dv KaNuktaRa.dv VaRaHalant.dv DaRaHalant.dv DaGa.dv DaDha.dv DaNa.dv DaBa.dv DaBha.dv DaVa.dv KaSaPaRa.dv KaSaPaLa.dv NaSaMaYa.dv KaTaYa.dv KaTaRa.dv KaTaVa.dv KaPaRa.dv KaVaYa.dv KaSaTta.dv KaSaDda.dv KaSaTa.dv BaJaYa.dv BaDhaVa.dv BaBhaRa.dv BaLaYa.dv KaKa.dv KaKha.dv KaCa.dv KaJa.dv KaTta.dv KaNna.dv KaTa.dv KaTha.dv KaDa.dv KaNa.dv KaPa.dv KaPha.dv KaMa.dv KaYa.dv KaLa.dv KaVa.dv KaSha.dv KaSa.dv BaJa.dv BaJha.dv BaTa.dv BaDa.dv BaDha.dv BaNa.dv BaBa.dv BaBha.dv BaYa.dv BaLa.dv BaVa.dv BaSha.dv BaSa.dv BaJaNukta.dv LlaYa.dv VaYa.dv VaLa.dv VaVa.dv VaHa.dv KaHalant.dv BaHalant.dv LlaHalant.dv LlaNuktaHalant.dv VaHalant.dv KaNuktaHalant.dv DaHalant.dv KaNuktaTa.dv KaNuktaPha.dv KaNuktaBa.dv KaNuktaMa.dv KaNuktaKaNukta.dv KaNuktaPhaNukta.dv KaRaHalant.dv DaDhaYa.dv DaBhaYa.dv DaRaYa.dv DaVaYa.dv KaSsaRa.dv KaSsa.dv KaSsaMaYa.dv KaSsaMa.dv KaSsaYa.dv KaSsaVa.dv KaSsaMaHalant.dv KaSsaHalant.dv KamatraLru.dv KamatraLruu.dv KaKaone.dv KaVaone.dv] 5;
+   enum pos vowelRu.dv @bracketright 60;
+   enum pos vowelRu.dv @quoteright 60;
+   enum pos vowelRu.dv @quotesingle 60;
+   enum pos Nga.dv @Kha 10;
+   enum pos Nga.dv @Ma 10;
+   enum pos Ttha.dv @Tta 10;
+   enum pos Ttha.dv [Kha.dv RaNukta.dv Sa.dv Sha.dv KhaNukta.dv GaNukta.dv uni097B Sha.MAR.dv KhaRa.dv GaRa.dv ShaRa.dv SaRa.dv KhaNuktaRa.dv GaNuktaRa.dv ShaRaHalant.dv SaRaHalant.dv GaRaHalant.dv GaDhaVa.dv GaDhaYa.dv GaNaYa.dv GaBhaYa.dv GaRaYa.dv SaKaRa.dv SaKaVa.dv SaTaYa.dv SaTaRa.dv SaTaVa.dv SaThaYa.dv SaPaRa.dv SaMaYa.dv KhaKha.dv KhaTa.dv KhaNa.dv KhaMa.dv KhaYa.dv KhaVa.dv KhaSha.dv GaGa.dv GaGha.dv GaJa.dv GaNna.dv GaDa.dv GaDha.dv GaNa.dv GaBa.dv GaBha.dv GaMa.dv GaYa.dv GaLa.dv GaVa.dv GaSa.dv ShaKa.dv ShaCa.dv ShaCha.dv ShaTta.dv ShaTa.dv ShaNa.dv ShaMa.dv ShaYa.dv ShaLa.dv ShaVa.dv ShaSha.dv ShaKaNukta.dv SaKa.dv SaKha.dv SaJa.dv SaTta.dv SaTa.dv SaTha.dv SaDa.dv SaNa.dv SaPa.dv SaPha.dv SaBa.dv SaMa.dv SaYa.dv SaLa.dv SaVa.dv SaSa.dv KhaNuktaTa.dv KhaNuktaMa.dv KhaNuktaYa.dv KhaNuktaVa.dv KhaNuktaSha.dv KhaNuktaSa.dv KhaHalant.dv GaHalant.dv ShaHalant.dv SaHalant.dv KhaNuktaHalant.dv GaNuktaHalant.dv ShaRaYa.dv ShamatraRu.dv RamatraU.dv RamatraUu.dv] 10;
+   enum pos Ttha.dv @Bha -25;
+   enum pos Ttha.dv @Ma 10;
+   enum pos Ttha.dv [Pa.dv Pha.dv vowelChandraE.dv vowelShortE.dv vowelE.dv vowelAi.dv Nna.dv PhaNukta.dv PaRa.dv PhaRa.dv SsaRa.dv PhaNuktaRa.dv PaRaHalant.dv SsaRaHalant.dv SsaKaRa.dv SsaNnaYa.dv SsaPaRa.dv SsaMaYa.dv NnaTta.dv NnaTtha.dv NnaDda.dv NnaDdha.dv NnaNna.dv NnaMa.dv NnaYa.dv NnaVa.dv PaTa.dv PaNa.dv PaPa.dv PaPha.dv PaMa.dv PaYa.dv PaLa.dv PaVa.dv PaSa.dv PhaJa.dv PhaTta.dv PhaTa.dv PhaPa.dv PhaPha.dv PhaYa.dv PhaLa.dv PhaSha.dv SsaKa.dv SsaNna.dv SsaPa.dv SsaPha.dv SsaMa.dv SsaYa.dv SsaVa.dv SsaSsa.dv PhaNuktaTa.dv PhaNuktaSa.dv PhaNuktaJaNukta.dv PhaNuktaPhaNukta.dv NnaHalant.dv PaHalant.dv PhaHalant.dv SsaHalant.dv PhaNuktaHalant.dv PaTaYa.dv] -10;
+   enum pos Ttha.dv @Dda 10;
+   enum pos Ttha.dv @Ba 5;
+   enum pos Ddha.dv @Tta 10;
+   enum pos Ddha.dv @Dda 10;
+   enum pos Ddha.dv @Ma 5;
+   enum pos Ddha.dv @Ba -5;
+   enum pos Lla.dv [Gha.dv Dha.dv GhaRa.dv DhaRa.dv DhaRaHalant.dv ChaRaYa.dv DhaNaYa.dv ChaYa.dv ChaVa.dv GhaNa.dv GhaMa.dv GhaYa.dv DhaNa.dv DhaMa.dv DhaYa.dv DhaVa.dv GhaHalant.dv DhaHalant.dv ChaHalant.dv GhaRaHalant.dv] 15;
+   subtable;
+   enum pos Lla.dv @Ma 20;
+   enum pos Ha.dv [Kha.dv Ra.dv RaNukta.dv Sa.dv Ga.dv KhaNukta.dv GaNukta.dv uni097B Sha.MAR.dv KhaRa.dv GaRa.dv ShaRa.dv SaRa.dv KhaNuktaRa.dv GaNuktaRa.dv ShaRaHalant.dv SaRaHalant.dv GaRaHalant.dv GaDhaVa.dv GaDhaYa.dv GaNaYa.dv GaBhaYa.dv GaRaYa.dv SaKaRa.dv SaKaVa.dv SaTaYa.dv SaTaRa.dv SaTaVa.dv SaThaYa.dv SaPaRa.dv SaMaYa.dv KhaKha.dv KhaTa.dv KhaNa.dv KhaMa.dv KhaYa.dv KhaVa.dv KhaSha.dv GaGa.dv GaGha.dv GaJa.dv GaNna.dv GaDa.dv GaDha.dv GaNa.dv GaBa.dv GaBha.dv GaMa.dv GaYa.dv GaLa.dv GaVa.dv GaSa.dv ShaKa.dv ShaCa.dv ShaCha.dv ShaTta.dv ShaTa.dv ShaNa.dv ShaMa.dv ShaYa.dv ShaLa.dv ShaVa.dv ShaSha.dv ShaKaNukta.dv SaKa.dv SaKha.dv SaJa.dv SaTta.dv SaTa.dv SaTha.dv SaDa.dv SaNa.dv SaPa.dv SaPha.dv SaBa.dv SaMa.dv SaYa.dv SaLa.dv SaVa.dv SaSa.dv KhaNuktaTa.dv KhaNuktaMa.dv KhaNuktaYa.dv KhaNuktaVa.dv KhaNuktaSha.dv KhaNuktaSa.dv KhaHalant.dv GaHalant.dv ShaHalant.dv SaHalant.dv KhaNuktaHalant.dv GaNuktaHalant.dv ShaRaYa.dv ShamatraRu.dv RamatraU.dv RamatraUu.dv] 10;
+   enum pos Ha.dv @Ta 10;
+   enum pos Ha.dv @Tta 5;
+   enum pos Ha.dv [Dda.dv Ha.dv vowelI.dv vowelIi.dv Jha.dv uni097E vowelIiBindu.dv JhaRa.dv HaRa.dv DdaDdaYa.dv NgaKa.dv NgaMa.dv NgaYa.dv DdaDda.dv DdaDdha.dv DdaYa.dv DaDa.dv DaMa.dv DaYa.dv HaMaYa.dv JhaNa.dv JhaMa.dv JhaYa.dv HaNna.dv HaNa.dv HaMa.dv HaYa.dv HaLa.dv HaVa.dv DamatraRu.dv JhaHalant.dv HaHalant.dv NgaHalant.dv DdaHalant.dv DdaNukta.dv NgaGa.dv DaDaYa.dv JaNya.dv JaNyaYa.dv JaNyaHalant.dv HamatraRu.dv vowelIiChandrabindu.dv DdaRa.dv] 15;
+   enum pos Ha.dv @Pa -5;
+   enum pos Ha.dv @Ya -5;
+   enum pos Ha.dv @Bha -10;
+   enum pos Ha.dv @Ba -10;
+   enum pos matraU.dv [parenright bracketright] 40;
+   enum pos matraRu.dv [parenright bracketright] 30;
+   enum pos Shunya.dv @bracketleft 40;
+   enum pos Shunya.dv @Ja 100;
+   enum pos Shunya.dv @Gha 120;
+   enum pos Shunya.dv @Ya 100;
+   enum pos Shunya.dv @Kha 100;
+   enum pos Shunya.dv @Tta 100;
+   enum pos Shunya.dv @Dda 100;
+   enum pos Shunya.dv @Ta 100;
+   enum pos Shunya.dv @Pa 100;
+   enum pos Shunya.dv @Ma 100;
+   enum pos Shunya.dv @quotesingle -10;
+   enum pos Shunya.dv @Ba 100;
+   enum pos Shunya.dv @Aa 100;
+   enum pos Shunya.dv @Bha 100;
+   enum pos Ek.dv @period -20;
+   enum pos Ek.dv [parenleft bracketleft] 10;
+   enum pos Ek.dv @bracketright -10;
+   enum pos Ek.dv @Kha 100;
+   enum pos Ek.dv @Gha 100;
+   enum pos Ek.dv @Ja 100;
+   enum pos Ek.dv @Tta 100;
+   enum pos Ek.dv @Dda 100;
+   enum pos Ek.dv @Ta 100;
+   enum pos Ek.dv @Pa 100;
+   enum pos Ek.dv @Ma 100;
+   enum pos Ek.dv @Ya 100;
+   enum pos Ek.dv @Ba 100;
+   enum pos Ek.dv @Aa 100;
+   enum pos Ek.dv @Bha 100;
+   enum pos Don.dv @bracketleft 30;
+   enum pos Don.dv @bracketright -20;
+   enum pos Don.dv @Kha 100;
+   enum pos Don.dv @Gha 100;
+   enum pos Don.dv @Ja 100;
+   enum pos Don.dv @Tta 100;
+   enum pos Don.dv @Dda 100;
+   enum pos Don.dv @Ta 100;
+   enum pos Don.dv @Pa 100;
+   enum pos Don.dv @Ma 100;
+   enum pos Don.dv @Ya 100;
+   enum pos Don.dv @Ba 100;
+   enum pos Don.dv @Aa 100;
+   enum pos Don.dv @Bha 100;
+   enum pos Teen.dv @bracketleft 40;
+   enum pos Teen.dv @bracketright -10;
+   enum pos Teen.dv @Kha 100;
+   enum pos Teen.dv @Gha 100;
+   enum pos Teen.dv @Ja 100;
+   enum pos Teen.dv @Tta 100;
+   enum pos Teen.dv @Dda 100;
+   enum pos Teen.dv @Ta 100;
+   enum pos Teen.dv @Pa 100;
+   enum pos Teen.dv @Ma 100;
+   enum pos Teen.dv @Ya 100;
+   enum pos Teen.dv @Ba 100;
+   enum pos Teen.dv @Aa 100;
+   enum pos Teen.dv @Bha 100;
+   enum pos Chaar.dv @bracketleft 20;
+   enum pos Chaar.dv @Kha 100;
+   enum pos Chaar.dv @Gha 100;
+   enum pos Chaar.dv @Ja 100;
+   enum pos Chaar.dv @Tta 100;
+   enum pos Chaar.dv @Dda 100;
+   enum pos Chaar.dv @Ta 100;
+   enum pos Chaar.dv @Pa 100;
+   enum pos Chaar.dv @Ma 100;
+   enum pos Chaar.dv @Ya 100;
+   enum pos Chaar.dv @Ba 100;
+   enum pos Chaar.dv @Aa 100;
+   enum pos Chaar.dv @Bha 100;
+   enum pos Paach.dv @bracketleft 20;
+   enum pos Paach.dv @bracketright -20;
+   enum pos Paach.dv @Kha 100;
+   enum pos Paach.dv @Gha 100;
+   enum pos Paach.dv @Ja 100;
+   enum pos Paach.dv @Tta 100;
+   enum pos Paach.dv @Dda 100;
+   enum pos Paach.dv @Ta 100;
+   enum pos Paach.dv @Pa 100;
+   enum pos Paach.dv @Ma 100;
+   enum pos Paach.dv @Ya 100;
+   enum pos Paach.dv @quotesingle -40;
+   enum pos Paach.dv @quoteright -60;
+   enum pos Paach.dv @Ba 100;
+   enum pos Paach.dv @Aa 100;
+   enum pos Paach.dv @Bha 100;
+   enum pos Saha.dv @period 40;
+   enum pos Saha.dv @bracketleft 50;
+   enum pos Saha.dv [parenright bracketright] 20;
+   enum pos Saha.dv @Kha 100;
+   enum pos Saha.dv @Gha 100;
+   enum pos Saha.dv @Ja 100;
+   enum pos Saha.dv @Tta 100;
+   enum pos Saha.dv @Dda 100;
+   enum pos Saha.dv @Ta 100;
+   enum pos Saha.dv @Pa 100;
+   enum pos Saha.dv @Ma 100;
+   enum pos Saha.dv @Ya 100;
+   enum pos Saha.dv @Ba 100;
+   enum pos Saha.dv @Aa 100;
+   enum pos Saha.dv @Bha 100;
+   enum pos Saat.dv @bracketleft 30;
+   enum pos Saat.dv @bracketright -40;
+   enum pos Saat.dv @Kha 100;
+   enum pos Saat.dv @Gha 100;
+   enum pos Saat.dv @Ja 100;
+   enum pos Saat.dv @Tta 100;
+   enum pos Saat.dv @Dda 100;
+   enum pos Saat.dv @Ta 100;
+   enum pos Saat.dv @Pa 100;
+   enum pos Saat.dv @Ma 100;
+   enum pos Saat.dv @Ya 100;
+   enum pos Saat.dv @quotesingle -20;
+   enum pos Saat.dv @quoteright -40;
+   enum pos Saat.dv @Ba 100;
+   subtable;
+   enum pos Saat.dv @Aa 100;
+   enum pos Saat.dv @Bha 100;
+   enum pos Aath.dv @period 30;
+   enum pos Aath.dv @bracketleft 30;
+   enum pos Aath.dv @Kha 100;
+   enum pos Aath.dv @Gha 100;
+   enum pos Aath.dv @Ja 100;
+   enum pos Aath.dv @Tta 100;
+   enum pos Aath.dv @Dda 100;
+   enum pos Aath.dv @Ta 100;
+   enum pos Aath.dv @Pa 100;
+   enum pos Aath.dv @Ma 100;
+   enum pos Aath.dv @Ya 100;
+   enum pos Aath.dv @Bha 100;
+   enum pos Aath.dv @Aa 100;
+   enum pos Nau.dv @period 10;
+   enum pos Nau.dv @bracketleft 30;
+   enum pos Nau.dv @bracketright -20;
+   enum pos Nau.dv @Kha 100;
+   enum pos Nau.dv @Gha 100;
+   enum pos Nau.dv @Ja 100;
+   enum pos Nau.dv @Tta 100;
+   enum pos Nau.dv @Dda 100;
+   enum pos Nau.dv @Ta 100;
+   enum pos Nau.dv @Pa 100;
+   enum pos Nau.dv @Ma 100;
+   enum pos Nau.dv @Ya 100;
+   enum pos Nau.dv @Ba 100;
+   enum pos Nau.dv @Aa 100;
+   enum pos Nau.dv @Bha 100;
+   enum pos DamatraRu.dv @Ya -20;
+   enum pos DamatraRu.dv @Ba -20;
+   enum pos KaHalant.dv @Tta -30;
+   enum pos KaHalant.dv [Kha.dv Ra.dv RaNukta.dv KhaNukta.dv GaNukta.dv uni097B Sha.MAR.dv KhaRa.dv GaRa.dv ShaRa.dv SaRa.dv KhaNuktaRa.dv GaNuktaRa.dv ShaRaHalant.dv SaRaHalant.dv GaRaHalant.dv GaDhaVa.dv GaDhaYa.dv GaNaYa.dv GaBhaYa.dv GaRaYa.dv SaKaRa.dv SaKaVa.dv SaTaYa.dv SaTaRa.dv SaTaVa.dv SaThaYa.dv SaPaRa.dv SaMaYa.dv KhaKha.dv KhaTa.dv KhaNa.dv KhaMa.dv KhaYa.dv KhaVa.dv KhaSha.dv GaGa.dv GaGha.dv GaJa.dv GaNna.dv GaDa.dv GaDha.dv GaNa.dv GaBa.dv GaBha.dv GaMa.dv GaYa.dv GaLa.dv GaVa.dv GaSa.dv ShaKa.dv ShaCa.dv ShaCha.dv ShaTta.dv ShaTa.dv ShaNa.dv ShaMa.dv ShaYa.dv ShaLa.dv ShaVa.dv ShaSha.dv ShaKaNukta.dv SaKa.dv SaKha.dv SaJa.dv SaTta.dv SaTa.dv SaTha.dv SaDa.dv SaNa.dv SaPa.dv SaPha.dv SaBa.dv SaMa.dv SaYa.dv SaLa.dv SaVa.dv SaSa.dv KhaNuktaTa.dv KhaNuktaMa.dv KhaNuktaYa.dv KhaNuktaVa.dv KhaNuktaSha.dv KhaNuktaSa.dv KhaHalant.dv SaHalant.dv KhaNuktaHalant.dv GaNuktaHalant.dv ShaRaYa.dv ShamatraRu.dv RamatraU.dv RamatraUu.dv] 20;
+   enum pos KaHalant.dv [Pa.dv vowelChandraE.dv vowelShortE.dv vowelE.dv vowelAi.dv Ssa.dv PhaNukta.dv PaRa.dv PhaRa.dv SsaRa.dv PhaNuktaRa.dv PaRaHalant.dv SsaRaHalant.dv SsaKaRa.dv SsaNnaYa.dv SsaPaRa.dv SsaMaYa.dv NnaTta.dv NnaTtha.dv NnaDda.dv NnaDdha.dv NnaNna.dv NnaMa.dv NnaYa.dv NnaVa.dv PaTa.dv PaNa.dv PaPa.dv PaPha.dv PaMa.dv PaYa.dv PaLa.dv PaVa.dv PaSa.dv PhaJa.dv PhaTta.dv PhaTa.dv PhaPa.dv PhaPha.dv PhaYa.dv PhaLa.dv PhaSha.dv SsaKa.dv SsaNna.dv SsaPa.dv SsaPha.dv SsaMa.dv SsaYa.dv SsaVa.dv SsaSsa.dv PhaNuktaTa.dv PhaNuktaSa.dv PhaNuktaJaNukta.dv PhaNuktaPhaNukta.dv NnaHalant.dv PaHalant.dv PhaHalant.dv SsaHalant.dv PhaNuktaHalant.dv PaTaYa.dv] 30;
+   enum pos KaHalant.dv [Ya.dv ThaRa.dv YaRa.dv YaNuktaRa.dv ThaYa.dv ThaVa.dv YaYa.dv ThaHalant.dv YaHalant.dv YaNuktaHalant.dv YaNukta.dv] 20;
+   enum pos KaHalant.dv [Ja.dv Nya.dv JaNukta.dv uni097C CaRa.dv JaRa.dv TaRa.dv JaNuktaRa.dv TaRaHalant.dv CaChaVa.dv JaJaNya.dv JaJaYa.dv JaJaVa.dv NyaCaYa.dv NyaJaYa.dv TaRaYa.dv CaCa.dv CaCha.dv CaNa.dv CaMa.dv CaYa.dv JaKa.dv JaJa.dv JaJha.dv JaTta.dv JaDda.dv JaTa.dv JaDa.dv JaNa.dv JaBa.dv JaMa.dv JaYa.dv JaVa.dv NyaCa.dv NyaCha.dv NyaJa.dv NyaSha.dv JaHalant.dv JaNuktaHalant.dv CaCaone.dv KaRaone.dv uni0979] -30;
+   enum pos KhaHalant.dv [Dda.dv vowelI.dv vowelIi.dv Nga.dv Jha.dv uni097E vowelIiBindu.dv JhaRa.dv HaRa.dv DdaDdaYa.dv NgaKa.dv NgaMa.dv NgaYa.dv DdaDda.dv DdaDdha.dv DdaYa.dv DaDa.dv DaMa.dv DaYa.dv HaMaYa.dv JhaNa.dv JhaMa.dv JhaYa.dv HaNna.dv HaNa.dv HaMa.dv HaYa.dv HaLa.dv HaVa.dv DamatraRu.dv JhaHalant.dv HaHalant.dv NgaHalant.dv DdaHalant.dv DdaNukta.dv NgaGa.dv DaDaYa.dv JaNya.dv JaNyaYa.dv JaNyaHalant.dv HamatraRu.dv vowelIiChandrabindu.dv DdaRa.dv] -10;
+   enum pos KhaHalant.dv [Pa.dv vowelChandraE.dv vowelShortE.dv vowelE.dv vowelAi.dv PhaNukta.dv PaRa.dv PhaRa.dv SsaRa.dv PhaNuktaRa.dv PaRaHalant.dv SsaRaHalant.dv SsaKaRa.dv SsaNnaYa.dv SsaPaRa.dv SsaMaYa.dv NnaTta.dv NnaTtha.dv NnaDda.dv NnaDdha.dv NnaNna.dv NnaMa.dv NnaYa.dv NnaVa.dv PaTa.dv PaNa.dv PaPa.dv PaPha.dv PaMa.dv PaYa.dv PaLa.dv PaVa.dv PaSa.dv PhaJa.dv PhaTta.dv PhaTa.dv PhaPa.dv PhaPha.dv PhaYa.dv PhaLa.dv PhaSha.dv SsaKa.dv SsaNna.dv SsaPa.dv SsaPha.dv SsaMa.dv SsaYa.dv SsaVa.dv SsaSsa.dv PhaNuktaTa.dv PhaNuktaSa.dv PhaNuktaJaNukta.dv PhaNuktaPhaNukta.dv NnaHalant.dv PaHalant.dv PhaHalant.dv SsaHalant.dv PhaNuktaHalant.dv PaTaYa.dv] -30;
+   enum pos KhaHalant.dv @Bha -10;
+   enum pos GaHalant.dv @Pa 10;
+   enum pos GhaHalant.dv [Ja.dv JaNukta.dv uni097C CaRa.dv JaRa.dv TaRa.dv JaNuktaRa.dv TaRaHalant.dv CaChaVa.dv JaJaNya.dv JaJaYa.dv JaJaVa.dv NyaCaYa.dv NyaJaYa.dv TaRaYa.dv CaCa.dv CaCha.dv CaNa.dv CaMa.dv CaYa.dv JaKa.dv JaJa.dv JaJha.dv JaTta.dv JaDda.dv JaTa.dv JaDa.dv JaNa.dv JaBa.dv JaMa.dv JaYa.dv JaVa.dv NyaCa.dv NyaCha.dv NyaJa.dv NyaSha.dv CaHalant.dv JaHalant.dv NyaHalant.dv JaNuktaHalant.dv CaCaone.dv KaRaone.dv uni0979] 40;
+   enum pos GhaHalant.dv @Tta 40;
+   enum pos GhaHalant.dv @Bha -30;
+   enum pos GhaHalant.dv [Ta.dv vowelLru.dv vowelLruu.dv La.MAR.dv TaRaone.dv LaRa.dv TaKaYa.dv TaKaRa.dv TaKaVa.dv TaKaSsa.dv TaKhaNa.dv TaKhaRa.dv TaTaYa.dv TaTaVa.dv TaNaYa.dv TaPaRa.dv TaPaLa.dv TaMaYa.dv TaSaNa.dv TaSaYa.dv TaSaVa.dv LaKaYa.dv LaThaYa.dv LaDaRa.dv LaLaYa.dv LaVaDda.dv LaHaYa.dv TaKa.dv TaKha.dv TaTa.dv TaTha.dv TaNa.dv TaPa.dv TaPha.dv TaMa.dv TaYa.dv TaLa.dv TaVa.dv TaSa.dv LaKa.dv LaKha.dv LaGa.dv LaJaNukta.dv LaTta.dv LaTtha.dv LaDda.dv LaDdha.dv LaTa.dv LaTha.dv LaDa.dv LaPa.dv LaPha.dv LaBa.dv LaBha.dv LaMa.dv LaYa.dv LaVa.dv LaSa.dv LaHa.dv LaJa.dv LaBhaHalant.dv TaHalant.dv LaHalant.dv PaTaone.dv LaLaone.dv PaLaone.dv TaRaoneHalant.dv TaRaYaone.dv PamatraLru.dv PamatraLruu.dv] 20;
+   enum pos GhaHalant.dv @Pa -10;
+   enum pos GhaHalant.dv [Gha.dv Dha.dv GhaRa.dv DhaRa.dv DhaRaHalant.dv ChaRaYa.dv DhaNaYa.dv ChaYa.dv ChaVa.dv GhaNa.dv GhaMa.dv GhaYa.dv DhaNa.dv DhaMa.dv DhaYa.dv DhaVa.dv GhaHalant.dv DhaHalant.dv ChaHalant.dv GhaRaHalant.dv] 10;
+   enum pos GhaHalant.dv [Ba.dv Ka.dv Va.dv Da.dv KaNukta.dv uni097F KaRa.dv DaRa.dv BaRa.dv VaRa.dv KaNuktaRa.dv VaRaHalant.dv DaRaHalant.dv DaGa.dv DaDha.dv DaNa.dv DaBa.dv DaBha.dv DaVa.dv KaSaPaRa.dv KaSaPaLa.dv NaSaMaYa.dv KaTaYa.dv KaTaRa.dv KaTaVa.dv KaPaRa.dv KaVaYa.dv KaSaTta.dv KaSaDda.dv KaSaTa.dv BaJaYa.dv BaDhaVa.dv BaBhaRa.dv BaLaYa.dv KaKa.dv KaKha.dv KaCa.dv KaJa.dv KaTta.dv KaNna.dv KaTa.dv KaTha.dv KaDa.dv KaNa.dv KaPa.dv KaPha.dv KaMa.dv KaYa.dv KaLa.dv KaVa.dv KaSha.dv KaSa.dv BaJa.dv BaJha.dv BaTa.dv BaDa.dv BaDha.dv BaNa.dv BaBa.dv BaBha.dv BaYa.dv BaLa.dv BaVa.dv BaSha.dv BaSa.dv BaJaNukta.dv LlaYa.dv VaYa.dv VaLa.dv VaVa.dv VaHa.dv KaHalant.dv BaHalant.dv LlaHalant.dv LlaNuktaHalant.dv VaHalant.dv KaNuktaHalant.dv DaHalant.dv KaNuktaTa.dv KaNuktaPha.dv KaNuktaBa.dv KaNuktaMa.dv KaNuktaKaNukta.dv KaNuktaPhaNukta.dv KaRaHalant.dv DaDhaYa.dv DaBhaYa.dv DaRaYa.dv DaVaYa.dv KaSsaRa.dv KaSsa.dv KaSsaMaYa.dv KaSsaMa.dv KaSsaYa.dv KaSsaVa.dv KaSsaMaHalant.dv KaSsaHalant.dv KamatraLru.dv KamatraLruu.dv KaKaone.dv KaVaone.dv] 20;
+   enum pos CaHalant.dv @Pa -30;
+   enum pos CaHalant.dv [Bha.dv BhaRa.dv BhaRaHalant.dv BhaYa.dv BhaLa.dv BhaVa.dv] -40;
+   enum pos JaHalant.dv [Kha.dv Ra.dv RaNukta.dv Sa.dv KhaNukta.dv GaNukta.dv uni097B Sha.MAR.dv KhaRa.dv GaRa.dv ShaRa.dv SaRa.dv KhaNuktaRa.dv GaNuktaRa.dv ShaRaHalant.dv SaRaHalant.dv GaRaHalant.dv GaDhaVa.dv GaDhaYa.dv GaNaYa.dv GaBhaYa.dv GaRaYa.dv SaKaRa.dv SaKaVa.dv SaTaYa.dv SaTaRa.dv SaTaVa.dv SaThaYa.dv SaPaRa.dv SaMaYa.dv KhaKha.dv KhaTa.dv KhaNa.dv KhaMa.dv KhaYa.dv KhaVa.dv KhaSha.dv GaGa.dv GaGha.dv GaJa.dv GaNna.dv GaDa.dv GaDha.dv GaNa.dv GaBa.dv GaBha.dv GaMa.dv GaYa.dv GaLa.dv GaVa.dv GaSa.dv ShaKa.dv ShaCa.dv ShaCha.dv ShaTta.dv ShaTa.dv ShaNa.dv ShaMa.dv ShaYa.dv ShaLa.dv ShaVa.dv ShaSha.dv ShaKaNukta.dv SaKa.dv SaKha.dv SaJa.dv SaTta.dv SaTa.dv SaTha.dv SaDa.dv SaNa.dv SaPa.dv SaPha.dv SaBa.dv SaMa.dv SaYa.dv SaLa.dv SaVa.dv SaSa.dv KhaNuktaTa.dv KhaNuktaMa.dv KhaNuktaYa.dv KhaNuktaVa.dv KhaNuktaSha.dv KhaNuktaSa.dv KhaHalant.dv GaHalant.dv ShaHalant.dv SaHalant.dv KhaNuktaHalant.dv GaNuktaHalant.dv ShaRaYa.dv ShamatraRu.dv RamatraU.dv RamatraUu.dv] 30;
+   enum pos JaHalant.dv @Gha -30;
+   enum pos JaHalant.dv [Ja.dv Nya.dv JaNukta.dv uni097C CaRa.dv JaRa.dv TaRa.dv JaNuktaRa.dv TaRaHalant.dv CaChaVa.dv JaJaNya.dv JaJaYa.dv JaJaVa.dv NyaCaYa.dv NyaJaYa.dv TaRaYa.dv CaCa.dv CaCha.dv CaNa.dv CaMa.dv CaYa.dv JaKa.dv JaJa.dv JaJha.dv JaTta.dv JaDda.dv JaTa.dv JaDa.dv JaNa.dv JaBa.dv JaMa.dv JaYa.dv JaVa.dv NyaCa.dv NyaCha.dv NyaJa.dv NyaSha.dv CaHalant.dv JaHalant.dv NyaHalant.dv JaNuktaHalant.dv CaCaone.dv KaRaone.dv uni0979] -50;
+   enum pos JaHalant.dv @Tta -60;
+   enum pos JaHalant.dv [Ta.dv vowelLru.dv vowelLruu.dv La.MAR.dv TaRaone.dv LaRa.dv TaKaYa.dv TaKaRa.dv TaKaVa.dv TaKaSsa.dv TaKhaNa.dv TaKhaRa.dv TaTaYa.dv TaTaVa.dv TaNaYa.dv TaPaRa.dv TaPaLa.dv TaMaYa.dv TaSaNa.dv TaSaYa.dv TaSaVa.dv LaKaYa.dv LaThaYa.dv LaDaRa.dv LaLaYa.dv LaVaDda.dv LaHaYa.dv TaKa.dv TaKha.dv TaTa.dv TaTha.dv TaNa.dv TaPa.dv TaPha.dv TaMa.dv TaYa.dv TaLa.dv TaVa.dv TaSa.dv LaKa.dv LaKha.dv LaGa.dv LaJaNukta.dv LaTta.dv LaTtha.dv LaDda.dv LaDdha.dv LaTa.dv LaTha.dv LaDa.dv LaPa.dv LaPha.dv LaBa.dv LaBha.dv LaMa.dv LaYa.dv LaVa.dv LaSa.dv LaHa.dv LaJa.dv LaBhaHalant.dv TaHalant.dv LaHalant.dv PaTaone.dv LaLaone.dv PaLaone.dv TaRaoneHalant.dv TaRaYaone.dv PamatraLru.dv PamatraLruu.dv] -50;
+   enum pos JhaHalant.dv @Bha -10;
+   enum pos JhaHalant.dv [Gha.dv GhaRa.dv DhaRa.dv DhaRaHalant.dv ChaRaYa.dv DhaNaYa.dv ChaYa.dv ChaVa.dv GhaNa.dv GhaMa.dv GhaYa.dv DhaNa.dv DhaMa.dv DhaYa.dv DhaVa.dv GhaHalant.dv DhaHalant.dv ChaHalant.dv GhaRaHalant.dv] -10;
+   enum pos JhaHalant.dv @Ma -10;
+   enum pos NyaHalant.dv [Ja.dv Nya.dv JaNukta.dv uni097C CaRa.dv JaRa.dv TaRa.dv JaNuktaRa.dv TaRaHalant.dv CaChaVa.dv JaJaNya.dv JaJaYa.dv JaJaVa.dv NyaCaYa.dv NyaJaYa.dv TaRaYa.dv CaCa.dv CaCha.dv CaNa.dv CaMa.dv CaYa.dv JaKa.dv JaJa.dv JaJha.dv JaTta.dv JaDda.dv JaTa.dv JaDa.dv JaNa.dv JaBa.dv JaMa.dv JaYa.dv JaVa.dv NyaCa.dv NyaCha.dv NyaJa.dv NyaSha.dv CaHalant.dv JaHalant.dv NyaHalant.dv JaNuktaHalant.dv CaCaone.dv KaRaone.dv uni0979] 10;
+   enum pos NyaHalant.dv @Bha -20;
+   enum pos NyaHalant.dv @Ma -20;
+   enum pos NnaHalant.dv @Ma -10;
+   enum pos NnaHalant.dv [Dda.dv vowelI.dv vowelIi.dv Nga.dv Jha.dv uni097E vowelIiBindu.dv JhaRa.dv HaRa.dv DdaDdaYa.dv NgaKa.dv NgaMa.dv NgaYa.dv DdaDda.dv DdaDdha.dv DdaYa.dv DaDa.dv DaMa.dv DaYa.dv HaMaYa.dv JhaNa.dv JhaMa.dv JhaYa.dv HaNna.dv HaNa.dv HaMa.dv HaYa.dv HaLa.dv HaVa.dv DamatraRu.dv JhaHalant.dv HaHalant.dv NgaHalant.dv DdaHalant.dv DdaNukta.dv NgaGa.dv DaDaYa.dv JaNya.dv JaNyaYa.dv JaNyaHalant.dv HamatraRu.dv vowelIiChandrabindu.dv DdaRa.dv] -10;
+   enum pos NnaHalant.dv @Tta -10;
+   enum pos NnaHalant.dv @Ja -20;
+   enum pos TaHalant.dv [Gha.dv Dha.dv GhaRa.dv DhaRa.dv DhaRaHalant.dv ChaRaYa.dv DhaNaYa.dv ChaYa.dv ChaVa.dv GhaNa.dv GhaMa.dv GhaYa.dv DhaNa.dv DhaMa.dv DhaYa.dv DhaVa.dv GhaHalant.dv DhaHalant.dv ChaHalant.dv GhaRaHalant.dv] -30;
+   enum pos TaHalant.dv [Ja.dv JaNukta.dv uni097C CaRa.dv JaRa.dv TaRa.dv JaNuktaRa.dv TaRaHalant.dv CaChaVa.dv JaJaNya.dv JaJaYa.dv JaJaVa.dv NyaCaYa.dv NyaJaYa.dv TaRaYa.dv CaCa.dv CaCha.dv CaNa.dv CaMa.dv CaYa.dv JaKa.dv JaJa.dv JaJha.dv JaTta.dv JaDda.dv JaTa.dv JaDa.dv JaNa.dv JaBa.dv JaMa.dv JaYa.dv JaVa.dv NyaCa.dv NyaCha.dv NyaJa.dv NyaSha.dv CaHalant.dv JaHalant.dv NyaHalant.dv JaNuktaHalant.dv CaCaone.dv KaRaone.dv uni0979] -80;
+   enum pos TaHalant.dv @Tta -50;
+   enum pos TaHalant.dv [Ta.dv vowelLru.dv vowelLruu.dv La.MAR.dv TaRaone.dv LaRa.dv TaKaYa.dv TaKaRa.dv TaKaVa.dv TaKaSsa.dv TaKhaNa.dv TaKhaRa.dv TaTaYa.dv TaTaVa.dv TaNaYa.dv TaPaRa.dv TaPaLa.dv TaMaYa.dv TaSaNa.dv TaSaYa.dv TaSaVa.dv LaKaYa.dv LaThaYa.dv LaDaRa.dv LaLaYa.dv LaVaDda.dv LaHaYa.dv TaKa.dv TaKha.dv TaTa.dv TaTha.dv TaNa.dv TaPa.dv TaPha.dv TaMa.dv TaYa.dv TaLa.dv TaVa.dv TaSa.dv LaKa.dv LaKha.dv LaGa.dv LaJaNukta.dv LaTta.dv LaTtha.dv LaDda.dv LaDdha.dv LaTa.dv LaTha.dv LaDa.dv LaPa.dv LaPha.dv LaBa.dv LaBha.dv LaMa.dv LaYa.dv LaVa.dv LaSa.dv LaHa.dv LaJa.dv LaBhaHalant.dv TaHalant.dv LaHalant.dv PaTaone.dv LaLaone.dv PaLaone.dv TaRaoneHalant.dv TaRaYaone.dv PamatraLru.dv PamatraLruu.dv] -60;
+   enum pos TaHalant.dv @Bha -10;
+   enum pos TaHalant.dv [Ya.dv ThaRa.dv YaRa.dv YaNuktaRa.dv ThaYa.dv ThaVa.dv YaYa.dv ThaHalant.dv YaHalant.dv YaNuktaHalant.dv YaNukta.dv] -70;
+   enum pos ThaHalant.dv @Pa -20;
+   enum pos ThaHalant.dv @Bha -30;
+   enum pos DhaHalant.dv [Dda.dv Ha.dv vowelI.dv vowelIi.dv uni097E vowelIiBindu.dv JhaRa.dv HaRa.dv DdaDdaYa.dv NgaKa.dv NgaMa.dv NgaYa.dv DdaDda.dv DdaDdha.dv DdaYa.dv DaDa.dv DaMa.dv DaYa.dv HaMaYa.dv JhaNa.dv JhaMa.dv JhaYa.dv HaNna.dv HaNa.dv HaMa.dv HaYa.dv HaLa.dv HaVa.dv DamatraRu.dv JhaHalant.dv HaHalant.dv NgaHalant.dv DdaHalant.dv DdaNukta.dv NgaGa.dv DaDaYa.dv JaNya.dv JaNyaYa.dv JaNyaHalant.dv HamatraRu.dv vowelIiChandrabindu.dv DdaRa.dv] -30;
+   enum pos DhaHalant.dv @Bha -60;
+   enum pos NaHalant.dv [Ja.dv Nya.dv JaNukta.dv uni097C CaRa.dv JaRa.dv TaRa.dv JaNuktaRa.dv TaRaHalant.dv CaChaVa.dv JaJaNya.dv JaJaYa.dv JaJaVa.dv NyaCaYa.dv NyaJaYa.dv TaRaYa.dv CaCa.dv CaCha.dv CaNa.dv CaMa.dv CaYa.dv JaKa.dv JaJa.dv JaJha.dv JaTta.dv JaDda.dv JaTa.dv JaDa.dv JaNa.dv JaBa.dv JaMa.dv JaYa.dv JaVa.dv NyaCa.dv NyaCha.dv NyaJa.dv NyaSha.dv CaHalant.dv JaHalant.dv NyaHalant.dv JaNuktaHalant.dv CaCaone.dv KaRaone.dv uni0979] -50;
+   enum pos NaHalant.dv @Bha -80;
+   enum pos PaHalant.dv [Tta.dv Ttha.dv DdhaNukta.dv TtaTtaYa.dv TthaTthaYa.dv DdhaRaYa.dv SsaTtaYa.dv SsaTthaYa.dv TtaTta.dv TtaTtha.dv TtaYa.dv TthaTtha.dv TthaYa.dv DdhaYa.dv PaTta.dv SsaTta.dv SsaTtha.dv TtaHalant.dv TthaHalant.dv DdhaHalant.dv DdhaDdha.dv TtaRa.dv TthaRa.dv DdhaRa.dv] -20;
+   enum pos PaHalant.dv @Bha -40;
+   enum pos PaHalant.dv [Ja.dv Nya.dv JaNukta.dv uni097C CaRa.dv JaRa.dv TaRa.dv JaNuktaRa.dv TaRaHalant.dv CaChaVa.dv JaJaNya.dv JaJaYa.dv JaJaVa.dv NyaCaYa.dv NyaJaYa.dv TaRaYa.dv CaCa.dv CaCha.dv CaNa.dv CaMa.dv CaYa.dv JaKa.dv JaJa.dv JaJha.dv JaTta.dv JaDda.dv JaTa.dv JaDa.dv JaNa.dv JaBa.dv JaMa.dv JaYa.dv JaVa.dv NyaCa.dv NyaCha.dv NyaJa.dv NyaSha.dv CaHalant.dv JaHalant.dv NyaHalant.dv JaNuktaHalant.dv CaCaone.dv KaRaone.dv uni0979] -10;
+   enum pos PhaHalant.dv @Tta -30;
+   enum pos PhaHalant.dv [Gha.dv Cha.dv GhaRa.dv DhaRa.dv DhaRaHalant.dv ChaRaYa.dv DhaNaYa.dv ChaYa.dv ChaVa.dv GhaNa.dv GhaMa.dv GhaYa.dv DhaNa.dv DhaMa.dv DhaYa.dv DhaVa.dv GhaHalant.dv DhaHalant.dv ChaHalant.dv GhaRaHalant.dv] -30;
+   enum pos PhaHalant.dv @Kha 30;
+   enum pos PhaHalant.dv @Bha -20;
+   enum pos PhaHalant.dv [Ja.dv Ca.dv JaNukta.dv uni097C CaRa.dv JaRa.dv TaRa.dv JaNuktaRa.dv TaRaHalant.dv CaChaVa.dv JaJaNya.dv JaJaYa.dv JaJaVa.dv NyaCaYa.dv NyaJaYa.dv TaRaYa.dv CaCa.dv CaCha.dv CaNa.dv CaMa.dv CaYa.dv JaKa.dv JaJa.dv JaJha.dv JaTta.dv JaDda.dv JaTa.dv JaDa.dv JaNa.dv JaBa.dv JaMa.dv JaYa.dv JaVa.dv NyaCa.dv NyaCha.dv NyaJa.dv NyaSha.dv JaHalant.dv NyaHalant.dv JaNuktaHalant.dv CaCaone.dv KaRaone.dv uni0979] -80;
+   enum pos PhaHalant.dv [Ma.dv NaNukta.dv NaRa.dv MaRa.dv NaNaYa.dv NaKaSa.dv NaTaYa.dv NaTaRa.dv NaTaSa.dv NaThaYa.dv NaThaVa.dv NaDaRa.dv NaDaVa.dv NaDhaYa.dv NaDhaRa.dv NaDhaVa.dv NaPaRa.dv NaBhaYa.dv NaBhaVa.dv NaMaYa.dv NaSaTta.dv NaSaYa.dv NaHaYa.dv NaKa.dv NaCa.dv NaCha.dv NaTta.dv NaDda.dv NaTa.dv NaTha.dv NaDa.dv NaDha.dv NaNa.dv NaPa.dv NaPha.dv NaBha.dv NaMa.dv NaYa.dv NaVa.dv NaSa.dv NaHa.dv MaTa.dv MaDa.dv MaNa.dv MaPa.dv MaBa.dv MaBha.dv MaMa.dv MaYa.dv MaLa.dv MaVa.dv MaSha.dv MaSa.dv MaHa.dv NaBhaHalant.dv NaSaHalant.dv MaBhaHalant.dv NaHalant.dv NaNuktaHalant.dv MaHalant.dv MaPaRa.dv MaBaYa.dv MaBaRa.dv MaBhaYa.dv MaBhaRa.dv MaBhaVa.dv] -50;
+   enum pos PhaHalant.dv @Ya -10;
+   enum pos BaHalant.dv [Ja.dv Ca.dv JaNukta.dv uni097C CaRa.dv JaRa.dv TaRa.dv JaNuktaRa.dv TaRaHalant.dv CaChaVa.dv JaJaNya.dv JaJaYa.dv JaJaVa.dv NyaCaYa.dv NyaJaYa.dv TaRaYa.dv CaCa.dv CaCha.dv CaNa.dv CaMa.dv CaYa.dv JaKa.dv JaJa.dv JaJha.dv JaTta.dv JaDda.dv JaTa.dv JaDa.dv JaNa.dv JaBa.dv JaMa.dv JaYa.dv JaVa.dv NyaCa.dv NyaCha.dv NyaJa.dv NyaSha.dv CaHalant.dv JaHalant.dv NyaHalant.dv JaNuktaHalant.dv CaCaone.dv KaRaone.dv uni0979] 30;
+   enum pos BaHalant.dv [Tta.dv Ttha.dv DdhaNukta.dv TtaTtaYa.dv TthaTthaYa.dv DdhaRaYa.dv SsaTtaYa.dv SsaTthaYa.dv TtaTta.dv TtaTtha.dv TtaYa.dv TthaTtha.dv TthaYa.dv DdhaYa.dv PaTta.dv SsaTta.dv SsaTtha.dv TtaHalant.dv TthaHalant.dv DdhaHalant.dv DdhaDdha.dv TtaRa.dv TthaRa.dv DdhaRa.dv] 30;
+   enum pos BaHalant.dv @Ta 5;
+   enum pos BaHalant.dv @Pa -20;
+   enum pos BaHalant.dv @Bha -30;
+   enum pos BaHalant.dv @Ma -50;
+   enum pos BhaHalant.dv @Bha -30;
+   enum pos MaHalant.dv [Ja.dv Nya.dv JaNukta.dv uni097C CaRa.dv JaRa.dv TaRa.dv JaNuktaRa.dv TaRaHalant.dv CaChaVa.dv JaJaNya.dv JaJaYa.dv JaJaVa.dv NyaCaYa.dv NyaJaYa.dv TaRaYa.dv CaCa.dv CaCha.dv CaNa.dv CaMa.dv CaYa.dv JaKa.dv JaJa.dv JaJha.dv JaTta.dv JaDda.dv JaTa.dv JaDa.dv JaNa.dv JaBa.dv JaMa.dv JaYa.dv JaVa.dv NyaCa.dv NyaCha.dv NyaJa.dv NyaSha.dv CaHalant.dv JaHalant.dv NyaHalant.dv JaNuktaHalant.dv CaCaone.dv KaRaone.dv uni0979] 20;
+   enum pos YaHalant.dv @Pa -30;
+   enum pos YaHalant.dv @Bha -40;
+   enum pos YaHalant.dv @Ta -10;
+   enum pos YaHalant.dv [Dda.dv vowelI.dv vowelIi.dv Nga.dv uni097E vowelIiBindu.dv JhaRa.dv HaRa.dv DdaDdaYa.dv NgaKa.dv NgaMa.dv NgaYa.dv DdaDda.dv DdaDdha.dv DdaYa.dv DaDa.dv DaMa.dv DaYa.dv HaMaYa.dv JhaNa.dv JhaMa.dv JhaYa.dv HaNna.dv HaNa.dv HaMa.dv HaYa.dv HaLa.dv HaVa.dv DamatraRu.dv JhaHalant.dv HaHalant.dv NgaHalant.dv DdaHalant.dv DdaNukta.dv NgaGa.dv DaDaYa.dv JaNya.dv JaNyaYa.dv JaNyaHalant.dv HamatraRu.dv vowelIiChandrabindu.dv DdaRa.dv] -20;
+   enum pos YaHalant.dv @Ba -10;
+   enum pos LaHalant.dv [Kha.dv Ra.dv RaNukta.dv Sa.dv Ga.dv KhaNukta.dv GaNukta.dv uni097B Sha.MAR.dv KhaRa.dv GaRa.dv ShaRa.dv SaRa.dv KhaNuktaRa.dv GaNuktaRa.dv ShaRaHalant.dv SaRaHalant.dv GaRaHalant.dv GaDhaVa.dv GaDhaYa.dv GaNaYa.dv GaBhaYa.dv GaRaYa.dv SaKaRa.dv SaKaVa.dv SaTaYa.dv SaTaRa.dv SaTaVa.dv SaThaYa.dv SaPaRa.dv SaMaYa.dv KhaKha.dv KhaTa.dv KhaNa.dv KhaMa.dv KhaYa.dv KhaVa.dv KhaSha.dv GaGa.dv GaGha.dv GaJa.dv GaNna.dv GaDa.dv GaDha.dv GaNa.dv GaBa.dv GaBha.dv GaMa.dv GaYa.dv GaLa.dv GaVa.dv GaSa.dv ShaKa.dv ShaCa.dv ShaCha.dv ShaTta.dv ShaTa.dv ShaNa.dv ShaMa.dv ShaYa.dv ShaLa.dv ShaVa.dv ShaSha.dv ShaKaNukta.dv SaKa.dv SaKha.dv SaJa.dv SaTta.dv SaTa.dv SaTha.dv SaDa.dv SaNa.dv SaPa.dv SaPha.dv SaBa.dv SaMa.dv SaYa.dv SaLa.dv SaVa.dv SaSa.dv KhaNuktaTa.dv KhaNuktaMa.dv KhaNuktaYa.dv KhaNuktaVa.dv KhaNuktaSha.dv KhaNuktaSa.dv KhaHalant.dv GaHalant.dv ShaHalant.dv SaHalant.dv KhaNuktaHalant.dv GaNuktaHalant.dv ShaRaYa.dv ShamatraRu.dv RamatraU.dv RamatraUu.dv] 30;
+   enum pos LaHalant.dv [Gha.dv GhaRa.dv DhaRa.dv DhaRaHalant.dv ChaRaYa.dv DhaNaYa.dv ChaYa.dv ChaVa.dv GhaNa.dv GhaMa.dv GhaYa.dv DhaNa.dv DhaMa.dv DhaYa.dv DhaVa.dv GhaHalant.dv DhaHalant.dv ChaHalant.dv GhaRaHalant.dv] -40;
+   enum pos LaHalant.dv [Ja.dv JaNukta.dv uni097C CaRa.dv JaRa.dv TaRa.dv JaNuktaRa.dv TaRaHalant.dv CaChaVa.dv JaJaNya.dv JaJaYa.dv JaJaVa.dv NyaCaYa.dv NyaJaYa.dv TaRaYa.dv CaCa.dv CaCha.dv CaNa.dv CaMa.dv CaYa.dv JaKa.dv JaJa.dv JaJha.dv JaTta.dv JaDda.dv JaTa.dv JaDa.dv JaNa.dv JaBa.dv JaMa.dv JaYa.dv JaVa.dv NyaCa.dv NyaCha.dv NyaJa.dv NyaSha.dv CaHalant.dv JaHalant.dv NyaHalant.dv JaNuktaHalant.dv CaCaone.dv KaRaone.dv uni0979] -90;
+   enum pos LaHalant.dv [Ma.dv NaNukta.dv NaRa.dv MaRa.dv NaNaYa.dv NaKaSa.dv NaTaYa.dv NaTaRa.dv NaTaSa.dv NaThaYa.dv NaThaVa.dv NaDaRa.dv NaDaVa.dv NaDhaYa.dv NaDhaRa.dv NaDhaVa.dv NaPaRa.dv NaBhaYa.dv NaBhaVa.dv NaMaYa.dv NaSaTta.dv NaSaYa.dv NaHaYa.dv NaKa.dv NaCa.dv NaCha.dv NaTta.dv NaDda.dv NaTa.dv NaTha.dv NaDa.dv NaDha.dv NaNa.dv NaPa.dv NaPha.dv NaBha.dv NaMa.dv NaYa.dv NaVa.dv NaSa.dv NaHa.dv MaTa.dv MaDa.dv MaNa.dv MaPa.dv MaBa.dv MaBha.dv MaMa.dv MaYa.dv MaLa.dv MaVa.dv MaSha.dv MaSa.dv MaHa.dv NaBhaHalant.dv NaSaHalant.dv MaBhaHalant.dv NaHalant.dv NaNuktaHalant.dv MaHalant.dv MaPaRa.dv MaBaYa.dv MaBaRa.dv MaBhaYa.dv MaBhaRa.dv MaBhaVa.dv] -50;
+   enum pos LaHalant.dv @Bha -40;
+   enum pos LaHalant.dv @Pa -10;
+   enum pos LlaHalant.dv [Ja.dv JaNukta.dv uni097C CaRa.dv JaRa.dv TaRa.dv JaNuktaRa.dv TaRaHalant.dv CaChaVa.dv JaJaNya.dv JaJaYa.dv JaJaVa.dv NyaCaYa.dv NyaJaYa.dv TaRaYa.dv CaCa.dv CaCha.dv CaNa.dv CaMa.dv CaYa.dv JaKa.dv JaJa.dv JaJha.dv JaTta.dv JaDda.dv JaTa.dv JaDa.dv JaNa.dv JaBa.dv JaMa.dv JaYa.dv JaVa.dv NyaCa.dv NyaCha.dv NyaJa.dv NyaSha.dv CaHalant.dv JaHalant.dv NyaHalant.dv JaNuktaHalant.dv CaCaone.dv KaRaone.dv uni0979] 20;
+   enum pos LlaHalant.dv [Dda.dv Ha.dv vowelI.dv vowelIi.dv uni097E vowelIiBindu.dv JhaRa.dv HaRa.dv DdaDdaYa.dv NgaKa.dv NgaMa.dv NgaYa.dv DdaDda.dv DdaDdha.dv DdaYa.dv DaDa.dv DaMa.dv DaYa.dv HaMaYa.dv JhaNa.dv JhaMa.dv JhaYa.dv HaNna.dv HaNa.dv HaMa.dv HaYa.dv HaLa.dv HaVa.dv DamatraRu.dv JhaHalant.dv HaHalant.dv NgaHalant.dv DdaHalant.dv DdaNukta.dv NgaGa.dv DaDaYa.dv JaNya.dv JaNyaYa.dv JaNyaHalant.dv HamatraRu.dv vowelIiChandrabindu.dv DdaRa.dv] -15;
+   enum pos VaHalant.dv [Gha.dv GhaRa.dv DhaRa.dv DhaRaHalant.dv ChaRaYa.dv DhaNaYa.dv ChaYa.dv ChaVa.dv GhaNa.dv GhaMa.dv GhaYa.dv DhaNa.dv DhaMa.dv DhaYa.dv DhaVa.dv GhaHalant.dv DhaHalant.dv ChaHalant.dv GhaRaHalant.dv] 30;
+   enum pos VaHalant.dv [Ja.dv Nya.dv JaNukta.dv uni097C CaRa.dv JaRa.dv TaRa.dv JaNuktaRa.dv TaRaHalant.dv CaChaVa.dv JaJaNya.dv JaJaYa.dv JaJaVa.dv NyaCaYa.dv NyaJaYa.dv TaRaYa.dv CaCa.dv CaCha.dv CaNa.dv CaMa.dv CaYa.dv JaKa.dv JaJa.dv JaJha.dv JaTta.dv JaDda.dv JaTa.dv JaDa.dv JaNa.dv JaBa.dv JaMa.dv JaYa.dv JaVa.dv NyaCa.dv NyaCha.dv NyaJa.dv NyaSha.dv CaHalant.dv JaHalant.dv NyaHalant.dv JaNuktaHalant.dv CaCaone.dv KaRaone.dv uni0979] 55;
+   enum pos VaHalant.dv [Tta.dv DdhaNukta.dv TtaTtaYa.dv TthaTthaYa.dv DdhaRaYa.dv SsaTtaYa.dv SsaTthaYa.dv TtaTta.dv TtaTtha.dv TtaYa.dv TthaTtha.dv TthaYa.dv DdhaYa.dv PaTta.dv SsaTta.dv SsaTtha.dv TtaHalant.dv TthaHalant.dv DdhaHalant.dv DdhaDdha.dv TtaRa.dv TthaRa.dv DdhaRa.dv] 21;
+   enum pos VaHalant.dv [Dda.dv vowelI.dv vowelIi.dv Nga.dv uni097E vowelIiBindu.dv JhaRa.dv HaRa.dv DdaDdaYa.dv NgaKa.dv NgaMa.dv NgaYa.dv DdaDda.dv DdaDdha.dv DdaYa.dv DaDa.dv DaMa.dv DaYa.dv HaMaYa.dv JhaNa.dv JhaMa.dv JhaYa.dv HaNna.dv HaNa.dv HaMa.dv HaYa.dv HaLa.dv HaVa.dv DamatraRu.dv JhaHalant.dv HaHalant.dv NgaHalant.dv DdaHalant.dv DdaNukta.dv NgaGa.dv DaDaYa.dv JaNya.dv JaNyaYa.dv JaNyaHalant.dv HamatraRu.dv vowelIiChandrabindu.dv DdaRa.dv] 5;
+   enum pos VaHalant.dv @Ta 20;
+   enum pos VaHalant.dv [Ma.dv NaNukta.dv NaRa.dv MaRa.dv NaNaYa.dv NaKaSa.dv NaTaYa.dv NaTaRa.dv NaTaSa.dv NaThaYa.dv NaThaVa.dv NaDaRa.dv NaDaVa.dv NaDhaYa.dv NaDhaRa.dv NaDhaVa.dv NaPaRa.dv NaBhaYa.dv NaBhaVa.dv NaMaYa.dv NaSaTta.dv NaSaYa.dv NaHaYa.dv NaKa.dv NaCa.dv NaCha.dv NaTta.dv NaDda.dv NaTa.dv NaTha.dv NaDa.dv NaDha.dv NaNa.dv NaPa.dv NaPha.dv NaBha.dv NaMa.dv NaYa.dv NaVa.dv NaSa.dv NaHa.dv MaTa.dv MaDa.dv MaNa.dv MaPa.dv MaBa.dv MaBha.dv MaMa.dv MaYa.dv MaLa.dv MaVa.dv MaSha.dv MaSa.dv MaHa.dv NaBhaHalant.dv NaSaHalant.dv MaBhaHalant.dv NaHalant.dv NaNuktaHalant.dv MaHalant.dv MaPaRa.dv MaBaYa.dv MaBaRa.dv MaBhaYa.dv MaBhaRa.dv MaBhaVa.dv] -30;
+   enum pos VaHalant.dv @Bha -30;
+   enum pos ShaHalant.dv @Ja -50;
+   enum pos ShaHalant.dv [Tta.dv Ttha.dv DdhaNukta.dv TtaTtaYa.dv TthaTthaYa.dv DdhaRaYa.dv SsaTtaYa.dv SsaTthaYa.dv TtaTta.dv TtaTtha.dv TtaYa.dv TthaTtha.dv TthaYa.dv DdhaYa.dv PaTta.dv SsaTta.dv SsaTtha.dv TtaHalant.dv TthaHalant.dv DdhaHalant.dv DdhaDdha.dv TtaRa.dv TthaRa.dv DdhaRa.dv] -30;
+   enum pos ShaHalant.dv @Ta -30;
+   enum pos ShaHalant.dv [Ma.dv NaRa.dv MaRa.dv NaNaYa.dv NaKaSa.dv NaTaYa.dv NaTaRa.dv NaTaSa.dv NaThaYa.dv NaThaVa.dv NaDaRa.dv NaDaVa.dv NaDhaYa.dv NaDhaRa.dv NaDhaVa.dv NaPaRa.dv NaBhaYa.dv NaBhaVa.dv NaMaYa.dv NaSaTta.dv NaSaYa.dv NaHaYa.dv NaKa.dv NaCa.dv NaCha.dv NaTta.dv NaDda.dv NaTa.dv NaTha.dv NaDa.dv NaDha.dv NaNa.dv NaPa.dv NaPha.dv NaBha.dv NaMa.dv NaYa.dv NaVa.dv NaSa.dv NaHa.dv MaTa.dv MaDa.dv MaNa.dv MaPa.dv MaBa.dv MaBha.dv MaMa.dv MaYa.dv MaLa.dv MaVa.dv MaSha.dv MaSa.dv MaHa.dv NaBhaHalant.dv NaSaHalant.dv MaBhaHalant.dv NaHalant.dv NaNuktaHalant.dv MaHalant.dv MaPaRa.dv MaBaYa.dv MaBaRa.dv MaBhaYa.dv MaBhaRa.dv MaBhaVa.dv] -30;
+   enum pos SsaHalant.dv @Bha -30;
+   enum pos SaHalant.dv @Ma -40;
+   enum pos SaHalant.dv @Bha -40;
+   enum pos HaHalant.dv [Ja.dv Nya.dv JaNukta.dv uni097C CaRa.dv JaRa.dv TaRa.dv JaNuktaRa.dv TaRaHalant.dv CaChaVa.dv JaJaNya.dv JaJaYa.dv JaJaVa.dv NyaCaYa.dv NyaJaYa.dv TaRaYa.dv CaCa.dv CaCha.dv CaNa.dv CaMa.dv CaYa.dv JaKa.dv JaJa.dv JaJha.dv JaTta.dv JaDda.dv JaTa.dv JaDa.dv JaNa.dv JaBa.dv JaMa.dv JaYa.dv JaVa.dv NyaCa.dv NyaCha.dv NyaJa.dv NyaSha.dv CaHalant.dv JaHalant.dv NyaHalant.dv JaNuktaHalant.dv CaCaone.dv KaRaone.dv uni0979] -20;
+   enum pos HaHalant.dv @Pa -10;
+   enum pos HaHalant.dv @Tta 20;
+   enum pos HaHalant.dv @Ya 20;
+   subtable;
+   enum pos HaHalant.dv @Ba 20;
+   enum pos KaSsaHalant.dv [Ta.dv vowelLru.dv vowelLruu.dv La.MAR.dv TaRaone.dv LaRa.dv TaKaYa.dv TaKaRa.dv TaKaVa.dv TaKaSsa.dv TaKhaNa.dv TaKhaRa.dv TaTaYa.dv TaTaVa.dv TaNaYa.dv TaPaRa.dv TaPaLa.dv TaMaYa.dv TaSaNa.dv TaSaYa.dv TaSaVa.dv LaKaYa.dv LaThaYa.dv LaDaRa.dv LaLaYa.dv LaVaDda.dv LaHaYa.dv TaKa.dv TaKha.dv TaTa.dv TaTha.dv TaNa.dv TaPa.dv TaPha.dv TaMa.dv TaYa.dv TaLa.dv TaVa.dv TaSa.dv LaKa.dv LaKha.dv LaGa.dv LaJaNukta.dv LaTta.dv LaTtha.dv LaDda.dv LaDdha.dv LaTa.dv LaTha.dv LaDa.dv LaPa.dv LaPha.dv LaBa.dv LaBha.dv LaMa.dv LaYa.dv LaVa.dv LaSa.dv LaHa.dv LaJa.dv LaBhaHalant.dv TaHalant.dv LaHalant.dv PaTaone.dv LaLaone.dv PaLaone.dv TaRaoneHalant.dv TaRaYaone.dv PamatraLru.dv PamatraLruu.dv] -25;
+   enum pos KaSsaHalant.dv @Bha -10;
+   enum pos KaSsaHalant.dv @Ma -30;
+   enum pos KaSsaHalant.dv [Tta.dv Ttha.dv DdhaNukta.dv TtaTtaYa.dv TthaTthaYa.dv DdhaRaYa.dv SsaTtaYa.dv SsaTthaYa.dv TtaTta.dv TtaTtha.dv TtaYa.dv TthaTtha.dv TthaYa.dv DdhaYa.dv PaTta.dv SsaTta.dv SsaTtha.dv TtaHalant.dv TthaHalant.dv DdhaHalant.dv DdhaDdha.dv TtaRa.dv TthaRa.dv DdhaRa.dv] -50;
+   enum pos KaSsaHalant.dv [Gha.dv GhaRa.dv DhaRa.dv DhaRaHalant.dv ChaRaYa.dv DhaNaYa.dv ChaYa.dv ChaVa.dv GhaNa.dv GhaMa.dv GhaYa.dv DhaNa.dv DhaMa.dv DhaYa.dv DhaVa.dv GhaHalant.dv DhaHalant.dv ChaHalant.dv GhaRaHalant.dv] -20;
+   enum pos KaSsaHalant.dv @Ya 30;
+   enum pos JaNyaHalant.dv @Ta 2;
+   enum pos JaNyaHalant.dv @Pa -10;
+   enum pos JaNyaHalant.dv @Ba -10;
+   enum pos matraIthree.dv @Ta -10;
+   enum pos matraIthree.dv @Ma -10;
+   enum pos matraIfive.dv @Bha -30;
+   enum pos Paanch.dv @quoteright -60;
+   enum pos Paanch.dv @Aa 100;
+   enum pos Paanch.dv @Kha 100;
+   enum pos Paanch.dv @Gha 100;
+   enum pos Paanch.dv @Ja 100;
+   enum pos Paanch.dv @Tta 100;
+   enum pos Paanch.dv @Dda 100;
+   enum pos Paanch.dv @Ta 100;
+   enum pos Paanch.dv @Pa 100;
+   enum pos Paanch.dv @Ba 100;
+   enum pos Paanch.dv @Bha 100;
+   enum pos Paanch.dv @Ma 100;
+   enum pos Paanch.dv @Ya 100;
+   enum pos Aanth.dv @Aa 100;
+   enum pos Aanth.dv @Kha 100;
+   enum pos Aanth.dv @Gha 100;
+   enum pos Aanth.dv @Ja 100;
+   enum pos Aanth.dv @Tta 100;
+   enum pos Aanth.dv @Dda 100;
+   enum pos Aanth.dv @Ta 100;
+   enum pos Aanth.dv @Pa 100;
+   enum pos Aanth.dv @Ba 100;
+   enum pos Aanth.dv @Bha 100;
+   enum pos Aanth.dv @Ma 100;
+   enum pos Aanth.dv @Ya 100;
+   subtable;
+   pos @bracketleft @G -10;
+   pos @bracketleft @c -20;
+   pos @bracketleft @d -20;
+   pos @bracketleft @e -20;
+   pos @bracketleft @o -20;
+   pos @bracketleft @u -10;
+   pos @bracketleft @Kha 20;
+   pos @bracketleft @Gha 20;
+   pos @bracketleft @Ja 20;
+   pos @bracketleft @Tta 20;
+   pos @bracketleft @Dda 20;
+   pos @bracketleft @Ta 20;
+   pos @bracketleft @Pa 20;
+   pos @bracketleft @Ma 20;
+   pos @bracketleft @Ya 20;
+   pos @bracketleft @Bha 10;
+   pos @bracketleft @Ba 20;
+   pos @bracketright @bracketleft 30;
+   pos @quotesingle @A -40;
+   pos @quotesingle @Kha 20;
+   pos @quotesingle @Gha 20;
+   pos @quotesingle @Ja 20;
+   pos @quotesingle @Tta 20;
+   pos @quotesingle @Dda 20;
+   pos @quotesingle @Ta 20;
+   pos @quotesingle @Pa 20;
+   pos @quotesingle @Bha 10;
+   pos @quotesingle @Ma 20;
+   pos @quotesingle @Ya 20;
+   pos @quotesingle @Ba 20;
+   pos @quoteleft @g -80;
+   pos @quoteleft @a -60;
+   pos @quoteleft @c -70;
+   pos @quoteleft @A -40;
+   pos @quoteleft @Kha 20;
+   pos @quoteleft @Gha 20;
+   pos @quoteleft @Ja 20;
+   pos @quoteleft @Tta 20;
+   pos @quoteleft @Dda 20;
+   pos @quoteleft @Ta 20;
+   pos @quoteleft @Pa 20;
+   pos @quoteleft @Ma 20;
+   pos @quoteleft @Ya 20;
+   pos @quoteleft @Bha 10;
+   pos @quoteleft @Ba 20;
+   pos @quoteright @quoteleft 40;
+   pos @period @G -15;
+   pos @A @A -5;
+   pos @A @C -20;
+   pos @A @G -15;
+   pos @A @O -15;
+   pos @A @T -57;
+   pos @A @W -40;
+   pos @A @Y -95;
+   pos @A @d -8;
+   pos @A @e -10;
+   pos @A @g -5;
+   pos @A @o -8;
+   pos @A @w -25;
+   pos @A @y -35;
+   pos @A @quoteright -40;
+   pos @A @quotesingle -40;
+   pos @C @C -30;
+   pos @C @O -25;
+   pos @C @Y -2;
+   pos @C @a -10;
+   pos @C @d -10;
+   pos @C @e -16;
+   pos @C @h 10;
+   pos @C @l 10;
+   pos @C @w -15;
+   pos @C @y -15;
+   pos @C @c -30;
+   pos @C @o -20;
+   pos @C @quotesingle 20;
+   pos @C @quoteright 20;
+   pos @D @period -15;
+   pos @D @A -20;
+   pos @D @J -10;
+   pos @D @N -10;
+   pos @D @Y -30;
+   pos @D @Z -5;
+   pos @D @a -5;
+   pos @E @C -5;
+   pos @E @G -5;
+   pos @E @O -5;
+   pos @E @Y -5;
+   pos @E @c -30;
+   pos @E @d -15;
+   pos @E @e -15;
+   pos @E @o -15;
+   pos @E @t -5;
+   pos @E @u -5;
+   pos @E @w 5;
+   pos @E @y -15;
+   pos @G @T -15;
+   pos @G @W -30;
+   pos @G @Y -15;
+   pos @G @w -10;
+   pos @G @y -30;
+   pos @I @E -5;
+   pos @I @g -10;
+   pos @I @j -30;
+   pos @J @A -20;
+   pos @K @O -45;
+   pos @K @S -16;
+   pos @K @U -15;
+   pos @K @Y -5;
+   pos @K @a -20;
+   pos @K @i -10;
+   pos @K @o -30;
+   pos @K @u -15;
+   pos @K @y -32;
+   pos @L @O -15;
+   pos @L @T -80;
+   pos @L @U -20;
+   pos @L @W -60;
+   pos @L @Y -94;
+   pos @L @period 10;
+   pos @L @quotesingle -40;
+   pos @L @quoteright -40;
+   pos @M @u -10;
+   pos @O @A -20;
+   pos @O @J -20;
+   pos @O @T -35;
+   pos @O @W -5;
+   pos @O @Y -15;
+   pos @O @a -20;
+   pos @R @T -5;
+   pos @R @U -15;
+   pos @R @Y -25;
+   pos @R @o -15;
+   pos @R @u -15;
+   pos @S @period -10;
+   pos @S @A -5;
+   pos @S @S -15;
+   pos @S @W -15;
+   pos @S @t -5;
+   pos @S @w -15;
+   pos @S @y -15;
+   pos @T @period -25;
+   pos @T @A -55;
+   pos @T @O -20;
+   pos @T @T 15;
+   pos @T @W 15;
+   pos @T @Y 25;
+   pos @T @d -60;
+   pos @T @e -60;
+   pos @T @m -47;
+   pos @T @o -62;
+   pos @T @r -20;
+   pos @T @s -50;
+   pos @T @u -15;
+   pos @T @y -20;
+   pos @T @z -10;
+   pos @T @c -60;
+   pos @T @g -60;
+   pos @T @w -20;
+   pos @W @A -45;
+   pos @W @O -10;
+   pos @W @T 15;
+   pos @W @Y 10;
+   pos @W @a -15;
+   pos @W @e -35;
+   pos @W @o -15;
+   pos @W @t 15;
+   pos @W @C -20;
+   pos @W @G -10;
+   pos @W @c -30;
+   pos @W @g -40;
+   pos @W @period -20;
+   pos @Y @A -95;
+   pos @Y @C -25;
+   pos @Y @O -30;
+   pos @Y @S -15;
+   pos @Y @a -45;
+   pos @Y @e -70;
+   pos @Y @i -10;
+   pos @Y @o -60;
+   pos @Y @G -50;
+   pos @Y @c -70;
+   pos @Y @d -70;
+   pos @Y @g -80;
+   pos @Y @n -20;
+   pos @Y @m -20;
+   pos @Y @z -40;
+   pos @Y @y -20;
+   pos @Y @u -40;
+   pos @Y @s -60;
+   pos @Y @r -20;
+   pos @Y @period -25;
+   pos @Z @C -15;
+   pos @Z @O -20;
+   pos @Z @U -10;
+   pos @Z @u -15;
+   pos @Z @y -15;
+   pos @a @g 2;
+   pos @a @l 10;
+   pos @a @s 10;
+   pos @a @t 10;
+   pos @a @w -5;
+   pos @a @y -11;
+   pos @a @z 15;
+   pos @a @W -30;
+   pos @b @period -10;
+   pos @b @y -5;
+   pos @b @z -10;
+   pos @b @W -30;
+   pos @b @Y -70;
+   pos @b @T -50;
+   pos @b @g -10;
+   pos @b @bracketright -20;
+   pos @c @a -10;
+   pos @c @c -30;
+   pos @c @d -18;
+   pos @c @e -26;
+   pos @c @i -20;
+   pos @c @o -30;
+   pos @c @t 5;
+   pos @c @z 10;
+   pos @c @Y -40;
+   pos @e @d 5;
+   pos @e @w -5;
+   pos @e @y -10;
+   pos @e @z -10;
+   pos @e @quoteright -40;
+   pos @e @W -20;
+   pos @e @Y -60;
+   pos @e @T -50;
+   pos @g @a -15;
+   pos @g @g 10;
+   pos @g @o -20;
+   pos @g @s 10;
+   pos @g @t 10;
+   pos @g @y 20;
+   pos @g @c -5;
+   pos @g @e -10;
+   pos @g @d -10;
+   pos @h @y -5;
+   pos @h @W -20;
+   pos @h @T -50;
+   pos @i @a 5;
+   pos @k @c -20;
+   pos @k @d -15;
+   pos @k @e -20;
+   pos @k @o -18;
+   pos @k @t 10;
+   pos @k @w 10;
+   pos @k @y 10;
+   pos @k @z 10;
+   pos @k @Y -40;
+   pos @m @Y -40;
+   pos @n @a -5;
+   pos @n @g -5;
+   pos @n @t -5;
+   pos @n @y -5;
+   pos @n @quoteright -60;
+   pos @n @W -10;
+   pos @n @Y -40;
+   pos @o @w -5;
+   pos @o @y -10;
+   pos @o @z -10;
+   pos @o @quoteright -60;
+   pos @o @W -15;
+   pos @o @Y -60;
+   pos @o @T -60;
+   pos @o @bracketright -20;
+   pos @r @period -80;
+   pos @r @a -15;
+   pos @r @c -30;
+   pos @r @d -30;
+   pos @r @e -25;
+   pos @r @g -10;
+   pos @r @i -5;
+   pos @r @n -5;
+   pos @r @o -25;
+   pos @r @t 30;
+   pos @r @w 15;
+   pos @r @y 20;
+   pos @r @T 20;
+   pos @s @e -5;
+   pos @s @quoteright -60;
+   pos @s @Y -60;
+   pos @s @T -50;
+   pos @t @period 10;
+   pos @t @t -10;
+   pos @t @w 10;
+   pos @t @y 10;
+   pos @t @z 10;
+   pos @t @quoteright -10;
+   pos @u @Y -40;
+   pos @u @T -20;
+   pos @u @bracketright -10;
+   pos @w @c -5;
+   pos @w @e -5;
+   pos @w @o -5;
+   pos @w @t 10;
+   pos @w @y 20;
+   pos @w @T -20;
+   pos @w @A -25;
+   pos @w @g -20;
+   pos @y @a -10;
+   pos @y @c -25;
+   pos @y @d -5;
+   pos @y @e -10;
+   pos @y @g -20;
+   pos @y @t 15;
+   pos @y @w 10;
+   pos @y @period -20;
+   pos @y @T -20;
+   pos @y @A -35;
+   pos @z @c -15;
+   pos @z @e -10;
+   pos @z @o -10;
+   pos @z @s 10;
+   pos @z @t 15;
+   pos @z @y 10;
+   pos @Antadandaright @quotesingle 20;
+   pos @Antadandaright @quoteright 20;
+   pos @Antadandaright @bracketright 60;
+   pos @Antadandaright @period 30;
+   pos @KaPharight @Aa -10;
+   pos @KaPharight @Kha 20;
+   pos @KaPharight @Dda 10;
+   pos @KaPharight @Ya 10;
+   pos @KaPharight @Ta 5;
+   pos @KaPharight @quotesingle 20;
+   pos @KaPharight @quoteright 20;
+   pos @KaPharight @bracketright 20;
+   pos @KaPharight @period -20;
+   pos @KaPharight @Ba 10;
+   pos @KaPharight @Gha 5;
+   pos @KaPharight @Ma 10;
+   pos @Ttaright @Ma -20;
+   pos @Ttaright @Kha -10;
+   pos @Ttaright @Ya -10;
+   pos @Ttaright @Bha 10;
+   pos @Ttaright @Dda 10;
+   pos @Ttaright @Pa -5;
+   pos @Ttaright @quotesingle 20;
+   pos @Ttaright @quoteright 20;
+   pos @Ttaright @bracketright 30;
+   pos @Ttaright @period 30;
+   pos @Ttaright @Ba -25;
+   pos @Ra @Bha -15;
+   pos @Ra @Tta -30;
+   pos @Ra @Ta -30;
+   pos @Ra @Ja -20;
+   pos @Ra @Dda -10;
+   pos @Ra @Ba -30;
+   pos @Ra @period -20;
+   pos @Ra @quotesingle 20;
+   pos @Ra @bracketright 20;
+   pos @Ra @quoteright 20;
+   pos @daright @Gha 15;
+   pos @daright @Dda 10;
+   pos @daright @Kha 5;
+   pos @daright @period 20;
+   pos @daright @quotesingle 20;
+   pos @daright @bracketright 40;
+   pos @daright @quoteright 20;
+   pos @Ddaright @Gha 20;
+   pos @Ddaright @Dda 5;
+   pos @Ddaright @Tta 10;
+   pos @Ddaright @Ta 12;
+   pos @Ddaright @quotesingle 20;
+   pos @Ddaright @quoteright 20;
+   pos @Ddaright @bracketright 30;
+   pos @Ddaright @period 30;
+   pos @Eright @period -10;
+   pos @Eright @quotesingle 20;
+   pos @Eright @bracketright 20;
+   pos @Eright @quoteright 20;
+   pos @Charight @Gha 10;
+   pos @Charight @Kha 10;
+   pos @Charight @Pa -10;
+   pos @Charight @Ba 10;
+   pos @Charight @period -20;
+   pos @Charight @quotesingle 20;
+   pos @Charight @bracketright 20;
+   pos @Charight @quoteright 20;
+   pos @Ikaarmatra @Ba -10;
+   pos @Kana @period 30;
+   pos @Kana @quoteright 20;
+   pos @Kana @bracketright 60;
+   pos @Kana @quotesingle 20;
+   pos @Belowbasematra @period 50;
+   pos @Belowbasematra @bracketright 100;
+
+} dist2;
+
+} dist;
+
+
+
+#----------------------------------------------------------------------------------------------------------------
+#*****  A B O V E B A S E   M A R K   P O S I T I O N I N G  ******#
+#----------------------------------------------------------------------------------------------------------------
+
+
+feature abvm {
+
+
+
+#----------------------------------------------------------------------------------------------------------------
+
+
+@ABVM_2ndGlyphone = [Bindu.dv Chandrabindu.dv Chandrabinduone.dv Udatta.dv];
+
+#-------------------
+
+lookup abvm2 { # Udatta, Bindu, Chandrabindu positioning on vowels
+
+	pos base [vowelI.dv] <anchor 490 0> mark @ABVM_2ndGlyphone;
+	pos base [vowelIi.dv] <anchor 520 212> mark @ABVM_2ndGlyphone;
+	pos base [vowelU.dv vowelUu.dv] <anchor 430 0> mark @ABVM_2ndGlyphone;
+	pos base [vowelE.dv] <anchor 410 0> mark @ABVM_2ndGlyphone;
+	pos base [vowelChandraE.dv] <anchor 396 114> mark @ABVM_2ndGlyphone;
+	pos base [vowelShortE.dv] <anchor 555 124> mark @ABVM_2ndGlyphone;
+	pos base [vowelAi.dv] <anchor 590 71> mark @ABVM_2ndGlyphone;
+	pos base [vowelO.dv] <anchor 994 80> mark @ABVM_2ndGlyphone;
+	pos base [vowelShortO.dv] <anchor 1000 85> mark @ABVM_2ndGlyphone;
+	pos base [vowelAu.dv] <anchor 1016 70> mark @ABVM_2ndGlyphone;
+	pos base [vowelRu.dv vowelRuu.dv PamatraLru.dv PamatraLruu.dv] <anchor 514 0> mark @ABVM_2ndGlyphone;
+	pos base [vowelLru.dv vowelLruu.dv] <anchor 601 0> mark @ABVM_2ndGlyphone;
+	pos base [KamatraLru.dv KamatraLruu.dv] <anchor 462 0> mark @ABVM_2ndGlyphone;
+} abvm2;
+
+
+#----------------------------------------------------------------------------------------------------------------
+
+
+@ABVM_2ndGlyphtwo = [Udatta.dv matraE.dv matraEBindu.dv matraEChandrabindu.dv matraEReph.dv matraERephBindu.dv matraERephChandrabindu.dv matraAi.dv matraAiBindu.dv matraAiChandrabindu.dv matraAiReph.dv matraAiRephBindu.dv matraAiRephChandrabindu.dv matraShortE.dv matraShortEBindu.dv matraShortEChandrabindu.dv matraShortEReph.dv matraShortERephBindu.dv matraShortERephChandrabindu.dv Bindu.dv Chandra.dv Chandrabindu.dv Chandrabinduone.dv Reph.dv RephBindu.dv RephChandrabindu.dv];
+
+#-------------------
+
+lookup abvm3 { # positioning of all abovebase matras on characters
+
+# charcters in group @Width_matraIione
+
+	pos base [Cha.dv ChaRa.dv] <anchor 635 0> mark @ABVM_2ndGlyphtwo;
+	pos base [Ddha.dv DdhaNukta.dv DdhaRa.dv] <anchor 530 0> mark @ABVM_2ndGlyphtwo;
+	pos base [Ra.dv RaNukta.dv RamatraU.dv RamatraUu.dv] <anchor 370 0> mark @ABVM_2ndGlyphtwo;
+	pos base [Lla.dv LlaNukta.dv] <anchor 665 0> mark @ABVM_2ndGlyphtwo;
+	pos base [La.MAR.dv ChaVa.dv] <anchor 605 0> mark @ABVM_2ndGlyphtwo;
+	pos base [NgaKa.dv] <anchor 480 0> mark @ABVM_2ndGlyphtwo;
+	pos base [NgaMa.dv NgaGa.dv] <anchor 475 0> mark @ABVM_2ndGlyphtwo;
+	pos base [TtaTta.dv TtaTtha.dv] <anchor 490 0> mark @ABVM_2ndGlyphtwo;
+	pos base [TthaTtha.dv] <anchor 458 0> mark @ABVM_2ndGlyphtwo;
+	pos base [DdaDda.dv DdaDdha.dv ] <anchor 468 0> mark @ABVM_2ndGlyphtwo;
+	pos base [NnaDdha.dv] <anchor 964 0> mark @ABVM_2ndGlyphtwo;
+	pos base [CaCha.dv] <anchor 1040 0> mark @ABVM_2ndGlyphtwo;
+	pos base [CaChaVa.dv] <anchor 1024 0> mark @ABVM_2ndGlyphtwo;
+	pos base [NyaCha.dv] <anchor 1030 0> mark @ABVM_2ndGlyphtwo;
+	pos base [LaDdha.dv] <anchor 1007 0> mark @ABVM_2ndGlyphtwo;
+	pos base [NaCha.dv] <anchor 915 0> mark @ABVM_2ndGlyphtwo;
+	pos base [ShaCha.dv] <anchor 1080 0> mark @ABVM_2ndGlyphtwo;
+	pos base [PaCha.dv] <anchor 904 0> mark @ABVM_2ndGlyphtwo;
+	pos base [LlaLla.dv] <anchor 1200 0> mark @ABVM_2ndGlyphtwo;
+
+# charcters in group @Width_matraIitwo
+
+	pos base [Nga.dv] <anchor 520 0> mark @ABVM_2ndGlyphtwo;
+	pos base [Ttha.dv TthaRa.dv] <anchor 460 0> mark @ABVM_2ndGlyphtwo;
+	pos base [NnaTtha.dv] <anchor 885 0> mark @ABVM_2ndGlyphtwo;
+	pos base [LaTtha.dv] <anchor 950 0> mark @ABVM_2ndGlyphtwo;
+	pos base [LaLaone.dv] <anchor 560 0> mark @ABVM_2ndGlyphtwo;
+	pos base [PaLaone.dv] <anchor 530 0> mark @ABVM_2ndGlyphtwo;
+
+# charcters in group @Width_matraIithree
+
+	pos base [Ka.dv KaNukta.dv KaRa.dv KaNuktaRa.dv KaRaone.dv] <anchor 505 0> mark @ABVM_2ndGlyphtwo;
+	pos base [Pha.dv PhaNukta.dv PhaRa.dv PhaNuktaRa.dv] <anchor 515 0> mark @ABVM_2ndGlyphtwo;
+	pos base [TaKaRa.dv PaPha.dv] <anchor 785 0> mark @ABVM_2ndGlyphtwo;
+	pos base [SsaKaRa.dv SsaPha.dv TaPha.dv NaPha.dv SsaKa.dv] <anchor 805 0> mark @ABVM_2ndGlyphtwo;
+	pos base [MaPha.dv] <anchor 825 0> mark @ABVM_2ndGlyphtwo;
+	pos base [SaKaRa.dv] <anchor 885 0> mark @ABVM_2ndGlyphtwo;
+	pos base [KaKa.dv KaNuktaKaNukta.dv] <anchor 1015 0> mark @ABVM_2ndGlyphtwo;
+	pos base [KaTa.dv] <anchor 595 0> mark @ABVM_2ndGlyphtwo;
+	pos base [KaPha.dv KaNuktaPhaNukta.dv KaNuktaPha.dv] <anchor 1045 0> mark @ABVM_2ndGlyphtwo;
+	pos base [JaKa.dv] <anchor 950 0> mark @ABVM_2ndGlyphtwo;
+	pos base [TaKa.dv] <anchor 775 0> mark @ABVM_2ndGlyphtwo;
+	pos base [NaKa.dv] <anchor 820 0> mark @ABVM_2ndGlyphtwo;
+	pos base [PhaPha.dv PhaNuktaPhaNukta.dv] <anchor 1055 0> mark @ABVM_2ndGlyphtwo;
+	pos base [LaKa.dv] <anchor 990 0> mark @ABVM_2ndGlyphtwo;
+	pos base [LaPha.dv] <anchor 1007 0> mark @ABVM_2ndGlyphtwo;
+	pos base [ShaKa.dv ShaKaNukta.dv SaKa.dv] <anchor 915 0> mark @ABVM_2ndGlyphtwo;
+	pos base [SaPha.dv] <anchor 935 0> mark @ABVM_2ndGlyphtwo;
+	pos base [KaKaone.dv KaVaone.dv] <anchor 465 0> mark @ABVM_2ndGlyphtwo;
+	pos base [TaSaPha.dv] <anchor 1255 0> mark @ABVM_2ndGlyphtwo;
+	pos base [NaSaKaRa.dv] <anchor 1180 0> mark @ABVM_2ndGlyphtwo;
+
+# Da, Ha Ending charcters
+
+	pos base [Da.dv DaRa.dv DaNa.dv DaBa.dv DaVa.dv DaGa.dv] <anchor 490 0> mark @ABVM_2ndGlyphtwo;
+	pos base [Ha.dv HaRa.dv] <anchor 480 0> mark @ABVM_2ndGlyphtwo;
+	pos base [DaDha.dv] <anchor 730 0> mark @ABVM_2ndGlyphtwo;
+	pos base [DaBha.dv] <anchor 785 0> mark @ABVM_2ndGlyphtwo;
+	pos base [NaDaRa.dv NaDaVa.dv] <anchor 790 0> mark @ABVM_2ndGlyphtwo;
+	pos base [GaDa.dv BaDa.dv MaDa.dv MaHa.dv] <anchor 805 0> mark @ABVM_2ndGlyphtwo;
+	pos base [NaDa.dv] <anchor 797 0> mark @ABVM_2ndGlyphtwo;
+	pos base [LaDaRa.dv] <anchor 975 0> mark @ABVM_2ndGlyphtwo;
+	pos base [KaDa.dv] <anchor 1010 0> mark @ABVM_2ndGlyphtwo;
+	pos base [JaDa.dv] <anchor 960 0> mark @ABVM_2ndGlyphtwo;
+	pos base [NaHa.dv VaHa.dv] <anchor 785 0> mark @ABVM_2ndGlyphtwo;
+	pos base [LaDa.dv] <anchor 1000 0> mark @ABVM_2ndGlyphtwo;
+	pos base [LaHa.dv] <anchor 985 0> mark @ABVM_2ndGlyphtwo;
+	pos base [SaDa.dv] <anchor 920 0> mark @ABVM_2ndGlyphtwo;
+	pos base [HaNna.dv HaNa.dv] <anchor 538 0> mark @ABVM_2ndGlyphtwo;
+	pos base [HaLa.dv] <anchor 552 0> mark @ABVM_2ndGlyphtwo;
+	pos base [HaVa.dv] <anchor 525 0> mark @ABVM_2ndGlyphtwo;
+
+	pos base [VaDda.dv BaDda.dv] <anchor 780 0> mark @ABVM_2ndGlyphtwo;
+	pos base [Tta.dv TtaRa.dv] <anchor 497 0> mark @ABVM_2ndGlyphtwo;
+	pos base [KaSaTta.dv] <anchor 1408 0> mark @ABVM_2ndGlyphtwo;
+	pos base [Dda.dv DdaNukta.dv DdaRa.dv] <anchor 496 0> mark @ABVM_2ndGlyphtwo;
+	pos base [NaSaTta.dv] <anchor 1167 0> mark @ABVM_2ndGlyphtwo;
+	pos base [LaVaDda.dv] <anchor 1254 0> mark @ABVM_2ndGlyphtwo;
+	pos base [KaTta.dv] <anchor 1000 0> mark @ABVM_2ndGlyphtwo;
+	pos base [JaTta.dv] <anchor 948 0> mark @ABVM_2ndGlyphtwo;
+	pos base [JaDda.dv] <anchor 932 0> mark @ABVM_2ndGlyphtwo;
+	pos base [NnaTta.dv NnaDda.dv] <anchor 918 0> mark @ABVM_2ndGlyphtwo;
+	pos base [NaTta.dv] <anchor 785 0> mark @ABVM_2ndGlyphtwo;
+	pos base [NaDda.dv] <anchor 782 0> mark @ABVM_2ndGlyphtwo;
+	pos base [PaTta.dv] <anchor 526 0> mark @ABVM_2ndGlyphtwo;
+	pos base [LaTta.dv LaDda.dv] <anchor 964 0> mark @ABVM_2ndGlyphtwo;
+	pos base [ShaTta.dv] <anchor 880 0> mark @ABVM_2ndGlyphtwo;
+	pos base [SaTta.dv] <anchor 890 0> mark @ABVM_2ndGlyphtwo;
+	pos base [DaDa.dv] <anchor 500 0> mark @ABVM_2ndGlyphtwo;
+	pos base [SsaTta.dv] <anchor 533 0> mark @ABVM_2ndGlyphtwo;
+	pos base [SsaTtha.dv] <anchor 527 0> mark @ABVM_2ndGlyphtwo;
+	pos base [BaSaTtaRa.dv] <anchor 1207 0> mark @ABVM_2ndGlyphtwo;
+	pos base [KaSaDda.dv] <anchor 1419 0> mark @ABVM_2ndGlyphtwo;
+	pos base [NaVaHa.dv] <anchor 1051 0> mark @ABVM_2ndGlyphtwo;
+	pos base [KamatraLru.dv KamatraLruu.dv] <anchor 449 0> mark @ABVM_2ndGlyphtwo;
+	pos base [PamatraLru.dv PamatraLruu.dv] <anchor 508 0> mark @ABVM_2ndGlyphtwo;
+
+
+} abvm3;
+
+
+
+#-------------------
+
+@ABVM_2ndGlyphthree = [RephChandrabindu.dv Reph.dv RephBindu.dv];
+
+#-------------------
+
+lookup abvm5 { # positioning of Reph matras on characters like Tha.dv                            
+
+	pos base [Tha.dv ThaRa.dv] <anchor 624 0> mark @ABVM_2ndGlyphthree;
+	pos base [Dha.dv DhaRa.dv] <anchor 626 0> mark @ABVM_2ndGlyphthree;
+	pos base [ShaRa.dv] <anchor 675 0> mark @ABVM_2ndGlyphthree;
+	pos base [KaTha.dv] <anchor 1153 0> mark @ABVM_2ndGlyphthree;
+	pos base [LaTha.dv] <anchor 1133 0> mark @ABVM_2ndGlyphthree;
+	pos base [NaTha.dv] <anchor 928 0> mark @ABVM_2ndGlyphthree;
+	pos base [PhaTha.dv] <anchor 1144 0> mark @ABVM_2ndGlyphthree;
+	pos base [SaTha.dv] <anchor 1038 0> mark @ABVM_2ndGlyphthree;
+	pos base [TaTha.dv] <anchor 938 0> mark @ABVM_2ndGlyphthree;
+	pos base [BaDha.dv] <anchor 872 0> mark @ABVM_2ndGlyphthree;
+	pos base [GaDha.dv] <anchor 920 0> mark @ABVM_2ndGlyphthree;
+	pos base [NaDha.dv NaDhaRa.dv] <anchor 893 0> mark @ABVM_2ndGlyphthree;
+	pos base [ShaCa.dv] <anchor 695 0> mark @ABVM_2ndGlyphthree;            
+	pos base [ShaNa.dv] <anchor 669 0> mark @ABVM_2ndGlyphthree;
+	pos base [ShaLa.dv] <anchor 710 0> mark @ABVM_2ndGlyphthree;
+	pos base [ShaVa.dv] <anchor 688 0> mark @ABVM_2ndGlyphthree;
+} abvm5;
+
+
+
+#-------------------
+
+@ABVM_2ndGlyph = [Udatta.dv];
+
+@ABVM_1stGlyphone = [matraIi.dv matraIione.dv matraIitwo.dv matraIi3.dv];
+
+@ABVM_1stGlyphtwo = [Bindu.dv Chandra.dv Chandrabinduone.dv ];
+
+@ABVM_1stGlyphthree = [matraAChandra.dv];
+
+@ABVM_1stGlyphfour = [matraIiBindu.dv matraIiBinduone.dv matraIiBindutwo.dv matraIiBindu3.dv matraOBindu.dv matraShortOBindu.dv matraIiChandrabindu.dv matraIiChandrabinduone.dv matraIiChandrabindutwo.dv matraIiChandrabindu3.dv matraOChandrabindu.dv matraAuBindu.dv matraAuChandrabindu.dv matraShortOChandrabindu.dv];
+
+@ABVM_1stGlyphfive = [matraE.dv matraAi.dv matraShortE.dv ];
+
+@ABVM_1stGlyphsix = [matraO.dv matraAu.dv matraShortO.dv ];
+
+@ABVM_1stGlyphseven = [matraA.dv];
+
+@ABVM_1stGlypheight = [matraEBindu.dv matraAiBindu.dv matraShortEBindu.dv ];
+
+@ABVM_1stGlyphnine = [matraEChandrabindu.dv matraAiChandrabindu.dv matraShortEChandrabindu.dv];
+
+@ABVM_1stGlyphten = [Chandrabindu.dv Reph.dv RephBindu.dv RephChandrabindu.dv];
+
+@ABVM_1stGlypheleven = [matraAChandrabindu.dv];
+
+@ABVM_1stGlyphtwelve = [matraIiReph.dv matraIiRephBindu.dv matraIiRephChandrabindu.dv matraIiRephone.dv matraIiRephBinduone.dv matraIiRephChandrabinduone.dv matraIiRephtwo.dv matraIiRephBindutwo.dv matraIiRephChandrabindutwo.dv matraIiReph3.dv matraIiRephBindu3.dv matraIiRephChandrabindu3.dv matraOReph.dv matraORephBindu.dv matraORephChandrabindu.dv matraAuReph.dv matraAuRephBindu.dv matraAuRephChandrabindu.dv matraShortOReph.dv matraShortORephBindu.dv matraShortORephChandrabindu.dv matraAReph.dv matraARephBindu.dv matraARephChandrabindu.dv];
+
+@ABVM_1stGlyphthirteen =[matraEReph.dv matraERephBindu.dv matraERephChandrabindu.dv matraAiReph.dv matraAiRephBindu.dv matraAiRephChandrabindu.dv matraShortEReph.dv matraShortERephBindu.dv matraShortERephChandrabindu.dv];
+
+@ABVM_1stGlyphfourteen =[Visarga.dv];
+
+@ABVM_1stGlyphfifteen =[matraABindu.dv];
+
+#-------------------
+
+
+
+lookup abvm1 { # Udatta positioning on abovebase and postbase matras
+
+	pos mark @ABVM_1stGlyphone <anchor 360 0> mark @ABVM_2ndGlyph;
+	pos mark @ABVM_1stGlyphtwo <anchor 0 180> mark @ABVM_2ndGlyph;
+	pos mark @ABVM_1stGlyphthree <anchor 128 155> mark @ABVM_2ndGlyph;
+	pos mark @ABVM_1stGlyphfour <anchor 343 160> mark @ABVM_2ndGlyph;
+	pos mark @ABVM_1stGlyphfive <anchor 100 0> mark @ABVM_2ndGlyph;
+	pos mark @ABVM_1stGlyphsix <anchor 350 0> mark @ABVM_2ndGlyph;
+	pos mark @ABVM_1stGlyphseven <anchor 250 0> mark @ABVM_2ndGlyph;
+	pos mark @ABVM_1stGlypheight <anchor 90 155> mark @ABVM_2ndGlyph;
+	pos mark @ABVM_1stGlyphnine <anchor 50 220> mark @ABVM_2ndGlyph;
+	pos mark @ABVM_1stGlyphten <anchor 0 225> mark @ABVM_2ndGlyph;
+	pos mark @ABVM_1stGlypheleven <anchor 123 225> mark @ABVM_2ndGlyph;
+	pos mark @ABVM_1stGlyphtwelve <anchor 300 230> mark @ABVM_2ndGlyph;
+	pos mark @ABVM_1stGlyphthirteen <anchor 50 230> mark @ABVM_2ndGlyph;
+	pos mark @ABVM_1stGlyphfourteen <anchor 196 0> mark @ABVM_2ndGlyph;
+	pos mark @ABVM_1stGlyphfifteen <anchor 248 160> mark @ABVM_2ndGlyph;
+
+} abvm1;
+
+
+#----------------------------------------------------------------------------------------------------------------
+
+
+lookup abvm4 { # Contextual positioning
+
+# Chandrabindu positioning on characters with matraI
+
+	pos matraI.dv @matraIdefault Chandrabinduone.dv' <100 0 0 0>;
+	pos matraIone.dv @matraIone Chandrabinduone.dv' <100 0 0 0>;
+	pos matraItwo.dv @matraItwo Chandrabinduone.dv' <100 0 0 0>;
+	pos matraIthree.dv @matraIthree Chandrabinduone.dv' <100 0 0 0>;
+	pos matraIfour.dv @matraIfour Chandrabinduone.dv' <100 0 0 0>;
+	pos matraIfive.dv @matraIfive Chandrabinduone.dv' <100 0 0 0>;
+	pos matraIsix.dv @matraIsix Chandrabinduone.dv' <100 0 0 0>;
+	pos matraIseven.dv @matraIseven Chandrabinduone.dv' <100 0 0 0>;
+	pos matraIeight.dv @matraIeight Chandrabinduone.dv' <100 0 0 0>;
+	pos matraInine.dv @matraInine Chandrabinduone.dv' <100 0 0 0>;
+	pos matraIten.dv @matraIten Chandrabinduone.dv' <100 0 0 0>;
+	pos matraIeleven.dv @matraIeleven Chandrabinduone.dv' <100 0 0 0>;
+	pos matraItwelve.dv @matraItwelve Chandrabinduone.dv' <100 0 0 0>;
+	pos matraIthirteen.dv @matraIthirteen Chandrabinduone.dv' <100 0 0 0>;
+	pos matraIfourteen.dv @matraIfourteen Chandrabinduone.dv' <100 0 0 0>;
+	pos matraIfifteen.dv @matraIfifteen Chandrabinduone.dv' <100 0 0 0>;
+	pos matraIsixteen.dv @matraIsixteen Chandrabinduone.dv' <100 0 0 0>;
+	pos matraIseventeen.dv @matraIseventeen Chandrabinduone.dv' <100 0 0 0>;
+	pos matraIeighteen.dv @matraIeighteen Chandrabinduone.dv' <100 0 0 0>;
+	pos matraInineteen.dv @matraInineteen Chandrabinduone.dv' <100 0 0 0>;
+	pos matraItwenty.dv @matraItwenty Chandrabinduone.dv' <100 0 0 0>;
+	pos matraItwentyone.dv @matraItwentyone Chandrabinduone.dv' <100 0 0 0>;
+	pos matraItwentytwo.dv @matraItwentytwo Chandrabinduone.dv' <100 0 0 0>;
+	pos matraItwentythree.dv @matraItwentythree Chandrabinduone.dv' <100 0 0 0>;
+
+# Bindu positioning on characters with matraI
+
+	pos matraI.dv @matraIdefault Bindu.dv' <70 0 0 0>;
+	pos matraIone.dv @matraIone Bindu.dv' <70 0 0 0>;
+	pos matraItwo.dv @matraItwo Bindu.dv' <70 0 0 0>;
+	pos matraIthree.dv @matraIthree Bindu.dv' <70 0 0 0>;
+	pos matraIfour.dv @matraIfour Bindu.dv' <70 0 0 0>;
+	pos matraIfive.dv @matraIfive Bindu.dv' <70 0 0 0>;
+	pos matraIsix.dv @matraIsix Bindu.dv' <70 0 0 0>;
+	pos matraIseven.dv @matraIseven Bindu.dv' <70 0 0 0>;
+	pos matraIeight.dv @matraIeight Bindu.dv' <70 0 0 0>;
+	pos matraInine.dv @matraInine Bindu.dv' <70 0 0 0>;
+	pos matraIten.dv @matraIten Bindu.dv' <70 0 0 0>;
+	pos matraIeleven.dv @matraIeleven Bindu.dv' <70 0 0 0>;
+	pos matraItwelve.dv @matraItwelve Bindu.dv' <70 0 0 0>;
+	pos matraIthirteen.dv @matraIthirteen Bindu.dv' <70 0 0 0>;
+	pos matraIfourteen.dv @matraIfourteen Bindu.dv' <70 0 0 0>;
+	pos matraIfifteen.dv @matraIfifteen Bindu.dv' <70 0 0 0>;
+	pos matraIsixteen.dv @matraIsixteen Bindu.dv' <70 0 0 0>;
+	pos matraIseventeen.dv @matraIseventeen Bindu.dv' <70 0 0 0>;
+	pos matraIeighteen.dv @matraIeighteen Bindu.dv' <70 0 0 0>;
+	pos matraInineteen.dv @matraInineteen Bindu.dv' <70 0 0 0>;
+	pos matraItwenty.dv @matraItwenty Bindu.dv' <70 0 0 0>;
+	pos matraItwentyone.dv @matraItwentyone Bindu.dv' <70 0 0 0>;
+	pos matraItwentytwo.dv @matraItwentytwo Bindu.dv' <70 0 0 0>;
+	pos matraItwentythree.dv @matraItwentythree Bindu.dv' <70 0 0 0>;
+
+# Reph RephBindu RephChandrabindu positioning on characters with matraI
+
+
+	pos matraI.dv @matraIdefault [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraIone.dv @matraIone [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraItwo.dv @matraItwo [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraIthree.dv @matraIthree [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraIfour.dv @matraIfour [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraIfive.dv @matraIfive [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraIsix.dv @matraIsix [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraIseven.dv @matraIseven [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraIeight.dv @matraIeight [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraInine.dv @matraInine [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraIten.dv @matraIten [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraIeleven.dv @matraIeleven [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraItwelve.dv @matraItwelve [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraIthirteen.dv @matraIthirteen [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraIfourteen.dv @matraIfourteen [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraIfifteen.dv @matraIfifteen [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraIsixteen.dv @matraIsixteen [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraIseventeen.dv @matraIseventeen [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraIeighteen.dv @matraIeighteen [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraInineteen.dv @matraInineteen [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraItwenty.dv @matraItwenty [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraItwentyone.dv @matraItwentyone [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraItwentytwo.dv @matraItwentytwo [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+	pos matraItwentythree.dv @matraItwentythree [Reph.dv RephBindu.dv RephChandrabindu.dv]' <36 0 0 0>;
+
+} abvm4;
+
+
+} abvm;
+
+#----------------------------------------------------------------------------------------------------------------
+
+
+#----------------------------------------------------------------------------------------------------------------
+#*****  B E L O W B A S E   M A R K   P O S I T I O N I N G  ******#
+#----------------------------------------------------------------------------------------------------------------
+
+feature blwm { # positioning of all belowbase matras on characters
+
+
+#-------------------
+
+
+@BLWM_2ndGlyphone = [matraU.dv matraUsmall.dv matraUu.dv matraUusmall.dv matraRu.dv matraRusmall.dv matraRuu.dv Halant.dv];
+
+@BLWM_2ndGlyphtwo = [matraLru.dv matraLruu.dv];
+
+@BLWM_2ndGlyphthree = [Vattu.dv VattumatraU.dv VattumatraUsmall.dv VattumatraUu.dv VattumatraUusmall.dv VattumatraRu.dv VattumatraRusmall.dv NuktaVattumatraU.dv NuktaVattumatraUu.dv NuktaVattumatraRu.dv ];
+
+@BLWM_2ndGlyphfour = [Anudatta.dv];
+
+
+
+
+# charcters in group @Width_matraIione
+
+	pos base [Cha.dv] 
+		<anchor 495 0> mark @BLWM_2ndGlyphone <anchor 510 10> mark @BLWM_2ndGlyphtwo
+		<anchor 450 0> mark @BLWM_2ndGlyphthree <anchor 630 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [Ddha.dv DdhaNukta.dv] 
+		<anchor 460 0> mark @BLWM_2ndGlyphone <anchor 500 10> mark @BLWM_2ndGlyphtwo
+		<anchor 450 0> mark @BLWM_2ndGlyphthree <anchor 596 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [Ra.dv RaNukta.dv] 
+		<anchor 364 0> mark @BLWM_2ndGlyphone <anchor 364 0> mark @BLWM_2ndGlyphtwo
+		<anchor 364 0> mark @BLWM_2ndGlyphthree <anchor 500 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [Lla.dv LlaNukta.dv] 
+		<anchor 640 50> mark @BLWM_2ndGlyphone <anchor 660 55> mark @BLWM_2ndGlyphtwo
+		<anchor 600 44> mark @BLWM_2ndGlyphthree <anchor 770 60> mark @BLWM_2ndGlyphfour;
+
+	pos base [La.MAR.dv] 
+		<anchor 565 57> mark @BLWM_2ndGlyphone <anchor 600 62> mark @BLWM_2ndGlyphtwo
+		<anchor 520 10> mark @BLWM_2ndGlyphthree <anchor 720 55> mark @BLWM_2ndGlyphfour;
+
+	pos base [ChaRa.dv] 
+		<anchor 460 -272> mark @BLWM_2ndGlyphone <anchor 460 -272> mark @BLWM_2ndGlyphtwo
+		<anchor 460 -272> mark @BLWM_2ndGlyphthree <anchor 620 -180> mark @BLWM_2ndGlyphfour;
+
+	pos base [DdhaRa.dv] 
+		<anchor 440 -270> mark @BLWM_2ndGlyphone <anchor 440 -270> mark @BLWM_2ndGlyphtwo
+		<anchor 440 -270> mark @BLWM_2ndGlyphthree <anchor 590 -180> mark @BLWM_2ndGlyphfour;
+
+	pos base [ChaVa.dv] 
+		<anchor 564 -240> mark @BLWM_2ndGlyphone <anchor 557 -250> mark @BLWM_2ndGlyphtwo
+		<anchor 557 -250> mark @BLWM_2ndGlyphthree <anchor 657 -200> mark @BLWM_2ndGlyphfour;
+
+	pos base [NgaKa.dv] 
+		<anchor 387 -250> mark @BLWM_2ndGlyphone <anchor 410 -250> mark @BLWM_2ndGlyphtwo
+		<anchor 385 -255> mark @BLWM_2ndGlyphthree <anchor 550 -200> mark @BLWM_2ndGlyphfour;
+
+	pos base [NgaGa.dv] 
+		<anchor 494 -220> mark @BLWM_2ndGlyphone <anchor 507 -225> mark @BLWM_2ndGlyphtwo
+		<anchor 490 -225> mark @BLWM_2ndGlyphthree <anchor 500 -180> mark @BLWM_2ndGlyphfour;
+
+	pos base [NgaMa.dv] 
+		<anchor 488 -220> mark @BLWM_2ndGlyphone <anchor 514 -222> mark @BLWM_2ndGlyphtwo
+		<anchor 485 -225> mark @BLWM_2ndGlyphthree <anchor 570 -180> mark @BLWM_2ndGlyphfour;
+
+	pos base [TtaTta.dv TtaTtha.dv TthaTtha.dv DdhaDdha.dv] 
+		<anchor 420 -250> mark @BLWM_2ndGlyphone <anchor 440 -225> mark @BLWM_2ndGlyphtwo
+		<anchor 390 -250> mark @BLWM_2ndGlyphthree <anchor 550 -240> mark @BLWM_2ndGlyphfour;
+
+	pos base [TtaVa.dv] 
+		<anchor 507 -245> mark @BLWM_2ndGlyphone <anchor 507 -245> mark @BLWM_2ndGlyphtwo
+		<anchor 507 -245> mark @BLWM_2ndGlyphthree <anchor 550 -240> mark @BLWM_2ndGlyphfour;
+
+	pos base [DdaDda.dv DdaDdha.dv] 
+		<anchor 400 -250> mark @BLWM_2ndGlyphone <anchor 420 -245> mark @BLWM_2ndGlyphtwo
+		<anchor 350 -240> mark @BLWM_2ndGlyphthree <anchor 533 -240> mark @BLWM_2ndGlyphfour;
+
+	pos base [CaChaVa.dv] 
+		<anchor 993 -240> mark @BLWM_2ndGlyphone <anchor 986 -2270> mark @BLWM_2ndGlyphtwo
+		<anchor 986-270> mark @BLWM_2ndGlyphthree <anchor 1065 -240> mark @BLWM_2ndGlyphfour;
+
+	pos base [CaCha.dv] 
+		<anchor 890 0> mark @BLWM_2ndGlyphone <anchor 890 0> mark @BLWM_2ndGlyphtwo
+		<anchor 890 0> mark @BLWM_2ndGlyphthree <anchor 1050 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [NyaCha.dv NnaDdha.dv] 
+		<anchor 875 0> mark @BLWM_2ndGlyphone <anchor 875 0> mark @BLWM_2ndGlyphtwo
+		<anchor 875 0> mark @BLWM_2ndGlyphthree <anchor 1035 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [NaCha.dv] 
+		<anchor 770 0> mark @BLWM_2ndGlyphone <anchor 770 0> mark @BLWM_2ndGlyphtwo
+		<anchor 770 0> mark @BLWM_2ndGlyphthree <anchor 910 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [LaDdha.dv ShaCha.dv] 
+		<anchor 920 0> mark @BLWM_2ndGlyphone <anchor 920 0> mark @BLWM_2ndGlyphtwo
+		<anchor 920 0> mark @BLWM_2ndGlyphthree <anchor 1075 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [PaCha.dv] 
+		<anchor 760 0> mark @BLWM_2ndGlyphone <anchor 760 0> mark @BLWM_2ndGlyphtwo
+		<anchor 760 0> mark @BLWM_2ndGlyphthree <anchor 990 0> mark @BLWM_2ndGlyphfour;
+
+
+# charcters in group @Width_matraIitwo
+
+	pos base [Ka.dv KaNukta.dv KaRa.dv KaNuktaRa.dv KaRaone.dv] 
+                <anchor 503 0> mark @BLWM_2ndGlyphone <anchor 523 5> mark @BLWM_2ndGlyphtwo
+		<anchor 503 0> mark @BLWM_2ndGlyphthree <anchor 670 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [Pha.dv PhaNukta.dv PhaRa.dv PhaNuktaRa.dv] 
+		<anchor 515 0> mark @BLWM_2ndGlyphone <anchor 550 20> mark @BLWM_2ndGlyphtwo
+		<anchor 515 0> mark @BLWM_2ndGlyphthree <anchor 670 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [TaKaRa.dv] 
+		<anchor 790 0> mark @BLWM_2ndGlyphone <anchor 820 10> mark @BLWM_2ndGlyphtwo
+		<anchor 790 0> mark @BLWM_2ndGlyphthree <anchor 965 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [TaSaPha.dv] 
+		<anchor 1255 0> mark @BLWM_2ndGlyphone <anchor 1282 10> mark @BLWM_2ndGlyphtwo
+		<anchor 1255 0> mark @BLWM_2ndGlyphthree <anchor 1405 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [SsaKaRa.dv SsaKa.dv] 
+		<anchor 805 0> mark @BLWM_2ndGlyphone <anchor 830 10> mark @BLWM_2ndGlyphtwo
+		<anchor 805 0> mark @BLWM_2ndGlyphthree <anchor 970 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [MaPha.dv] 
+		<anchor 822 0> mark @BLWM_2ndGlyphone <anchor 845 20> mark @BLWM_2ndGlyphtwo
+		<anchor 822 0> mark @BLWM_2ndGlyphthree <anchor 975 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [SaKaRa.dv] 
+		<anchor 888 0> mark @BLWM_2ndGlyphone <anchor 910 10> mark @BLWM_2ndGlyphtwo
+		<anchor 888 0> mark @BLWM_2ndGlyphthree <anchor 1050 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [KaNuktaKaNukta.dv KaKa.dv] 
+		<anchor 1020 0> mark @BLWM_2ndGlyphone <anchor 1030 5> mark @BLWM_2ndGlyphtwo
+		<anchor 1020 0> mark @BLWM_2ndGlyphthree <anchor 1180 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [KaTa.dv] 
+		<anchor 591 0> mark @BLWM_2ndGlyphone <anchor 610 10> mark @BLWM_2ndGlyphtwo
+		<anchor 591 0> mark @BLWM_2ndGlyphthree <anchor 750 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [KaPha.dv KaNuktaPhaNukta.dv KaNuktaPha.dv] 
+		<anchor 1040 0> mark @BLWM_2ndGlyphone <anchor 1070 10> mark @BLWM_2ndGlyphtwo
+		<anchor 1040 0> mark @BLWM_2ndGlyphthree <anchor 1200 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [PhaPha.dv PhaNuktaPhaNukta.dv] 
+		<anchor 1060 0> mark @BLWM_2ndGlyphone <anchor 1090 20> mark @BLWM_2ndGlyphtwo
+		<anchor 1060 0> mark @BLWM_2ndGlyphthree <anchor 1120 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [JaKa.dv] 
+		<anchor 950 0> mark @BLWM_2ndGlyphone <anchor 965 8> mark @BLWM_2ndGlyphtwo
+		<anchor 950 0> mark @BLWM_2ndGlyphthree <anchor 1200 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [SaPha.dv] 
+		<anchor 937 0> mark @BLWM_2ndGlyphone <anchor 960 20> mark @BLWM_2ndGlyphtwo
+		<anchor 937 0> mark @BLWM_2ndGlyphthree <anchor 1110 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [TaKa.dv] 
+		<anchor 773 0> mark @BLWM_2ndGlyphone <anchor 790 8> mark @BLWM_2ndGlyphtwo
+		<anchor 773 0> mark @BLWM_2ndGlyphthree <anchor 940 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [TaPha.dv] 
+		<anchor 797 0> mark @BLWM_2ndGlyphone <anchor 821 10> mark @BLWM_2ndGlyphtwo
+		<anchor 814 0> mark @BLWM_2ndGlyphthree <anchor 980 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [NaKa.dv] 
+		<anchor 814 0> mark @BLWM_2ndGlyphone <anchor 835 0> mark @BLWM_2ndGlyphtwo
+                <anchor 814 0> mark @BLWM_2ndGlyphthree <anchor 980 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [NaPha.dv SsaPha.dv] 
+		<anchor 800 0> mark @BLWM_2ndGlyphone <anchor 825 15> mark @BLWM_2ndGlyphtwo
+		<anchor 800 0> mark @BLWM_2ndGlyphthree <anchor 965 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [PaPha.dv] 
+		<anchor 783 0> mark @BLWM_2ndGlyphone <anchor 810 15> mark @BLWM_2ndGlyphtwo
+		<anchor 783 0> mark @BLWM_2ndGlyphthree <anchor 950 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [LaKa.dv] 
+		<anchor 982 0> mark @BLWM_2ndGlyphone <anchor 810 17> mark @BLWM_2ndGlyphtwo
+		<anchor 982 0> mark @BLWM_2ndGlyphthree <anchor 1150 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [LaPha.dv] 
+		<anchor 1005 0> mark @BLWM_2ndGlyphone <anchor 1035 15> mark @BLWM_2ndGlyphtwo
+		<anchor 915 0> mark @BLWM_2ndGlyphthree <anchor 1170 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [ShaKa.dv ShaKaNukta.dv] 
+		<anchor 913 0> mark @BLWM_2ndGlyphone <anchor 913 0> mark @BLWM_2ndGlyphtwo
+		<anchor 913 0> mark @BLWM_2ndGlyphthree <anchor 1080 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [SaKa.dv] 
+		<anchor 899 0> mark @BLWM_2ndGlyphone <anchor 920 8> mark @BLWM_2ndGlyphtwo
+		<anchor 899 0> mark @BLWM_2ndGlyphthree <anchor 1060 0> mark @BLWM_2ndGlyphfour;
+
+
+	pos base [KaKaone.dv KaVaone.dv] 
+		<anchor 469 -80> mark @BLWM_2ndGlyphone <anchor 494 -75> mark @BLWM_2ndGlyphtwo
+		<anchor 529 -75> mark @BLWM_2ndGlyphthree <anchor 640 -60> mark @BLWM_2ndGlyphfour;
+
+# charcters in group @Width_matraIithree
+
+	pos base [Nga.dv] 
+                <anchor 400 0> mark @BLWM_2ndGlyphone <anchor 455 -3> mark @BLWM_2ndGlyphtwo
+		<anchor 395 0> mark @BLWM_2ndGlyphthree <anchor 550 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [Ttha.dv] 
+		<anchor 435 0> mark @BLWM_2ndGlyphone <anchor 475 16> mark @BLWM_2ndGlyphtwo
+		<anchor 420 0> mark @BLWM_2ndGlyphthree <anchor 600 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [NnaTtha.dv] 
+		<anchor 870 0> mark @BLWM_2ndGlyphone <anchor 900 10> mark @BLWM_2ndGlyphtwo
+                <anchor 840 0> mark @BLWM_2ndGlyphthree <anchor 1015 0 > mark @BLWM_2ndGlyphfour;
+
+	pos base [LaTtha.dv] 
+		<anchor 910 0> mark @BLWM_2ndGlyphone <anchor 950 20> mark @BLWM_2ndGlyphtwo
+		<anchor 890 0> mark @BLWM_2ndGlyphthree <anchor 1080 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [LaLaone.dv PaLaone.dv] 
+		<anchor 540 -68> mark @BLWM_2ndGlyphone <anchor 540 -68> mark @BLWM_2ndGlyphtwo
+		<anchor 540 -68> mark @BLWM_2ndGlyphthree <anchor 670 -80> mark @BLWM_2ndGlyphfour;
+
+	pos base [TthaRa.dv] 
+		<anchor 430 -270> mark @BLWM_2ndGlyphone <anchor 430 -270> mark @BLWM_2ndGlyphtwo
+		<anchor 430 -270> mark @BLWM_2ndGlyphthree <anchor 600 -210> mark @BLWM_2ndGlyphfour;
+
+
+# Tta, Dda, Da, Ha ending characters
+
+	pos base [Tta.dv] 
+		<anchor 430 0> mark @BLWM_2ndGlyphone <anchor 460 0> mark @BLWM_2ndGlyphtwo
+		<anchor 440 0> mark @BLWM_2ndGlyphthree <anchor 560 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [Da.dv] 
+		<anchor 560 -30> mark @BLWM_2ndGlyphone <anchor 560 -30> mark @BLWM_2ndGlyphtwo
+		<anchor 560 -30> mark @BLWM_2ndGlyphthree <anchor 510 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [TtaRa.dv] 
+		<anchor 410 -270> mark @BLWM_2ndGlyphone <anchor 410 -270> mark @BLWM_2ndGlyphtwo
+		<anchor 410 -270> mark @BLWM_2ndGlyphthree <anchor 560 -210> mark @BLWM_2ndGlyphfour;
+
+	pos base [DdaRa.dv] 
+		<anchor 380 -270> mark @BLWM_2ndGlyphone <anchor 380 -270> mark @BLWM_2ndGlyphtwo
+		<anchor 380 -270> mark @BLWM_2ndGlyphthree <anchor 550 -210> mark @BLWM_2ndGlyphfour;
+
+
+	pos base [Ha.dv] 
+		<anchor 452 -46> mark @BLWM_2ndGlyphone <anchor 452 -46> mark @BLWM_2ndGlyphtwo
+		<anchor 452 -46> mark @BLWM_2ndGlyphthree <anchor 560 -40> mark @BLWM_2ndGlyphfour;
+
+	pos base [DaRa.dv] 
+		<anchor 570 -10> mark @BLWM_2ndGlyphone <anchor 570 -10> mark @BLWM_2ndGlyphtwo
+		<anchor 570 -10> mark @BLWM_2ndGlyphthree <anchor 585 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [HaRa.dv] 
+		<anchor 540 -20> mark @BLWM_2ndGlyphone <anchor 540 -20> mark @BLWM_2ndGlyphtwo
+		<anchor 540 -20> mark @BLWM_2ndGlyphthree <anchor 560 -40> mark @BLWM_2ndGlyphfour;
+
+	pos base [KaSaTta.dv] 
+		<anchor 1360 0> mark @BLWM_2ndGlyphone <anchor 1395 11> mark @BLWM_2ndGlyphtwo
+		<anchor 1330 0> mark @BLWM_2ndGlyphthree <anchor 1506 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [Dda.dv] 
+                <anchor 400 0> mark @BLWM_2ndGlyphone <anchor 440 0> mark @BLWM_2ndGlyphtwo
+		<anchor 370 0> mark @BLWM_2ndGlyphthree <anchor 550 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [NaSaTta.dv] 
+		<anchor 1115 0> mark @BLWM_2ndGlyphone <anchor 1150 10> mark @BLWM_2ndGlyphtwo
+		<anchor 1080 0> mark @BLWM_2ndGlyphthree <anchor 1250 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [LaDaRa.dv] 
+		<anchor 1050 -40> mark @BLWM_2ndGlyphone <anchor 1050 -40> mark @BLWM_2ndGlyphtwo
+		<anchor 1050 -40> mark @BLWM_2ndGlyphthree <anchor 1070 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [LaVaDda.dv] 
+		<anchor 1160 0> mark @BLWM_2ndGlyphone <anchor 1210 0> mark @BLWM_2ndGlyphtwo
+		<anchor 1150 0> mark @BLWM_2ndGlyphthree <anchor 1320 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [KaTta.dv] 
+		<anchor 940 0> mark @BLWM_2ndGlyphone <anchor 977 10> mark @BLWM_2ndGlyphtwo
+		<anchor 910 0> mark @BLWM_2ndGlyphthree <anchor 1080 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [KaDa.dv] 
+		<anchor 1070 -20> mark @BLWM_2ndGlyphone <anchor 1070 -20> mark @BLWM_2ndGlyphtwo
+		<anchor 1070 -320> mark @BLWM_2ndGlyphthree <anchor 1095 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [GaDa.dv] 
+		<anchor 875 -15> mark @BLWM_2ndGlyphone <anchor 875 -15> mark @BLWM_2ndGlyphtwo
+		<anchor 875 -15> mark @BLWM_2ndGlyphthree <anchor 990 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [JaTta.dv] 
+		<anchor 888 0> mark @BLWM_2ndGlyphone <anchor 920 10> mark @BLWM_2ndGlyphtwo
+		<anchor 850 0> mark @BLWM_2ndGlyphthree <anchor 1020 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [JaDda.dv] 
+		<anchor 842 0> mark @BLWM_2ndGlyphone <anchor 870 -40> mark @BLWM_2ndGlyphtwo
+		<anchor 810 0> mark @BLWM_2ndGlyphthree <anchor 980 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [JaDa.dv] 
+		<anchor 1010 -10> mark @BLWM_2ndGlyphone <anchor 1010 -10> mark @BLWM_2ndGlyphtwo
+		<anchor 1010 -10> mark @BLWM_2ndGlyphthree <anchor 1060 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [NnaTta.dv] 
+		<anchor 855 0> mark @BLWM_2ndGlyphone <anchor 900 210> mark @BLWM_2ndGlyphtwo
+		<anchor 810 0> mark @BLWM_2ndGlyphthree <anchor 985 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [NnaDda.dv] 
+		<anchor 820 0> mark @BLWM_2ndGlyphone <anchor 860 0> mark @BLWM_2ndGlyphtwo
+		<anchor 800 0> mark @BLWM_2ndGlyphthree <anchor 970 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [NaTta.dv] 
+		<anchor 725 0> mark @BLWM_2ndGlyphone <anchor 750 10> mark @BLWM_2ndGlyphtwo
+		<anchor 700 0> mark @BLWM_2ndGlyphthree <anchor 860 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [NaHa.dv] 
+		<anchor 747 -44> mark @BLWM_2ndGlyphone <anchor 747 -44> mark @BLWM_2ndGlyphtwo
+		<anchor 747 -44> mark @BLWM_2ndGlyphthree <anchor 841 -30> mark @BLWM_2ndGlyphfour;
+
+	pos base [PaTta.dv] 
+		<anchor 430 0> mark @BLWM_2ndGlyphone <anchor 460 -20> mark @BLWM_2ndGlyphtwo
+		<anchor 400 -20> mark @BLWM_2ndGlyphthree <anchor 580 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [PhaTta.dv] 
+		<anchor 972  0> mark @BLWM_2ndGlyphone <anchor 1000 10> mark @BLWM_2ndGlyphtwo
+		<anchor 920 0> mark @BLWM_2ndGlyphthree <anchor 1110 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [MaDa.dv BaDa.dv] 
+		<anchor 880 -10> mark @BLWM_2ndGlyphone <anchor 880 -10> mark @BLWM_2ndGlyphtwo
+		<anchor 880 -10> mark @BLWM_2ndGlyphthree <anchor 900 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [MaHa.dv] 
+		<anchor 760 -47> mark @BLWM_2ndGlyphone <anchor  760 -47> mark @BLWM_2ndGlyphtwo
+		<anchor  760 -47> mark @BLWM_2ndGlyphthree <anchor  870 -60> mark @BLWM_2ndGlyphfour;
+
+	pos base [LaTta.dv] 
+		<anchor 905 0> mark @BLWM_2ndGlyphone <anchor 905 0> mark @BLWM_2ndGlyphtwo
+		<anchor 880 0> mark @BLWM_2ndGlyphthree <anchor 1035 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [LaDda.dv] 
+		<anchor 880 0> mark @BLWM_2ndGlyphone <anchor 900 0> mark @BLWM_2ndGlyphtwo
+		<anchor 845 0> mark @BLWM_2ndGlyphthree <anchor 1020 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [LaDa.dv] 
+		<anchor 1040 -10> mark @BLWM_2ndGlyphone <anchor 1040 -10> mark @BLWM_2ndGlyphtwo
+		<anchor 1040 -10> mark @BLWM_2ndGlyphthree <anchor 1150 -30> mark @BLWM_2ndGlyphfour;
+
+	pos base [LaHa.dv]
+                <anchor 955 -61> mark @BLWM_2ndGlyphone <anchor 955 -61> mark @BLWM_2ndGlyphtwo
+		<anchor 955 -61> mark @BLWM_2ndGlyphthree <anchor 1040 -60> mark @BLWM_2ndGlyphfour;
+
+	pos base [VaHa.dv] 
+		<anchor 728 -53> mark @BLWM_2ndGlyphone <anchor 728 -53> mark @BLWM_2ndGlyphtwo
+		<anchor 728 -53> mark @BLWM_2ndGlyphthree <anchor 840 -60> mark @BLWM_2ndGlyphfour;
+
+	pos base [ShaTta.dv] 
+		<anchor 828 0> mark @BLWM_2ndGlyphone <anchor 828 0> mark @BLWM_2ndGlyphtwo
+		<anchor 828 0> mark @BLWM_2ndGlyphthree <anchor 973 0> mark @BLWM_2ndGlyphfour;
+
+        pos base [SaTta.dv]
+                <anchor 810 0> mark @BLWM_2ndGlyphone <anchor 810 0> mark @BLWM_2ndGlyphtwo
+		<anchor 810 0> mark @BLWM_2ndGlyphthree <anchor 880 0> mark @BLWM_2ndGlyphfour;
+
+
+	pos base [SaDa.dv] 
+		<anchor 940 -10> mark @BLWM_2ndGlyphone <anchor 940 -10> mark @BLWM_2ndGlyphtwo
+		<anchor 940 -10> mark @BLWM_2ndGlyphthree <anchor 1020 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [HaNna.dv] 
+		<anchor 629 -10> mark @BLWM_2ndGlyphone <anchor 491 -102> mark @BLWM_2ndGlyphtwo
+		<anchor 625 -54> mark @BLWM_2ndGlyphthree <anchor 620 -120> mark @BLWM_2ndGlyphfour;
+
+	pos base [HaNa.dv] 
+		<anchor 609 -15> mark @BLWM_2ndGlyphone <anchor 491 -102> mark @BLWM_2ndGlyphtwo
+		<anchor 625 -54> mark @BLWM_2ndGlyphthree <anchor 620 -120> mark @BLWM_2ndGlyphfour;
+
+	pos base [HaLa.dv] 
+		<anchor 627 -50> mark @BLWM_2ndGlyphone <anchor 520 -130> mark @BLWM_2ndGlyphtwo
+		<anchor 629 -89> mark @BLWM_2ndGlyphthree <anchor 610 -140> mark @BLWM_2ndGlyphfour;
+
+	pos base [HaVa.dv] 
+		<anchor 592 -50> mark @BLWM_2ndGlyphone <anchor 500-150> mark @BLWM_2ndGlyphtwo
+		<anchor 578 -95> mark @BLWM_2ndGlyphthree <anchor 610 -120> mark @BLWM_2ndGlyphfour;
+
+        pos base [NaDa.dv] 
+		<anchor 870 -30> mark @BLWM_2ndGlyphone <anchor 870 -30> mark @BLWM_2ndGlyphtwo	
+		<anchor 870 -30> mark @BLWM_2ndGlyphthree <anchor 870 0> mark @BLWM_2ndGlyphfour;
+
+	pos base [NaDaRa.dv] 
+		<anchor 850 -20> mark @BLWM_2ndGlyphone <anchor 850 -20> mark @BLWM_2ndGlyphtwo	
+		<anchor 850 -20> mark @BLWM_2ndGlyphthree <anchor 850 0> mark @BLWM_2ndGlyphfour;
+
+        pos base [NaDda.dv] 
+		<anchor 700 0> mark @BLWM_2ndGlyphone <anchor 700 0> mark @BLWM_2ndGlyphtwo
+		<anchor 648 0> mark @BLWM_2ndGlyphthree <anchor 830 0> mark @BLWM_2ndGlyphfour;
+
+# remaining vertical conjuncts, characters
+
+	pos base [DaGa.dv DaNa.dv] 
+		<anchor 556 -64> mark @BLWM_2ndGlyphone <anchor 570 -47> mark @BLWM_2ndGlyphtwo
+		<anchor 570 -47> mark @BLWM_2ndGlyphthree <anchor 620 -90> mark @BLWM_2ndGlyphfour;
+
+	pos base [DaDa.dv] 
+		<anchor 579 -130> mark @BLWM_2ndGlyphone <anchor 557 -109> mark @BLWM_2ndGlyphtwo
+		<anchor 557 -109> mark @BLWM_2ndGlyphthree <anchor 610 -120> mark @BLWM_2ndGlyphfour;
+
+	pos base [DaDha.dv] 
+		<anchor 779 -62> mark @BLWM_2ndGlyphone <anchor 831 -61> mark @BLWM_2ndGlyphtwo
+		<anchor 831 -61> mark @BLWM_2ndGlyphthree <anchor 850 -90> mark @BLWM_2ndGlyphfour;
+
+	pos base [DaBa.dv DaVa.dv] 
+		<anchor 610 -67> mark @BLWM_2ndGlyphone <anchor 604 -51> mark @BLWM_2ndGlyphtwo
+		<anchor 604 -51> mark @BLWM_2ndGlyphthree <anchor 630 -100> mark @BLWM_2ndGlyphfour;
+
+	pos base [DaBha.dv] 
+		<anchor 822 -43> mark @BLWM_2ndGlyphone <anchor 830 -22> mark @BLWM_2ndGlyphtwo
+		<anchor 830 -22> mark @BLWM_2ndGlyphthree <anchor 880 -60> mark @BLWM_2ndGlyphfour;
+
+	pos base [NyaCa.dv] 
+		<anchor 610 -109> mark @BLWM_2ndGlyphone <anchor 610 -94> mark @BLWM_2ndGlyphtwo
+		<anchor 610 -194> mark @BLWM_2ndGlyphthree <anchor 600 -90> mark @BLWM_2ndGlyphfour;
+
+	pos base [NyaJa.dv] 
+		<anchor 670 -109> mark @BLWM_2ndGlyphone <anchor 606 -89> mark @BLWM_2ndGlyphtwo
+		<anchor 606 -89> mark @BLWM_2ndGlyphthree <anchor 600 -90> mark @BLWM_2ndGlyphfour;
+
+	pos base [DhaNa.dv] 
+		<anchor 592 -80> mark @BLWM_2ndGlyphone <anchor 592 -80> mark @BLWM_2ndGlyphtwo
+		<anchor 592 -80> mark @BLWM_2ndGlyphthree <anchor 600 -50> mark @BLWM_2ndGlyphfour;
+
+	pos base [SsaTta.dv SsaTtha.dv] 
+		<anchor 458 -29> mark @BLWM_2ndGlyphone <anchor 487 4> mark @BLWM_2ndGlyphtwo
+		<anchor 400 0> mark @BLWM_2ndGlyphthree <anchor 570 -20> mark @BLWM_2ndGlyphfour;
+
+	pos base [CaCaone.dv] 
+		<anchor 571 -80> mark @BLWM_2ndGlyphone <anchor 571 -80> mark @BLWM_2ndGlyphtwo
+		<anchor 571 -80> mark @BLWM_2ndGlyphthree <anchor 560 -70> mark @BLWM_2ndGlyphfour;
+
+	pos base [JaNa.dv] 
+		<anchor 687 -80> mark @BLWM_2ndGlyphone <anchor 687 -80> mark @BLWM_2ndGlyphtwo
+		<anchor 687 -80> mark @BLWM_2ndGlyphthree <anchor 687 -70> mark @BLWM_2ndGlyphfour;
+
+	pos base [NaDaVa.dv] 
+		<anchor 920 -90> mark @BLWM_2ndGlyphone <anchor 920 -90> mark @BLWM_2ndGlyphtwo
+		<anchor 920 -90> mark @BLWM_2ndGlyphthree <anchor 920 -90> mark @BLWM_2ndGlyphfour;
+
+        pos base [KaSaDda.dv] 
+		<anchor 1340 0> mark @BLWM_2ndGlyphone <anchor 1340 0> mark @BLWM_2ndGlyphtwo	
+		<anchor 1340 0> mark @BLWM_2ndGlyphthree <anchor 1470 0> mark @BLWM_2ndGlyphfour; 
+
+        pos base [NaSaKaRa.dv] 
+		<anchor 1199 0> mark @BLWM_2ndGlyphone <anchor 1199 0> mark @BLWM_2ndGlyphtwo	
+		<anchor 1199 0> mark @BLWM_2ndGlyphthree <anchor 1370 0> mark @BLWM_2ndGlyphfour; 
+	
+        pos base [VaDda.dv BaDda.dv] 
+		<anchor 700 0> mark @BLWM_2ndGlyphone <anchor 700 0> mark @BLWM_2ndGlyphtwo	
+		<anchor 700 0> mark @BLWM_2ndGlyphthree <anchor 840 0> mark @BLWM_2ndGlyphfour; 
+
+	pos base [LlaLla.dv] 
+		<anchor 1200 60> mark @BLWM_2ndGlyphone <anchor 1200 60> mark @BLWM_2ndGlyphtwo	
+		<anchor 1200 60> mark @BLWM_2ndGlyphthree <anchor 1300 0> mark @BLWM_2ndGlyphfour; 
+
+
+lookup blwm_extra {	
+
+
+	pos base [ShaCa.dv] <anchor 664 -60> mark @BLWM_2ndGlyphone <anchor 670 0> mark @BLWM_2ndGlyphfour;   
+   
+	pos base [ShaNa.dv] <anchor 661 -15> mark @BLWM_2ndGlyphone <anchor 650 0> mark @BLWM_2ndGlyphfour;     
+
+	pos base [ShaLa.dv] <anchor 695 -55> mark @BLWM_2ndGlyphone <anchor 680 0> mark @BLWM_2ndGlyphfour;      
+
+	pos base [ShaVa.dv] <anchor 654 -60> mark @BLWM_2ndGlyphone <anchor 660 0> mark @BLWM_2ndGlyphfour;   
+    
+	pos base [DaYa.dv] <anchor 608 -13> mark @BLWM_2ndGlyphone <anchor 600 0> mark @BLWM_2ndGlyphfour;    
+
+	pos base [BaSaTtaRa.dv] <anchor 1165 -160> mark @BLWM_2ndGlyphone <anchor 1310 -120> mark @BLWM_2ndGlyphfour;   
+   
+	pos base [NaVaHa.dv] <anchor 1020 -43> mark @BLWM_2ndGlyphone <anchor 1130 -60> mark @BLWM_2ndGlyphfour;      
+
+	pos base [NaHaYa.dv] <anchor  990-60> mark @BLWM_2ndGlyphone <anchor 990 -100> mark @BLWM_2ndGlyphfour;      
+
+	pos base [LaHaYa.dv] <anchor 1158 -100> mark @BLWM_2ndGlyphone <anchor 1150 -100> mark @BLWM_2ndGlyphfour;      
+
+	pos base [HaMa.dv] <anchor 750 -60> mark @BLWM_2ndGlyphone <anchor 718 -100> mark @BLWM_2ndGlyphfour;      
+
+	pos base [HaYa.dv] <anchor 750 -60> mark @BLWM_2ndGlyphone <anchor 720 -100> mark @BLWM_2ndGlyphfour;    
+
+	pos base [KamatraLru.dv PamatraLru.dv] <anchor 620 -160> mark @BLWM_2ndGlyphfour;      
+
+	pos base [KamatraLruu.dv PamatraLruu.dv] <anchor 620 -270> mark @BLWM_2ndGlyphfour;       
+
+} blwm_extra;	
+
+
+
+
+#----------------------------------------------------------------------------------------------------------------
+
+@BLWM_Halant = [Halant.dv];
+
+#-------------------
+
+
+lookup blwm1 { # positioning Halant on Ha and Ra
+
+	pos base [Ha.dv] <anchor 450 -120> mark @BLWM_Halant;
+
+	pos base [Ra.dv RaNukta.dv] <anchor 380 -30> mark @BLWM_Halant;
+
+}blwm1;
+
+#----------------------------------------------------------------------------------------------------------------
+
+@BLWM_Nukta = [Nukta.dv];
+
+#-------------------
+
+lookup blwm2 { # positioning Nukta on single characters
+
+	pos base [Gha.dv] <anchor 420 120> mark @BLWM_Nukta;
+
+	pos base [Nga.dv] <anchor 660 0> mark @BLWM_Nukta;
+
+	pos base [Ca.dv] <anchor 495 100> mark @BLWM_Nukta;
+
+	pos base [Cha.dv] <anchor 730 0> mark @BLWM_Nukta;
+
+	pos base [Jha.dv] <anchor 460 0> mark @BLWM_Nukta;
+
+	pos base [Nya.dv] <anchor 480 50> mark @BLWM_Nukta;
+
+	pos base [Tta.dv] <anchor 690 -20> mark @BLWM_Nukta;
+
+	pos base [Ttha.dv] <anchor 700 -30> mark @BLWM_Nukta;
+
+	pos base [Dda.dv] <anchor 660 0> mark @BLWM_Nukta;
+
+	pos base [Nna.dv] <anchor 640 120> mark @BLWM_Nukta;
+
+	pos base [Ta.dv] <anchor 450 30> mark @BLWM_Nukta;
+
+	pos base [Tha.dv] <anchor 490 120> mark @BLWM_Nukta;
+
+	pos base [Da.dv] <anchor 480 50> mark @BLWM_Nukta;
+
+	pos base [Dha.dv] <anchor 503 90> mark @BLWM_Nukta;
+
+	pos base [Pa.dv Ssa.dv] <anchor 530 140> mark @BLWM_Nukta;
+
+	pos base [Ba.dv] <anchor 449 110> mark @BLWM_Nukta;
+
+	pos base [Bha.dv] <anchor 571 117> mark @BLWM_Nukta;
+
+	pos base [Ma.dv] <anchor 475 104> mark @BLWM_Nukta;
+
+	pos base [La.dv La.MAR.dv] <anchor 456 92> mark @BLWM_Nukta;
+
+	pos base [Sha.dv Sa.dv Sha.MAR.dv] <anchor 464 132> mark @BLWM_Nukta;
+
+	pos base [Ha.dv] <anchor 532-51> mark @BLWM_Nukta;
+
+	pos base [KaSsa.dv] <anchor 594-8> mark @BLWM_Nukta;
+
+	pos base [JaNya.dv] <anchor 496-15> mark @BLWM_Nukta;
+
+}blwm2;
+
+
+
+
+
+#----------------------------------------------------------------------------------------------------------------
+
+
+
+lookup blwm3 { # Positioning Anudatta below matras
+
+	pos mark [matraU.dv] <anchor 80 -220> mark @BLWM_2ndGlyphfour;
+
+	pos mark [matraUu.dv] <anchor 200 -220> mark @BLWM_2ndGlyphfour;
+
+	pos mark [matraRu.dv] <anchor 160 -220> mark @BLWM_2ndGlyphfour;
+
+	pos mark [matraRuu.dv] <anchor 130 -310> mark @BLWM_2ndGlyphfour;  
+
+	pos mark [Halant.dv] <anchor 160 -120> mark @BLWM_2ndGlyphfour;
+
+	pos mark [matraLru.dv] <anchor 120 -220> mark @BLWM_2ndGlyphfour;
+
+	pos mark [matraUsmall.dv] <anchor 120 -190> mark @BLWM_2ndGlyphfour;
+
+	pos mark [matraUusmall.dv] <anchor 230 -170> mark @BLWM_2ndGlyphfour;
+
+	pos mark [matraRusmall.dv] <anchor 150 -170> mark @BLWM_2ndGlyphfour;
+
+	pos mark [Vattu.dv] <anchor 180 -180> mark @BLWM_2ndGlyphfour;
+
+	pos mark [VattumatraU.dv] <anchor 180 -360> mark @BLWM_2ndGlyphfour;
+
+	pos mark [VattumatraUsmall.dv VattumatraUusmall.dv VattumatraRu.dv] <anchor 220 -180> mark @BLWM_2ndGlyphfour;
+
+	pos mark [VattumatraUu.dv VattumatraRusmall.dv NuktaVattumatraU.dv NuktaVattumatraUu.dv NuktaVattumatraRu.dv] <anchor 170 -370> mark @BLWM_2ndGlyphfour;
+
+	pos mark [matraLruu.dv] <anchor 160 -370> mark @BLWM_2ndGlyphfour;    
+
+} blwm3;
+
+
+
+
+} blwm;
+
+
+
+
+
+
+
+
+
+
+
+
+
