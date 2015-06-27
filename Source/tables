@@ -1,6 +1,6 @@
 
 table head {
-	FontRevision 2.015;
+	FontRevision 2.020;
 } head;
 
 table hhea {
@@ -51,38 +51,24 @@ table OS/2 {
 table name {
 
 	nameid 0   "Copyright (c) 2014, Girish Dalvi, Ek Type. All rights reserved.";
-	nameid 0 1 "Copyright (c) 2014, Girish Dalvi, Ek Type. All rights reserved.";
 	nameid 0 3 "Copyright (c) 2014, Girish Dalvi, Ek Type. All rights reserved.";	
 
 	nameid  7   "Ek Mukta is a trademark of Ek Type.";
-	nameid  7 1 "Ek Mukta is a trademark of Ek Type.";
 
 	nameid  8   "Ek Type";
-	nameid  8 1 "Ek Type";
 	nameid  8 3 "Ek Type";
 
 	nameid 9   "Girish Dalvi and Yashodeep Gholap";
-	nameid 9 1 "Girish Dalvi and Yashodeep Gholap";
 	nameid 9 3 "Girish Dalvi and Yashodeep Gholap";
 
-	nameid 10 "Ek Mukta is a Unicode compliant, versatile, contemporary, humanist, mono-linear typeface available in seven weights, supporting Devanagari and Latin scripts. This type family is a libre licensed version the Ek multi-script family, an ongoing project to develop a unified type family for each Indian script. The goal is to build one harmonious family across all Indian scripts without letting the visual features of one script dominate over others. This ensures that the fonts can be used successfully for both single and multi-script purposes. This project is led by Ek Type [Ek Type]( http://ektype.in/), a collective of type designers based in Mumbai focused on designing contemporary Indian typefaces. Ek Mukta was designed by Girish Dalvi and Yashodeep Gholap, with extensive support from Noopur Datye, Sarang Kulkarni and Maithili Shingre. We would like to thank Vinay Saynekar, Santosh Kshirsagar, Shubhanand Jog, Yogesh Jahargirdar, Pradnya Naik, Snehal Patil, Pallavi Karambelkar, and Omkar Shende for their suggestions and feedback during the font design process. We would also like to thank faculty and friends from the Industrial Design Centre, IIT Bombay and from Sir J J Institute of Applied Art for their support and encouragement.";
-
-	nameid 10 1 "Ek Mukta is a Unicode compliant, versatile, contemporary, humanist, mono-linear typeface available in seven weights, supporting Devanagari and Latin scripts. This type family is a libre licensed version the Ek multi-script family, an ongoing project to develop a unified type family for each Indian script. The goal is to build one harmonious family across all Indian scripts without letting the visual features of one script dominate over others. This ensures that the fonts can be used successfully for both single and multi-script purposes. This project is led by Ek Type [Ek Type]( http://ektype.in/), a collective of type designers based in Mumbai focused on designing contemporary Indian typefaces. Ek Mukta was designed by Girish Dalvi and Yashodeep Gholap, with extensive support from Noopur Datye, Sarang Kulkarni and Maithili Shingre. We would like to thank Vinay Saynekar, Santosh Kshirsagar, Shubhanand Jog, Yogesh Jahargirdar, Pradnya Naik, Snehal Patil, Pallavi Karambelkar, and Omkar Shende for their suggestions and feedback during the font design process. We would also like to thank faculty and friends from the Industrial Design Centre, IIT Bombay and from Sir J J Institute of Applied Art for their support and encouragement.";
-
-	nameid 10 3 "Ek Mukta is a Unicode compliant, versatile, contemporary, humanist, mono-linear typeface available in seven weights, supporting Devanagari and Latin scripts. This type family is a libre licensed version the Ek multi-script family, an ongoing project to develop a unified type family for each Indian script. The goal is to build one harmonious family across all Indian scripts without letting the visual features of one script dominate over others. This ensures that the fonts can be used successfully for both single and multi-script purposes. This project is led by Ek Type [Ek Type]( http://ektype.in/), a collective of type designers based in Mumbai focused on designing contemporary Indian typefaces. Ek Mukta was designed by Girish Dalvi and Yashodeep Gholap, with extensive support from Noopur Datye, Sarang Kulkarni and Maithili Shingre. We would like to thank Vinay Saynekar, Santosh Kshirsagar, Shubhanand Jog, Yogesh Jahargirdar, Pradnya Naik, Snehal Patil, Pallavi Karambelkar, and Omkar Shende for their suggestions and feedback during the font design process. We would also like to thank faculty and friends from the Industrial Design Centre, IIT Bombay and from Sir J J Institute of Applied Art for their support and encouragement.";
-
 	nameid 11   "www.ektype.in";
-	nameid 11 1 "www.ektype.in";
 
 	nameid 12   "www.ektype.in";
-	nameid 12 1 "www.ektype.in";
 
 	nameid 13 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-	nameid 13 1 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 	nameid 13 3 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 
 	nameid 14   "http://scripts.sil.org/OFL";
-	nameid 14 1 "http://scripts.sil.org/OFL";
 
 } name
 
