@@ -7,5 +7,6 @@
 *.inf
 *.afm
 *.pfm
+*.bak
 #OTF Folder
 OTF/
