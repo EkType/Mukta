@@ -48,29 +48,30 @@ Send us bug reports, feature enhancements or glyph requests, using the [Github I
 
 ## Building the font from source
    
+This requires the following programs:
+
+- **[Fontlab Studio](http://www.fontlab.com/font-editor/fontlab-studio/):** `.vfb` design files are used by this font editor, for Windows and Mac from the Fontlab company with a proprietary license and requiring a license fee from each user. 
+
+- **[AFDKO](http://www.adobe.com/devnet/opentype/afdko.html):** A set of command line tools for generating OpenType fonts from Adobe
+
 The build process used by Ek Type is as follows:
 
 1. Make changes in FontLab `.vfb` file
 
 2. Generate the `.ttf` file
 
-3. Open the `.ttf` file in VOLT, import the appropriate `.vtp` file
+3. Make changes in AFDKO feature files. 
 
-4. Make changes if required in the `.vtp` file.
+4. Type the following commands in the Command prompt window. Make sure that the AFDKO directory is included in your path.
 
-5. Ship the font from VOLT
+`tx -t1 EkMukta-Regular.ttf > EkMukta-Regular.pfa`
 
-6. Run ttfautohint using the batch file. `$ Autohint.bat`
+This will convert the `.ttf`  font to a `.pfa` font.
 
-This requires the following programs:
+Use `maketof -h` to view the options available to you; choose the options you want as per your needs. We generally use  
+`makeotf -f EkMukta-Regular.pfa -o EkMukta-Regular.otf -r -S -shw -ga -gs -rev`
 
-- **[Fontlab Studio](http://www.fontlab.com/font-editor/fontlab-studio/):** `.vfb` design files are used by this font editor, for Windows and Mac from the Fontlab company with a proprietary license and requiring a license fee from each user. 
-
-- **[VOLT](http://www.microsoft.com/typography/VOLT.mspx):** `.vtp` files are used with this OpenType Layout (GPOS, GSUB) table editor, for Windows from Microsoft, with a proprietary license and free of charge
-
-- **[MS CacheTT](http://www.microsoft.com/typography/tools/tools.aspx):** Font engineering tool for VDMX, hdmx and LTSH tables, for Windows from Microsoft, with a proprietary license and free of charge
-
-- **[ttfautohint](http://www.freetype.org/ttfautohint/):** Auto-hinter, for all platforms, from the Freetype Project, with a libre license
+to generate the release version of the font. 
 
 ### Branches and Pull Requests
 
@@ -82,8 +83,3 @@ To learn more about Pull Requests, see Github's great article on [using pull req
 
 - Explain in the pull request how you have tested your contribution
 
-### Roadmap
-
-- Port the OpenType Layout code to [Adobe Feature File format](http://www.adobe.com/devnet/opentype/afdko/topic_feature_file_syntax.html)
-
-- Port the build process to the [Adobe Font Development Kit for OpenType](http://www.adobe.com/devnet/opentype/afdko.html)
