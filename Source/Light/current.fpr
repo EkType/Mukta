@@ -1,9 +1,7 @@
+InputFontPath	.\EkMukta-Light.ttf
+OutputFontPath	.\EkMukta-Light-build.ttf
 ReleaseMode	true
 DoSubroutinization	true
-SuppressHintWarnings	true
-Renumber	5
 FeaturePath	.\features
 FontMenuDBPath	..\FontMenuNameDB
 GlyphAliasDBPath	..\GlyphOrderAndAliasDB
-InputFontPath	.\font.pfa
-OutputFontPath	.\EkMukta-Light.otf

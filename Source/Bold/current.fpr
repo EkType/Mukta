@@ -1,9 +1,7 @@
+InputFontPath	.\EkMukta-Bold.ttf
+OutputFontPath	.\EkMukta-Bold-build.ttf
 ReleaseMode	true
 DoSubroutinization	true
-SuppressHintWarnings	true
-Renumber	5
 FeaturePath	.\features
 FontMenuDBPath	..\FontMenuNameDB
 GlyphAliasDBPath	..\GlyphOrderAndAliasDB
-InputFontPath	.\font.pfa
-OutputFontPath	.\EkMukta-Bold.otf

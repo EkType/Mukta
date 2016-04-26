@@ -64,14 +64,8 @@ The build process used by Ek Type is as follows:
 
 4. Type the following commands in the Command prompt window. Make sure that the AFDKO directory is included in your path.
 
-`tx -t1 EkMukta-Regular.ttf > EkMukta-Regular.pfa`
-
-This will convert the `.ttf`  font to a `.pfa` font.
-
 Use `maketof -h` to view the options available to you; choose the options you want as per your needs. We generally use  
-`makeotf -f EkMukta-Regular.pfa -o EkMukta-Regular.otf -r -S -shw -ga -gs -rev`
-
-to generate the release version of the font. 
+`makeotf -f EkMukta-Regular-fl.ttf -o EkMukta-Regular.ttf -r -S -rev` to generate the release version of the font. 
 
 ### Branches and Pull Requests
 

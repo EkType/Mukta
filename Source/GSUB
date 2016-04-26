@@ -58,8 +58,8 @@ feature smcp { # Small Capitals
 
 feature subs { # Subscript
 	sub @Numbers by @Subscript;
-	sub parenleft by subparenleft;
-	sub parenright by subparenright;
+	sub parenleft by parenleft.inferior;
+	sub parenright by parenright.inferior;
 } subs;
 
 
@@ -68,10 +68,9 @@ feature subs { # Subscript
 
 feature sups { # Superscript
 	sub @Numbers by @Superscript;
-	sub parenleft by supparenleft;
-	sub parenright by supparenright;
+	sub parenleft by parenleft.superior;
+	sub parenright by parenright.superior;
 } sups;
-
 
 #--------------------------------------------------------------------
 
@@ -1105,11 +1104,6 @@ lookup psts1 { # Postbase matra substitutions
 	sub @Width_matraIithree @matraIidefault' by @matraIithree;
 } psts1;
 
-lookup psts2 { # postbase half consonants forms
-	sub Halant.dv Ya.dv by HalantYa.dv;
-} psts2;
-
-
 
 } psts;
 
@@ -1136,15 +1130,41 @@ lookup salt1 {
 	sub Aath.dv by Aanth.dv;
 	sub Sha.dv by Sha.MAR.dv;
 	sub La.dv by La.MAR.dv;
+
+# Marathi Sha La conjunct substitution
+
+	sub [LaRa.dv KaSaPaLa.dv TaPaLa.dv KaLa.dv KaSha.dv KhaSha.dv GaLa.dv NyaSha.dv TaLa.dv NaSha.dv PaLa.dv PaSha.dv PhaLa.dv PhaSha.dv BaLa.dv BaSha.dv BhaLa.dv MaLa.dv MaSha.dv LaLa.dv LaSha.dv VaLa.dv ShaKa.dv ShaCha.dv ShaTta.dv ShaTa.dv ShaMa.dv ShaYa.dv ShaSha.dv ShaKaNukta.dv SaLa.dv HaLa.dv KhaNuktaSha.dv ShaHalant.dv] by [LaRa.MAR.dv KaSaPaLa.MAR.dv TaPaLa.MAR.dv KaLa.MAR.dv KaSha.MAR.dv KhaSha.MAR.dv GaLa.MAR.dv NyaSha.MAR.dv TaLa.MAR.dv NaSha.MAR.dv PaLa.MAR.dv PaSha.MAR.dv PhaLa.MAR.dv PhaSha.MAR.dv BaLa.MAR.dv BaSha.MAR.dv BhaLa.MAR.dv MaLa.MAR.dv MaSha.MAR.dv LaLa.MAR.dv LaSha.MAR.dv VaLa.MAR.dv ShaKa.MAR.dv ShaCha.MAR.dv ShaTta.MAR.dv ShaTa.MAR.dv ShaMa.MAR.dv ShaYa.MAR.dv ShaSha.MAR.dv ShaKaNukta.MAR.dv SaLa.MAR.dv HaLa.MAR.dv KhaNuktaSha.MAR.dv ShaHalant.MAR.dv];
+
 } salt1;
 
-
 lookup ss01_1 {
-	sub matraIseven.dv' La.MAR.dv by matraIfive.dv;
+	sub matraIseven.dv' [La.MAR.dv LaRa.MAR.dv] by matraIfive.dv;
+	sub matraInineteen.dv' TaPaLa.MAR.dv by matraIseventeen.dv;
+	sub matraIeighteen.dv' KaLa.MAR.dv by matraIsixteen.dv;
+	sub matraIeighteen.dv' [KaSha.MAR.dv KhaNuktaSha.MAR.dv] by matraInineteen.dv;
+	sub matraIfourteen.dv' GaLa.MAR.dv by matraItwelve.dv;
+	sub matraIthirteen.dv' TaLa.MAR.dv by matraItwelve.dv;
+	sub matraIthirteen.dv' PaLa.MAR.dv by matraIeleven.dv;
+	sub matraItwelve.dv' PaSha.MAR.dv by matraIthirteen.dv;
+	sub matraIeighteen.dv' PhaLa.MAR.dv by matraIseventeen.dv;
+	sub matraIeighteen.dv' PhaSha.MAR.dv by matraInineteen.dv;
+	sub matraIfourteen.dv' BaLa.MAR.dv by matraIthirteen.dv;
+	sub matraIfourteen.dv' BaSha.MAR.dv by matraIfifteen.dv;
+	sub matraIfifteen.dv' BhaLa.MAR.dv by matraIfourteen.dv;
+	sub matraIfourteen.dv' MaLa.MAR.dv by matraItwelve.dv;
+	sub matraIthirteen.dv' MaSha.MAR.dv by matraIfourteen.dv;
+	sub matraIseventeen.dv' LaLa.MAR.dv by matraIsixteen.dv;
+	sub matraIsixteen.dv' LaSha.MAR.dv by matraIeighteen.dv;
+	sub matraIfourteen.dv' VaLa.MAR.dv by matraItwelve.dv;
+	sub matraIeleven.dv' ShaTta.MAR.dv by matraItwelve.dv;
+	sub matraIfifteen.dv' ShaSha.MAR.dv by matraIsixteen.dv;
+	sub matraIsixteen.dv' SaLa.MAR.dv by matraIfourteen.dv;
+
+
 } ss01_1;
 
 lookup ss01_2 {
-	sub La.MAR.dv @matraIidefault' by @matraIione;
+	sub [La.MAR.dv LaRa.MAR.dv KaSaPaLa.MAR.dv TaPaLa.MAR.dv KaLa.MAR.dv GaLa.MAR.dv TaLa.MAR.dv PaLa.MAR.dv PhaLa.MAR.dv BaLa.MAR.dv BhaLa.MAR.dv MaLa.MAR.dv LaLa.MAR.dv VaLa.MAR.dv SaLa.MAR.dv HaLa.MAR.dv] @matraIidefault' by @matraIione;
 } ss01_2;
 
 } ss01;
@@ -1205,10 +1225,32 @@ lookup salt3 {
 	sub matraIseventeen.dv' LaLaone.dv by matraIthree.dv;
 	sub matraIthirteen.dv' PaLaone.dv by matraI.dv;
 	sub matraIten.dv' PaTaone.dv by matraIthree.dv;
+
+	sub matraIseven.dv' LaRa.MAR.dv by matraIfive.dv;
+	sub matraInineteen.dv' TaPaLa.MAR.dv by matraIseventeen.dv;
+	sub matraIeighteen.dv' KaLa.MAR.dv by matraIsixteen.dv;
+	sub matraIeighteen.dv' [KaSha.MAR.dv KhaNuktaSha.MAR.dv] by matraInineteen.dv;
+	sub matraIfourteen.dv' GaLa.MAR.dv by matraItwelve.dv;
+	sub matraIthirteen.dv' TaLa.MAR.dv by matraItwelve.dv;
+	sub matraIthirteen.dv' PaLa.MAR.dv by matraIeleven.dv;
+	sub matraItwelve.dv' PaSha.MAR.dv by matraIthirteen.dv;
+	sub matraIeighteen.dv' PhaLa.MAR.dv by matraIseventeen.dv;
+	sub matraIeighteen.dv' PhaSha.MAR.dv by matraInineteen.dv;
+	sub matraIfourteen.dv' BaLa.MAR.dv by matraIthirteen.dv;
+	sub matraIfourteen.dv' BaSha.MAR.dv by matraIfifteen.dv;
+	sub matraIfifteen.dv' BhaLa.MAR.dv by matraIfourteen.dv;
+	sub matraIfourteen.dv' MaLa.MAR.dv by matraItwelve.dv;
+	sub matraIthirteen.dv' MaSha.MAR.dv by matraIfourteen.dv;
+	sub matraIseventeen.dv' LaLa.MAR.dv by matraIsixteen.dv;
+	sub matraIsixteen.dv' LaSha.MAR.dv by matraIeighteen.dv;
+	sub matraIfourteen.dv' VaLa.MAR.dv by matraItwelve.dv;
+	sub matraIeleven.dv' ShaTta.MAR.dv by matraItwelve.dv;
+	sub matraIfifteen.dv' ShaSha.MAR.dv by matraIsixteen.dv;
+	sub matraIsixteen.dv' SaLa.MAR.dv by matraIfourteen.dv;
 } salt3;
 
 lookup salt4 {
-	sub La.MAR.dv @matraIidefault' by @matraIione;
+	sub [La.MAR.dv LaRa.MAR.dv KaSaPaLa.MAR.dv TaPaLa.MAR.dv KaLa.MAR.dv GaLa.MAR.dv TaLa.MAR.dv PaLa.MAR.dv PhaLa.MAR.dv BaLa.MAR.dv BhaLa.MAR.dv MaLa.MAR.dv LaLa.MAR.dv VaLa.MAR.dv SaLa.MAR.dv HaLa.MAR.dv] @matraIidefault' by @matraIione;
 	sub [KaRaone.dv KaVaone.dv] @matraIidefault' by @matraIithree;
 	sub [LaLaone.dv PaLaone.dv] @matraIidefault' by @matraIitwo;
 } salt4;
