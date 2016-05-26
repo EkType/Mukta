@@ -1,0 +1,56 @@
+# [PostScriptName]
+#   f=  Preferred Family Name
+#   s=  Subfamily Name (Style Name)
+#   l=  Compatible Family Menu Name
+#   m=1,Macintosh Compatible Full Name
+
+
+
+[Mukta-ExtraLight]
+  f=   Mukta 
+  s=  ExtraLight
+  l=   Mukta ExtraLight
+  m=1, Mukta ExtraLight
+
+
+[Mukta-Light]
+  f=   Mukta 
+  s=  Light
+  l=   Mukta Light
+  m=1, Mukta Light
+
+
+[Mukta-Regular]
+  f=   Mukta
+  s=  Regular
+  l=   Mukta Regular
+  m=1, Mukta Regular
+
+
+[Mukta-Medium]
+  f=   Mukta 
+  s=  Medium
+  l=   Mukta Medium
+  m=1, Mukta Medium
+
+
+[Mukta-SemiBold]
+  f=   Mukta
+  s=  SemiBold
+  l=   Mukta SemiBold
+  m=1, Mukta SemiBold
+
+
+[Mukta-Bold]
+  f=   Mukta 
+  s=  Bold
+  l=   Mukta Bold
+  m=1, Mukta Bold
+
+
+[Mukta-ExtraBold]
+  f=   Mukta 
+  s=  Extrabold
+  l=   Mukta ExtraBold
+  m=1, Mukta ExtraBold
+

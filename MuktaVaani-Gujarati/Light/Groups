@@ -1,0 +1,358 @@
+#------------
+# GROUPS 
+#------------
+
+#--------------------
+# For Latin
+#--------------------
+
+@Numbers = [zero one two three four five six seven eight nine];
+
+@Oldstyle = [oneoldstyle zerooldstyle twooldstyle threeoldstyle fouroldstyle fiveoldstyle sixoldstyle sevenoldstyle eightoldstyle nineoldstyle];
+
+@Lowercase = [a b c d e f g h i j k l m n o p q r s t u v w x y z];
+
+@Small_Caps = [Asmall Bsmall Csmall Dsmall Esmall Fsmall Gsmall Hsmall Ismall Jsmall Ksmall Lsmall Msmall Nsmall Osmall Psmall Qsmall Rsmall Ssmall Tsmall Usmall Vsmall Wsmall Xsmall Ysmall Zsmall];
+
+@Subscript = [zero.inferior one.inferior two.inferior three.inferior four.inferior five.inferior six.inferior seven.inferior eight.inferior nine.inferior];
+
+@Superscript = [zero.superior onesuperior twosuperior threesuperior four.superior five.superior six.superior seven.superior eight.superior nine.superior];
+
+@Denominator = [denozero denoone denotwo denothree denofour denofive denosix denoseven denoeight denonine];
+
+@Numerator = [numzero numone numtwo numthree numfour numfive numsix numseven numeight numnine];
+
+@Tabular = [tabularzero tabularone tabulartwo tabularthree tabularfour tabularfive tabularsix tabularseven tabulareight tabularnine];
+
+@Tabular_Old = [tabularoldzero tabularoldone tabularoldtwo tabularoldthree tabularoldfour tabularoldfive tabularoldsix tabularoldseven tabularoldeight tabularoldnine];
+
+
+
+#--------------------
+# For Gujarati
+#--------------------
+
+# @BelowBaseMarkGroups = [ ];
+
+@BelowBaseMarks = [MatraU.gj MatraUu.gj MatraRu.gj MatraRuu.gj MatraLru.gj MatraLruu.gj Vattu.gj VattuMatraU.gj VattuMatraUu.gj VattuHalant.gj Halant.gj];
+
+
+@Vertical_Conjuncts = [NgaKa.gj NgaKha.gj NgaGa.gj NgaGha.gj NgaNa.gj NgaMa.gj NgaYa.gj NgaVa.gj ChaVa.gj TtaTta.gj TtaTtha.gj TtaVa.gj TthaTtha.gj DdaGa.gj DdaDda.gj DdaDdha.gj DdaNa.gj DdaVa.gj DdhaDdha.gj DaGa.gj DaGha.gj DaDa.gj DaDha.gj DaNa.gj DaBa.gj DaBha.gj DaVa.gj HaNna.gj HaNa.gj HaLa.gj HaVa.gj];
+
+
+@With_Vanak = [Kha.gj Ga.gj Gha.gj Ca.gj Nya.gj Nna.gj Ta.gj Tha.gj Dha.gj Na.gj Pa.gj Ba.gj Bha.gj Ma.gj Ya.gj La.gj Va.gj Sha.gj Ssa.gj Sa.gj Lla.gj KhaRa.gj GaRa.gj GhaRa.gj CaRa.gj NyaRa.gj NnaRa.gj TaRa.gj ThaRa.gj DhaRa.gj NaRa.gj PaRa.gj BaRa.gj BhaRa.gj MaRa.gj YaRa.gj LaRa.gj LlaRa.gj VaRa.gj ShaRa.gj SsaRa.gj SaRa.gj KaSsaRa.gj KhaNa.gj GaNa.gj GhaNa.gj CaNa.gj DhaNa.gj PaNa.gj BaNa.gj BhaNa.gj MaNa.gj KaTha.gj KaMa.gj KaYa.gj KaSha.gj KaSsa.gj KaSa.gj KhaMa.gj KhaYa.gj KhaVa.gj KhaSha.gj KhaSa.gj GhaGha.gj CaCa.gj CaNya.gj CaMa.gj ChaYa.gj JaNya.gj JaTa.gj JaNa.gj JaMa.gj JaYa.gj JhaYa.gj NyaCa.gj NyaJa.gj NyaSha.gj TtaYa.gj TthaYa.gj DdaYa.gj DdhaYa.gj TaTa.gj TaTha.gj TaNa.gj TaMa.gj TaYa.gj TaSa.gj DaMa.gj DaYa.gj DhaDha.gj NaGa.gj NaCa.gj NaTha.gj NaDha.gj NaNa.gj NaMa.gj NaYa.gj NaSha.gj PaCa.gj PaTha.gj PaPa.gj PaMa.gj PaSha.gj PaSa.gj PhaTha.gj PhaYa.gj PhaSha.gj PhaSa.gj BaTa.gj BaDha.gj BaSha.gj MaSha.gj LaGa.gj LaCa.gj LaTa.gj LaTha.gj LaMa.gj LaYa.gj LaSha.gj LaSa.gj ShaCa.gj ShaNa.gj ShaVa.gj SaTha.gj SaMa.gj HaMa.gj HaYa.gj KaTaRa.gj KaSsaMa.gj KaSsaYa.gj KaVaYa.gj ChaRaYa.gj GaDhaVa.gj TtaRaYa.gj TtaTtaYa.gj TthaTthaYa.gj DdaDdaYa.gj TaKaYa.gj TaKaSsa.gj TaTaYa.gj TaNaYa.gj DaDaYa.gj DaBhaYa.gj DaVaYa.gj DaRaYa.gj NaKaSa.gj NaTaRa.gj NaDhaRa.gj LaKaYa.gj SaTaRa.gj SaThaYa.gj];
+
+
+@Without_Vanak = [Kha_alt.gj Ga_alt.gj Gha_alt.gj Ca_alt.gj Nya_alt.gj Nna_alt.gj Ta_alt.gj Tha_alt.gj Dha_alt.gj Na_alt.gj Pa_alt.gj Ba_alt.gj Bha_alt.gj Ma_alt.gj Ya_alt.gj La_alt.gj Va_alt.gj Sha_alt.gj Ssa_alt.gj Sa_alt.gj Lla_alt.gj KhaRa_alt.gj GaRa_alt.gj GhaRa_alt.gj CaRa_alt.gj NyaRa_alt.gj NnaRa_alt.gj TaRa_alt.gj ThaRa_alt.gj DhaRa_alt.gj NaRa_alt.gj PaRa_alt.gj BaRa_alt.gj BhaRa_alt.gj MaRa_alt.gj YaRa_alt.gj LaRa_alt.gj LlaRa_alt.gj VaRa_alt.gj ShaRa_alt.gj SsaRa_alt.gj SaRa_alt.gj KaSsaRa_alt.gj KhaNa_alt.gj GaNa_alt.gj GhaNa_alt.gj CaNa_alt.gj DhaNa_alt.gj PaNa_alt.gj BaNa_alt.gj BhaNa_alt.gj MaNa_alt.gj KaTha_alt.gj KaMa_alt.gj KaYa_alt.gj KaSha_alt.gj KaSsa_alt.gj KaSa_alt.gj KhaMa_alt.gj KhaYa_alt.gj KhaVa_alt.gj KhaSha_alt.gj KhaSa_alt.gj GhaGha_alt.gj CaCa_alt.gj CaNya_alt.gj CaMa_alt.gj ChaYa_alt.gj JaNya_alt.gj JaTa_alt.gj JaNa_alt.gj JaMa_alt.gj JaYa_alt.gj JhaYa_alt.gj NyaCa_alt.gj NyaJa_alt.gj NyaSha_alt.gj TtaYa_alt.gj TthaYa_alt.gj DdaYa_alt.gj DdhaYa_alt.gj TaTa_alt.gj TaTha_alt.gj TaNa_alt.gj TaMa_alt.gj TaYa_alt.gj TaSa_alt.gj DaMa_alt.gj DaYa_alt.gj DhaDha_alt.gj NaGa_alt.gj NaCa_alt.gj NaTha_alt.gj NaDha_alt.gj NaNa_alt.gj NaMa_alt.gj NaYa_alt.gj NaSha_alt.gj PaCa_alt.gj PaTha_alt.gj PaPa_alt.gj PaMa_alt.gj PaSha_alt.gj PaSa_alt.gj PhaTha_alt.gj PhaYa_alt.gj PhaSha_alt.gj PhaSa_alt.gj BaTa_alt.gj BaDha_alt.gj BaSha_alt.gj MaSha_alt.gj LaGa_alt.gj LaCa_alt.gj LaTa_alt.gj LaTha_alt.gj LaMa_alt.gj LaYa_alt.gj LaSha_alt.gj LaSa_alt.gj ShaCa_alt.gj ShaNa_alt.gj ShaVa_alt.gj SaTha_alt.gj SaMa_alt.gj HaMa_alt.gj HaYa_alt.gj KaTaRa_alt.gj KaSsaMa_alt.gj KaSsaYa_alt.gj KaVaYa_alt.gj ChaRaYa_alt.gj GaDhaVa_alt.gj TtaRaYa_alt.gj TtaTtaYa_alt.gj TthaTthaYa_alt.gj DdaDdaYa_alt.gj TaKaYa_alt.gj TaKaSsa_alt.gj TaTaYa_alt.gj TaNaYa_alt.gj DaDaYa_alt.gj DaBhaYa_alt.gj DaVaYa_alt.gj DaRaYa_alt.gj NaKaSa_alt.gj NaTaRa_alt.gj NaDhaRa_alt.gj LaKaYa_alt.gj SaTaRa_alt.gj SaThaYa_alt.gj];
+
+#----------------------------------
+#-------postbase_Iikar_matra--------
+#----------------------------------
+
+@matraIidefault = [MatraIi.gj MatraIiReph.gj MatraIiRephBindu.gj MatraIiBindu.gj MatraIiChandrabindu.gj MatraIiRephChandrabindu.gj];
+
+@matraIione = [MatraIi1.gj MatraIiReph1.gj MatraIiRephBindu1.gj MatraIiBindu1.gj MatraIiChandrabindu1.gj MatraIiRephChandrabindu1.gj];
+
+@matraIitwo = [MatraIi2.gj MatraIiReph2.gj MatraIiRephBindu2.gj MatraIiBindu2.gj MatraIiChandrabindu2.gj MatraIiRephChandrabindu2.gj];
+
+@matraIithree = [MatraIi3.gj MatraIiReph3.gj MatraIiRephBindu3.gj MatraIiBindu3.gj MatraIiChandrabindu3.gj MatraIiRephChandrabindu3.gj];
+
+
+
+@Width_matraIidefault = [VowelA.gj];
+
+@Width_matraIione = [DaRa.gj DaGa.gj DaGha.gj DaDha.gj DaNa.gj DaBa.gj DaBha.gj DaVa.gj];
+
+@Width_matraIitwo = [Da.gj KaDa.gj BaDa.gj MaDa.gj LaDa.gj SaDa.gj LaVaDa.gj Cha.gj KaCha.gj CaCha.gj NyaCha.gj PaCha.gj Ra.gj ChaVa.gj TtaTta.gj TtaTtha.gj TtaVa.gj DdhaDdha.gj DaDa.gj];
+
+@Width_matraIithree = [Ka.gj Nga.gj Tta.gj Ttha.gj Dda.gj Ddha.gj Pha.gj Lla.gj Ha.gj NgaKa.gj NgaKha.gj NgaGa.gj NgaGha.gj NgaNa.gj NgaMa.gj NgaYa.gj NgaVa.gj TthaTtha.gj DdaGa.gj DdaDda.gj DdaDdha.gj DdaNa.gj DdaVa.gj HaNna.gj HaNa.gj HaLa.gj HaVa.gj KaRa.gj KaKa.gj TaKa.gj NaKa.gj PaKa.gj MaKa.gj LaKa.gj SsaKa.gj SaKa.gj BaSaKa.gj KaTta.gj JaTta.gj TtaTta.gj NaTta.gj PhaTta.gj LaTta.gj SaTta.gj KaSsaTta.gj KaSaTta.gj BaSaTta.gj KaTtha.gj LaTtha.gj KaDda.gj PaDda.gj BaDda.gj VaDda.gj KaSaDda.gj PhaRa.gj KaPha.gj TaPha.gj NaPha.gj PaPha.gj PhaPha.gj MaPha.gj LaPha.gj SsaPha.gj SaPha.gj HaRa.gj NaHa.gj BaHa.gj LaHa.gj VaHa.gj LlaRa.gj TaKaRa.gj LaPhaRa.gj SsaKaRa.gj SaKaRa.gj];
+
+
+#------------------------------------------------------------------------
+
+#----------------------------------
+#-------prebase_Ikar_matra--------
+#----------------------------------
+
+# Matra Groups
+@MatraI = [MatraI.gj MatraI1.gj MatraI2.gj MatraI3.gj MatraI4.gj MatraI5.gj MatraI6.gj MatraI7.gj MatraI8.gj MatraI9.gj MatraI10.gj MatraI11.gj MatraI12.gj MatraI13.gj MatraI14.gj MatraI15.gj MatraI16.gj MatraI17.gj MatraI18.gj MatraI19.gj MatraI20.gj MatraI21.gj MatraI22.gj MatraI23.gj MatraI24.gj MatraI25.gj MatraI26.gj MatraI27.gj MatraI28.gj MatraI29.gj MatraI30.gj MatraI31.gj MatraI32.gj MatraI33.gj MatraI34.gj MatraI35.gj];
+
+@MatraIReph = [MatraIDefaultReph.gj MatraI1Reph.gj MatraI2Reph.gj MatraI3Reph.gj MatraI4Reph.gj MatraI5Reph.gj MatraI6Reph.gj MatraI7Reph.gj MatraI8Reph.gj MatraI9Reph.gj MatraI10Reph.gj MatraI11Reph.gj MatraI12Reph.gj MatraI13Reph.gj MatraI14Reph.gj MatraI15Reph.gj MatraI16Reph.gj MatraI17Reph.gj MatraI18Reph.gj MatraI19Reph.gj MatraI20Reph.gj MatraI21Reph.gj MatraI22Reph.gj MatraI23Reph.gj MatraI24Reph.gj MatraI25Reph.gj MatraI26Reph.gj MatraI27Reph.gj MatraI28Reph.gj MatraI29Reph.gj MatraI30Reph.gj MatraI31Reph.gj MatraI32Reph.gj MatraI33Reph.gj MatraI34Reph.gj MatraI35Reph.gj];
+
+
+
+
+
+
+@matraI1 = [Da.gj Ra.gj Ka.gj Dda.gj Nga.gj Pha.gj KaRa.gj PhaRa.gj TthaTtha.gj DdaGa.gj DdaDda.gj DdaDdha.gj DdaNa.gj DdaVa.gj DaDa.gj NgaKa.gj NgaKha.gj NgaGa.gj NgaGha.gj NgaNa.gj NgaMa.gj NgaYa.gj NgaVa.gj TtaTta.gj TtaTtha.gj TtaVa.gj];
+
+@matraI2 = [Ha.gj HaRa.gj Tta.gj Ttha.gj Ddha.gj DdhaDdha.gj HaNna.gj HaNa.gj HaVa.gj HaLa.gj];
+
+@matraI3 = [Na.gj NaRa.gj DaRa.gj DaGa.gj DaNa.gj DaBa.gj DaVa.gj];
+
+@matraI4 = [Ta.gj Ma.gj MaRa.gj NaNa.gj MaNa.gj PaNa.gj];
+
+@matraI5 =[Ssa.gj SsaRa.gj Ya.gj YaRa.gj ChaVa.gj Lla.gj LlaRa.gj];
+
+@matraI6 = [Ca.gj CaRa.gj CaNa.gj Gha.gj GhaRa.gj GhaNa.gj Dha.gj DhaRa.gj DhaNa.gj Tha.gj ThaRa.gj Cha.gj  DaMa.gj DaYa.gj TaNa.gj NyaCa.gj NyaJa.gj];
+
+@matraI7 =[Ga.gj GaRa.gj GaNa.gj TaTa.gj DaGha.gj ShaNa.gj ShaVa.gj];
+
+@matraI8 = [La.gj LaRa.gj Nya.gj NyaRa.gj Sa.gj SaRa.gj ShaRa.gj ShaCa.gj Ja.gj Ja_alt.gj NaTta.gj NaKa.gj NaPha.gj SsaKa.gj SsaKaRa.gj SsaPha.gj]; 
+
+@matraI9 = [Ba.gj BaRa.gj BaNa.gj JaNya.gj DaDha.gj PaKa.gj PaPha.gj TaKa.gj TaKaRa.gj TaPha.gj MaKa.gj MaPha.gj MaDa.gj NaHa.gj VaDda.gj PaDda.gj];
+
+@matraI10 = [Kha.gj KhaRa.gj KhaNa.gj Jha.gj Sha.gj KaSsa.gj VaHa.gj];
+
+@matraI11 = [Nna.gj NnaRa.gj HaMa.gj HaYa.gj JhaRa.gj DaBha.gj];
+
+@matraI12 = [Bha.gj BhaRa.gj BhaNa.gj BaDa.gj SaKa.gj SaPha.gj SaKaRa.gj BhaNa.gj]; 
+
+@matraI13 = [SaDa.gj BaDda.gj BaHa.gj KaKa.gj KaKaRa.gj KaPha.gj PhaPha.gj SaTta.gj PaPa.gj LaKa.gj LaDa.gj LaPha.gj LaPhaRa.gj NaMa.gj ];
+
+@matraI14 = [TaMa.gj LaHa.gj KaDa.gj KaSsaTta.gj LaTta.gj NaDha.gj NaDhaRa.gj KaDda.gj];
+
+@matraI15 = [PaMa.gj KaTta.gj PhaTta.gj PaCha.gj LaTtha.gj NaTaRa.gj NaYa.gj NaTha.gj NaCa.gj];
+
+@matraI16= [TaYa.gj PaCa.gj PaTha.gj TaNaYa.gj];
+
+@matraI17 = [TaTha.gj CaMa.gj NaGa.gj KaTtha.gj DhaDha.gj];
+
+@matraI18 = [LaTa.gj CaCha.gj JaTta.gj PaSa.gj BaTa.gj MaSha.gj TaTaYa.gj SaMa.gj NaSha.gj CaCa.gj GhaGha.gj];
+
+@matraI19 = [LaTha.gj TaSa.gj TaKaSsa.gj PaSha.gj LaYa.gj LaMa.gj SaTaRa.gj BaDha.gj SaTha.gj NyaCha.gj KaSsaMa.gj KaTaRa.gj DaDaYa.gj];
+
+@matraI20 = [LaCa.gj VaJha.gj KhaVa.gj KhaMa.gj KaSsaYa.gj CaNya.gj];
+
+@matraI21 = [DdaYa.gj KaCha.gj KaMa.gj KhaYa.gj YaJha.gj PhaYa.gj KaTha.gj NyaJha.gj DdaDdaYa.gj KaYa.gj TtaTtaYa.gj DaRaYa.gj DaVaYa.gj TtaRaYa.gj TtaYa.gj];
+
+@matraI22 = [LaGa.gj LaSa.gj TthaTthaYa.gj LaVaDa.gj DdhaYa.gj PhaTha.gj];
+
+@matraI23 = [TthaYa.gj JaTa.gj LaSha.gj NyaSha.gj JaMa.gj KhaSa.gj JaNa.gj];
+
+@matraI24 = [BaJha.gj JaYa.gj KaSa.gj KhaSha.gj BaSha.gj PhaSa.gj];
+
+@matraI25 = [KaSha.gj PhaSha.gj];
+
+@matraI26 = [BaSaKa.gj BaSaTta.gj];
+
+@matraI27 = [ChaYa.gj ChaRaYa.gj JhaYa.gj JaJha.gj KaSaDda.gj];
+
+@matraI29 = [DaBhaYa.gj TaKaYa.gj];
+
+
+
+#------------------------------------------------------------------------
+
+#----------------------------------
+#-------Shorter_E_Ai_ChandraE_matra--------
+#----------------------------------
+
+@matraAboveBasealt = [Ka.gj Nga.gj Tta.gj Ttha.gj Dda.gj Ddha.gj Da.gj Pha.gj Ra.gj Ha.gj KaRa.gj PhaRa.gj HaRa.gj NgaKa.gj NgaKha.gj NgaGa.gj NgaGha.gj NgaNa.gj NgaMa.gj NgaYa.gj NgaVa.gj TtaTta.gj TtaTtha.gj TtaVa.gj TthaTtha.gj DdaGa.gj DdaDda.gj DdaDdha.gj DdaNa.gj DdaVa.gj DdhaDdha.gj HaNna.gj HaNa.gj HaLa.gj HaVa.gj];
+
+#------------------------------------------------------------------------
+
+@topmarks=[MatraChandraE.gj MatraE.gj MatraAi.gj MatraE_alt.gj MatraAi_alt.gj MatraChandraE_alt.gj MatraEBindu.gj MatraEBindu_alt.gj MatraAiBindu.gj MatraAiBindu_alt.gj MatraEChandrabindu.gj MatraEChandrabindu_alt.gj MatraAiChandrabindu.gj MatraAiChandrabindu_alt.gj MatraEReph.gj MatraEReph_alt.gj MatraAiReph.gj MatraAiReph_alt.gj MatraERephBindu.gj MatraERephBindu_alt.gj MatraAiRephBindu.gj MatraAiRephBindu_alt.gj MatraERephChandrabindu.gj MatraERephChandrabindu_alt.gj MatraAiRephChandrabindu.gj MatraAiRephChandrabindu_alt.gj Reph.gj RephBindu.gj RephChandrabindu.gj];
+
+
+#----------------------------------
+#-------For positioning--------
+#----------------------------------
+
+@top = [Bindu.gj Chandrabindu.gj Chandrabindu1.gj Bindu1.gj Reph.gj RephBindu.gj RephChandrabindu.gj];
+
+@top1 = [MatraChandraE.gj MatraE.gj MatraAi.gj MatraE_alt.gj MatraAi_alt.gj MatraChandraE_alt.gj MatraEBindu.gj MatraEBindu_alt.gj MatraAiBindu.gj MatraAiBindu_alt.gj MatraEChandrabindu.gj MatraEChandrabindu_alt.gj MatraAiChandrabindu.gj MatraAiChandrabindu_alt.gj MatraEReph.gj MatraEReph_alt.gj MatraAiReph.gj MatraAiReph_alt.gj MatraERephBindu.gj MatraERephBindu_alt.gj MatraAiRephBindu.gj MatraAiRephBindu_alt.gj MatraERephChandrabindu.gj MatraERephChandrabindu_alt.gj MatraAiRephChandrabindu.gj MatraAiRephChandrabindu_alt.gj];
+
+@top2 = [Bindu.gj Chandrabindu.gj Bindu1.gj Chandrabindu2.gj Reph.gj RephBindu.gj RephChandrabindu.gj];
+
+@bottom = [MatraU.gj MatraUu.gj MatraRu.gj MatraRuu.gj MatraU1.gj MatraUu1.gj MatraRu1.gj MatraLru.gj MatraLruu.gj];
+
+@bottom1 = [Halant.gj Vattu.gj VattuHalant.gj VattuMatraU.gj VattuMatraUu.gj Vattu1.gj VattuHalant1.gj VattuMatraU1.gj VattuMatraUu1.gj MatraLru.gj MatraLruu.gj VattuMatraRu.gj VattuMatraRu1.gj];
+
+@nukta = [Nukta.gj];
+
+@topfordanda =[Bindu.gj Chandrabindu.gj Bindu1.gj Chandrabindu1.gj Chandrabindu2.gj Reph.gj RephBindu.gj RephChandrabindu.gj
+MatraChandraE.gj MatraE.gj MatraAi.gj MatraE_alt.gj MatraAi_alt.gj MatraChandraE_alt.gj MatraEBindu.gj MatraEBindu_alt.gj MatraAiBindu.gj MatraAiBindu_alt.gj MatraEChandrabindu.gj MatraEChandrabindu_alt.gj MatraAiChandrabindu.gj MatraAiChandrabindu_alt.gj MatraEReph.gj MatraEReph_alt.gj MatraAiReph.gj MatraAiReph_alt.gj MatraERephBindu.gj MatraERephBindu_alt.gj MatraAiRephBindu.gj MatraAiRephBindu_alt.gj MatraERephChandrabindu.gj MatraERephChandrabindu_alt.gj MatraAiRephChandrabindu.gj MatraAiRephChandrabindu_alt.gj];
+
+#------------------------------------------------------------------------
+
+
+
+#----------------------------------------
+#-------KERN CLASSES for gujarati--------
+#----------------------------------------
+
+
+@_kernNgaconjuncts=[NgaMa.gj  NgaGa.gj NgaGha.gj NgaNa.gj NgaVa.gj DdaDda.gj NgaKa.gj];
+@_kernTraRu=[TaRa.gj  VowelRu.gj VowelRuu.gj TaRa_alt.gj TaRaHalf.gj];
+@_kernAaCa=[VowelA.gj  VowelAa.gj VowelChadraE.gj VowelE.gj VowelAi.gj VowelChandraO.gj VowelO.gj VowelAu.gj Ca.gj CaRa.gj CaCa.gj CaCha.gj CaNya.gj CaMa.gj CaRa_alt.gj Ca_alt.gj CaHalf.gj CaCa_alt.gj CaNya_alt.gj CaMa_alt.gj CaNa.gj CaNa_alt.gj];
+@_kernNna=[Nna.gj  NnaRa.gj NnaRa_alt.gj Nna_alt.gj NnaHalf.gj];
+@_kernIiCha=[VowelI.gj  VowelIi.gj Cha.gj ChaYa.gj ChaRaYa.gj ChaYa_alt.gj ChaRaYa_alt.gj ChaVa.gj DaDa.gj Da.gj];
+@_kernHa=[Ha.gj  HaRa.gj HaNna.gj HaNa.gj HaMa.gj HaYa.gj HaLa.gj HaVa.gj HaMa_alt.gj HaYa_alt.gj HaRu.gj HaMaHalf.gj];
+@_kernKa=[Ka.gj  KaRa.gj KaCha.gj KaTta.gj KaTtha.gj KaDda.gj KaTha.gj KaDa.gj KaMa.gj KaYa.gj KaSha.gj KaSa.gj KaRaHalf.gj KaHalf.gj KaKa.gj KaPha.gj KaKaRa.gj KaTaRa.gj KaSaDda.gj KaSaTta.gj KaTha_alt.gj KaMa_alt.gj KaYa_alt.gj KaSha_alt.gj KaSa_alt.gj KaTaRa_alt.gj KaSaHalf.gj KaHalf_alt.gj Pha.gj PhaPha.gj PhaRa.gj PhaTta.gj PhaTha.gj PhaYa.gj PhaSha.gj PhaSa.gj PhaHalf.gj PhaTha_alt.gj PhaYa_alt.gj PhaSha_alt.gj PhaSa_alt.gj PhaHalf_alt.gj KaVaYa.gj KaVaYa_alt.gj];
+@_kernPa=[Pa.gj  PaRa.gj PaKa.gj PaCa.gj PaCha.gj PaDda.gj PaTha.gj PaPa.gj PaPha.gj PaMa.gj PaSha.gj PaSa.gj PaRa_alt.gj PaRaHalf.gj Pa_alt.gj PaHalf.gj PaCa_alt.gj PaTha_alt.gj PaPa_alt.gj PaMa_alt.gj PaSha_alt.gj PaSa_alt.gj PaNa.gj PaNa_alt.gj];
+@_kernGa=[Ga.gj  GaRa.gj GaRa_alt.gj GaRaHalf.gj Ga_alt.gj GaHalf.gj GaNa.gj GaNa_alt.gj GaDhaVa.gj GaDhaVa_alt.gj];
+@_kernDdaNga=[Dda.gj  DdaYa.gj DdaYa_alt.gj Nga.gj Avagraha.gj];
+@_kernJa=[Ja.gj  JaJha.gj JaTta.gj JaTa.gj JaNa.gj JaMa.gj JaYa.gj JaHalf.gj JaTa_alt.gj JaNa_alt.gj JaMa_alt.gj JaYa_alt.gj JaMatraAa.gj JaMatraIi.gj JaHalf_alt.gj Ja_alt.gj];
+@_kernTtaDdha=[Tta.gj  Ddha.gj TtaYa.gj DdhaYa.gj TtaRaYa.gj TtaYa_alt.gj DdhaYa_alt.gj TtaRaYa_alt.gj];
+@_kernTtha=[Ttha.gj  TthaYa.gj TthaYa_alt.gj];
+@_kernTa=[Ta.gj  TaKa.gj TaTha.gj TaNa.gj TaPha.gj TaMa.gj TaYa.gj TaSa.gj Ta_alt.gj TaHalf.gj TaKaYa.gj TaKaRa.gj TaKaSsa.gj TaNaYa.gj TaTha_alt.gj TaNa_alt.gj TaMa_alt.gj TaYa_alt.gj TaSa_alt.gj TaKaYa_alt.gj TaKaSsa_alt.gj TaNaYa_alt.gj TaSaHalf.gj TaKaHalf.gj TaMaHalf.gj TaSaMaHalf.gj];
+@_kernTha=[Tha.gj  ThaRa.gj ThaRa_alt.gj Tha_alt.gj ThaHalf.gj];
+@_kernNa=[Na.gj  NaRa.gj NaKa.gj NaGa.gj NaCa.gj NaTta.gj NaTha.gj NaDha.gj NaPha.gj NaMa.gj NaYa.gj NaSha.gj NaHa.gj NaRa_alt.gj Na_alt.gj NaHalf.gj NaGa_alt.gj NaCa_alt.gj NaTha_alt.gj NaDha_alt.gj NaMa_alt.gj NaYa_alt.gj NaSha_alt.gj NaKaSa_alt.gj NaTaRa_alt.gj NaDhaRa_alt.gj NaKaSa.gj NaTaRa.gj NaDhaRa.gj NaThaHalf.gj NaHalf_alt.gj NaMaHalf.gj NaTaRaHalf.gj NaPhaHalf.gj];
+@_kernBa=[Ba.gj  BaRa.gj BaJha.gj BaDda.gj BaTa.gj BaDa.gj BaDha.gj BaSha.gj BaHa.gj BaRa_alt.gj Ba_alt.gj BaHalf.gj BaSaKa.gj BaSaTta.gj BaTa_alt.gj BaDha_alt.gj BaSha_alt.gj BaNa.gj BaNa_alt.gj BaHalf_alt.gj BaDhaHalf.gj];
+@_kernBha=[Bha.gj  BhaRa.gj BhaRa_alt.gj BhaRaHalf.gj Bha_alt.gj BhaHalf.gj BhaNa.gj BhaNa_alt.gj VowelU.gj VowelUu.gj];
+@_kernMa=[Ma.gj  MaRa.gj MaDa.gj MaSha.gj MaRa_alt.gj MaPha.gj MaKa.gj Ma_alt.gj MaHalf.gj MaSha_alt.gj MaNa.gj MaNa_alt.gj MaHalf_alt.gj];
+@_kernLa=[La.gj  LaRa.gj LaKa.gj LaGa.gj LaCa.gj LaTta.gj LaTtha.gj LaTa.gj LaTha.gj LaDa.gj LaPha.gj LaMa.gj LaYa.gj LaSha.gj LaSa.gj LaHa.gj LaRa_alt.gj La_alt.gj LaHalf.gj LaPhaRa.gj LaVaDa.gj LaGa_alt.gj LaCa_alt.gj LaTa_alt.gj LaTha_alt.gj LaMa_alt.gj LaYa_alt.gj LaSha_alt.gj LaSa_alt.gj LaKaYa.gj LaKaYa_alt.gj LaHalf_alt.gj LaThaHalf.gj LaHalf_alt2.gj];
+@_kernVa=[Va.gj  VaRa.gj VaJha.gj VaDda.gj VaHa.gj VaRa_alt.gj VaRaHalf.gj Va_alt.gj VaHalf.gj VaHalf_alt.gj];
+@_kernSha=[Sha.gj  Sha_alt.gj ShaHalf.gj];
+@_kernLru=[VowelLru.gj  VowelLruu.gj];
+@_kernDaconjuncts=[DaGa.gj  DaNa.gj DaBa.gj DaVa.gj DaMatraRu.gj DaVaYa.gj DaRaYa.gj DaVaYa_alt.gj DaRaYa_alt.gj DaRa.gj];
+@_kernDdaconjuncts=[DdaGa.gj  DdaNa.gj DdaVa.gj DdaDdha.gj];
+@_kernShra=[ShaRa.gj  ShaRa_alt.gj ShaCa.gj ShaNa.gj ShaVa.gj ShaCa_alt.gj ShaRaHalf.gj ShaNa_alt.gj];
+@_kernKsha=[KaSsa.gj  KaSsaHalf.gj KaSsaRa.gj KaSsaRa_alt.gj KaSsaTta.gj KaSsaMa.gj KaSsaYa.gj KaSsa_alt.gj KaSsaMa_alt.gj KaSsaYa_alt.gj KaSsaMatraU.gj KaSsaMaHalf.gj];
+@_kernJaNya=[JaNya.gj  JaNyaHalf.gj JaNya_alt.gj JaNyaMatraU.gj];
+@_kernAllAntadanda=[VowelA.gj  VowelAa.gj VowelChadraE.gj VowelE.gj VowelAi.gj VowelChandraO.gj VowelO.gj VowelAu.gj Kha.gj Ga.gj Gha.gj Ca.gj Nya.gj Nna.gj Ta.gj Tha.gj Dha.gj Na.gj Pa.gj Ba.gj Bha.gj Ma.gj Ya.gj La.gj Lla.gj Va.gj Sha.gj Ssa.gj Sa.gj MatraA.gj MatraIi.gj MatraChandraO.gj MatraO.gj MatraAu.gj KhaRa.gj GaRa.gj GhaRa.gj CaRa.gj NyaRa.gj NnaRa.gj TaRa.gj ThaRa.gj DhaRa.gj NaRa.gj PaRa.gj BaRa.gj BhaRa.gj MaRa.gj YaRa.gj LaRa.gj LlaRa.gj VaRa.gj ShaRa.gj SsaRa.gj SaRa.gj KaSsaRa.gj KhaNa.gj GaNa.gj GhaNa.gj CaNa.gj DhaNa.gj PaNa.gj BaNa.gj BhaNa.gj MaNa.gj KaTha.gj KaMa.gj KaYa.gj KaSha.gj KaSsa.gj KaSa.gj KhaMa.gj KhaYa.gj KhaVa.gj KhaSha.gj KhaSa.gj GhaGha.gj CaCa.gj CaNya.gj CaMa.gj JaNya.gj JaTa.gj JaNa.gj JaMa.gj JaYa.gj JhaYa.gj NyaCa.gj NyaJa.gj NyaSha.gj TtaYa.gj TthaYa.gj DdaYa.gj DdhaYa.gj TaTa.gj TaTha.gj TaNa.gj TaMa.gj TaYa.gj TaSa.gj DaMa.gj DaYa.gj DhaDha.gj NaGa.gj NaCa.gj NaTha.gj NaDha.gj NaNa.gj NaMa.gj NaYa.gj NaSha.gj PaCa.gj PaTha.gj PaPa.gj PaMa.gj PaSha.gj PaSa.gj PhaTha.gj PhaYa.gj PhaSha.gj PhaSa.gj BaTa.gj BaDha.gj BaSha.gj MaSha.gj LaGa.gj LaCa.gj LaTa.gj LaTha.gj LaMa.gj LaYa.gj LaSha.gj LaSa.gj ShaCa.gj ShaNa.gj ShaVa.gj SaTha.gj SaMa.gj HaMa.gj HaYa.gj KaTaRa.gj KaSsaMa.gj KaSsaYa.gj ChaRaYa.gj TtaRaYa.gj TtaTtaYa.gj TthaTthaYa.gj DdaDdaYa.gj TaKaYa.gj TaKaSsa.gj TaTaYa.gj TaNaYa.gj DaDaYa.gj DaBhaYa.gj DaVaYa.gj DaRaYa.gj NaKaSa.gj NaTaRa.gj NaDhaRa.gj LaKaYa.gj SaTaRa.gj SaThaYa.gj MatraABindu.gj MatraAChandrabindu.gj MatraAReph.gj MatraARephBindu.gj MatraARephChandrabindu.gj MatraIi1.gj MatraIi2.gj MatraIi3.gj MatraIiBindu.gj MatraIiBindu1.gj MatraIiBindu2.gj MatraIiBindu3.gj MatraIiChandrabindu.gj MatraIiChandrabindu1.gj MatraIiChandrabindu2.gj MatraIiChandrabindu3.gj MatraIiReph.gj MatraIiReph1.gj MatraIiReph2.gj MatraIiReph3.gj MatraIiRephBindu.gj MatraIiRephBindu1.gj MatraIiRephBindu2.gj MatraIiRephBindu3.gj MatraIiRephChandrabindu.gj MatraIiRephChandrabindu1.gj MatraIiRephChandrabindu2.gj MatraIiRephChandrabindu3.gj MatraOBindu.gj MatraAuBindu.gj MatraOChandrabindu.gj MatraAuChandrabindu.gj MatraOReph.gj MatraAuReph.gj MatraORephBindu.gj MatraAuRephBindu.gj MatraORephChandrabindu.gj MatraAuRephChandrabindu.gj VowelUu.gj];
+@_kernWithoutVanak=[Kha_alt.gj  Ga_alt.gj Gha_alt.gj Ca_alt.gj Nya_alt.gj Nna_alt.gj Ta_alt.gj Tha_alt.gj Dha_alt.gj Na_alt.gj Pa_alt.gj Ba_alt.gj Bha_alt.gj Ma_alt.gj Ya_alt.gj La_alt.gj Va_alt.gj Sha_alt.gj Ssa_alt.gj Sa_alt.gj Lla_alt.gj KhaRa_alt.gj GaRa_alt.gj GhaRa_alt.gj CaRa_alt.gj NyaRa_alt.gj NnaRa_alt.gj TaRa_alt.gj ThaRa_alt.gj DhaRa_alt.gj NaRa_alt.gj PaRa_alt.gj BaRa_alt.gj BhaRa_alt.gj MaRa_alt.gj YaRa_alt.gj LaRa_alt.gj LlaRa_alt.gj VaRa_alt.gj ShaRa_alt.gj SsaRa_alt.gj SaRa_alt.gj KaSsaRa_alt.gj KhaNa_alt.gj GaNa_alt.gj GhaNa_alt.gj CaNa_alt.gj DhaNa_alt.gj PaNa_alt.gj BaNa_alt.gj BhaNa_alt.gj MaNa_alt.gj KaTha_alt.gj KaMa_alt.gj KaYa_alt.gj KaSha_alt.gj KaSsa_alt.gj KaSa_alt.gj KhaMa_alt.gj KhaYa_alt.gj KhaVa_alt.gj KhaSha_alt.gj KhaSa_alt.gj GhaGha_alt.gj CaCa_alt.gj CaNya_alt.gj CaMa_alt.gj ChaYa_alt.gj JaNya_alt.gj JaTa_alt.gj JaNa_alt.gj JaMa_alt.gj JaYa_alt.gj JhaYa_alt.gj NyaCa_alt.gj NyaJa_alt.gj NyaSha_alt.gj TtaYa_alt.gj TthaYa_alt.gj DdaYa_alt.gj DdhaYa_alt.gj TaTa_alt.gj TaTha_alt.gj TaNa_alt.gj TaMa_alt.gj TaYa_alt.gj TaSa_alt.gj DaMa_alt.gj DaYa_alt.gj DhaDha_alt.gj NaGa_alt.gj NaCa_alt.gj NaTha_alt.gj NaDha_alt.gj NaNa_alt.gj NaMa_alt.gj NaYa_alt.gj NaSha_alt.gj PaCa_alt.gj PaTha_alt.gj PaPa_alt.gj PaMa_alt.gj PaSha_alt.gj PaSa_alt.gj PhaTha_alt.gj PhaYa_alt.gj PhaSha_alt.gj PhaSa_alt.gj BaTa_alt.gj BaDha_alt.gj BaSha_alt.gj MaSha_alt.gj LaGa_alt.gj LaCa_alt.gj LaTa_alt.gj LaTha_alt.gj LaMa_alt.gj LaYa_alt.gj LaSha_alt.gj LaSa_alt.gj ShaCa_alt.gj ShaNa_alt.gj ShaVa_alt.gj SaTha_alt.gj SaMa_alt.gj HaMa_alt.gj HaYa_alt.gj KaTaRa_alt.gj KaSsaMa_alt.gj KaSsaYa_alt.gj ChaRaYa_alt.gj TtaRaYa_alt.gj TtaTtaYa_alt.gj TthaTthaYa_alt.gj DdaDdaYa_alt.gj TaKaYa_alt.gj TaKaSsa_alt.gj TaTaYa_alt.gj TaNaYa_alt.gj DaDaYa_alt.gj DaBhaYa_alt.gj DaVaYa_alt.gj DaRaYa_alt.gj NaKaSa_alt.gj NaTaRa_alt.gj NaDhaRa_alt.gj LaKaYa_alt.gj SaTaRa_alt.gj SaThaYa_alt.gj];
+@_kernKaPha2=[Ka.gj  Pha.gj KaRa.gj PhaRa.gj TaKa.gj NaKa.gj PaKa.gj LaKa.gj SsaKa.gj SaKa.gj TaPha.gj NaPha.gj PaPha.gj MaKa.gj MaPha.gj LaPha.gj SaPha.gj SsaPha.gj TaKaRa.gj BaSaKa.gj SsaKaRa.gj LaPhaRa.gj SaKaRa.gj KaKa.gj PhaPha.gj KaPha.gj KaKaRa.gj];
+@_kernCha2=[Cha.gj  KaCha.gj CaCha.gj NyaCha.gj PaCha.gj ChaVa.gj];
+@_kernJa2=[Ja.gj  Zha.gj Ja_alt.gj];
+@_kernJha2=[Jha.gj  JhaRa.gj JaJha.gj NyaJha.gj BaJha.gj VaJha.gj YaJha.gj];
+@_kernTta2=[Tta.gj  KaTta.gj JaTta.gj PhaTta.gj LaTta.gj SaTta.gj NaTta.gj KaSaTta.gj KaSsaTta.gj BaSaTta.gj];
+@_kernTthaDda2=[Ttha.gj  KaTtha.gj LaTtha.gj];
+@_kernDa2=[Da.gj  KaDa.gj MaDa.gj LaDa.gj SaDa.gj BaDa.gj LaVaDa.gj];
+@_kernHa2=[Ha.gj  NaHa.gj BaHa.gj LaHa.gj VaHa.gj HaRa.gj HaNna.gj HaNa.gj HaLa.gj HaVa.gj];
+@_kernNaNa=[NaNa.gj  NaNa_alt.gj NaNaHalf.gj];
+@_kernTaTa=[TaTa.gj  TaTa_alt.gj TaTaHalf.gj];
+@_kernNya=[Nya.gj  NyaRa.gj NyaCha.gj NyaJha.gj NyaSha.gj NyaRa_alt.gj Nya_alt.gj NyaHalf.gj NyaSha_alt.gj];
+@_kernNyaJa_NyaCa=[NyaCa.gj  NyaJa.gj NyaCa_alt.gj NyaJa_alt.gj];
+@_kernKha=[Kha.gj  KhaRa.gj KhaMa.gj KhaYa.gj KhaSha.gj KhaSa.gj KhaRa_alt.gj KhaVa.gj Kha_alt.gj KhaHalf.gj KhaMa_alt.gj KhaYa_alt.gj KhaVa_alt.gj KhaSha_alt.gj KhaSa_alt.gj Ssa.gj SsaHalf.gj SsaRa.gj SsaKa.gj SsaPha.gj SsaRa_alt.gj SsaRaHalf.gj Ssa_alt.gj SsaKaRa.gj KhaNa.gj KhaNa_alt.gj KhaHalf_alt.gj SsaMaHalf.gj];
+@_kernJha=[Jha.gj  JhaRa.gj JhaYa.gj JhaYa_alt.gj];
+@_kernYa=[Ya.gj  YaRa.gj YaRa_alt.gj Ya_alt.gj YaHalf.gj YaJha.gj];
+@_kernLla=[Lla.gj  LlaHalf.gj LlaRa.gj Lla_alt.gj LlaRa_alt.gj];
+@_kernSa=[Sa.gj  SaHalf.gj SaRa.gj SaKa.gj SaTta.gj SaTha.gj SaDa.gj SaPha.gj SaMa.gj SaRa_alt.gj SaRaHalf.gj SaTaRa.gj SaThaYa.gj SaKaRa.gj SaTha_alt.gj SaMa_alt.gj SaTaRa_alt.gj SaThaYa_alt.gj Sa_alt.gj SaHalf_alt.gj SaMaHalf.gj SaKaHalf.gj];
+@_kernDda2=[Dda.gj  KaDda.gj PaDda.gj BaDda.gj VaDda.gj KaSaDda.gj Avagraha.gj];
+@_kernGha=[Gha.gj  GhaHalf.gj GhaRa.gj GhaNa.gj GhaGha.gj GhaRaHalf.gj Gha_alt.gj GhaRa_alt.gj GhaNa_alt.gj GhaGha_alt.gj];
+@_kernRa=[Ra.gj  RaMatraU.gj];
+@_kernDha=[Dha.gj  DhaHalf.gj DhaRa.gj DhaNa.gj DhaDha.gj DhaRaHalf.gj Dha_alt.gj DhaRa_alt.gj DhaNa_alt.gj DhaDha_alt.gj];
+@_kernvowelE=[VowelI.gj  VowelIi.gj];
+@_kernTtaTta=[TtaTta.gj  TtaTtha.gj TtaVa.gj TthaTtha.gj DdhaDdha.gj];
+@_kernDaconjuncts2=[DaGa.gj  DaNa.gj DaBa.gj DaVa.gj DaMatraRu.gj DaRa.gj DaDha.gj DaGha.gj DaBha.gj];
+@_kernVowelU=[RaMatraUu.gj VowelU.gj ];
+@_kernvowelRu=[VowelRu.gj  VowelRuu.gj];
+@_MatraI=[MatraI.gj  MatraIDefaultReph.gj MatraIDefaultRephBindu.gj MatraIDefaultBindu.gj];
+@_MatraI1=[MatraI1.gj  MatraI1Reph.gj MatraI1RephBindu.gj MatraIBindu1.gj];
+@_MatraI2=[MatraI2.gj  MatraI2Reph.gj MatraI2RephBindu.gj MatraIBindu2.gj];
+@_MatraI3=[MatraI3.gj  MatraI3Reph.gj MatraI3RephBindu.gj MatraIBindu3.gj];
+@_MatraI4=[MatraI4.gj  MatraI4Reph.gj MatraI4RephBindu.gj MatraIBindu4.gj];
+@_MatraI5=[MatraI5.gj  MatraI5Reph.gj MatraI5RephBindu.gj MatraIBindu5.gj];
+@_MatraI6=[MatraI6.gj  MatraI6Reph.gj MatraI6RephBindu.gj MatraIBindu6.gj];
+@_MatraI7=[MatraI7.gj  MatraI7Reph.gj MatraI7RephBindu.gj MatraIBindu7.gj];
+@_MatraI8=[MatraI8.gj  MatraI8Reph.gj MatraI8RephBindu.gj MatraIBindu8.gj];
+@_MatraI9=[MatraI9.gj  MatraI9Reph.gj MatraI9RephBindu.gj MatraIBindu9.gj];
+@_MatraI10=[MatraI10.gj  MatraI10Reph.gj MatraI10RephBindu.gj MatraIBindu10.gj];
+@_MatraI11=[MatraI11.gj  MatraI11Reph.gj MatraI11RephBindu.gj MatraIBindu11.gj];
+@_MatraI12=[MatraI12.gj  MatraI12Reph.gj MatraI12RephBindu.gj MatraIBindu12.gj];
+@_MatraI13=[MatraI13.gj  MatraI13Reph.gj MatraI13RephBindu.gj MatraIBindu13.gj];
+@_hyphen=[hyphen  plus endash emdash equal bullet copyright];
+@_MatraI14=[MatraI14.gj  MatraI14Reph.gj MatraI14RephBindu.gj MatraIBindu14.gj];
+@_MatraI15=[MatraI15.gj  MatraI15Reph.gj MatraI15RephBindu.gj MatraIBindu15.gj];
+@_MatraI16=[MatraI16.gj  MatraI16Reph.gj MatraI16RephBindu.gj MatraIBindu16.gj];
+@_MatraI17=[MatraI17.gj  MatraI17Reph.gj MatraI17RephBindu.gj MatraIBindu17.gj];
+@_MatraI18=[MatraI18.gj  MatraI18Reph.gj MatraI18RephBindu.gj MatraIBindu18.gj];
+@_MatraI19=[MatraI19.gj  MatraI19Reph.gj MatraI19RephBindu.gj MatraIBindu19.gj];
+@_MatraI20=[MatraI20.gj  MatraI20Reph.gj MatraI20RephBindu.gj MatraIBindu20.gj];
+@_MatraI21=[MatraI21.gj  MatraI21Reph.gj MatraI21RephBindu.gj MatraIBindu21.gj];
+@_MatraI22=[MatraI22.gj  MatraI22Reph.gj MatraI22RephBindu.gj MatraIBindu22.gj];
+@_MatraI23=[MatraI23.gj  MatraI23Reph.gj MatraI23RephBindu.gj MatraIBindu23.gj];
+@_MatraI24=[MatraI24.gj  MatraI24Reph.gj MatraI24RephBindu.gj MatraIBindu24.gj];
+@_MatraI25=[MatraI25.gj  MatraI25Reph.gj MatraI25RephBindu.gj MatraIBindu25.gj];
+@_MatraI26=[MatraI26.gj  MatraI26Reph.gj MatraI26RephBindu.gj MatraIBindu26.gj];
+@_MatraI27=[MatraI27.gj  MatraI27Reph.gj MatraI27RephBindu.gj MatraIBindu27.gj];
+@_MatraI28=[MatraI28.gj  MatraI28Reph.gj MatraI28RephBindu.gj MatraIBindu28.gj];
+@_MatraI29=[MatraI29.gj  MatraI29Reph.gj MatraI29RephBindu.gj MatraIBindu29.gj];
+@_MatraI30=[MatraI30.gj  MatraI30Reph.gj MatraI30RephBindu.gj MatraIBindu30.gj];
+@_MatraI31=[MatraI31.gj  MatraI31Reph.gj MatraI31RephBindu.gj MatraIBindu31.gj];
+@_MatraI32=[MatraI32.gj  MatraI32Reph.gj MatraI32RephBindu.gj MatraIBindu32.gj];
+@_MatraI33=[MatraI33.gj  MatraI33Reph.gj MatraI33RephBindu.gj MatraIBindu33.gj];
+@_MatraI34=[MatraI34.gj  MatraI34Reph.gj MatraI34RephBindu.gj MatraIBindu34.gj];
+@_MatraI35=[MatraI35.gj  MatraI35Reph.gj MatraI35RephBindu.gj MatraIBindu35.gj];
+@_MatraA=[MatraA.gj  MatraIi.gj MatraChandraO.gj MatraO.gj MatraAu.gj MatraABindu.gj MatraAChandrabindu.gj MatraAReph.gj MatraARephBindu.gj MatraARephChandrabindu.gj MatraIi1.gj MatraIi2.gj MatraIi3.gj MatraIiBindu.gj MatraIiBindu1.gj MatraIiBindu2.gj MatraIiBindu3.gj MatraIiChandrabindu.gj MatraIiChandrabindu1.gj MatraIiChandrabindu2.gj MatraIiChandrabindu3.gj MatraIiReph.gj MatraIiReph1.gj MatraIiReph2.gj MatraIiReph3.gj MatraIiRephBindu.gj MatraIiRephBindu1.gj MatraIiRephBindu2.gj MatraIiRephBindu3.gj MatraIiRephChandrabindu.gj MatraIiRephChandrabindu1.gj MatraIiRephChandrabindu2.gj MatraIiRephChandrabindu3.gj MatraOChandrabindu.gj MatraAuChandrabindu.gj MatraOReph.gj MatraAuReph.gj MatraORephBindu.gj MatraAuRephBindu.gj MatraORephChandrabindu.gj MatraAuRephChandrabindu.gj MatraI1.gj MatraI2.gj MatraI3.gj MatraI4.gj MatraI5.gj MatraI6.gj MatraI7.gj MatraI8.gj MatraI9.gj MatraI10.gj MatraI11.gj MatraI12.gj MatraI13.gj MatraI14.gj MatraI15.gj MatraI16.gj MatraI17.gj MatraI18.gj MatraI19.gj MatraI20.gj MatraI21.gj MatraI22.gj MatraI23.gj MatraI24.gj MatraI25.gj MatraI26.gj MatraI27.gj MatraI28.gj MatraI29.gj MatraI30.gj MatraI31.gj MatraI32.gj MatraI33.gj MatraI34.gj MatraI35.gj MatraI1Reph.gj MatraI2Reph.gj MatraI3Reph.gj MatraI4Reph.gj MatraI5Reph.gj MatraI6Reph.gj MatraI7Reph.gj MatraI8Reph.gj MatraI9Reph.gj MatraI10Reph.gj MatraI11Reph.gj MatraI12Reph.gj MatraI13Reph.gj MatraI14Reph.gj MatraI15Reph.gj MatraI16Reph.gj MatraI17Reph.gj MatraI18Reph.gj MatraI19Reph.gj MatraI20Reph.gj MatraI21Reph.gj MatraI22Reph.gj MatraI23Reph.gj MatraI24Reph.gj MatraI25Reph.gj MatraI26Reph.gj MatraI27Reph.gj MatraI28Reph.gj MatraI29Reph.gj MatraI30Reph.gj MatraI31Reph.gj MatraI32Reph.gj MatraI33Reph.gj MatraI34Reph.gj MatraI35Reph.gj MatraIDefaultReph.gj MatraI1RephBindu.gj MatraI2RephBindu.gj MatraI3RephBindu.gj MatraI4RephBindu.gj MatraI5RephBindu.gj MatraI6RephBindu.gj MatraI7RephBindu.gj MatraI8RephBindu.gj MatraI9RephBindu.gj MatraI10RephBindu.gj MatraI11RephBindu.gj MatraI12RephBindu.gj MatraI13RephBindu.gj MatraI14RephBindu.gj MatraI15RephBindu.gj MatraI16RephBindu.gj MatraI17RephBindu.gj MatraI18RephBindu.gj MatraI19RephBindu.gj MatraI20RephBindu.gj MatraI21RephBindu.gj MatraI22RephBindu.gj MatraI23RephBindu.gj MatraI24RephBindu.gj MatraI25RephBindu.gj MatraI26RephBindu.gj MatraI27RephBindu.gj MatraI28RephBindu.gj MatraI29RephBindu.gj MatraI30RephBindu.gj MatraI31RephBindu.gj MatraI32RephBindu.gj MatraI33RephBindu.gj MatraI34RephBindu.gj MatraI35RephBindu.gj MatraIDefaultRephBindu.gj MatraIBindu1.gj MatraIBindu2.gj MatraIBindu3.gj MatraIBindu4.gj MatraIBindu5.gj MatraIBindu6.gj MatraIBindu7.gj MatraIBindu8.gj MatraIBindu9.gj MatraIBindu10.gj MatraIBindu11.gj MatraIBindu12.gj MatraIBindu13.gj MatraIBindu14.gj MatraIBindu15.gj MatraIBindu16.gj MatraIBindu17.gj MatraIBindu18.gj MatraIBindu19.gj MatraIBindu20.gj MatraIBindu21.gj MatraIBindu22.gj MatraIBindu23.gj MatraIBindu24.gj MatraIBindu25.gj MatraIBindu26.gj MatraIBindu27.gj MatraIBindu28.gj MatraIBindu29.gj MatraIBindu30.gj MatraIBindu31.gj MatraIBindu32.gj MatraIBindu33.gj MatraIBindu34.gj MatraIBindu35.gj MatraIDefaultBindu.gj];
+@_period_gj=[period  comma quotedblbase ellipsis];
+@_quote_gj=[quotesingle  quotedbl asterisk quoteleft quoteright quotedblleft quotedblright registered trademark degree];
+@_RaMatraUu=[RaMatraUu.gj  RupeeSign.gj];
+@_exclam_gj=[exclam  bar brokenbar colon semicolon];
+@_bracketleft_gj=[parenleft bracketleft  braceleft];
+@_bracketright_gj=[parenright bracketright  braceright];
+@_Danda=[Danda.dv  Doubledanda.dv];
+@__percent=[percent  perthousand];
+@_Rupee=[uni20B9  uni20A8];
+
+
+
+
+#------------------------------------------------------------------------
+
+# kern classes for latin
+
+@_bracketleft=[parenleft  bracketleft braceleft];
+@_bracketright=[parenright  bracketright braceright];
+@_quotesingle=[quotesingle  quotedbl];
+@_quoteleft=[quoteleft  quotedblleft];
+@_quoteright=[quoteright  quotedblright];
+@_period=[period  comma colon semicolon ellipsis];
+@_A=[A  Agrave Aacute Acircumflex Atilde Adieresis Aring Abreve Amacron Aogonek];
+@_C=[C  Ccedilla Cacute Ccaron Ccircumflex Cdotaccent];
+@_D=[D  Eth Dcaron Dcroat uni1E0C];
+@_E=[E  Egrave Eacute Ecircumflex Edieresis Ebreve Ecaron Edotaccent Emacron Eogonek];
+@_AE=[AE  AEacute];
+@_G=[G  Gbreve Gcircumflex Gcommaaccent Gdotaccent];
+@_H=[H  Hbar Hcircumflex uni1E24];
+@_I=[I  Igrave Iacute Icircumflex Idieresis Ibreve Idotaccent Imacron Iogonek Itilde];
+@_J=[J  Jcircumflex];
+@_K=[K  Kcommaaccent];
+@_L=[L  Lacute Lcaron Lcommaaccent Ldot Lslash uni1E36 uni1E38 uni1E3A];
+@_M=[M  uni1E42];
+@_N=[N  Ntilde Nacute Ncaron Ncommaaccent Eng uni1E44 uni1E46 uni1E48];
+@_O=[O  Ograve Oacute Ocircumflex Otilde Odieresis Obreve Ohungarumlaut Omacron Oslashacute Oslash];
+@_R=[R  Racute Rcaron R.alt Rcommaaccent];
+@_S=[S  Scaron Sacute Scedilla Scircumflex Scommaaccent uni1E62];
+@_T=[T  Tbar Tcaron Tcommaaccent uni1E6C uni1E6E];
+@_U=[U  Ugrave Uacute Ucircumflex Udieresis Ubreve Uhungarumlaut Umacron Uogonek Uring Utilde];
+@_W=[W  Wacute Wcircumflex Wdieresis Wgrave];
+@_Y=[Y  Ydieresis Ycircumflex Ygrave uni1E8E];
+@_Z=[Z  Zcaron Zacute Zdotaccent];
+@_a=[a  agrave aacute acircumflex atilde adieresis aring abreve amacron aogonek];
+@_ae=[ae  aeacute];
+@_b=[b  Thorn thorn];
+@_c=[c  ccedilla cacute ccaron ccircumflex cdotaccent];
+@_d=[d  dcaron dcroat uni1E0D];
+@_e=[e  egrave eacute ecircumflex edieresis ebreve ecaron edotaccent emacron eogonek];
+@_g=[g  gbreve gcircumflex gcommaaccent gdotaccent];
+@_h=[h  hbar hcircumflex uni1E25];
+@_i=[i  igrave iacute icircumflex idieresis ibreve imacron iogonek itilde];
+@_j=[j  jcircumflex];
+@_k=[k  kcommaaccent];
+@_l=[l  lacute lcaron lcommaaccent ldot lslash uni1E37 uni1E39 uni1E3B];
+@_m=[m  uni1E43];
+@_n=[n  ntilde nacute napostrophe ncaron ncommaaccent eng uni1E45 uni1E47 uni1E49];
+@_o=[o  ograve oacute ocircumflex otilde odieresis oslash obreve ohungarumlaut omacron oslashacute];
+@_r=[r  racute rcaron rcommaaccent uni1E5B uni1E5D uni1E5F];
+@_s=[s  sacute scedilla scircumflex scommaaccent uni1E63];
+@_t=[t  tbar tcaron tcommaaccent];
+@_u=[u  ugrave uacute ucircumflex udieresis ubreve uhungarumlaut umacron uogonek uring utilde];
+@_w=[w  wacute wcircumflex wdieresis w.alt wgrave];
+@_y=[y  yacute ydieresis ycircumflex ygrave uni1E8F];
+@_z=[z  zcaron zacute zdotaccent];
+
+
+
+
+
+#------------------------------------------------------------------------
+#------------------------------------------------------------------------
+
+
+# MarkAttchmentType
+@ForVattu = [MatraI.gj Reph.gj RephBindu.gj Bindu.gj MatraIDefaultReph.gj MatraIDefaultRephBindu.gj MatraIDefaultBindu.gj  MatraI1.gj MatraI2.gj MatraI3.gj MatraI4.gj MatraI5.gj MatraI6.gj MatraI7.gj MatraI8.gj MatraI9.gj MatraI10.gj MatraI11.gj MatraI12.gj MatraI13.gj MatraI14.gj MatraI15.gj MatraI16.gj MatraI17.gj MatraI18.gj MatraI19.gj MatraI20.gj MatraI21.gj MatraI22.gj MatraI23.gj MatraI24.gj MatraI25.gj MatraI26.gj MatraI27.gj MatraI28.gj MatraI29.gj MatraI30.gj MatraI31.gj MatraI32.gj MatraI33.gj MatraI34.gj MatraI35.gj MatraI1Reph.gj MatraI2Reph.gj MatraI3Reph.gj MatraI4Reph.gj MatraI5Reph.gj MatraI6Reph.gj MatraI7Reph.gj MatraI8Reph.gj MatraI9Reph.gj MatraI10Reph.gj MatraI11Reph.gj MatraI12Reph.gj MatraI13Reph.gj MatraI14Reph.gj MatraI15Reph.gj MatraI16Reph.gj MatraI17Reph.gj MatraI18Reph.gj MatraI19Reph.gj MatraI20Reph.gj MatraI21Reph.gj MatraI22Reph.gj MatraI23Reph.gj MatraI24Reph.gj MatraI25Reph.gj MatraI26Reph.gj MatraI27Reph.gj MatraI28Reph.gj MatraI29Reph.gj MatraI30Reph.gj MatraI31Reph.gj MatraI32Reph.gj MatraI33Reph.gj MatraI34Reph.gj MatraI35Reph.gj MatraI1RephBindu.gj MatraI2RephBindu.gj MatraI3RephBindu.gj MatraI4RephBindu.gj MatraI5RephBindu.gj MatraI6RephBindu.gj MatraI7RephBindu.gj MatraI8RephBindu.gj MatraI9RephBindu.gj MatraI10RephBindu.gj MatraI11RephBindu.gj MatraI12RephBindu.gj MatraI13RephBindu.gj MatraI14RephBindu.gj MatraI15RephBindu.gj MatraI16RephBindu.gj MatraI17RephBindu.gj MatraI18RephBindu.gj MatraI19RephBindu.gj MatraI20RephBindu.gj MatraI21RephBindu.gj MatraI22RephBindu.gj MatraI23RephBindu.gj MatraI24RephBindu.gj MatraI25RephBindu.gj MatraI26RephBindu.gj MatraI27RephBindu.gj MatraI28RephBindu.gj MatraI29RephBindu.gj MatraI30RephBindu.gj MatraI31RephBindu.gj MatraI32RephBindu.gj MatraI33RephBindu.gj MatraI34RephBindu.gj MatraI35RephBindu.gj MatraIBindu1.gj MatraIBindu2.gj MatraIBindu3.gj MatraIBindu4.gj MatraIBindu5.gj MatraIBindu6.gj MatraIBindu7.gj MatraIBindu8.gj MatraIBindu9.gj MatraIBindu10.gj MatraIBindu11.gj MatraIBindu12.gj MatraIBindu13.gj MatraIBindu14.gj MatraIBindu15.gj MatraIBindu16.gj MatraIBindu17.gj MatraIBindu18.gj MatraIBindu19.gj MatraIBindu20.gj MatraIBindu21.gj MatraIBindu22.gj MatraIBindu23.gj MatraIBindu24.gj MatraIBindu25.gj MatraIBindu26.gj MatraIBindu27.gj MatraIBindu28.gj MatraIBindu29.gj MatraIBindu30.gj MatraIBindu31.gj MatraIBindu32.gj MatraIBindu33.gj MatraIBindu34.gj MatraIBindu35.gj];
+
+

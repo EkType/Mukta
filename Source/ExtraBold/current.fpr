@@ -1,7 +1,0 @@
-InputFontPath	.\EkMukta-ExtraBold.ttf
-OutputFontPath	.\EkMukta-ExtraBold-build.ttf
-ReleaseMode	true
-DoSubroutinization	true
-FeaturePath	.\features
-FontMenuDBPath	..\FontMenuNameDB
-GlyphAliasDBPath	..\GlyphOrderAndAliasDB

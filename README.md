@@ -1,14 +1,21 @@
-# Ek Mukta
+# Mukta
 
-Ek Mukta is a Unicode compliant, versatile, contemporary, humanist, mono-linear typeface available in seven weights, supporting Devanagari and Latin scripts. This type family is a libre licensed version the Ek multi-script family, an ongoing project to develop a unified type family for each Indian script. The goal is to build one harmonious family across all Indian scripts without letting the visual features of one script dominate over others. This ensures that the fonts can be used successfully for both single and multi-script purposes. This project is led by [Ek Type](http://ektype.in/), a collective of type designers based in Mumbai focused on designing contemporary Indian typefaces. 
+The Mukta font family is a Unicode compliant, versatile, contemporary, humanist, mono-linear typeface available in seven weights, supporting Devanagari, Gujarati and Latin scripts. This type family is a libre licensed version the Ek multi-script family, an ongoing project to develop a unified type family for each Indian script. The goal is to build one harmonious family across all Indian scripts without letting the visual features of one script dominate over others. This ensures that the fonts can be used successfully for both single and multi-script purposes. This project is led by [Ek Type](http://ektype.in/), a collective of type designers based in Mumbai focused on designing contemporary Indian typefaces. 
 
-Ek Mukta was designed by [Girish Dalvi](http://www.idc.iitb.ac.in/~girish/) and [Yashodeep Gholap](http://www.yashodeepgholap.com/), with extensive support from [Noopur Datye, Sarang Kulkarni and Maithili Shingre](http://ektype.in/). We would like to thank Vinay Saynekar, Santosh Kshirsagar, Shubhanand Jog, Yogesh Jahargirdar, Pradnya Naik, Snehal Patil, Pallavi Karambelkar, Omkar Shende and Dave Crossland for their suggestions and feedback during the font design process. We would also like to thank faculty and friends from the Industrial Design Centre, IIT Bombay and from Sir J J Institute of Applied Art for their support and encouragement.
+At present the project offers separate fonts with unique local names for each of the Indian Scripts. 
+Each font supports one Indian script along with Latin.
 
-A short demonstration on the possibilities of using Indic web fonts on the web can be seen here. [Demonstration on how to use Devanagari on the web using Web Fonts and Ek Mukta)](http://www.idc.iitb.ac.in/~girish/demo/).
+- Mukta for Devanagari
+- Mukta Vaani for Gujarati
+
+
+Mukta was designed by [Girish Dalvi](http://www.idc.iitb.ac.in/~girish/) and [Yashodeep Gholap](http://www.yashodeepgholap.com/), Mukta Vaani was designed by Noopur Datye and Pallavi Karambelkar with  support from [Sarang Kulkarni and Maithili Shingre](http://ektype.in/). We would like to thank Vinay Saynekar, Santosh Kshirsagar, Shubhanand Jog, Yogesh Jahargirdar, Pradnya Naik, Snehal Patil, Omkar Shende and Dave Crossland for their suggestions and feedback during the font design process. We would also like to thank faculty and friends from the Industrial Design Centre, IIT Bombay and from Sir J J Institute of Applied Art for their support and encouragement.
+
+A short demonstration on the possibilities of using Indic web fonts on the web can be seen here. [Demonstration on how to use Devanagari on the web using Web Fonts and Mukta)](http://www.idc.iitb.ac.in/~girish/demo/).
 
 ## License
 
-Ek Mukta is licensed under the SIL Open Font License v1.1 (<http://scripts.sil.org/OFL>)
+Mukta is licensed under the SIL Open Font License v1.1 (<http://scripts.sil.org/OFL>)
 
 To view the copyright and specific terms and conditions please refer to [OFL.txt](https://github.com/girish-dalvi/Ek-Mukta/blob/master/OFL.txt)
 
@@ -65,7 +72,7 @@ The build process used by Ek Type is as follows:
 4. Type the following commands in the Command prompt window. Make sure that the AFDKO directory is included in your path.
 
 Use `maketof -h` to view the options available to you; choose the options you want as per your needs. We generally use  
-`makeotf -f EkMukta-Regular-fl.ttf -o EkMukta-Regular.ttf -r -S -rev` to generate the release version of the font. 
+`makeotf -f Mukta-Regular-fl.ttf -o Mukta-Regular.ttf -r -S -rev` to generate the release version of the font. 
 
 ### Branches and Pull Requests
 
