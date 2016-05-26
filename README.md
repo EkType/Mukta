@@ -11,7 +11,7 @@ Each font supports one Indian script along with Latin.
 
 Mukta was designed by [Girish Dalvi](http://www.idc.iitb.ac.in/~girish/) and [Yashodeep Gholap](http://www.yashodeepgholap.com/), Mukta Vaani was designed by Noopur Datye and Pallavi Karambelkar with  support from [Sarang Kulkarni and Maithili Shingre](http://ektype.in/). We would like to thank Vinay Saynekar, Santosh Kshirsagar, Shubhanand Jog, Yogesh Jahargirdar, Pradnya Naik, Snehal Patil, Omkar Shende and Dave Crossland for their suggestions and feedback during the font design process. We would also like to thank faculty and friends from the Industrial Design Centre, IIT Bombay and from Sir J J Institute of Applied Art for their support and encouragement.
 
-A short demonstration on the possibilities of using Indic web fonts on the web can be seen here. [Demonstration on how to use Devanagari on the web using Web Fonts and Mukta)](http://www.idc.iitb.ac.in/~girish/demo/).
+A short demonstration on the possibilities of using Indic web fonts on the web can be seen here: [Demonstration on how to use Devanagari on the web using Web Fonts and Mukta](http://www.idc.iitb.ac.in/~girish/demo/).
 
 ## License
 
