@@ -9,6 +9,7 @@
 *.pfm
 *.fpr
 *.bak
+*.vfbak
 #Binary Folders
 OTF/
 TTF/

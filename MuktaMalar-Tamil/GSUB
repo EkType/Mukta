@@ -1,0 +1,541 @@
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem taml dflt;
+languagesystem taml TAM ;
+languagesystem tml2 dflt;
+languagesystem tml2 TAM ;
+
+
+#-----Classes-------------------------------------------------
+
+#--------------------
+# For Latin
+#--------------------
+
+@Numbers = [zero.lat one.lat two.lat three.lat four.lat five.lat six.lat seven.lat eight.lat nine.lat];
+
+@Numbers1 = [zero one two three four five six seven eight nine];
+
+@Oldstyle = [oneoldstyle zerooldstyle twooldstyle threeoldstyle fouroldstyle fiveoldstyle sixoldstyle sevenoldstyle eightoldstyle nineoldstyle];
+
+@Lowercase = [a b c d e f g h i j k l m n o p q r s t u v w x y z];
+
+@Small_Caps = [Asmall Bsmall Csmall Dsmall Esmall Fsmall Gsmall Hsmall Ismall Jsmall Ksmall Lsmall Msmall Nsmall Osmall Psmall Qsmall Rsmall Ssmall Tsmall Usmall Vsmall Wsmall Xsmall Ysmall Zsmall];
+
+@Superscript = [zero.superior onesuperior twosuperior threesuperior four.superior five.superior six.superior seven.superior eight.superior nine.superior];
+
+@Subscript = [zero.inferior one.inferior two.inferior three.inferior four.inferior five.inferior six.inferior seven.inferior eight.inferior nine.inferior];
+
+@Denominator = [denozero denoone denotwo denothree denofour denofive denosix denoseven denoeight denonine];
+
+@Numerator = [numzero numone numtwo numthree numfour numfive numsix numseven numeight numnine];
+
+@Tabular_Old = [tabularoldzero tabularoldone tabularoldtwo tabularoldthree tabularoldfour tabularoldfive tabularoldsix tabularoldseven tabularoldeight tabularoldnine];
+
+@allTamil = [Anusvara.tm Aaytam.tm vowelA.tm vowelAa.tm vowelI.tm vowelIi.tm vowelU.tm vowelUu.tm vowelE.tm vowelEe.tm vowelAi.tm vowelO.tm vowelOo.tm vowelAu.tm Ka.tm Nga.tm Ca.tm Ja.tm Nya.tm Tta.tm Nna.tm Ta.tm Na.tm Nnna.tm Pa.tm Ma.tm Ya.tm Ra.tm Rra.tm La.tm Lla.tm Llla.tm Va.tm Sha.tm Ssa.tm Sa.tm Ha.tm RaAltMatraAa.tm MatraIDflt.tm MatraIiDflt.tm MatraUDflt.tm MatraUuDflt.tm MatraE.tm MatraEe.tm MatraAi.tm MatraO.tm MatraOo.tm MatraAu.tm PulliDflt.tm Om.tm MatraAuSpare.tm Zero.tm One.tm Two.tm Three.tm Four.tm Five.tm Six.tm Seven.tm Eight.tm Nine.tm Ten.tm Hundred.tm Thousand.tm DaySign.tm MonthSign.tm YearSign.tm DebitSign.tm CreditSign.tm AsAboveSign.tm RupeeSign.tm NumberSign.tm Ksha.tm Shree.tm Kana.tm vowelAAlt.tm vowelAaAlt.tm vowelIAlt.tm JaAlt.tm JaAlt.tm KaPulli.tm NgaPulli.tm CaPulli.tm JaPulli.tm JaAltPulli.tm JaAltPulli.tm NyaPulli.tm TtaPulli.tm NnaPulli.tm TaPulli.tm NaPulli.tm NnnaPulli.tm PaPulli.tm MaPulli.tm YaPulli.tm RaPulli.tm RaAltPulli.tm RraPulli.tm LaPulli.tm LlaPulli.tm LllaPulli.tm VaPulli.tm SsaPulli.tm SaPulli.tm HaPulli.tm ShaPulli.tm KshaPulli.tm NnaMatraAa.tm NnnaMatraAa.tm RraMatraAa.tm KaMatraI.tm NgaMatraI.tm CaMatraI.tm JaMatraI.tm JaAltMatraI.tm JaAltMatraI.tm NyaMatraI.tm TtaMatraI.tm NnaMatraI.tm TaMatraI.tm NaMatraI.tm NnnaMatraI.tm PaMatraI.tm MaMatraI.tm YaMatraI.tm RaMatraI.tm RaAltMatraI.tm RraMatraI.tm LaMatraI.tm LlaMatraI.tm LllaMatraI.tm VaMatraI.tm SsaMatraI.tm SaMatraI.tm HaMatraI.tm ShaMatraI.tm KshaMatraI.tm KaMatraIi.tm NgaMatraIi.tm CaMatraIi.tm JaMatraIi.tm JaAltMatraIi.tm NyaMatraIi.tm TtaMatraIi.tm NnaMatraIi.tm TaMatraIi.tm NaMatraIi.tm NnnaMatraIi.tm PaMatraIi.tm MaMatraIi.tm YaMatraIi.tm RaMatraIi.tm RaAltMatraIi.tm RraMatraIi.tm LaMatraIi.tm LlaMatraIi.tm LllaMatraIi.tm VaMatraIi.tm SsaMatraIi.tm SaMatraIi.tm HaMatraIi.tm ShaMatraIi.tm KshaMatraIi.tm KaMatraU.tm NgaMatraU.tm CaMatraU.tm JaMatraU.tm JaAltMatraU.tm JaAltMatraU.tm NyaMatraU.tm TtaMatraU.tm NnaMatraU.tm TaMatraU.tm NaMatraU.tm NnnaMatraU.tm PaMatraU.tm MaMatraU.tm YaMatraU.tm RaMatraU.tm RraMatraU.tm LaMatraU.tm LlaMatraU.tm LllaMatraU.tm VaMatraU.tm SsaMatraU.tm SaMatraU.tm HaMatraU.tm ShaMatraU.tm KshaMatraU.tm KaMatraUu.tm NgaMatraUu.tm CaMatraUu.tm JaMatraUu.tm JaAltMatraUu.tm JaAltMatraUu.tm NyaMatraUu.tm TtaMatraUu.tm NnaMatraUu.tm TaMatraUu.tm NaMatraUu.tm NnnaMatraUu.tm PaMatraUu.tm MaMatraUu.tm YaMatraUu.tm RaMatraUu.tm RraMatraUu.tm LaMatraUu.tm LlaMatraUu.tm LllaMatraUu.tm VaMatraUu.tm SsaMatraUu.tm SaMatraUu.tm HaMatraUu.tm ShaMatraUu.tm KshaMatraUu.tm NnaMatraAi.tm NnnaMatraAi.tm LaMatraAi.tm LlaMatraAi.tm space DottedCircle tabularzero tabularone  tabulartwo  tabularthree  tabularfour  tabularfive  tabularsix  tabularseven  tabulareight  tabularnine zero one two three four five six seven eight nine yen sterling Euro dollar cent uni20A8 bar perthousand percent quoteright quoteleft quotedblright quotedblleft hyphen endash emdash parenright parenleft bracketright bracketleft braceright braceleft slash semicolon quotesingle quotedbl question period numbersign exclam ellipsis comma colon bullet periodcentered backslash asterisk];
+
+@Tabular = [tabularzero.lat tabularone.lat tabulartwo.lat tabularthree.lat tabularfour.lat tabularfive.lat tabularsix.lat tabularseven.lat tabulareight.lat tabularnine.lat];
+
+
+#-------------------- L A T I N K E R N -----------------------#
+
+@_bracketleft=[parenleft.lat  bracketleft.lat braceleft.lat];
+@_bracketright=[parenright.lat  bracketright.lat braceright.lat];
+@_quotesingle=[quotesingle.lat  quotedbl.lat];
+@_quoteleft=[quoteleft.lat  quotedblleft.lat];
+@_quoteright=[quoteright.lat  quotedblright.lat];
+@_period=[period.lat  comma.lat colon.lat semicolon.lat ellipsis.lat];
+@_A=[A  Agrave Aacute Acircumflex Atilde Adieresis Aring Abreve Amacron Aogonek];
+@_C=[C  Ccedilla Cacute Ccaron Ccircumflex Cdotaccent];
+@_D=[D  Eth Dcaron Dcroat uni1E0C];
+@_E=[E  Egrave Eacute Ecircumflex Edieresis Ebreve Ecaron Edotaccent Emacron Eogonek];
+@_AE=[AE  AEacute];
+@_G=[G  Gbreve Gcircumflex Gcommaaccent Gdotaccent];
+@_H=[H  Hbar Hcircumflex uni1E24];
+@_I=[I  Igrave Iacute Icircumflex Idieresis Ibreve Idotaccent Imacron Iogonek Itilde];
+@_J=[J  Jcircumflex];
+@_K=[K  Kcommaaccent];
+@_L=[L  Lacute Lcaron Lcommaaccent Ldot Lslash uni1E36 uni1E38 uni1E3A];
+@_M=[M  uni1E42];
+@_N=[N  Ntilde Nacute Ncaron Ncommaaccent Eng uni1E44 uni1E46 uni1E48];
+@_O=[O  Ograve Oacute Ocircumflex Otilde Odieresis Obreve Ohungarumlaut Omacron Oslashacute Oslash];
+@_R=[R  Racute Rcaron R.alt Rcommaaccent];
+@_S=[S  Scaron Sacute Scedilla Scircumflex Scommaaccent uni1E62];
+@_T=[T  Tbar Tcaron Tcommaaccent uni1E6C uni1E6E];
+@_U=[U  Ugrave Uacute Ucircumflex Udieresis Ubreve Uhungarumlaut Umacron Uogonek Uring Utilde];
+@_W=[W  Wacute Wcircumflex Wdieresis Wgrave];
+@_Y=[Y  Ydieresis Ycircumflex Ygrave uni1E8E];
+@_Z=[Z  Zcaron Zacute Zdotaccent];
+@_a=[a  agrave aacute acircumflex atilde adieresis aring abreve amacron aogonek];
+@_ae=[ae  aeacute];
+@_b=[b  Thorn thorn ];
+@_c=[c  ccedilla cacute ccaron ccircumflex cdotaccent];
+@_d=[d  dcaron dcroat uni1E0D];
+@_e=[e  egrave eacute ecircumflex edieresis ebreve ecaron edotaccent emacron eogonek];
+@_g=[g  gbreve gcircumflex gcommaaccent gdotaccent];
+@_h=[h  hbar hcircumflex uni1E25];
+@_i=[i  igrave iacute icircumflex idieresis ibreve imacron iogonek itilde];
+@_j=[j  jcircumflex];
+@_k=[k  kcommaaccent];
+@_l=[l  lacute lcaron lcommaaccent ldot lslash uni1E37 uni1E39 uni1E3B];
+@_m=[m  uni1E43];
+@_n=[n  ntilde nacute napostrophe ncaron ncommaaccent eng uni1E45 uni1E47 uni1E49];
+@_o=[o  ograve oacute ocircumflex otilde odieresis oslash obreve ohungarumlaut omacron oslashacute];
+@_r=[r  racute rcaron rcommaaccent uni1E5B uni1E5D uni1E5F];
+@_s=[s  sacute scedilla scircumflex scommaaccent uni1E63];
+@_t=[t  tbar tcaron tcommaaccent];
+@_u=[u  ugrave uacute ucircumflex udieresis ubreve uhungarumlaut umacron uogonek uring utilde];
+@_w=[w  wacute wcircumflex wdieresis w.alt wgrave];
+@_y=[y  yacute ydieresis ycircumflex ygrave uni1E8F];
+@_z=[z  zcaron zacute zdotaccent];
+
+#-------------------- T A M I L K E R N -----------------------#
+
+@_Pa_Right=[Pa.tm  vowelA.tm Nga.tm Ya.tm Va.tm MatraIDflt.tm MatraE.tm Eight.tm DebitSign.tm vowelAAlt.tm NgaPulli.tm PaPulli.tm YaPulli.tm VaPulli.tm KaMatraI.tm NgaMatraI.tm CaMatraI.tm JaMatraI.tm JaAltMatraI.tm NyaMatraI.tm NnaMatraI.tm TaMatraI.tm NaMatraI.tm NnnaMatraI.tm PaMatraI.tm MaMatraI.tm YaMatraI.tm RaMatraI.tm RaAltMatraI.tm RraMatraI.tm LaMatraI.tm LlaMatraI.tm LllaMatraI.tm VaMatraI.tm SsaMatraI.tm SaMatraI.tm HaMatraI.tm ShaMatraI.tm NgaMatraIi.tm PaMatraIi.tm YaMatraIi.tm VaMatraIi.tm NgaMatraU.tm NyaMatraU.tm NnaMatraU.tm TaMatraU.tm NaMatraU.tm NnnaMatraU.tm PaMatraU.tm YaMatraU.tm RraMatraU.tm LaMatraU.tm VaMatraU.tm Sha.tm ShaPulli.tm ShaMatraIi.tm KshaMatraI.tm];
+@_Ra_Right=[Ra.tm  vowelE.tm vowelEe.tm vowelAu.tm Nna.tm Nnna.tm Lla.tm RaAltMatraAa.tm MatraO.tm MatraOo.tm MatraAu.tm MatraAuSpare.tm Seven.tm Hundred.tm NnaPulli.tm NnnaPulli.tm RaPulli.tm RaAltPulli.tm LlaPulli.tm NnaMatraIi.tm NnnaMatraIi.tm RaMatraIi.tm RaAltMatraIi.tm LlaMatraIi.tm NyaMatraUu.tm NnaMatraUu.tm TaMatraUu.tm NaMatraUu.tm NnnaMatraUu.tm RraMatraUu.tm LaMatraUu.tm NnaMatraAi.tm NnnaMatraAi.tm LlaMatraAi.tm];
+@_Na_Right=[Na.tm  Nya.tm Ta.tm Five.tm Shree.tm NyaPulli.tm TaPulli.tm NaPulli.tm NyaMatraIi.tm TaMatraIi.tm NaMatraIi.tm RaMatraU.tm LlaMatraU.tm RaMatraUu.tm LlaMatraUu.tm KaMatraU.tm];
+@_Ma_Right=[Ma.tm  Llla.tm MaPulli.tm LllaPulli.tm MaMatraIi.tm LllaMatraIi.tm MaMatraU.tm LllaMatraU.tm MaMatraUu.tm LllaMatraUu.tm MatraAi.tm NnaMatraAa.tm NnnaMatraAa.tm Zero.tm];
+@_Ssa_Right=[Ssa.tm  Ksha.tm SsaPulli.tm KshaPulli.tm SsaMatraIi.tm KshaMatraIi.tm AsAboveSign.tm];
+@_La_Right=[La.tm  Sa.tm YearSign.tm LaPulli.tm SaPulli.tm LaMatraIi.tm SaMatraIi.tm LaMatraAi.tm];
+@_JaMatraU_Right=[JaMatraU.tm  MatraUDflt.tm JaAltMatraU.tm SsaMatraU.tm SaMatraU.tm HaMatraU.tm ShaMatraU.tm KshaMatraU.tm];
+@_JaMatraUu_Right=[JaMatraUu.tm  JaAltMatraUu.tm SsaMatraUu.tm SaMatraUu.tm HaMatraUu.tm ShaMatraUu.tm MatraUuDflt.tm KshaMatraUu.tm];
+@_Tta_Right=[Tta.tm  Two.tm Three.tm DaySign.tm TtaPulli.tm KaMatraUu.tm vowelU.tm TtaMatraI.tm TtaMatraIi.tm CreditSign.tm];
+@_Rra_Right=[Rra.tm  Ha.tm RraPulli.tm HaPulli.tm RraMatraIi.tm HaMatraIi.tm RraMatraAa.tm];
+@_Ka_Right=[Ka.tm  One.tm KaPulli.tm KaMatraIi.tm Nine.tm];
+@_Ca_Right=[Ca.tm  Six.tm CaPulli.tm CaMatraIi.tm CaMatraU.tm RupeeSign.tm];
+@_Ja_Right=[Ja.tm  JaPulli.tm JaMatraIi.tm vowelAi.tm];
+@_JaAlt_Right=[JaAlt.tm  JaAltPulli.tm JaAltMatraIi.tm vowelUu.tm];
+@_vowelO_Right=[vowelO.tm  vowelOo.tm Om.tm];
+@_MonthSign_Right=[MonthSign.tm  NumberSign.tm];
+@_vowelE_Left=[vowelE.tm  vowelEe.tm Nna.tm Nnna.tm La.tm Lla.tm Va.tm Ssa.tm Sa.tm Ha.tm MatraAi.tm MatraAuSpare.tm Seven.tm DaySign.tm CreditSign.tm NnaPulli.tm NnnaPulli.tm LaPulli.tm LlaPulli.tm VaPulli.tm SsaPulli.tm SaPulli.tm HaPulli.tm NnaMatraI.tm NnnaMatraI.tm LaMatraI.tm LlaMatraI.tm VaMatraI.tm SsaMatraI.tm SaMatraI.tm HaMatraI.tm NnaMatraIi.tm NnnaMatraIi.tm LaMatraIi.tm LlaMatraIi.tm VaMatraIi.tm SsaMatraIi.tm SaMatraIi.tm HaMatraIi.tm NyaMatraU.tm NnaMatraU.tm NnnaMatraU.tm LaMatraU.tm VaMatraU.tm SsaMatraU.tm SaMatraU.tm HaMatraU.tm NyaMatraUu.tm NnaMatraUu.tm NnnaMatraUu.tm LaMatraUu.tm VaMatraUu.tm SsaMatraUu.tm SaMatraUu.tm HaMatraUu.tm];
+@_Pa_Left=[Pa.tm  Ma.tm Nga.tm Tta.tm Na.tm Llla.tm RaAltMatraAa.tm Three.tm MonthSign.tm DebitSign.tm NumberSign.tm Shree.tm TtaPulli.tm NaPulli.tm PaPulli.tm MaPulli.tm RaPulli.tm RaAltPulli.tm LllaPulli.tm NgaMatraI.tm TtaMatraI.tm NaMatraI.tm PaMatraI.tm MaMatraI.tm RaMatraI.tm RaAltMatraI.tm LllaMatraI.tm TtaMatraIi.tm NaMatraIi.tm PaMatraIi.tm MaMatraIi.tm RaMatraIi.tm RaAltMatraIi.tm LllaMatraIi.tm NgaMatraU.tm NaMatraU.tm PaMatraU.tm NgaMatraUu.tm NaMatraUu.tm PaMatraUu.tm vowelIi.tm Ya.tm Sha.tm Ten.tm NgaPulli.tm YaPulli.tm ShaPulli.tm YaMatraI.tm ShaMatraI.tm NgaMatraIi.tm YaMatraIi.tm ShaMatraIi.tm YaMatraU.tm ShaMatraU.tm YaMatraUu.tm ShaMatraUu.tm Ra.tm];
+@_Ka_Left=[Ka.tm  Ca.tm Ta.tm One.tm Four.tm Six.tm Nine.tm Thousand.tm Ksha.tm KaPulli.tm CaPulli.tm TaPulli.tm KshaPulli.tm KaMatraI.tm CaMatraI.tm TaMatraI.tm KshaMatraI.tm KaMatraIi.tm CaMatraIi.tm TaMatraIi.tm KshaMatraIi.tm CaMatraU.tm TaMatraU.tm KshaMatraU.tm KaMatraUu.tm TaMatraUu.tm KshaMatraUu.tm];
+@_Nya_Left=[Nya.tm  NyaPulli.tm NnaMatraAa.tm NnnaMatraAa.tm RraMatraAa.tm NyaMatraIi.tm KaMatraU.tm MaMatraU.tm RaMatraU.tm LlaMatraU.tm LllaMatraU.tm CaMatraUu.tm MaMatraUu.tm RaMatraUu.tm LlaMatraUu.tm LllaMatraUu.tm NyaMatraI.tm Zero.tm];
+@_TtaMatraU_Left=[TtaMatraU.tm  Five.tm YearSign.tm RupeeSign.tm TtaMatraUu.tm];
+@_Ja_Left=[Ja.tm  JaPulli.tm JaMatraI.tm JaMatraIi.tm JaMatraU.tm JaMatraUu.tm vowelAi.tm];
+@_JaAlt_Left=[JaAlt.tm  JaAltPulli.tm JaAltMatraI.tm JaAltMatraIi.tm JaAltMatraU.tm JaAltMatraUu.tm];
+@_MatraE_Left=[MatraE.tm  MatraEe.tm MatraO.tm MatraOo.tm MatraAu.tm AsAboveSign.tm];
+@_vowelA_Left=[vowelA.tm  vowelAa.tm vowelAAlt.tm vowelAaAlt.tm Eight.tm];
+@_vowelO_Left=[vowelO.tm  vowelOo.tm vowelAu.tm Om.tm];
+@_vowelU_Left=[vowelU.tm  vowelUu.tm Two.tm];
+@_PaMatraUu_Right=[PaMatraUu.tm  YaMatraUu.tm VaMatraUu.tm NgaMatraUu.tm Thousand.tm];
+@_Rra_Left=[Rra.tm  Hundred.tm RraPulli.tm RraMatraI.tm RraMatraIi.tm RraMatraU.tm RraMatraUu.tm];
+@_vowelAa_Right=[vowelAa.tm  vowelAaAlt.tm];
+@_OldAikaram=[NnaMatraAi.tm  NnnaMatraAi.tm LaMatraAi.tm LlaMatraAi.tm];
+@_Hyphen=[hyphen  endash emdash bullet periodcentered];
+@_Brackets_Right=[parenright  bracketright braceright];
+@_BracketsLeft=[parenleft  bracketleft braceleft];
+@_Exclam=[bar semicolon exclam colon];
+@_Period=[period  ellipsis comma];
+@_Quote=[quoteright quoteleft quotedblright quotedblleft quotesingle  quotedbl asterisk twosuperior threesuperior onesuperior zero.superior four.superior five.superior six.superior seven.superior eight.superior nine.superior parenleft.superior parenright.superior];
+@_Percent=[perthousand percent ];
+@_IndianRupee=[uni20B9 uni20A8 ];
+@_Registered=[copyright  registered trademark];
+
+
+#-------------------- -------------------- THOSE GROUPED EXCEPTIONAL CASES -------------------- -----------------------#
+
+@_Lower_Na_Left=[Na.tm Rra.tm NaPulli.tm RraPulli.tm NaMatraI.tm RraMatraI.tm NaMatraIi.tm RraMatraIi.tm NaMatraU.tm RraMatraU.tm NaMatraUu.tm RraMatraUu.tm];
+@_Lower_Ta_Left=[Ta.tm TaPulli.tm TaMatraI.tm TaMatraIi.tm TaMatraU.tm TaMatraUu.tm];
+@_Lower_Ha_Left=[Ha.tm HaPulli.tm HaMatraI.tm HaMatraIi.tm NyaMatraU.tm NyaMatraUu.tm NnaMatraU.tm NnaMatraUu.tm NnnaMatraU.tm NnnaMatraUu.tm LaMatraU.tm LaMatraUu.tm];
+@_PaMatraUu_Left=[PaMatraUu.tm NgaMatraUu.tm YaMatraUu.tm VaMatraUu.tm];
+@_Ya_Curve_Left=[Ya.tm Sha.tm Ten.tm YaPulli.tm ShaPulli.tm YaMatraI.tm ShaMatraI.tm YaMatraIi.tm ShaMatraIi.tm YaMatraU.tm ShaMatraUu.tm];
+
+#------------------------- -------------------- GSUB/Feature -------------------- -------------------------------------------------
+
+###-------L A T I N-------###
+
+#******************************************************************************
+
+
+feature onum { # Oldstyle figures
+	sub @Numbers1 by @Oldstyle;
+	sub percent by percentoldstyle;
+} onum;
+
+
+#--------------------------------------------------------------------
+
+feature liga { # Standard Ligatures
+	sub f f i by ffi;
+	sub f f j by f_f_j;
+	sub f f l by ffl;
+	sub f f by ff;
+	sub f i by fi;
+	sub f j by f_j;
+	sub f l by fl;
+} liga;
+
+
+#--------------------------------------------------------------------
+
+
+feature dlig { # Discretionary Ligatures
+	sub s t by s_t;
+	sub c t by c_t;
+} dlig;
+
+
+#--------------------------------------------------------------------
+
+
+feature smcp { # Small Capitals
+	sub @Lowercase by @Small_Caps;
+} smcp;
+
+
+#--------------------------------------------------------------------
+
+
+feature subs { # Subscript
+	sub @Numbers1 by @Subscript;
+	sub parenleft.lat by parenleft.inferior;
+	sub parenright.lat by parenright.inferior;
+	sub parenleft by parenleft.inferior;
+	sub parenright by parenright.inferior;
+} subs;
+
+
+#--------------------------------------------------------------------
+
+
+feature sups { # Superscript
+	sub @Numbers1 by @Superscript;
+	sub parenleft.lat by parenleft.superior;
+	sub parenright.lat by parenright.superior;
+	sub parenleft by parenleft.superior;
+	sub parenright by parenright.superior;
+} sups;
+
+#--------------------------------------------------------------------
+
+
+feature dnom { # Denominator
+	sub @Numbers1 by @Denominator;
+} dnom;
+
+
+#--------------------------------------------------------------------
+
+
+feature numr { # Numerator
+	sub @Numbers1 by @Numerator;
+} numr;
+
+
+#--------------------------------------------------------------------
+
+
+feature tnum { # Tabular figures
+	sub @Numbers1 by @Tabular;
+	sub @Oldstyle by @Tabular_Old;
+} tnum;
+
+#--------------------------------------------------------------------
+
+
+feature frac { # Fractions Latin and Devanagari
+
+    sub one slash two by onehalf;
+    sub one slash four by onequarter;
+    sub three slash four by threequarters;
+
+} frac;
+
+# Stylistic Alternates
+feature salt {
+
+	sub [a g] by [a.alt g.alt];
+
+  }salt;
+
+#**************************TAMIL****************************************************
+
+feature akhn { # akhand forms
+
+sub Ka.tm PulliDflt.tm Ssa.tm by Ksha.tm;
+sub Sha.tm PulliDflt.tm Ra.tm MatraIiDflt.tm by Shree.tm;
+sub Sa.tm PulliDflt.tm Ra.tm MatraIiDflt.tm by Shree.tm;
+sub ShaPulli.tm Ra.tm MatraIiDflt.tm by Shree.tm;
+sub SaPulli.tm Ra.tm MatraIiDflt.tm by Shree.tm;
+
+} akhn;
+
+#--------------------------------------------------------------------
+
+#--------------------------------------------------------------------
+
+
+#Basic Necessary Features
+
+feature haln {
+
+sub Ka.tm PulliDflt.tm by KaPulli.tm;
+sub Nga.tm PulliDflt.tm by NgaPulli.tm;
+sub Ca.tm PulliDflt.tm by CaPulli.tm;
+sub Ja.tm PulliDflt.tm by JaPulli.tm;
+sub JaAlt.tm PulliDflt.tm by JaAltPulli.tm;
+sub Nya.tm PulliDflt.tm by NyaPulli.tm;
+sub Tta.tm PulliDflt.tm by TtaPulli.tm;
+sub Nna.tm PulliDflt.tm by NnaPulli.tm;
+sub Ta.tm PulliDflt.tm by TaPulli.tm;
+sub Na.tm PulliDflt.tm by NaPulli.tm;
+sub Nnna.tm PulliDflt.tm by NnnaPulli.tm;
+sub Pa.tm PulliDflt.tm by PaPulli.tm;
+sub Ma.tm PulliDflt.tm by MaPulli.tm;
+sub Ya.tm PulliDflt.tm by YaPulli.tm;
+sub Ra.tm PulliDflt.tm by RaPulli.tm;
+sub RaAltMatraAa.tm PulliDflt.tm by RaAltPulli.tm;
+sub Rra.tm PulliDflt.tm by RraPulli.tm;
+sub La.tm PulliDflt.tm by LaPulli.tm;
+sub Lla.tm PulliDflt.tm by LlaPulli.tm;
+sub Llla.tm PulliDflt.tm by LllaPulli.tm;
+sub Va.tm PulliDflt.tm by VaPulli.tm;
+sub Sha.tm PulliDflt.tm by ShaPulli.tm;
+sub Ssa.tm PulliDflt.tm by SsaPulli.tm;
+sub Sa.tm PulliDflt.tm by SaPulli.tm;
+sub Ha.tm PulliDflt.tm by HaPulli.tm;
+sub Ksha.tm PulliDflt.tm by KshaPulli.tm;
+
+} haln;
+
+#--------------------------------------------------------------------
+
+feature abvs {
+
+sub Ka.tm MatraIiDflt.tm by KaMatraIi.tm;
+sub Nga.tm MatraIiDflt.tm by NgaMatraIi.tm;
+sub Ca.tm MatraIiDflt.tm by CaMatraIi.tm;
+sub Ja.tm MatraIiDflt.tm by JaMatraIi.tm;
+sub JaAlt.tm MatraIiDflt.tm by JaAltMatraIi.tm;
+sub Nya.tm MatraIiDflt.tm by NyaMatraIi.tm;
+sub Tta.tm MatraIiDflt.tm by TtaMatraIi.tm;
+sub Nna.tm MatraIiDflt.tm by NnaMatraIi.tm;
+sub Ta.tm MatraIiDflt.tm by TaMatraIi.tm;
+sub Na.tm MatraIiDflt.tm by NaMatraIi.tm;
+sub Nnna.tm MatraIiDflt.tm by NnnaMatraIi.tm;
+sub Pa.tm MatraIiDflt.tm by PaMatraIi.tm;
+sub Ma.tm MatraIiDflt.tm by MaMatraIi.tm;
+sub Ya.tm MatraIiDflt.tm by YaMatraIi.tm;
+sub Ra.tm MatraIiDflt.tm by RaMatraIi.tm;
+sub RaAltMatraAa.tm MatraIiDflt.tm by RaAltMatraIi.tm;
+sub Rra.tm MatraIiDflt.tm by RraMatraIi.tm;
+sub La.tm MatraIiDflt.tm by LaMatraIi.tm;
+sub Lla.tm MatraIiDflt.tm by LlaMatraIi.tm;
+sub Llla.tm MatraIiDflt.tm by LllaMatraIi.tm;
+sub Va.tm MatraIiDflt.tm by VaMatraIi.tm;
+sub Sha.tm MatraIiDflt.tm by ShaMatraIi.tm;
+sub Ssa.tm MatraIiDflt.tm by SsaMatraIi.tm;
+sub Sa.tm MatraIiDflt.tm by SaMatraIi.tm;
+sub Ha.tm MatraIiDflt.tm by HaMatraIi.tm;
+sub Ksha.tm MatraIiDflt.tm by KshaMatraIi.tm;
+sub Sha.tm PulliDflt.tm Ra.tm MatraIiDflt.tm by Shree.tm;
+sub Sa.tm PulliDflt.tm Ra.tm MatraIiDflt.tm by Shree.tm;
+sub ShaPulli.tm Ra.tm MatraIiDflt.tm by Shree.tm;
+sub SaPulli.tm Ra.tm MatraIiDflt.tm by Shree.tm;
+
+
+} abvs;
+
+#--------------------------------------------------------------------
+
+feature psts {
+
+
+#MatraI
+sub Ka.tm MatraIDflt.tm by KaMatraI.tm;
+sub Nga.tm MatraIDflt.tm by NgaMatraI.tm;
+sub Ca.tm MatraIDflt.tm by CaMatraI.tm;
+sub Ja.tm MatraIDflt.tm by JaMatraI.tm;
+sub JaAlt.tm MatraIDflt.tm by JaAltMatraI.tm;
+sub Nya.tm MatraIDflt.tm by NyaMatraI.tm;
+sub Tta.tm MatraIDflt.tm by TtaMatraI.tm;
+sub Nna.tm MatraIDflt.tm by NnaMatraI.tm;
+sub Ta.tm MatraIDflt.tm by TaMatraI.tm;
+sub Na.tm MatraIDflt.tm by NaMatraI.tm;
+sub Nnna.tm MatraIDflt.tm by NnnaMatraI.tm;
+sub Pa.tm MatraIDflt.tm by PaMatraI.tm;
+sub Ma.tm MatraIDflt.tm by MaMatraI.tm;
+sub Ya.tm MatraIDflt.tm by YaMatraI.tm;
+sub Ra.tm MatraIDflt.tm by RaMatraI.tm;
+sub RaAltMatraAa.tm MatraIDflt.tm by RaAltMatraI.tm;
+sub Rra.tm MatraIDflt.tm by RraMatraI.tm;
+sub La.tm MatraIDflt.tm by LaMatraI.tm;
+sub Lla.tm MatraIDflt.tm by LlaMatraI.tm;
+sub Llla.tm MatraIDflt.tm by LllaMatraI.tm;
+sub Va.tm MatraIDflt.tm by VaMatraI.tm;
+sub Sha.tm MatraIDflt.tm by ShaMatraI.tm;
+sub Ssa.tm MatraIDflt.tm by SsaMatraI.tm;
+sub Sa.tm MatraIDflt.tm by SaMatraI.tm;
+sub Ha.tm MatraIDflt.tm by HaMatraI.tm;
+sub Ksha.tm MatraIDflt.tm by KshaMatraI.tm;
+
+#MatraU
+sub Ka.tm MatraUDflt.tm by KaMatraU.tm;
+sub Nga.tm MatraUDflt.tm by NgaMatraU.tm;
+sub Ca.tm MatraUDflt.tm by CaMatraU.tm;
+sub Ja.tm MatraUDflt.tm by JaMatraU.tm;
+sub JaAlt.tm MatraUDflt.tm by JaAltMatraU.tm;
+sub Nya.tm MatraUDflt.tm by NyaMatraU.tm;
+sub Tta.tm MatraUDflt.tm by TtaMatraU.tm;
+sub Nna.tm MatraUDflt.tm by NnaMatraU.tm;
+sub Ta.tm MatraUDflt.tm by TaMatraU.tm;
+sub Na.tm MatraUDflt.tm by NaMatraU.tm;
+sub Nnna.tm MatraUDflt.tm by NnnaMatraU.tm;
+sub Pa.tm MatraUDflt.tm by PaMatraU.tm;
+sub Ma.tm MatraUDflt.tm by MaMatraU.tm;
+sub Ya.tm MatraUDflt.tm by YaMatraU.tm;
+sub Ra.tm MatraUDflt.tm by RaMatraU.tm;
+sub RaAltMatraAa.tm MatraUDflt.tm by RaMatraU.tm;
+sub Rra.tm MatraUDflt.tm by RraMatraU.tm;
+sub La.tm MatraUDflt.tm by LaMatraU.tm;
+sub Lla.tm MatraUDflt.tm by LlaMatraU.tm;
+sub Llla.tm MatraUDflt.tm by LllaMatraU.tm;
+sub Va.tm MatraUDflt.tm by VaMatraU.tm;
+sub Sha.tm MatraUDflt.tm by ShaMatraU.tm;
+sub Ssa.tm MatraUDflt.tm by SsaMatraU.tm;
+sub Sa.tm MatraUDflt.tm by SaMatraU.tm;
+sub Ha.tm MatraUDflt.tm by HaMatraU.tm;
+sub Ksha.tm MatraUDflt.tm by KshaMatraU.tm;
+
+#MatraUu
+sub Ka.tm MatraUuDflt.tm by KaMatraUu.tm;
+sub Nga.tm MatraUuDflt.tm by NgaMatraUu.tm;
+sub Ca.tm MatraUuDflt.tm by CaMatraUu.tm;
+sub Ja.tm MatraUuDflt.tm by JaMatraUu.tm;
+sub JaAlt.tm MatraUuDflt.tm by JaAltMatraUu.tm;
+sub Nya.tm MatraUuDflt.tm by NyaMatraUu.tm;
+sub Tta.tm MatraUuDflt.tm by TtaMatraUu.tm;
+sub Nna.tm MatraUuDflt.tm by NnaMatraUu.tm;
+sub Ta.tm MatraUuDflt.tm by TaMatraUu.tm;
+sub Na.tm MatraUuDflt.tm by NaMatraUu.tm;
+sub Nnna.tm MatraUuDflt.tm by NnnaMatraUu.tm;
+sub Pa.tm MatraUuDflt.tm by PaMatraUu.tm;
+sub Ma.tm MatraUuDflt.tm by MaMatraUu.tm;
+sub Ya.tm MatraUuDflt.tm by YaMatraUu.tm;
+sub Ra.tm MatraUuDflt.tm by RaMatraUu.tm;
+sub RaAltMatraAa.tm MatraUuDflt.tm by RaMatraUu.tm;
+sub Rra.tm MatraUuDflt.tm by RraMatraUu.tm;
+sub La.tm MatraUuDflt.tm by LaMatraUu.tm;
+sub Lla.tm MatraUuDflt.tm by LlaMatraUu.tm;
+sub Llla.tm MatraUuDflt.tm by LllaMatraUu.tm;
+sub Va.tm MatraUuDflt.tm by VaMatraUu.tm;
+sub Sha.tm MatraUuDflt.tm by ShaMatraUu.tm;
+sub Ssa.tm MatraUuDflt.tm by SsaMatraUu.tm;
+sub Sa.tm MatraUuDflt.tm by SaMatraUu.tm;
+sub Ha.tm MatraUuDflt.tm by HaMatraUu.tm;
+sub Ksha.tm MatraUuDflt.tm by KshaMatraUu.tm;
+
+} psts;
+
+
+#--------------------------------------------------------------------
+
+
+#Substitute with necessary alternates
+
+feature ss01 {
+sub [a g] by [a.alt g.alt];
+
+sub Ja.tm by JaAlt.tm;
+sub JaPulli.tm by JaAltPulli.tm;
+sub JaMatraI.tm by JaAltMatraI.tm;
+sub JaMatraIi.tm by JaAltMatraIi.tm;
+sub JaMatraU.tm by JaAltMatraU.tm;
+sub JaMatraUu.tm by JaAltMatraUu.tm;
+} ss01;
+
+feature ss02 {
+sub Ra.tm by RaAltMatraAa.tm;
+sub RaPulli.tm by RaAltPulli.tm;
+sub RaMatraI.tm by RaAltMatraI.tm;
+sub RaMatraIi.tm by RaAltMatraIi.tm;
+} ss02;
+
+#Substitute with cool alternates
+
+feature ss03 {
+sub vowelA.tm by vowelAAlt.tm;
+sub vowelAa.tm by vowelAaAlt.tm;
+sub vowelI.tm by vowelIAlt.tm;
+} ss03;
+
+
+#Substitute with old alternates
+
+feature ss04 {
+sub MatraAi.tm Nna.tm by NnaMatraAi.tm;
+sub MatraAi.tm Nnna.tm by NnnaMatraAi.tm;
+sub MatraAi.tm La.tm by LaMatraAi.tm;
+sub MatraAi.tm Lla.tm by LlaMatraAi.tm;
+
+sub Nna.tm RaAltMatraAa.tm by NnaMatraAa.tm;
+sub Nnna.tm RaAltMatraAa.tm by NnnaMatraAa.tm;
+sub Rra.tm RaAltMatraAa.tm by RraMatraAa.tm;
+} ss04;
+
+
+feature ss05 {
+sub space by space.lat;
+sub	tabularzero by	tabularzero.lat;
+sub	tabularone	by	tabularone.lat;
+sub	tabulartwo	by	tabulartwo.lat;
+sub	tabularthree	by	tabularthree.lat;
+sub	tabularfour	by	tabularfour.lat;
+sub	tabularfive	by	tabularfive.lat;
+sub	tabularsix	by	tabularsix.lat;
+sub	tabularseven	by	tabularseven.lat;
+sub	tabulareight	by	tabulareight.lat;
+sub	tabularnine	by	tabularnine.lat;
+sub	zero	by	zero.lat;
+sub	one	by	one.lat;
+sub	two	by	two.lat;
+sub	three	by	three.lat;
+sub	four	by	four.lat;
+sub	five	by	five.lat;
+sub	six	by	six.lat;
+sub	seven	by	seven.lat;
+sub	eight	by	eight.lat;
+sub	nine	by	nine.lat;
+sub	yen	by	yen.lat;
+sub	sterling	by	sterling.lat;
+sub	Euro	by	Euro.lat;
+sub	dollar	by	dollar.lat;
+sub	cent	by	cent.lat;
+sub	uni20A8	by uni20A8.lat;
+sub uni20B9 by uni20A8.lat;
+sub	bar	by	bar.lat;
+sub	perthousand	by	perthousand.lat;
+sub	percent	by	percent.lat;
+sub	quoteright	by	quoteright.lat;
+sub	quoteleft	by	quoteleft.lat;
+sub	quotedblright	by	quotedblright.lat;
+sub	quotedblleft	by	quotedblleft.lat;
+sub	hyphen	by	hyphen.lat;
+sub	endash	by	endash.lat;
+sub	emdash	by	emdash.lat;
+sub	parenright	by	parenright.lat;
+sub	parenleft	by	parenleft.lat;
+sub	bracketright	by	bracketright.lat;
+sub	bracketleft	by	bracketleft.lat;
+sub	braceright	by	braceright.lat;
+sub	braceleft	by	braceleft.lat;
+sub	slash	by	slash.lat;
+sub	semicolon	by	semicolon.lat;
+sub	quotesingle	by	quotesingle.lat;
+sub	quotedbl	by	quotedbl.lat;
+sub	question	by	question.lat;
+sub	period	by	period.lat;
+sub	numbersign	by	numbersign.lat;
+sub	exclam	by	exclam.lat;
+sub	ellipsis	by	ellipsis.lat;
+sub	comma	by	comma.lat;
+sub	colon	by	colon.lat;
+sub	bullet	by	bullet.lat;
+sub	periodcentered	by	periodcentered.lat;
+sub	backslash	by	backslash.lat;
+sub	asterisk	by	asterisk.lat;
+} ss05;
+
+
+#-----THE END-------------------------------------------------

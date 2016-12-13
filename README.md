@@ -1,6 +1,6 @@
 # Mukta
 
-Mukta is a Unicode compliant, versatile, contemporary, humanist, mono-linear typeface available in seven weights, supporting Devanagari, Gujarati and Latin scripts. 
+Mukta is a Unicode compliant, versatile, contemporary, humanist, mono-linear typeface available in seven weights, supporting Devanagari, Gujarati, Tamil and Latin scripts. 
 This type family is a libre licensed version of Ek's self-titled multi-script project, an ongoing effort to develop a unified type family for each Indian script. 
 The goal is to build one harmonious family across all Indian scripts without letting the visual features of one script dominate over others. 
 This ensures that the fonts can be used successfully for both single and multi-script purposes. 
@@ -13,8 +13,11 @@ Each font supports one Indian script along with Latin.
 
 - Mukta Vaani for Gujarati
 
+- Mukta Malar for Tamil
+
 Mukta was designed by [Girish Dalvi](http://www.idc.iitb.ac.in/~girish) and [Yashodeep Gholap](http://www.yashodeepgholap.com). 
-Mukta Vaani was designed by Noopur Datye and Pallavi Karambelkar with support from [Sarang Kulkarni](http://ektype.in) and [Maithili Shingre](http://ektype.in). 
+Mukta Vaani was designed by Noopur Datye and Pallavi Karambelkar with support from [Sarang Kulkarni](http://ektype.in) and [Maithili Shingre](http://ektype.in).
+Mukta Malar was designed by Aadarsh Rajan.
 We would like to thank Vinay Saynekar, Santosh Kshirsagar, Shubhanand Jog, Yogesh Jahargirdar, Pradnya Naik, Snehal Patil, Omkar Shende and Dave Crossland for their suggestions and feedback during the font design process. 
 We would also like to thank faculty and friends from the Industrial Design Centre, IIT Bombay, and from Sir J J Institute of Applied Art, for their support and encouragement.
 
@@ -22,7 +25,7 @@ We would also like to thank faculty and friends from the Industrial Design Centr
 
 ## License
 
-Mukta is licensed under the [SIL Open Font License v1.1](http://scripts.sil.org/OFL)
+The Mukta font family is licensed under the [SIL Open Font License v1.1](http://scripts.sil.org/OFL)
 
 To view the copyright notice please see [OFL.txt](https://github.com/EkType/Mukta/blob/master/OFL.txt)
 
