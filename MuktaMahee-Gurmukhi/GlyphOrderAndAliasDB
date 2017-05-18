@@ -1,0 +1,797 @@
+.notdef	.notdef	
+NULL	NULL	uni0000
+CR	uni000D	uni000D
+space	space	uni0020
+exclam	exclam	
+quotedbl	quotedbl	
+numbersign	numbersign	
+percent	percent	
+ampersand	ampersand	
+quotesingle	quotesingle	
+parenleft	parenleft	
+parenright	parenright	
+asterisk	asterisk	
+plus	plus	
+comma	comma	
+hyphen	hyphen	
+period	period	
+slash	slash	
+zero	zero	
+one	one	
+two	two	
+three	three	
+four	four	
+five	five	
+six	six	
+seven	seven	
+eight	eight	
+nine	nine	
+colon	colon	
+semicolon	semicolon	
+less	less	
+equal	equal	
+greater	greater	
+question	question	
+at	at	
+bracketleft	bracketleft	
+backslash	backslash	
+bracketright	bracketright	
+asciicircum	asciicircum	
+underscore	underscore	
+braceleft	braceleft	
+bar	bar	
+braceright	braceright	
+asciitilde	asciitilde	
+ellipsis	ellipsis	
+endash	endash	
+emdash	emdash	
+quoteleft	quoteleft	
+quoteright	quoteright	
+divide	divide	
+minus	minus	
+multiply	multiply	
+dollar	dollar	
+A	A	
+B	B	
+C	C	
+D	D	
+E	E	
+F	F	
+G	G	
+H	H	
+I	I	
+J	J	
+K	K	
+L	L	
+M	M	
+N	N	
+O	O	
+P	P	
+Q	Q	
+R	R	
+S	S	
+T	T	
+U	U	
+V	V	
+W	W	
+X	X	
+Y	Y	
+Z	Z	
+grave	grave	
+a	a	
+b	b	
+c	c	
+d	d	
+e	e	
+f	f	
+g	g	
+h	h	
+i	i	
+j	j	
+k	k	
+l	l	
+m	m	
+n	n	
+o	o	
+p	p	
+q	q	
+r	r	
+s	s	
+t	t	
+u	u	
+v	v	
+w	w	
+x	x	
+y	y	
+z	z	
+Euro	Euro	
+quotesinglbase	quotesinglbase	
+florin	florin	
+quotedblbase	quotedblbase	
+dagger	dagger	
+daggerdbl	daggerdbl	
+circumflex	circumflex	
+perthousand	perthousand	
+Scaron	Scaron	
+guilsinglleft	guilsinglleft	
+OE	OE	
+Zcaron	Zcaron	
+quotedblleft	quotedblleft	
+quotedblright	quotedblright	
+bullet	bullet	
+tilde	tilde	
+trademark	trademark	
+scaron	scaron	
+guilsinglright	guilsinglright	
+oe	oe	
+zcaron	zcaron	
+Ydieresis	Ydieresis	
+exclamdown	exclamdown	
+cent	cent	
+sterling	sterling	
+currency	currency	
+yen	yen	
+brokenbar	brokenbar	
+section	section	
+dieresis	dieresis	
+copyright	copyright	
+ordfeminine	ordfeminine	
+guillemotleft	guillemotleft	
+registered	registered	
+degree	degree	
+plusminus	plusminus	
+acute	acute	
+paragraph	paragraph	
+cedilla	cedilla	
+ordmasculine	ordmasculine	
+guillemotright	guillemotright	
+questiondown	questiondown	
+Agrave	Agrave	
+Aacute	Aacute	
+Acircumflex	Acircumflex	
+Atilde	Atilde	
+Adieresis	Adieresis	
+Aring	Aring	
+AE	AE	
+Ccedilla	Ccedilla	
+Egrave	Egrave	
+Eacute	Eacute	
+Ecircumflex	Ecircumflex	
+Edieresis	Edieresis	
+Igrave	Igrave	
+Iacute	Iacute	
+Icircumflex	Icircumflex	
+Idieresis	Idieresis	
+Eth	Eth	
+Ntilde	Ntilde	
+Ograve	Ograve	
+Oacute	Oacute	
+Ocircumflex	Ocircumflex	
+Otilde	Otilde	
+Odieresis	Odieresis	
+Oslash	Oslash	
+Ugrave	Ugrave	
+Uacute	Uacute	
+Ucircumflex	Ucircumflex	
+Udieresis	Udieresis	
+Yacute	Yacute	
+Thorn	Thorn	
+germandbls	germandbls	
+agrave	agrave	
+aacute	aacute	
+acircumflex	acircumflex	
+atilde	atilde	
+adieresis	adieresis	
+aring	aring	
+ae	ae	
+ccedilla	ccedilla	
+egrave	egrave	
+eacute	eacute	
+ecircumflex	ecircumflex	
+edieresis	edieresis	
+igrave	igrave	
+iacute	iacute	
+icircumflex	icircumflex	
+idieresis	idieresis	
+eth	eth	
+ntilde	ntilde	
+ograve	ograve	
+oacute	oacute	
+ocircumflex	ocircumflex	
+otilde	otilde	
+odieresis	odieresis	
+oslash	oslash	
+ugrave	ugrave	
+uacute	uacute	
+ucircumflex	ucircumflex	
+udieresis	udieresis	
+yacute	yacute	
+thorn	thorn	
+ydieresis	ydieresis	
+logicalnot	logicalnot	
+breve	breve	
+caron	caron	
+uni02C9	uni02C9	
+dotaccent	dotaccent	
+hungarumlaut	hungarumlaut	
+macron	macron	
+ogonek	ogonek	
+ring	ring	
+Abreve	Abreve	
+Amacron	Amacron	
+Aogonek	Aogonek	
+AEacute	AEacute	
+Cacute	Cacute	
+Ccaron	Ccaron	
+Ccircumflex	Ccircumflex	
+Cdotaccent	Cdotaccent	
+Dcaron	Dcaron	
+Dcroat	Dcroat	
+Ebreve	Ebreve	
+Ecaron	Ecaron	
+Edotaccent	Edotaccent	
+Emacron	Emacron	
+Eogonek	Eogonek	
+Gbreve	Gbreve	
+Gcircumflex	Gcircumflex	
+Gcommaaccent	Gcommaaccent	
+Gdotaccent	Gdotaccent	
+Hbar	Hbar	
+Hcircumflex	Hcircumflex	
+Ibreve	Ibreve	
+Idotaccent	Idotaccent	
+Imacron	Imacron	
+Iogonek	Iogonek	
+Itilde	Itilde	
+IJ	IJ	
+Jcircumflex	Jcircumflex	
+Kcommaaccent	Kcommaaccent	
+Lacute	Lacute	
+Lcaron	Lcaron	
+Lcommaaccent	Lcommaaccent	
+Ldot	Ldot	
+Lslash	Lslash	
+Nacute	Nacute	
+Ncaron	Ncaron	
+Ncommaaccent	Ncommaaccent	
+Obreve	Obreve	
+Ohungarumlaut	Ohungarumlaut	
+Omacron	Omacron	
+Oslashacute	Oslashacute	
+Racute	Racute	
+Rcaron	Rcaron	
+R.alt	R.alt	
+Rcommaaccent	Rcommaaccent	
+Sacute	Sacute	
+Scedilla	Scedilla	
+Scircumflex	Scircumflex	
+Scommaaccent	Scommaaccent	
+Tbar	Tbar	
+Tcaron	Tcaron	
+Tcommaaccent	Tcommaaccent	
+Ubreve	Ubreve	
+Uhungarumlaut	Uhungarumlaut	
+Umacron	Umacron	
+Uogonek	Uogonek	
+Uring	Uring	
+Utilde	Utilde	
+Wacute	Wacute	
+Wcircumflex	Wcircumflex	
+Wdieresis	Wdieresis	
+Wgrave	Wgrave	
+Ycircumflex	Ycircumflex	
+Ygrave	Ygrave	
+Zacute	Zacute	
+Zdotaccent	Zdotaccent	
+fraction	fraction	
+uni20A8	uni20A8	
+Asmall	Asmall	
+Bsmall	Bsmall	
+Csmall	Csmall	
+Dsmall	Dsmall	
+Esmall	Esmall	
+Fsmall	Fsmall	
+Gsmall	Gsmall	
+Hsmall	Hsmall	
+Ismall	Ismall	
+Jsmall	Jsmall	
+Ksmall	Ksmall	
+Lsmall	Lsmall	
+Msmall	Msmall	
+Nsmall	Nsmall	
+Osmall	Osmall	
+Psmall	Psmall	
+Qsmall	Qsmall	
+Rsmall	Rsmall	
+Ssmall	Ssmall	
+Tsmall	Tsmall	
+Usmall	Usmall	
+Vsmall	Vsmall	
+Wsmall	Wsmall	
+Xsmall	Xsmall	
+Ysmall	Ysmall	
+Zsmall	Zsmall	
+abreve	abreve	
+amacron	amacron	
+aogonek	aogonek	
+aeacute	aeacute	
+cacute	cacute	
+ccaron	ccaron	
+ccircumflex	ccircumflex	
+cdotaccent	cdotaccent	
+dcaron	dcaron	
+lessequal	lessequal	
+greaterequal	greaterequal	
+dcroat	dcroat	
+ebreve	ebreve	
+ecaron	ecaron	
+edotaccent	edotaccent	
+emacron	emacron	
+eogonek	eogonek	
+ff	ff	
+ffi	ffi	
+f_f_j	f_f_j	
+ffl	ffl	
+fi	fi	
+f_j	f_j	
+fl	fl	
+gbreve	gbreve	
+gcircumflex	gcircumflex	
+gcommaaccent	gcommaaccent	
+gdotaccent	gdotaccent	
+hbar	hbar	
+hcircumflex	hcircumflex	
+ibreve	ibreve	
+imacron	imacron	
+iogonek	iogonek	
+itilde	itilde	
+ij	ij	
+jcircumflex	jcircumflex	
+kcommaaccent	kcommaaccent	
+lacute	lacute	
+lcaron	lcaron	
+lcommaaccent	lcommaaccent	
+ldot	ldot	
+lslash	lslash	
+nacute	nacute	
+napostrophe	napostrophe	
+ncaron	ncaron	
+ncommaaccent	ncommaaccent	
+obreve	obreve	
+ohungarumlaut	ohungarumlaut	
+omacron	omacron	
+oslashacute	oslashacute	
+racute	racute	
+rcaron	rcaron	
+rcommaaccent	rcommaaccent	
+sacute	sacute	
+scedilla	scedilla	
+scircumflex	scircumflex	
+scommaaccent	scommaaccent	
+s_t	s_t	uniFB06
+tbar	tbar	
+tcaron	tcaron	
+tcommaaccent	tcommaaccent	
+ubreve	ubreve	
+uhungarumlaut	uhungarumlaut	
+umacron	umacron	
+uogonek	uogonek	
+uring	uring	
+utilde	utilde	
+wacute	wacute	
+wcircumflex	wcircumflex	
+wdieresis	wdieresis	
+w.alt	w.alt	
+wgrave	wgrave	
+ycircumflex	ycircumflex	
+ygrave	ygrave	
+zacute	zacute	
+zdotaccent	zdotaccent	
+Eng	Eng	
+eng	eng	
+uni20B9	uni20B9	
+oneoldstyle	oneoldstyle	
+zerooldstyle	zerooldstyle	
+twooldstyle	twooldstyle	
+threeoldstyle	threeoldstyle	
+fouroldstyle	fouroldstyle	
+fiveoldstyle	fiveoldstyle	
+sixoldstyle	sixoldstyle	
+sevenoldstyle	sevenoldstyle	
+eightoldstyle	eightoldstyle	
+nineoldstyle	nineoldstyle	
+uni1E0C	uni1E0C	
+uni1E0D	uni1E0D	
+uni1E24	uni1E24	
+uni1E25	uni1E25	
+uni1E36	uni1E36	
+uni1E37	uni1E37	
+uni1E38	uni1E38	
+uni1E39	uni1E39	
+uni1E3A	uni1E3A	
+uni1E3B	uni1E3B	
+uni1E42	uni1E42	
+uni1E43	uni1E43	
+uni1E44	uni1E44	
+uni1E45	uni1E45	
+uni1E46	uni1E46	
+uni1E47	uni1E47	
+uni1E48	uni1E48	
+uni1E49	uni1E49	
+uni1E5A	uni1E5A	
+uni1E5B	uni1E5B	
+uni1E5C	uni1E5C	
+uni1E5D	uni1E5D	
+uni1E5E	uni1E5E	
+uni1E5F	uni1E5F	
+uni1E62	uni1E62	
+uni1E63	uni1E63	
+uni1E6C	uni1E6C	
+uni1E6D	uni1E6D	
+uni1E6E	uni1E6E	
+uni1E6F	uni1E6F	
+uni1E8E	uni1E8E	
+uni1E8F	uni1E8F	
+c_t	c_t	
+periodcentered	periodcentered	
+a.alt	a.alt	
+g.alt	g.alt	
+tabularzero	tabularzero	
+tabularone	tabularone	
+tabulartwo	tabulartwo	
+tabularthree	tabularthree	
+tabularfour	tabularfour	
+tabularfive	tabularfive	
+tabularsix	tabularsix	
+tabularseven	tabularseven	
+tabulareight	tabulareight	
+tabularnine	tabularnine	
+tabularoldzero	tabularoldzero	
+tabularoldone	tabularoldone	
+tabularoldtwo	tabularoldtwo	
+tabularoldthree	tabularoldthree	
+tabularoldfour	tabularoldfour	
+tabularoldfive	tabularoldfive	
+tabularoldsix	tabularoldsix	
+tabularoldseven	tabularoldseven	
+tabularoldeight	tabularoldeight	
+tabularoldnine	tabularoldnine	
+percentoldstyle	percentoldstyle	
+zero.superior	zero.superior	uni2070
+onesuperior	onesuperior	uni00B9
+twosuperior	twosuperior	uni00B2
+threesuperior	threesuperior	uni00B3
+four.superior	four.superior	uni2074
+five.superior	five.superior	uni2075
+six.superior	six.superior	uni2076
+seven.superior	seven.superior	uni2077
+eight.superior	eight.superior	uni2078
+nine.superior	nine.superior	uni2079
+parenleft.superior	parenleft.superior	uni207D
+parenright.superior	parenright.superior	uni207E
+zero.inferior	zero.inferior	uni2080
+one.inferior	one.inferior	uni2081
+two.inferior	two.inferior	uni2082
+three.inferior	three.inferior	uni2083
+four.inferior	four.inferior	uni2084
+five.inferior	five.inferior	uni2085
+six.inferior	six.inferior	uni2086
+seven.inferior	seven.inferior	uni2087
+eight.inferior	eight.inferior	uni2088
+nine.inferior	nine.inferior	uni2089
+parenleft.inferior	parenleft.inferior	uni208D
+parenright.inferior	parenright.inferior	uni208E
+uni2113	uni2113	
+uni2116	uni2116	
+uni2126	uni2126	
+uni2206	uni2206	
+uni00A0	uni00A0
+numzero	numzero	
+numone	numone	
+numtwo	numtwo	
+numthree	numthree	
+numfour	numfour	
+numfive	numfive	
+numsix	numsix	
+numseven	numseven	
+numeight	numeight	
+numnine	numnine	
+denozero	denozero	
+denoone	denoone	
+denotwo	denotwo	
+denothree	denothree	
+denofour	denofour	
+denofive	denofive	
+denosix	denosix	
+denoseven	denoseven	
+denoeight	denoeight	
+denonine	denonine	
+onehalf	onehalf	
+onequarter	onequarter	
+threequarters	threequarters	
+uni00AD	uni00AD	
+dotlessi	dotlessi	
+pi	pi	
+product	product	
+summation	summation	
+estimated	estimated	
+partialdiff	partialdiff	
+radical	radical	
+infinity	infinity	
+integral	integral	
+approxequal	approxequal	
+notequal	notequal	
+lozenge	lozenge	
+uni2215	uni2215	
+mu	mu	
+uni021A	uni021A
+uni021B	uni021B
+uni2219	uni2219
+exclam.lat	exclam.lat
+numbersign.lat	numbersign.lat
+percent.lat	percent.lat
+parenleft.lat	parenleft.lat
+parenright.lat	parenright.lat
+plus.lat	plus.lat
+slash.lat	slash.lat
+zero.lat	zero.lat
+one.lat	one.lat
+two.lat	two.lat
+three.lat	three.lat
+four.lat	four.lat
+five.lat	five.lat
+six.lat	six.lat
+seven.lat	seven.lat
+eight.lat	eight.lat
+nine.lat	nine.lat
+equal.lat	equal.lat
+question.lat	question.lat
+bracketleft.lat	bracketleft.lat
+bracketright.lat	bracketright.lat
+bar.lat	bar.lat
+divide.lat	divide.lat
+minus.lat	minus.lat
+dollar.lat	dollar.lat
+Euro.lat	Euro.lat
+perthousand.lat	perthousand.lat
+sterling.lat	sterling.lat
+yen.lat	yen.lat
+plusminus.lat	plusminus.lat
+uni20A8.lat	uni20A8.lat
+uni20B9.lat	uni20B9.lat
+onehalf.lat	onehalf.lat
+onequarter.lat	onequarter.lat
+threequarters.lat	threequarters.lat
+AddakBindi.gm	AddakBindi.gm	uni0A01
+Bindi.gm	Bindi.gm	uni0A02
+Visarga.gm	Visarga.gm	uni0A03
+VowelA.gm	VowelA.gm	uni0A05
+VowelAa.gm	VowelAa.gm	uni0A06
+VowelI.gm	VowelI.gm	uni0A07
+VowelIi.gm	VowelIi.gm	uni0A08
+VowelU.gm	VowelU.gm	uni0A09
+VowelUu.gm	VowelUu.gm	uni0A0A
+VowelEe.gm	VowelEe.gm	uni0A0F
+VowelAi.gm	VowelAi.gm	uni0A10
+VowelOo.gm	VowelOo.gm	uni0A13
+VowelAu.gm	VowelAu.gm	uni0A14
+Ka.gm	Ka.gm	uni0A15
+Kha.gm	Kha.gm	uni0A16
+Ga.gm	Ga.gm	uni0A17
+Gha.gm	Gha.gm	uni0A18
+Nga.gm	Nga.gm	uni0A19
+Ca.gm	Ca.gm	uni0A1A
+Cha.gm	Cha.gm	uni0A1B
+Ja.gm	Ja.gm	uni0A1C
+Jha.gm	Jha.gm	uni0A1D
+Nya.gm	Nya.gm	uni0A1E
+Tta.gm	Tta.gm	uni0A1F
+Ttha.gm	Ttha.gm	uni0A20
+Dda.gm	Dda.gm	uni0A21
+Ddha.gm	Ddha.gm	uni0A22
+Nna.gm	Nna.gm	uni0A23
+Ta.gm	Ta.gm	uni0A24
+Tha.gm	Tha.gm	uni0A25
+Da.gm	Da.gm	uni0A26
+Dha.gm	Dha.gm	uni0A27
+Na.gm	Na.gm	uni0A28
+Pa.gm	Pa.gm	uni0A2A
+Pha.gm	Pha.gm	uni0A2B
+Ba.gm	Ba.gm	uni0A2C
+Bha.gm	Bha.gm	uni0A2D
+Ma.gm	Ma.gm	uni0A2E
+Ya.gm	Ya.gm	uni0A2F
+Ra.gm	Ra.gm	uni0A30
+La.gm	La.gm	uni0A32
+Lla.gm	Lla.gm	uni0A33
+Va.gm	Va.gm	uni0A35
+Sha.gm	Sha.gm	uni0A36
+Sa.gm	Sa.gm	uni0A38
+Ha.gm	Ha.gm	uni0A39
+Nukta.gm	Nukta.gm	uni0A3C
+MatraAa.gm	MatraAa.gm	uni0A3E
+MatraI.gm	MatraI.gm	uni0A3F
+MatraIi.gm	MatraIi.gm	uni0A40
+MatraU.gm	MatraU.gm	uni0A41
+MatraUu.gm	MatraUu.gm	uni0A42
+MatraEe.gm	MatraEe.gm	uni0A47
+MatraAi.gm	MatraAi.gm	uni0A48
+MatraOo.gm	MatraOo.gm	uni0A4B
+MatraAu.gm	MatraAu.gm	uni0A4C
+Virama.gm	Virama.gm	uni0A4D
+Udaat.gm	Udaat.gm	uni0A51
+Khha.gm	Khha.gm	uni0A59
+Ghha.gm	Ghha.gm	uni0A5A
+Za.gm	Za.gm	uni0A5B
+Rra.gm	Rra.gm	uni0A5C
+Fa.gm	Fa.gm	uni0A5E
+Zero.gm	Zero.gm	uni0A66
+One.gm	One.gm	uni0A67
+Two.gm	Two.gm	uni0A68
+Three.gm	Three.gm	uni0A69
+Four.gm	Four.gm	uni0A6A
+Five.gm	Five.gm	uni0A6B
+Six.gm	Six.gm	uni0A6C
+Seven.gm	Seven.gm	uni0A6D
+Eight.gm	Eight.gm	uni0A6E
+Nine.gm	Nine.gm	uni0A6F
+Tippi.gm	Tippi.gm	uni0A70
+Addak.gm	Addak.gm	uni0A71
+Iri.gm	Iri.gm	uni0A72
+Ura.gm	Ura.gm	uni0A73
+EkOnkar.gm	EkOnkar.gm	uni0A74
+Yakash.gm	Yakash.gm	uni0A75
+PairinHa.gm	PairinHa.gm	
+PairinRa.gm	PairinRa.gm	
+PairinVa.gm	PairinVa.gm	
+PairinGa.gm	PairinGa.gm	
+PairinCa.gm	PairinCa.gm	
+PairinTta.gm	PairinTta.gm	
+PairinTtha.gm	PairinTtha.gm	
+PairinTa.gm	PairinTa.gm	
+PairinDa.gm	PairinDa.gm	
+PairinNa.gm	PairinNa.gm	
+PairinTha.gm	PairinTha.gm	
+PairinYa.gm	PairinYa.gm	
+AddhaYa.gm	AddhaYa.gm	
+AddhaMa.gm	AddhaMa.gm	
+AddhaTha.gm	AddhaTha.gm	
+Rha.gm	Rha.gm	
+KaViramaRa.gm	KaViramaRa.gm	
+KaVirama.gm	KaVirama.gm	
+KhaVirama.gm	KhaVirama.gm	
+GaVirama.gm	GaVirama.gm	
+GhaVirama.gm	GhaVirama.gm	
+NgaVirama.gm	NgaVirama.gm	
+CaVirama.gm	CaVirama.gm	
+ChaVirama.gm	ChaVirama.gm	
+JaVirama.gm	JaVirama.gm	
+JhaVirama.gm	JhaVirama.gm	
+NyaVirama.gm	NyaVirama.gm	
+TtaVirama.gm	TtaVirama.gm	
+TthaVirama.gm	TthaVirama.gm	
+DdaVirama.gm	DdaVirama.gm	
+DdhaVirama.gm	DdhaVirama.gm	
+NnaVirama.gm	NnaVirama.gm	
+TaVirama.gm	TaVirama.gm	
+ThaVirama.gm	ThaVirama.gm	
+DaVirama.gm	DaVirama.gm	
+DhaVirama.gm	DhaVirama.gm	
+NaVirama.gm	NaVirama.gm	
+PaVirama.gm	PaVirama.gm	
+PhaVirama.gm	PhaVirama.gm	
+BaVirama.gm	BaVirama.gm	
+BhaVirama.gm	BhaVirama.gm	
+MaVirama.gm	MaVirama.gm	
+YaVirama.gm	YaVirama.gm	
+RaVirama.gm	RaVirama.gm	
+LaVirama.gm	LaVirama.gm	
+LlaVirama.gm	LlaVirama.gm	
+VaVirama.gm	VaVirama.gm	
+ShaVirama.gm	ShaVirama.gm	
+SaVirama.gm	SaVirama.gm	
+HaVirama.gm	HaVirama.gm	
+KhhaVirama.gm	KhhaVirama.gm	
+GhhaVirama.gm	GhhaVirama.gm	
+ZaVirama.gm	ZaVirama.gm	
+RraVirama.gm	RraVirama.gm	
+FaVirama.gm	FaVirama.gm	
+Danda.gm	Danda.gm	uni0964
+Doubledanda.gm	Doubledanda.gm	uni0965
+Khanda.gm	Khanda.gm	
+MatraEeBindi.gm	MatraEeBindi.gm	
+MatraAiBindi.gm	MatraAiBindi.gm	
+MatraOoBindi.gm	MatraOoBindi.gm	
+MatraAuBindi.gm	MatraAuBindi.gm	
+MatraIiBindi.gm	MatraIiBindi.gm	
+MatraU.gm.alt	MatraU.gm.alt	
+MatraUu.gm.alt	MatraUu.gm.alt	
+MatraEe.gm.alt	MatraEe.gm.alt	
+MatraAi.gm.alt	MatraAi.gm.alt	
+MatraOo.gm.alt	MatraOo.gm.alt	
+MatraAu.gm.alt	MatraAu.gm.alt	
+MatraEeBindi.gm.alt	MatraEeBindi.gm.alt	
+MatraAiBindi.gm.alt	MatraAiBindi.gm.alt	
+MatraOoBindi.gm.alt	MatraOoBindi.gm.alt	
+MatraAuBindi.gm.alt	MatraAuBindi.gm.alt	
+Virama.gm.alt	Virama.gm.alt	
+Bindi.gm.alt	Bindi.gm.alt
+Addak.gm.alt	Addak.gm.alt	
+AddakBindi.gm.alt	AddakBindi.gm.alt	
+MatraEeAddak.gm	MatraEeAddak.gm	
+MatraAiAddak.gm	MatraAiAddak.gm	
+MatraOoAddak.gm	MatraOoAddak.gm	
+MatraAuAddak.gm	MatraAuAddak.gm	
+MatraIiAddak.gm	MatraIiAddak.gm	
+MatraEeAddakBindi.gm	MatraEeAddakBindi.gm	
+MatraAiAddakBindi.gm	MatraAiAddakBindi.gm	
+MatraOoAddakBindi.gm	MatraOoAddakBindi.gm	
+MatraAuAddakBindi.gm	MatraAuAddakBindi.gm	
+MatraIiAddakBindi.gm	MatraIiAddakBindi.gm
+MatraEeAddak.gm.alt	MatraEeAddak.gm.alt
+MatraAiAddak.gm.alt	MatraAiAddak.gm.alt
+MatraOoAddak.gm.alt	MatraOoAddak.gm.alt
+MatraAuAddak.gm.alt	MatraAuAddak.gm.alt
+MatraEeAddakBindi.gm.alt	MatraEeAddakBindi.gm.alt
+MatraAiAddakBindi.gm.alt	MatraAiAddakBindi.gm.alt
+MatraOoAddakBindi.gm.alt	MatraOoAddakBindi.gm.alt
+MatraAuAddakBindi.gm.alt	MatraAuAddakBindi.gm.alt
+PairinRaVirama.gm	PairinRaVirama.gm
+PairinHaVirama.gm	PairinHaVirama.gm
+PairinVaVirama.gm	PairinVaVirama.gm
+PairinGaVirama.gm	PairinGaVirama.gm
+PairinCaVirama.gm	PairinCaVirama.gm
+PairinTtaVirama.gm	PairinTtaVirama.gm
+PairinTthaVirama.gm	PairinTthaVirama.gm
+PairinTaVirama.gm	PairinTaVirama.gm
+PairinDaVirama.gm	PairinDaVirama.gm
+PairinNaVirama.gm	PairinNaVirama.gm
+PairinThaVirama.gm	PairinThaVirama.gm
+PairinYaVirama.gm	PairinYaVirama.gm
+YakashVirama.gm YakashVirama.gm
+UdaatVirama.gm UdaatVirama.gm
+PairinRaMatraU.gm	PairinRaMatraU.gm
+PairinHaMatraU.gm	PairinHaMatraU.gm
+PairinVaMatraU.gm	PairinVaMatraU.gm
+PairinGaMatraU.gm	PairinGaMatraU.gm
+PairinCaMatraU.gm	PairinCaMatraU.gm
+PairinTtaMatraU.gm	PairinTtaMatraU.gm
+PairinTthaMatraU.gm	PairinTthaMatraU.gm
+PairinTaMatraU.gm	PairinTaMatraU.gm
+PairinDaMatraU.gm	PairinDaMatraU.gm
+PairinNaMatraU.gm	PairinNaMatraU.gm
+PairinThaMatraU.gm	PairinThaMatraU.gm
+PairinYaMatraU.gm	PairinYaMatraU.gm
+YakashMatraU.gm YakashMatraU.gm
+UdaatMatraU.gm UdaatMatraU.gm
+PairinRaMatraUu.gm	PairinRaMatraUu.gm
+PairinHaMatraUu.gm	PairinHaMatraUu.gm
+PairinVaMatraUu.gm	PairinVaMatraUu.gm
+PairinGaMatraUu.gm	PairinGaMatraUu.gm
+PairinCaMatraUu.gm	PairinCaMatraUu.gm
+PairinTtaMatraUu.gm	PairinTtaMatraUu.gm
+PairinTthaMatraUu.gm	PairinTthaMatraUu.gm
+PairinTaMatraUu.gm	PairinTaMatraUu.gm
+PairinDaMatraUu.gm	PairinDaMatraUu.gm
+PairinNaMatraUu.gm	PairinNaMatraUu.gm
+PairinThaMatraUu.gm	PairinThaMatraUu.gm
+PairinYaMatraUu.gm	PairinYaMatraUu.gm
+YakashMatraUu.gm YakashMatraUu.gm
+UdaatMatraUu.gm UdaatMatraUu.gm
+OneQuarter.gm	OneQuarter.gm	
+OneHalf.gm	OneHalf.gm	
+ThreeQuarters.gm	ThreeQuarters.gm	
+OneSixteenth.gm	OneSixteenth.gm	
+OneEigth.gm	OneEigth.gm	
+ThreeSixteenths.gm	ThreeSixteenths.gm	
+QuarterMark.gm	QuarterMark.gm	
+PlaceholderMark.gm	PlaceholderMark.gm	
+NorthIndicRupeeMark.gm	NorthIndicRupeeMark.gm	
+QuantityMark.gm	QuantityMark.gm	
+Dottedcircle	Dottedcircle	uni25CC
+ZWJ	ZWJ	uni200C
+ZWNJ	ZWNJ	uni200D
+Ek_Type	Ek_Type	
+
+
+

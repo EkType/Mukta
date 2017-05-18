@@ -814,3 +814,6 @@ bullet bullet
 periodcentered periodcentered
 backslash  backslash
 asterisk asterisk
+ZWJ ZWJ uni200D
+ZWNJ ZWNJ uni200C
+

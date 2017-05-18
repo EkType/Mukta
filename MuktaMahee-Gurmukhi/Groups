@@ -1,0 +1,185 @@
+#------------
+# GROUPS 
+#------------
+
+#--------------------
+# For Latin
+#--------------------
+
+@Numbers = [zero one two three four five six seven eight nine];
+
+@Oldstyle = [oneoldstyle zerooldstyle twooldstyle threeoldstyle fouroldstyle fiveoldstyle sixoldstyle sevenoldstyle eightoldstyle nineoldstyle];
+
+@Lowercase = [a b c d e f g h i j k l m n o p q r s t u v w x y z];
+
+@Small_Caps = [Asmall Bsmall Csmall Dsmall Esmall Fsmall Gsmall Hsmall Ismall Jsmall Ksmall Lsmall Msmall Nsmall Osmall Psmall Qsmall Rsmall Ssmall Tsmall Usmall Vsmall Wsmall Xsmall Ysmall Zsmall];
+
+@Subscript = [zero.inferior one.inferior two.inferior three.inferior four.inferior five.inferior six.inferior seven.inferior eight.inferior nine.inferior];
+
+@Superscript = [zero.superior onesuperior twosuperior threesuperior four.superior five.superior six.superior seven.superior eight.superior nine.superior];
+
+@Denominator = [denozero denoone denotwo denothree denofour denofive denosix denoseven denoeight denonine];
+
+@Numerator = [numzero numone numtwo numthree numfour numfive numsix numseven numeight numnine];
+
+@Tabular = [tabularzero tabularone tabulartwo tabularthree tabularfour tabularfive tabularsix tabularseven tabulareight tabularnine];
+
+@Tabular_Old = [tabularoldzero tabularoldone tabularoldtwo tabularoldthree tabularoldfour tabularoldfive tabularoldsix tabularoldseven tabularoldeight tabularoldnine];
+
+
+
+#--------------------
+# For Gurmukhi
+#--------------------
+
+@bottom = [PairinRa.gm PairinHa.gm PairinVa.gm PairinGa.gm PairinCa.gm PairinTta.gm PairinTtha.gm PairinTa.gm PairinDa.gm PairinNa.gm PairinTha.gm PairinYa.gm Udaat.gm Yakash.gm  PairinRaVirama.gm PairinHaVirama.gm PairinVaVirama.gm PairinGaVirama.gm PairinCaVirama.gm PairinTtaVirama.gm PairinTthaVirama.gm PairinTaVirama.gm PairinDaVirama.gm PairinNaVirama.gm PairinThaVirama.gm PairinYaVirama.gm YakashVirama.gm UdaatVirama.gm PairinRaMatraU.gm PairinHaMatraU.gm PairinVaMatraU.gm PairinGaMatraU.gm PairinCaMatraU.gm PairinTtaMatraU.gm PairinTthaMatraU.gm PairinTaMatraU.gm PairinDaMatraU.gm PairinNaMatraU.gm PairinThaMatraU.gm PairinYaMatraU.gm YakashMatraU.gm UdaatMatraU.gm PairinRaMatraUu.gm PairinHaMatraUu.gm PairinVaMatraUu.gm PairinGaMatraUu.gm PairinCaMatraUu.gm PairinTtaMatraUu.gm PairinTthaMatraUu.gm PairinTaMatraUu.gm PairinDaMatraUu.gm PairinNaMatraUu.gm PairinThaMatraUu.gm PairinYaMatraUu.gm YakashMatraUu.gm UdaatMatraUu.gm];
+
+@bottom1 = [MatraU.gm MatraUu.gm MatraU.gm.alt MatraUu.gm.alt];
+
+@top = [MatraEe.gm MatraAi.gm MatraOo.gm MatraAu.gm MatraEeBindi.gm MatraAiBindi.gm MatraOoBindi.gm MatraAuBindi.gm MatraAuAddak.gm MatraEe.gm.alt MatraAi.gm.alt MatraOo.gm.alt MatraAu.gm.alt MatraEeAddak.gm.alt MatraAiAddak.gm.alt MatraOoAddak.gm.alt MatraAuAddak.gm.alt MatraEeAddakBindi.gm.alt MatraAiAddakBindi.gm.alt MatraOoAddakBindi.gm.alt MatraAuAddakBindi.gm.alt];
+
+
+@top1 = [Tippi.gm Addak.gm AddakBindi.gm Bindi.gm];
+
+@top2 = [MatraOo.gm MatraOoBindi.gm MatraOoAddak.gm MatraOoAddakBindi.gm];
+
+@top3 = [Addak.gm.alt AddakBindi.gm.alt];
+
+@top4 = [Bindi.gm.alt];
+
+@Basic_gm = [Jha.gm VowelA.gm VowelAa.gm VowelI.gm VowelIi.gm VowelU.gm VowelUu.gm VowelEe.gm VowelAi.gm VowelOo.gm VowelAu.gm Ka.gm Kha.gm Ga.gm Gha.gm Nga.gm Ca.gm Cha.gm Ja.gm Nya.gm Tta.gm Ttha.gm Dda.gm Ddha.gm Nna.gm Ta.gm Tha.gm Da.gm Dha.gm Na.gm Pa.gm Pha.gm Ba.gm Bha.gm Ma.gm Ya.gm Ra.gm La.gm Lla.gm Va.gm Sha.gm Sa.gm Ha.gm MatraAa.gm MatraI.gm MatraIi.gm Khha.gm Ghha.gm Za.gm Rra.gm Fa.gm Iri.gm Ura.gm Danda.gm Doubledanda.gm KaVirama.gm KhaVirama.gm GaVirama.gm GhaVirama.gm NgaVirama.gm CaVirama.gm ChaVirama.gm JaVirama.gm JhaVirama.gm NyaVirama.gm TtaVirama.gm TthaVirama.gm DdaVirama.gm DdhaVirama.gm NnaVirama.gm TaVirama.gm ThaVirama.gm DaVirama.gm DhaVirama.gm NaVirama.gm PaVirama.gm PhaVirama.gm BaVirama.gm BhaVirama.gm MaVirama.gm YaVirama.gm RaVirama.gm LaVirama.gm LlaVirama.gm VaVirama.gm ShaVirama.gm SaVirama.gm HaVirama.gm KhhaVirama.gm GhhaVirama.gm ZaVirama.gm RraVirama.gm FaVirama.gm AddhaYa.gm AddhaMa.gm AddhaTha.gm MatraIiBindi.gm KaViramaRa.gm Rha.gm ];
+
+@AboveBaseMarkAlt = [Addak.gm.alt AddakBindi.gm.alt];
+
+@AboveBaseMatraAlt = [MatraEeBindi.gm.alt MatraAiBindi.gm.alt MatraAuBindi.gm.alt MatraOoBindi.gm.alt];
+
+
+#------------------------------------------------------------------------
+
+
+# kern classes for Gurmukhi
+
+
+@_vowelA_Left=[VowelA.gm  VowelAa.gm VowelAi.gm VowelAu.gm];
+@_vowelEe_Left=[Iri.gm  VowelEe.gm VowelIi.gm];
+@_VowelU_Left_Right=[Ura.gm  VowelU.gm VowelUu.gm VowelOo.gm];
+@_Ka_Left_Right=[Ka.gm  KaVirama.gm KaViramaRa.gm];
+@_Kha_Left=[Kha.gm  Gha.gm Tha.gm Dha.gm Pa.gm Ya.gm Khha.gm KhaVirama.gm GhaVirama.gm ThaVirama.gm DhaVirama.gm PaVirama.gm YaVirama.gm KhhaVirama.gm];
+@_Ga_Left=[Ga.gm  Ra.gm Ha.gm GaVirama.gm RaVirama.gm HaVirama.gm Ghha.gm GhhaVirama.gm];
+@_Nga_Left_Right=[Nga.gm  NgaVirama.gm];
+@_Ca_Left=[Ca.gm  CaVirama.gm Da.gm DaVirama.gm];
+@_Cha_Left_Right=[Cha.gm  ChaVirama.gm];
+@_Ja_Left=[Ja.gm  JaVirama.gm Za.gm ZaVirama.gm];
+@_Jha_Left_Right=[Jha.gm  JhaVirama.gm];
+@_Nya_Left_Right=[Nya.gm  Va.gm NyaVirama.gm VaVirama.gm];
+@_Tta_Left=[Tta.gm  TtaVirama.gm Nna.gm NnaVirama.gm];
+@_Ttha_Left_Right=[Ttha.gm  TthaVirama.gm];
+@_Dda_Left_Right=[Dda.gm  DdaVirama.gm];
+@_Ddha_Left=[Ddha.gm  DdhaVirama.gm];
+@_Ta_Left_Right=[Ta.gm  TaVirama.gm];
+@_Na_Left_Right=[Na.gm  NaVirama.gm];
+@_Ba_Left=[Ba.gm  BaVirama.gm];
+@_Bha_Left_Right=[Bha.gm  BhaVirama.gm];
+@_Ma_Left=[Ma.gm  Sha.gm Sa.gm ShaVirama.gm SaVirama.gm MaVirama.gm];
+@_Pha_Right=[Pha.gm  Ddha.gm DdhaVirama.gm PhaVirama.gm Fa.gm FaVirama.gm];
+@_VowelEe_Right=[Iri.gm  VowelEe.gm VowelI.gm];
+@_Tta_Right=[Tta.gm  Da.gm TtaVirama.gm DaVirama.gm];
+@_Kana_Right=[MatraAa.gm  VowelAa.gm];
+@_Rra_Left_Right=[Rra.gm  RraVirama.gm Rha.gm];
+@_Pha_Left=[Pha.gm PhaVirama.gm Fa.gm FaVirama.gm];
+@_Danda=[Danda.gm  Doubledanda.gm];
+@_La_Left_Right=[La.gm  Lla.gm LaVirama.gm LlaVirama.gm];
+@_AddhaYa_left=[AddhaYa.gm  AddhaTha.gm];
+@_number_leftright=[Eight.gm  Nine.gm];
+@_Ca_Right=[Ca.gm  CaVirama.gm];
+
+@_bracketleft=[parenleft  bracketleft braceleft];
+@_bracketright=[parenright  bracketright braceright];
+
+
+#------------------------------------------------------------------------
+
+# kern classes for latin
+
+@_bracketleft.lat=[parenleft.lat  bracketleft.lat braceleft];
+@_bracketright.lat=[parenright.lat  bracketright.lat braceright];
+
+@_quoteleft=[quoteleft  quotedblleft ];
+@_quoteright=[quoteright  quotedblright  ];
+@_quotesingle1=[quotesingle  quotedbl copyright registered];
+@_asterisk=[asterisk  trademark yen Euro degree];
+@_percent=[percent  perthousand ];
+@_period1=[period comma ellipsis];
+@_hyphen=[hyphen  endash emdash bullet plus equal plusminus plus.lat equal.lat plusminus.lat];
+@_colon=[colon  semicolon];
+@_latingurnumbers=[zero  one two three four five six seven eight nine cent sterling currency Zero.gm One.gm Two.gm Three.gm Four.gm Five.gm Six.gm Seven.gm Eight.gm Nine.gm onequarter onehalf threequarters];
+@_bar=[bar  exclam brokenbar];
+
+
+@_quotesingle=[quotesingle  quotedbl];
+@_period=[period  comma colon semicolon ellipsis];
+@_A=[A  Agrave Aacute Acircumflex Atilde Adieresis Aring Abreve Amacron Aogonek];
+@_C=[C  Ccedilla Cacute Ccaron Ccircumflex Cdotaccent];
+@_D=[D  Eth Dcaron Dcroat uni1E0C];
+@_E=[E  Egrave Eacute Ecircumflex Edieresis Ebreve Ecaron Edotaccent Emacron Eogonek];
+@_AE=[AE  AEacute];
+@_G=[G  Gbreve Gcircumflex Gcommaaccent Gdotaccent];
+@_H=[H  Hbar Hcircumflex uni1E24];
+@_I=[I  Igrave Iacute Icircumflex Idieresis Ibreve Idotaccent Imacron Iogonek Itilde];
+@_J=[J  Jcircumflex];
+@_K=[K  Kcommaaccent];
+@_L=[L  Lacute Lcaron Lcommaaccent Ldot Lslash uni1E36 uni1E38 uni1E3A];
+@_M=[M  uni1E42];
+@_N=[N  Ntilde Nacute Ncaron Ncommaaccent Eng uni1E44 uni1E46 uni1E48];
+@_O=[O  Ograve Oacute Ocircumflex Otilde Odieresis Obreve Ohungarumlaut Omacron Oslashacute Oslash];
+@_R=[R  Racute Rcaron R.alt Rcommaaccent];
+@_S=[S  Scaron Sacute Scedilla Scircumflex Scommaaccent uni1E62];
+@_T=[T  Tbar Tcaron Tcommaaccent uni1E6C uni1E6E];
+@_U=[U  Ugrave Uacute Ucircumflex Udieresis Ubreve Uhungarumlaut Umacron Uogonek Uring Utilde];
+@_W=[W  Wacute Wcircumflex Wdieresis Wgrave];
+@_Y=[Y  Ydieresis Ycircumflex Ygrave uni1E8E];
+@_Z=[Z  Zcaron Zacute Zdotaccent];
+@_a=[a  agrave aacute acircumflex atilde adieresis aring abreve amacron aogonek];
+@_ae=[ae  aeacute];
+@_b=[b  Thorn thorn];
+@_c=[c  ccedilla cacute ccaron ccircumflex cdotaccent];
+@_d=[d  dcaron dcroat uni1E0D];
+@_e=[e  egrave eacute ecircumflex edieresis ebreve ecaron edotaccent emacron eogonek];
+@_g=[g  gbreve gcircumflex gcommaaccent gdotaccent];
+@_h=[h  hbar hcircumflex uni1E25];
+@_i=[i  igrave iacute icircumflex idieresis ibreve imacron iogonek itilde];
+@_j=[j  jcircumflex];
+@_k=[k  kcommaaccent];
+@_l=[l  lacute lcaron lcommaaccent ldot lslash uni1E37 uni1E39 uni1E3B];
+@_m=[m  uni1E43];
+@_n=[n  ntilde nacute napostrophe ncaron ncommaaccent eng uni1E45 uni1E47 uni1E49];
+@_o=[o  ograve oacute ocircumflex otilde odieresis oslash obreve ohungarumlaut omacron oslashacute];
+@_r=[r  racute rcaron rcommaaccent uni1E5B uni1E5D uni1E5F];
+@_s=[s  sacute scedilla scircumflex scommaaccent uni1E63];
+@_t=[t  tbar tcaron tcommaaccent];
+@_u=[u  ugrave uacute ucircumflex udieresis ubreve uhungarumlaut umacron uogonek uring utilde];
+@_w=[w  wacute wcircumflex wdieresis w.alt wgrave];
+@_y=[y  yacute ydieresis ycircumflex ygrave uni1E8F];
+@_z=[z  zcaron zacute zdotaccent];
+
+
+#------------------------------------------------------------------------
+#------------------------------------------------------------------------
+
+
+# for Gurmukhi kerning with latin punctuations 
+
+
+@Left40 =[Jha.gm Ba.gm JhaVirama.gm BaVirama.gm];
+
+@Left30 =[VowelA.gm VowelAa.gm VowelIi.gm VowelU.gm VowelUu.gm VowelEe.gm VowelAi.gm VowelOo.gm VowelAu.gm Ka.gm Kha.gm Gha.gm Nga.gm Nya.gm Tha.gm Dha.gm Pa.gm Ma.gm Ya.gm Va.gm Sha.gm Sa.gm Iri.gm Ura.gm AddhaYa.gm AddhaTha.gm KaVirama.gm KhaVirama.gm GhaVirama.gm NgaVirama.gm NyaVirama.gm ThaVirama.gm DhaVirama.gm PaVirama.gm MaVirama.gm YaVirama.gm VaVirama.gm ShaVirama.gm SaVirama.gm Khha.gm Lla.gm LlaVirama.gm Ghha.gm GhhaVirama.gm ];
+
+@Left20 =[VowelI.gm Ga.gm Ca.gm Cha.gm Ja.gm Tta.gm Dda.gm Ddha.gm Nna.gm Ta.gm Da.gm Pha.gm Bha.gm Ra.gm Ha.gm MatraAa.gm MatraI.gm Za.gm Rra.gm Fa.gm Rha.gm GaVirama.gm CaVirama.gm ChaVirama.gm JaVirama.gm TtaVirama.gm DdaVirama.gm DdhaVirama.gm NnaVirama.gm TaVirama.gm DaVirama.gm PhaVirama.gm BhaVirama.gm RaVirama.gm HaVirama.gm ZaVirama.gm RraVirama.gm FaVirama.gm Ttha.gm Na.gm La.gm TthaVirama.gm NaVirama.gm LaVirama.gm ];
+
+@Right60 =[VowelU.gm VowelUu.gm VowelOo.gm Ura.gm];
+
+@Right30 =[Ka.gm Jha.gm Dda.gm Ta.gm Bha.gm Rra.gm Rha.gm KaVirama.gm JhaVirama.gm DdaVirama.gm TaVirama.gm BhaVirama.gm RraVirama.gm];
+
+@Right20 =[VowelA.gm VowelAa.gm VowelI.gm VowelIi.gm VowelEe.gm VowelAi.gm VowelAu.gm Kha.gm Ga.gm Gha.gm Nga.gm Ca.gm Cha.gm Ja.gm Nya.gm Tta.gm Ddha.gm Nna.gm Tha.gm Da.gm Dha.gm Pa.gm Pha.gm Ba.gm Ma.gm Ya.gm Ra.gm Va.gm Sha.gm Sa.gm Ha.gm MatraAa.gm MatraIi.gm Khha.gm Ghha.gm Za.gm Fa.gm Iri.gm AddhaYa.gm AddhaMa.gm AddhaTha.gm KhaVirama.gm GaVirama.gm GhaVirama.gm NgaVirama.gm CaVirama.gm ChaVirama.gm JaVirama.gm NyaVirama.gm TtaVirama.gm DdhaVirama.gm NnaVirama.gm ThaVirama.gm DaVirama.gm DhaVirama.gm PaVirama.gm PhaVirama.gm BaVirama.gm MaVirama.gm YaVirama.gm RaVirama.gm VaVirama.gm ShaVirama.gm SaVirama.gm HaVirama.gm KhhaVirama.gm GhhaVirama.gm ZaVirama.gm FaVirama.gm Ttha.gm Na.gm La.gm Lla.gm TthaVirama.gm NaVirama.gm LaVirama.gm LlaVirama.gm MatraIiBindi.gm MatraIiAddak.gm MatraIiAddakBindi.gm];
+
+@_allcharacters= [AddakBindi.gm Bindi.gm Visarga.gm VowelA.gm VowelAa.gm VowelI.gm VowelIi.gm VowelU.gm VowelUu.gm VowelEe.gm VowelAi.gm VowelOo.gm VowelAu.gm Ka.gm Kha.gm Ga.gm Gha.gm Nga.gm Ca.gm Cha.gm Ja.gm Jha.gm Nya.gm Tta.gm Ttha.gm Dda.gm Ddha.gm Nna.gm Ta.gm Tha.gm Da.gm Dha.gm Na.gm Pa.gm Pha.gm Ba.gm Bha.gm Ma.gm Ya.gm Ra.gm La.gm Lla.gm Va.gm Sha.gm Sa.gm Ha.gm Nukta.gm MatraAa.gm MatraI.gm MatraIi.gm MatraU.gm MatraUu.gm MatraEe.gm MatraAi.gm MatraOo.gm MatraAu.gm Virama.gm Udaat.gm Khha.gm Ghha.gm Za.gm Rra.gm Fa.gm Zero.gm One.gm Two.gm Three.gm Four.gm Five.gm Six.gm Seven.gm Eight.gm Nine.gm Tippi.gm Addak.gm Iri.gm Ura.gm EkOnkar.gm Yakash.gm PairinHa.gm PairinRa.gm PairinVa.gm PairinGa.gm PairinCa.gm PairinTta.gm PairinTtha.gm PairinTa.gm PairinDa.gm PairinNa.gm PairinTha.gm PairinYa.gm AddhaYa.gm AddhaMa.gm AddhaTha.gm Rha.gm KaViramaRa.gm KaVirama.gm KhaVirama.gm GaVirama.gm GhaVirama.gm NgaVirama.gm CaVirama.gm ChaVirama.gm JaVirama.gm JhaVirama.gm NyaVirama.gm TtaVirama.gm TthaVirama.gm DdaVirama.gm DdhaVirama.gm NnaVirama.gm TaVirama.gm ThaVirama.gm DaVirama.gm DhaVirama.gm NaVirama.gm PaVirama.gm PhaVirama.gm BaVirama.gm BhaVirama.gm MaVirama.gm YaVirama.gm RaVirama.gm LaVirama.gm LlaVirama.gm VaVirama.gm ShaVirama.gm SaVirama.gm HaVirama.gm KhhaVirama.gm GhhaVirama.gm ZaVirama.gm RraVirama.gm FaVirama.gm Danda.gm Doubledanda.gm Khanda.gm MatraEeBindi.gm MatraAiBindi.gm MatraOoBindi.gm MatraAuBindi.gm MatraIiBindi.gm MatraU.gm.alt MatraUu.gm.alt MatraEe.gm.alt MatraAi.gm.alt MatraOo.gm.alt MatraAu.gm.alt MatraEeBindi.gm.alt MatraAiBindi.gm.alt MatraOoBindi.gm.alt MatraAuBindi.gm.alt Virama.gm.alt Bindi.gm.alt Addak.gm.alt AddakBindi.gm.alt MatraEeAddak.gm MatraAiAddak.gm MatraOoAddak.gm MatraAuAddak.gm MatraIiAddak.gm MatraEeAddakBindi.gm MatraAiAddakBindi.gm MatraOoAddakBindi.gm MatraAuAddakBindi.gm MatraIiAddakBindi.gm MatraEeAddak.gm.alt MatraAiAddak.gm.alt MatraOoAddak.gm.alt MatraAuAddak.gm.alt MatraEeAddakBindi.gm.alt MatraAiAddakBindi.gm.alt MatraOoAddakBindi.gm.alt MatraAuAddakBindi.gm.alt PairinRaVirama.gm PairinHaVirama.gm PairinVaVirama.gm PairinGaVirama.gm PairinCaVirama.gm PairinTtaVirama.gm PairinTthaVirama.gm PairinTaVirama.gm PairinDaVirama.gm PairinNaVirama.gm PairinThaVirama.gm PairinYaVirama.gm YakashVirama.gm UdaatVirama.gm PairinRaMatraU.gm PairinHaMatraU.gm PairinVaMatraU.gm PairinGaMatraU.gm PairinCaMatraU.gm PairinTtaMatraU.gm PairinTthaMatraU.gm PairinTaMatraU.gm PairinDaMatraU.gm PairinNaMatraU.gm PairinThaMatraU.gm PairinYaMatraU.gm YakashMatraU.gm UdaatMatraU.gm PairinRaMatraUu.gm PairinHaMatraUu.gm PairinVaMatraUu.gm PairinGaMatraUu.gm PairinCaMatraUu.gm PairinTtaMatraUu.gm PairinTthaMatraUu.gm PairinTaMatraUu.gm PairinDaMatraUu.gm PairinNaMatraUu.gm PairinThaMatraUu.gm PairinYaMatraUu.gm YakashMatraUu.gm UdaatMatraUu.gm OneQuarter.gm OneHalf.gm ThreeQuarters.gm OneSixteenth.gm OneEigth.gm ThreeSixteenths.gm QuarterMark.gm PlaceholderMark.gm NorthIndicRupeeMark.gm QuantityMark.gm];

@@ -1054,7 +1054,7 @@ lookupflag IgnoreMarks;
    enum pos vowelUu.dv @Pa -10;
    enum pos vowelUu.dv [Kha.dv RaNukta.dv Sha.dv KhaNukta.dv GaNukta.dv uni097B Sha.MAR.dv KhaRa.dv GaRa.dv ShaRa.dv SaRa.dv KhaNuktaRa.dv GaNuktaRa.dv ShaRaHalant.dv SaRaHalant.dv GaRaHalant.dv GaDhaVa.dv GaDhaYa.dv GaNaYa.dv GaBhaYa.dv GaRaYa.dv SaKaRa.dv SaKaVa.dv SaTaYa.dv SaTaRa.dv SaTaVa.dv SaThaYa.dv SaPaRa.dv SaMaYa.dv KhaKha.dv KhaTa.dv KhaNa.dv KhaMa.dv KhaYa.dv KhaVa.dv KhaSha.dv GaGa.dv GaGha.dv GaJa.dv GaNna.dv GaDa.dv GaDha.dv GaNa.dv GaBa.dv GaBha.dv GaMa.dv GaYa.dv GaLa.dv GaVa.dv GaSa.dv ShaKa.dv ShaCa.dv ShaCha.dv ShaTta.dv ShaTa.dv ShaNa.dv ShaMa.dv ShaYa.dv ShaLa.dv ShaVa.dv ShaSha.dv ShaKaNukta.dv SaKa.dv SaKha.dv SaJa.dv SaTta.dv SaTa.dv SaTha.dv SaDa.dv SaNa.dv SaPa.dv SaPha.dv SaBa.dv SaMa.dv SaYa.dv SaLa.dv SaVa.dv SaSa.dv KhaNuktaTa.dv KhaNuktaMa.dv KhaNuktaYa.dv KhaNuktaVa.dv KhaNuktaSha.dv KhaNuktaSa.dv KhaHalant.dv GaHalant.dv ShaHalant.dv SaHalant.dv KhaNuktaHalant.dv GaNuktaHalant.dv ShaRaYa.dv ShamatraRu.dv RamatraU.dv RamatraUu.dv KhaSha.MAR.dv ShaKa.MAR.dv ShaCha.MAR.dv ShaTta.MAR.dv ShaTa.MAR.dv ShaMa.MAR.dv ShaYa.MAR.dv ShaSha.MAR.dv ShaKaNukta.MAR.dv SaLa.MAR.dv ShaHalant.MAR.dv GaLa.MAR.dv] 5;
    enum pos vowelUu.dv @bracketright 20;
-   enum pos vowelUu.dv [Ba.dv Ka.dv Lla.dv LlaNukta.dv Va.dv KaNukta.dv uni097F KaRa.dv DaRa.dv BaRa.dv VaRa.dv KaNuktaRa.dv VaRaHalant.dv DaRaHalant.dv DaGa.dv DaDha.dv DaNa.dv DaBa.dv DaBha.dv DaVa.dv KaSaPaRa.dv KaSaPaLa.dv NaSaMaYa.dv KaTaYa.dv KaTaRa.dv KaTaVa.dv KaPaRa.dv KaVaYa.dv KaSaTta.dv KaSaDda.dv KaSaTa.dv BaJaYa.dv BaDhaVa.dv BaBhaRa.dv BaLaYa.dv KaKa.dv KaKha.dv KaCa.dv KaJa.dv KaTta.dv KaNna.dv KaTa.dv KaTha.dv KaDa.dv KaNa.dv KaPa.dv KaPha.dv KaMa.dv KaYa.dv KaLa.dv KaVa.dv KaSha.dv KaSa.dv BaJa.dv BaJha.dv BaTa.dv BaDa.dv BaDha.dv BaNa.dv BaBa.dv BaBha.dv BaYa.dv BaLa.dv BaVa.dv BaSha.dv BaSa.dv BaJaNukta.dv LlaYa.dv VaYa.dv VaLa.dv VaVa.dv VaHa.dv KaHalant.dv BaHalant.dv LlaHalant.dv LlaNuktaHalant.dv VaHalant.dv KaNuktaHalant.dv DaHalant.dv KaNuktaTa.dv KaNuktaPha.dv KaNuktaBa.dv KaNuktaMa.dv KaNuktaKaNukta.dv KaNuktaPhaNukta.dv KaRaHalant.dv DaDhaYa.dv DaBhaYa.dv DaRaYa.dv DaVaYa.dv KaSsaRa.dv KaSsa.dv KaSsaMaYa.dv KaSsaMa.dv KaSsaYa.dv KaSsaVa.dv KaSsaMaHalant.dv KaSsaHalant.dv KamatraLru.dv KamatraLruu.dv KaKaone.dv KaVaone.dv BaDda.dv LlaLla.dv VaDda.dv KaSaPaLa.MAR.dv KaLa.MAR.dv KaSha.MAR.dv BaLa.MAR.dv BaSha.MAR.dv VaLa.MAR.dv] 5;
+   enum pos vowelUu.dv [Ba.dv Ka.dv Lla.dv LlaNukta.dv Va.dv KaNukta.dv uni097F KaRa.dv DaRa.dv BaRa.dv VaRa.dv KaNuktaRa.dv VaRaHalant.dv DaRaHalant.dv DaGa.dv DaDha.dv DaNa.dv DaBa.dv DaBha.dv DaVa.dv KaSaPaRa.dv KaSaPaLa.dv NaSaMaYa.dv KaTaYa.dv KaTaRa.dv KaTaVa.dv KaPaRa.dv KaVaYa.dv KaSaTta.dv KaSaDda.dv KaSaTa.dv BaJaYa.dv BaDhaVa.dv BaBhaRa.dv BaLaYa.dv KaKa.dv KaKha.dv KaCa.dv KaJa.dv KaTta.dv KaNna.dv KaTa.dv KaTha.dv KaDa.dv KaNa.dv KaPa.dv KaPha.dv KaMa.dv KaYa.dv KaLa.dv KaVa.dv KaSha.dv KaSa.dv BaJa.dv BaJha.dv BaTa.dv BaDa.dv BaDha.dv BaNa.dv BaBa.dv BaBha.dv BaYa.dv BaLa.dv BaVa.dv BaSha.dv BaSa.dv BaJaNukta.dv LlaYa.dv VaYa.dv VaLa.dv VaVa.dv VaHa.dv KaHalant.dv BaHalant.dv LlaHalant.dv LlaNuktaHalant.dv VaHalant.dv KaNuktaHalant.dv KaNuktaTa.dv KaNuktaPha.dv KaNuktaBa.dv KaNuktaMa.dv KaNuktaKaNukta.dv KaNuktaPhaNukta.dv KaRaHalant.dv DaDhaYa.dv DaBhaYa.dv DaRaYa.dv DaVaYa.dv KaSsaRa.dv KaSsa.dv KaSsaMaYa.dv KaSsaMa.dv KaSsaYa.dv KaSsaVa.dv KaSsaMaHalant.dv KaSsaHalant.dv KamatraLru.dv KamatraLruu.dv KaKaone.dv KaVaone.dv BaDda.dv LlaLla.dv VaDda.dv KaSaPaLa.MAR.dv KaLa.MAR.dv KaSha.MAR.dv BaLa.MAR.dv BaSha.MAR.dv VaLa.MAR.dv] 5;
    enum pos vowelRu.dv @bracketright 70;
    enum pos Nga.dv [Kha.dv Ra.dv RaNukta.dv Sa.dv Sha.dv KhaNukta.dv GaNukta.dv uni097B Sha.MAR.dv KhaRa.dv GaRa.dv ShaRa.dv SaRa.dv KhaNuktaRa.dv GaNuktaRa.dv ShaRaHalant.dv SaRaHalant.dv GaRaHalant.dv GaDhaVa.dv GaDhaYa.dv GaNaYa.dv GaBhaYa.dv GaRaYa.dv SaKaRa.dv SaKaVa.dv SaTaYa.dv SaTaRa.dv SaTaVa.dv SaThaYa.dv SaPaRa.dv SaMaYa.dv KhaKha.dv KhaTa.dv KhaNa.dv KhaMa.dv KhaYa.dv KhaVa.dv KhaSha.dv GaGa.dv GaGha.dv GaJa.dv GaNna.dv GaDa.dv GaDha.dv GaNa.dv GaBa.dv GaBha.dv GaMa.dv GaYa.dv GaLa.dv GaVa.dv GaSa.dv ShaKa.dv ShaCa.dv ShaCha.dv ShaTta.dv ShaTa.dv ShaNa.dv ShaMa.dv ShaYa.dv ShaLa.dv ShaVa.dv ShaSha.dv ShaKaNukta.dv SaKa.dv SaKha.dv SaJa.dv SaTta.dv SaTa.dv SaTha.dv SaDa.dv SaNa.dv SaPa.dv SaPha.dv SaBa.dv SaMa.dv SaYa.dv SaLa.dv SaVa.dv SaSa.dv KhaNuktaTa.dv KhaNuktaMa.dv KhaNuktaYa.dv KhaNuktaVa.dv KhaNuktaSha.dv KhaNuktaSa.dv KhaHalant.dv GaHalant.dv ShaHalant.dv SaHalant.dv KhaNuktaHalant.dv GaNuktaHalant.dv ShaRaYa.dv ShamatraRu.dv RamatraU.dv RamatraUu.dv KhaSha.MAR.dv ShaKa.MAR.dv ShaCha.MAR.dv ShaTta.MAR.dv ShaTa.MAR.dv ShaMa.MAR.dv ShaYa.MAR.dv ShaSha.MAR.dv ShaKaNukta.MAR.dv SaLa.MAR.dv ShaHalant.MAR.dv GaLa.MAR.dv] 10;
    enum pos Nga.dv @Ma 10;
@@ -1070,12 +1070,12 @@ lookupflag IgnoreMarks;
    enum pos Ddha.dv @Dda 10;
    enum pos Ddha.dv @Ba 5;
    enum pos Ddha.dv @Ma 5;
-   enum pos Lla.dv [Gha.dv Dha.dv GhaRa.dv DhaRa.dv DhaRaHalant.dv ChaRaYa.dv DhaNaYa.dv ChaYa.dv ChaVa.dv GhaNa.dv GhaMa.dv GhaYa.dv DhaNa.dv DhaMa.dv DhaYa.dv DhaVa.dv GhaHalant.dv DhaHalant.dv ChaHalant.dv GhaRaHalant.dv ChaRa.dv] 15;
+   enum pos Lla.dv [Gha.dv Dha.dv GhaRa.dv DhaRa.dv DhaRaHalant.dv ChaRaYa.dv DhaNaYa.dv ChaYa.dv ChaVa.dv GhaNa.dv GhaMa.dv GhaYa.dv DhaNa.dv DhaMa.dv DhaYa.dv DhaVa.dv GhaHalant.dv DhaHalant.dv GhaRaHalant.dv] 15;
    enum pos Lla.dv @Ma 20;
    enum pos Ha.dv [Kha.dv Ra.dv RaNukta.dv Sa.dv KhaNukta.dv GaNukta.dv uni097B Sha.MAR.dv KhaRa.dv GaRa.dv ShaRa.dv SaRa.dv KhaNuktaRa.dv GaNuktaRa.dv ShaRaHalant.dv SaRaHalant.dv GaRaHalant.dv GaDhaVa.dv GaDhaYa.dv GaNaYa.dv GaBhaYa.dv GaRaYa.dv SaKaRa.dv SaKaVa.dv SaTaYa.dv SaTaRa.dv SaTaVa.dv SaThaYa.dv SaPaRa.dv SaMaYa.dv KhaKha.dv KhaTa.dv KhaNa.dv KhaMa.dv KhaYa.dv KhaVa.dv KhaSha.dv GaGa.dv GaGha.dv GaJa.dv GaNna.dv GaDa.dv GaDha.dv GaNa.dv GaBa.dv GaBha.dv GaMa.dv GaYa.dv GaLa.dv GaVa.dv GaSa.dv ShaKa.dv ShaCa.dv ShaCha.dv ShaTta.dv ShaTa.dv ShaNa.dv ShaMa.dv ShaYa.dv ShaLa.dv ShaVa.dv ShaSha.dv ShaKaNukta.dv SaKa.dv SaKha.dv SaJa.dv SaTta.dv SaTa.dv SaTha.dv SaDa.dv SaNa.dv SaPa.dv SaPha.dv SaBa.dv SaMa.dv SaYa.dv SaLa.dv SaVa.dv SaSa.dv KhaNuktaTa.dv KhaNuktaMa.dv KhaNuktaYa.dv KhaNuktaVa.dv KhaNuktaSha.dv KhaNuktaSa.dv KhaHalant.dv GaHalant.dv ShaHalant.dv SaHalant.dv KhaNuktaHalant.dv GaNuktaHalant.dv ShaRaYa.dv ShamatraRu.dv RamatraU.dv RamatraUu.dv KhaSha.MAR.dv ShaKa.MAR.dv ShaCha.MAR.dv ShaTta.MAR.dv ShaTa.MAR.dv ShaMa.MAR.dv ShaYa.MAR.dv ShaSha.MAR.dv ShaKaNukta.MAR.dv SaLa.MAR.dv ShaHalant.MAR.dv GaLa.MAR.dv] 10;
    enum pos Ha.dv @Ta 10;
    enum pos Ha.dv @Tta 5;
-   enum pos Ha.dv [Dda.dv Ha.dv vowelI.dv vowelIi.dv Jha.dv uni097E vowelIiBindu.dv JhaRa.dv HaRa.dv DdaDdaYa.dv NgaKa.dv NgaMa.dv NgaYa.dv DdaDda.dv DdaDdha.dv DdaYa.dv DaDa.dv DaMa.dv DaYa.dv HaMaYa.dv JhaNa.dv JhaMa.dv JhaYa.dv HaNna.dv HaNa.dv HaMa.dv HaYa.dv HaLa.dv HaVa.dv DamatraRu.dv JhaHalant.dv HaHalant.dv NgaHalant.dv DdaHalant.dv DdaNukta.dv NgaGa.dv DaDaYa.dv JaNya.dv JaNyaYa.dv JaNyaHalant.dv HamatraRu.dv vowelIiChandrabindu.dv DdaRa.dv] 15;
+   enum pos Ha.dv [Dda.dv Ha.dv vowelI.dv vowelIi.dv Jha.dv uni097E vowelIiBindu.dv JhaRa.dv HaRa.dv DdaDdaYa.dv NgaKa.dv NgaMa.dv NgaYa.dv DdaDda.dv DdaDdha.dv DdaYa.dv DaDa.dv DaMa.dv DaYa.dv HaMaYa.dv JhaNa.dv JhaMa.dv JhaYa.dv HaNna.dv HaNa.dv HaMa.dv HaYa.dv HaLa.dv HaVa.dv DamatraRu.dv JhaHalant.dv HaHalant.dv DdaNukta.dv NgaGa.dv DaDaYa.dv JaNya.dv JaNyaYa.dv JaNyaHalant.dv HamatraRu.dv vowelIiChandrabindu.dv] 15;
    enum pos Ha.dv @Pa -5;
    enum pos Ha.dv @Ya -5;
    enum pos Ha.dv @Bha -5;
@@ -1538,6 +1538,23 @@ lookupflag IgnoreMarks;
    pos @allnumbers @withoutshiroLeft 30;
 }kern2;
 
+
+lookup kern3{
+ pos matraU.dv comma 20;
+ pos matraU.dv braceright 40;
+ pos matraU.dv parenright 30;
+ pos matraU.dv bracketright 40;
+
+ pos matraUu.dv comma 90;
+ pos matraUu.dv parenright 80;
+ pos matraUu.dv braceright 110;
+ pos matraUu.dv bracketright 120;
+
+ pos matraRu.dv comma 10;
+ pos matraRu.dv braceright 40;
+ pos matraRu.dv bracketright 40;
+} kern3;
+
 } kern;
 
 
@@ -1550,36 +1567,35 @@ lookupflag IgnoreMarks;
 feature abvm {
 
 
-
 #----------------------------------------------------------------------------------------------------------------
 
 
-@ABVM_2ndGlyphone = [Bindu.dv Chandrabindu.dv Chandrabinduone.dv Udatta.dv];
+@top1 = [Bindu.dv Chandrabindu.dv Chandrabinduone.dv Udatta.dv Reph.dv RephBindu.dv RephChandrabindu.dv Chandra.dv];
 
 #-------------------
 
 lookup abvm2 { # Udatta, Bindu, Chandrabindu positioning on vowels
 
-	pos base [vowelI.dv] <anchor 486 0> mark @ABVM_2ndGlyphone;
-	pos base [vowelIi.dv] <anchor 491 205> mark @ABVM_2ndGlyphone;
-	pos base [vowelU.dv vowelUu.dv] <anchor 440 0> mark @ABVM_2ndGlyphone;
-	pos base [vowelE.dv] <anchor 410 0> mark @ABVM_2ndGlyphone;
-	pos base [vowelChandraE.dv] <anchor 403 130> mark @ABVM_2ndGlyphone;
-	pos base [vowelShortE.dv] <anchor 574 120> mark @ABVM_2ndGlyphone;
-	pos base [vowelAi.dv] <anchor 619 50> mark @ABVM_2ndGlyphone;
-	pos base [vowelO.dv] <anchor 1032 30> mark @ABVM_2ndGlyphone;
-	pos base [vowelShortO.dv] <anchor 976 111> mark @ABVM_2ndGlyphone;
-	pos base [vowelAu.dv] <anchor 1060 40> mark @ABVM_2ndGlyphone;
-	pos base [vowelRu.dv vowelRuu.dv PamatraLru.dv PamatraLruu.dv] <anchor 518 0> mark @ABVM_2ndGlyphone;
-	pos base [vowelLru.dv vowelLruu.dv] <anchor 614 0> mark @ABVM_2ndGlyphone;
-	pos base [KamatraLru.dv KamatraLruu.dv] <anchor 473 0> mark @ABVM_2ndGlyphone;
+	pos base [vowelI.dv] <anchor 486 0> mark @top1;
+	pos base [vowelIi.dv] <anchor 491 205> mark @top1;
+	pos base [vowelU.dv vowelUu.dv] <anchor 440 0> mark @top1;
+	pos base [vowelE.dv] <anchor 410 0> mark @top1;
+	pos base [vowelChandraE.dv] <anchor 403 130> mark @top1;
+	pos base [vowelShortE.dv] <anchor 574 120> mark @top1;
+	pos base [vowelAi.dv] <anchor 619 50> mark @top1;
+	pos base [vowelO.dv] <anchor 1032 30> mark @top1;
+	pos base [vowelShortO.dv] <anchor 976 111> mark @top1;
+	pos base [vowelAu.dv] <anchor 1060 40> mark @top1;
+	pos base [vowelRu.dv vowelRuu.dv PamatraLru.dv PamatraLruu.dv] <anchor 518 0> mark @top1;
+	pos base [vowelLru.dv vowelLruu.dv] <anchor 614 0> mark @top1;
+	pos base [KamatraLru.dv KamatraLruu.dv] <anchor 473 0> mark @top1;
 } abvm2;
 
 
 #----------------------------------------------------------------------------------------------------------------
 
 
-@ABVM_2ndGlyphtwo = [Udatta.dv matraE.dv matraEBindu.dv matraEChandrabindu.dv matraEReph.dv matraERephBindu.dv matraERephChandrabindu.dv matraAi.dv matraAiBindu.dv matraAiChandrabindu.dv matraAiReph.dv matraAiRephBindu.dv matraAiRephChandrabindu.dv matraShortE.dv matraShortEBindu.dv matraShortEChandrabindu.dv matraShortEReph.dv matraShortERephBindu.dv matraShortERephChandrabindu.dv Bindu.dv Chandra.dv Chandrabindu.dv Chandrabinduone.dv Reph.dv RephBindu.dv RephChandrabindu.dv];
+@top2 = [Udatta.dv matraE.dv matraEBindu.dv matraEChandrabindu.dv matraEReph.dv matraERephBindu.dv matraERephChandrabindu.dv matraAi.dv matraAiBindu.dv matraAiChandrabindu.dv matraAiReph.dv matraAiRephBindu.dv matraAiRephChandrabindu.dv matraShortE.dv matraShortEBindu.dv matraShortEChandrabindu.dv matraShortEReph.dv matraShortERephBindu.dv matraShortERephChandrabindu.dv Bindu.dv Chandra.dv Chandrabindu.dv Chandrabinduone.dv Reph.dv RephBindu.dv RephChandrabindu.dv matraEone.dv];
 
 #-------------------
 
@@ -1587,121 +1603,121 @@ lookup abvm3 { # positioning of all abovebase matras on characters
 
 # charcters in group @Width_matraIione
 
-	pos base [Cha.dv ChaRa.dv] <anchor 646 0> mark @ABVM_2ndGlyphtwo;
-	pos base [Ddha.dv DdhaNukta.dv DdhaRa.dv] <anchor 540 0> mark @ABVM_2ndGlyphtwo;
-	pos base [Ra.dv RaNukta.dv RamatraU.dv RamatraUu.dv] <anchor 370 0> mark @ABVM_2ndGlyphtwo;
-	pos base [Lla.dv LlaNukta.dv] <anchor 665 0> mark @ABVM_2ndGlyphtwo;
-	pos base [La.MAR.dv] <anchor 622 0> mark @ABVM_2ndGlyphtwo;
-	pos base [ChaVa.dv] <anchor 610 0> mark @ABVM_2ndGlyphtwo;
-	pos base [NgaKa.dv TtaTtha.dv] <anchor 484 0> mark @ABVM_2ndGlyphtwo;
-	pos base [NgaMa.dv] <anchor 480 0> mark @ABVM_2ndGlyphtwo;
-	pos base [TtaTta.dv] <anchor 494 0> mark @ABVM_2ndGlyphtwo;
-	pos base [TthaTtha.dv DdaDda.dv DdaDdha.dv NgaGa.dv] <anchor 473 0> mark @ABVM_2ndGlyphtwo;
-	pos base [NnaDdha.dv] <anchor 981 0> mark @ABVM_2ndGlyphtwo;
-	pos base [CaChaVa.dv] <anchor 1030 0> mark @ABVM_2ndGlyphtwo;
-	pos base [CaCha.dv] <anchor 1045 0> mark @ABVM_2ndGlyphtwo;
-	pos base [NyaCha.dv] <anchor 1050 0> mark @ABVM_2ndGlyphtwo;
-	pos base [LaDdha.dv] <anchor 1023 0> mark @ABVM_2ndGlyphtwo;
-	pos base [NaCha.dv] <anchor 916 0> mark @ABVM_2ndGlyphtwo;
-	pos base [ShaCha.dv] <anchor 1095 0> mark @ABVM_2ndGlyphtwo;
-	pos base [PaCha.dv] <anchor 917 0> mark @ABVM_2ndGlyphtwo;
-	pos base [LlaLla.dv] <anchor 1183 0> mark @ABVM_2ndGlyphtwo;
+	pos base [Cha.dv] <anchor 646 0> mark @top2;
+	pos base [Ddha.dv DdhaNukta.dv ] <anchor 540 0> mark @top2;
+	pos base [Ra.dv RaNukta.dv RamatraU.dv RamatraUu.dv] <anchor 370 0> mark @top2;
+	pos base [Lla.dv LlaNukta.dv] <anchor 665 0> mark @top2;
+	pos base [La.MAR.dv] <anchor 622 0> mark @top2;
+	pos base [ChaVa.dv] <anchor 610 0> mark @top2;
+	pos base [NgaKa.dv TtaTtha.dv] <anchor 484 0> mark @top2;
+	pos base [NgaMa.dv] <anchor 480 0> mark @top2;
+	pos base [TtaTta.dv] <anchor 494 0> mark @top2;
+	pos base [TthaTtha.dv DdaDda.dv DdaDdha.dv NgaGa.dv] <anchor 473 0> mark @top2;
+	pos base [NnaDdha.dv] <anchor 981 0> mark @top2;
+	pos base [CaChaVa.dv] <anchor 1030 0> mark @top2;
+	pos base [CaCha.dv] <anchor 1045 0> mark @top2;
+	pos base [NyaCha.dv] <anchor 1050 0> mark @top2;
+	pos base [LaDdha.dv] <anchor 1023 0> mark @top2;
+	pos base [NaCha.dv] <anchor 916 0> mark @top2;
+	pos base [ShaCha.dv] <anchor 1095 0> mark @top2;
+	pos base [PaCha.dv] <anchor 917 0> mark @top2;
+	pos base [LlaLla.dv] <anchor 1183 0> mark @top2;
 
 # charcters in group @Width_matraIitwo
 
-	pos base [Nga.dv] <anchor 524 0> mark @ABVM_2ndGlyphtwo;
-	pos base [Ttha.dv TthaRa.dv] <anchor 475 0> mark @ABVM_2ndGlyphtwo;
-	pos base [NnaTtha.dv] <anchor 887 0> mark @ABVM_2ndGlyphtwo;
-	pos base [LaTtha.dv] <anchor 963 0> mark @ABVM_2ndGlyphtwo;
-	pos base [LaLaone.dv] <anchor 564 0> mark @ABVM_2ndGlyphtwo;
-	pos base [PaLaone.dv] <anchor 557 0> mark @ABVM_2ndGlyphtwo;
+	pos base [Nga.dv] <anchor 524 0> mark @top2;
+	pos base [Ttha.dv ] <anchor 475 0> mark @top2;
+	pos base [NnaTtha.dv] <anchor 887 0> mark @top2;
+	pos base [LaTtha.dv] <anchor 963 0> mark @top2;
+	pos base [LaLaone.dv] <anchor 564 0> mark @top2;
+	pos base [PaLaone.dv] <anchor 557 0> mark @top2;
 
 # charcters in group @Width_matraIithree
 
-	pos base [Ka.dv KaNukta.dv KaRa.dv KaNuktaRa.dv KaRaone.dv] <anchor 520 0> mark @ABVM_2ndGlyphtwo;
-	pos base [Pha.dv PhaNukta.dv PhaRa.dv PhaNuktaRa.dv] <anchor 536 0> mark @ABVM_2ndGlyphtwo;
-	pos base [TaKaRa.dv PaPha.dv] <anchor 802 0> mark @ABVM_2ndGlyphtwo;
-	pos base [SsaKaRa.dv SsaPha.dv TaPha.dv NaPha.dv SsaKa.dv MaPha.dv] <anchor 809 0> mark @ABVM_2ndGlyphtwo;
-	pos base [SaKaRa.dv] <anchor 898 0> mark @ABVM_2ndGlyphtwo;
-	pos base [KaKa.dv KaNuktaKaNukta.dv] <anchor 1036 0> mark @ABVM_2ndGlyphtwo;
-	pos base [KaTa.dv] <anchor 618 0> mark @ABVM_2ndGlyphtwo;
-	pos base [KaPha.dv KaNuktaPhaNukta.dv KaNuktaPha.dv] <anchor 1080 0> mark @ABVM_2ndGlyphtwo;
-	pos base [JaKa.dv] <anchor 967 0> mark @ABVM_2ndGlyphtwo;
-	pos base [TaKa.dv] <anchor 789 0> mark @ABVM_2ndGlyphtwo;
-	pos base [NaKa.dv] <anchor 821 0> mark @ABVM_2ndGlyphtwo;
-	pos base [PhaPha.dv PhaNuktaPhaNukta.dv] <anchor 1090 0> mark @ABVM_2ndGlyphtwo;
-	pos base [LaKa.dv] <anchor 1023 0> mark @ABVM_2ndGlyphtwo;
-	pos base [LaPha.dv] <anchor 1033 0> mark @ABVM_2ndGlyphtwo;
-	pos base [ShaKa.dv ShaKaNukta.dv] <anchor 940 0> mark @ABVM_2ndGlyphtwo;
-	pos base [SaKa.dv] <anchor 930 0> mark @ABVM_2ndGlyphtwo;
-	pos base [SaPha.dv] <anchor 958 0> mark @ABVM_2ndGlyphtwo;
-	pos base [KaKaone.dv KaVaone.dv] <anchor 496 0> mark @ABVM_2ndGlyphtwo;
-	pos base [TaSaPha.dv] <anchor 1301 0> mark @ABVM_2ndGlyphtwo;
-	pos base [NaSaKaRa.dv] <anchor 1220 0> mark @ABVM_2ndGlyphtwo;
+	pos base [Ka.dv KaNukta.dv KaRa.dv KaNuktaRa.dv KaRaone.dv] <anchor 520 0> mark @top2;
+	pos base [Pha.dv PhaNukta.dv PhaRa.dv PhaNuktaRa.dv] <anchor 536 0> mark @top2;
+	pos base [TaKaRa.dv PaPha.dv] <anchor 802 0> mark @top2;
+	pos base [SsaKaRa.dv SsaPha.dv TaPha.dv NaPha.dv SsaKa.dv MaPha.dv] <anchor 809 0> mark @top2;
+	pos base [SaKaRa.dv] <anchor 898 0> mark @top2;
+	pos base [KaKa.dv KaNuktaKaNukta.dv] <anchor 1036 0> mark @top2;
+	pos base [KaTa.dv] <anchor 618 0> mark @top2;
+	pos base [KaPha.dv KaNuktaPhaNukta.dv KaNuktaPha.dv] <anchor 1080 0> mark @top2;
+	pos base [JaKa.dv] <anchor 967 0> mark @top2;
+	pos base [TaKa.dv] <anchor 789 0> mark @top2;
+	pos base [NaKa.dv] <anchor 821 0> mark @top2;
+	pos base [PhaPha.dv PhaNuktaPhaNukta.dv] <anchor 1090 0> mark @top2;
+	pos base [LaKa.dv] <anchor 1023 0> mark @top2;
+	pos base [LaPha.dv] <anchor 1033 0> mark @top2;
+	pos base [ShaKa.dv ShaKaNukta.dv] <anchor 940 0> mark @top2;
+	pos base [SaKa.dv] <anchor 930 0> mark @top2;
+	pos base [SaPha.dv] <anchor 958 0> mark @top2;
+	pos base [KaKaone.dv KaVaone.dv] <anchor 496 0> mark @top2;
+	pos base [TaSaPha.dv] <anchor 1301 0> mark @top2;
+	pos base [NaSaKaRa.dv] <anchor 1220 0> mark @top2;
 
 # Da, Ha Ending charcters
 
-	pos base [Da.dv DaRa.dv DaNa.dv DaBa.dv DaVa.dv DaGa.dv] <anchor 500 0> mark @ABVM_2ndGlyphtwo;
-	pos base [Ha.dv HaRa.dv] <anchor 489 0> mark @ABVM_2ndGlyphtwo;
-	pos base [DaDha.dv] <anchor 739 0> mark @ABVM_2ndGlyphtwo;
-	pos base [DaBha.dv] <anchor 796 0> mark @ABVM_2ndGlyphtwo;
-	pos base [NaDaRa.dv NaDaVa.dv GaDa.dv NaDa.dv BaDa.dv MaDa.dv MaHa.dv] <anchor 798 0> mark @ABVM_2ndGlyphtwo;
-	pos base [LaDaRa.dv] <anchor 980 0> mark @ABVM_2ndGlyphtwo;
-	pos base [KaDa.dv] <anchor 1024 0> mark @ABVM_2ndGlyphtwo;
-	pos base [JaDa.dv] <anchor 962 0> mark @ABVM_2ndGlyphtwo;
-	pos base [NaHa.dv VaHa.dv] <anchor 779 0> mark @ABVM_2ndGlyphtwo;
-	pos base [LaDa.dv] <anchor 1002 0> mark @ABVM_2ndGlyphtwo;
-	pos base [LaHa.dv] <anchor 978 0> mark @ABVM_2ndGlyphtwo;
-	pos base [SaDa.dv] <anchor 919 0> mark @ABVM_2ndGlyphtwo;
-	pos base [HaNna.dv HaNa.dv] <anchor 549 0> mark @ABVM_2ndGlyphtwo;
-	pos base [HaLa.dv] <anchor 551 0> mark @ABVM_2ndGlyphtwo;
-	pos base [HaVa.dv] <anchor 540 0> mark @ABVM_2ndGlyphtwo;
+	pos base [Da.dv DaRa.dv DaNa.dv DaBa.dv DaVa.dv DaGa.dv] <anchor 500 0> mark @top2;
+	pos base [Ha.dv HaRa.dv] <anchor 489 0> mark @top2;
+	pos base [DaDha.dv] <anchor 739 0> mark @top2;
+	pos base [DaBha.dv] <anchor 796 0> mark @top2;
+	pos base [NaDaRa.dv NaDaVa.dv GaDa.dv NaDa.dv BaDa.dv MaDa.dv MaHa.dv] <anchor 798 0> mark @top2;
+	pos base [LaDaRa.dv] <anchor 980 0> mark @top2;
+	pos base [KaDa.dv] <anchor 1024 0> mark @top2;
+	pos base [JaDa.dv] <anchor 962 0> mark @top2;
+	pos base [NaHa.dv VaHa.dv] <anchor 779 0> mark @top2;
+	pos base [LaDa.dv] <anchor 1002 0> mark @top2;
+	pos base [LaHa.dv] <anchor 978 0> mark @top2;
+	pos base [SaDa.dv] <anchor 919 0> mark @top2;
+	pos base [HaNna.dv HaNa.dv] <anchor 549 0> mark @top2;
+	pos base [HaLa.dv] <anchor 551 0> mark @top2;
+	pos base [HaVa.dv] <anchor 540 0> mark @top2;
 
-	pos base [VaDda.dv BaDda.dv] <anchor 787 0> mark @ABVM_2ndGlyphtwo;
-	pos base [Tta.dv TtaRa.dv] <anchor 510 0> mark @ABVM_2ndGlyphtwo;
-	pos base [KaSaTta.dv] <anchor 1415 0> mark @ABVM_2ndGlyphtwo;
-	pos base [Dda.dv DdaNukta.dv DdaRa.dv] <anchor 514 0> mark @ABVM_2ndGlyphtwo;
-	pos base [NaSaTta.dv] <anchor 1170 0> mark @ABVM_2ndGlyphtwo;
-	pos base [LaVaDda.dv] <anchor 1275 0> mark @ABVM_2ndGlyphtwo;
-	pos base [KaTta.dv] <anchor 1015 0> mark @ABVM_2ndGlyphtwo;
-	pos base [JaTta.dv] <anchor 973 0> mark @ABVM_2ndGlyphtwo;
-	pos base [JaDda.dv] <anchor 950 0> mark @ABVM_2ndGlyphtwo;
-	pos base [NnaTta.dv NnaDda.dv] <anchor 918 0> mark @ABVM_2ndGlyphtwo;
-	pos base [NaTta.dv] <anchor 780 0> mark @ABVM_2ndGlyphtwo;
-	pos base [NaDda.dv] <anchor 782 0> mark @ABVM_2ndGlyphtwo;
-	pos base [PaTta.dv] <anchor 525 0> mark @ABVM_2ndGlyphtwo;
-	pos base [LaTta.dv LaDda.dv] <anchor 967 0> mark @ABVM_2ndGlyphtwo;
-	pos base [ShaTta.dv] <anchor 880 0> mark @ABVM_2ndGlyphtwo;
-	pos base [SaTta.dv] <anchor 895 0> mark @ABVM_2ndGlyphtwo;
-	pos base [DaDa.dv] <anchor 510 0> mark @ABVM_2ndGlyphtwo;
-	pos base [SsaTta.dv] <anchor 534 0> mark @ABVM_2ndGlyphtwo;
-	pos base [SsaTtha.dv] <anchor 525 0> mark @ABVM_2ndGlyphtwo;
-	pos base [BaSaTtaRa.dv] <anchor 1240 0> mark @ABVM_2ndGlyphtwo;
-	pos base [KaSaDda.dv] <anchor 1422 0> mark @ABVM_2ndGlyphtwo;
-	pos base [NaVaHa.dv] <anchor 1070 0> mark @ABVM_2ndGlyphtwo;
-	pos base [KamatraLru.dv KamatraLruu.dv] <anchor 470 0> mark @ABVM_2ndGlyphtwo;
-	pos base [PamatraLru.dv PamatraLruu.dv] <anchor 520 0> mark @ABVM_2ndGlyphtwo;
+	pos base [VaDda.dv BaDda.dv] <anchor 787 0> mark @top2;
+	pos base [Tta.dv ] <anchor 510 0> mark @top2;
+	pos base [KaSaTta.dv] <anchor 1415 0> mark @top2;
+	pos base [Dda.dv DdaNukta.dv ] <anchor 514 0> mark @top2;
+	pos base [NaSaTta.dv] <anchor 1170 0> mark @top2;
+	pos base [LaVaDda.dv] <anchor 1275 0> mark @top2;
+	pos base [KaTta.dv] <anchor 1015 0> mark @top2;
+	pos base [JaTta.dv] <anchor 973 0> mark @top2;
+	pos base [JaDda.dv] <anchor 950 0> mark @top2;
+	pos base [NnaTta.dv NnaDda.dv] <anchor 918 0> mark @top2;
+	pos base [NaTta.dv] <anchor 780 0> mark @top2;
+	pos base [NaDda.dv] <anchor 782 0> mark @top2;
+	pos base [PaTta.dv] <anchor 525 0> mark @top2;
+	pos base [LaTta.dv LaDda.dv] <anchor 967 0> mark @top2;
+	pos base [ShaTta.dv] <anchor 880 0> mark @top2;
+	pos base [SaTta.dv] <anchor 895 0> mark @top2;
+	pos base [DaDa.dv] <anchor 510 0> mark @top2;
+	pos base [SsaTta.dv] <anchor 534 0> mark @top2;
+	pos base [SsaTtha.dv] <anchor 525 0> mark @top2;
+	pos base [BaSaTta.dv] <anchor 1240 0> mark @top2;
+	pos base [KaSaDda.dv] <anchor 1422 0> mark @top2;
+	pos base [NaVaHa.dv] <anchor 1070 0> mark @top2;
+	pos base [KamatraLru.dv KamatraLruu.dv] <anchor 470 0> mark @top2;
+	pos base [PamatraLru.dv PamatraLruu.dv] <anchor 520 0> mark @top2;
 
 # Marathi Sha La conjuncts 
 
-   pos base [LaRa.MAR.dv] <anchor 647 0> mark @ABVM_2ndGlyphtwo;
-   pos base [KaSaPaLa.MAR.dv] <anchor 1838 0> mark @ABVM_2ndGlyphtwo;
-   pos base [TaPaLa.MAR.dv] <anchor 1192 0> mark @ABVM_2ndGlyphtwo;
-   pos base [KaLa.MAR.dv] <anchor 1138 0> mark @ABVM_2ndGlyphtwo;
-   pos base [GaLa.MAR.dv] <anchor 935 0> mark @ABVM_2ndGlyphtwo;
-   pos base [TaLa.MAR.dv] <anchor 908 0> mark @ABVM_2ndGlyphtwo;
-   pos base [PaLa.MAR.dv] <anchor 875 0> mark @ABVM_2ndGlyphtwo;
-   pos base [PhaLa.MAR.dv] <anchor 1164 0> mark @ABVM_2ndGlyphtwo;
-   pos base [BaLa.MAR.dv] <anchor 964 0> mark @ABVM_2ndGlyphtwo;
-   pos base [BhaLa.MAR.dv] <anchor 1020 0> mark @ABVM_2ndGlyphtwo;
-   pos base [MaLa.MAR.dv] <anchor 931 0> mark @ABVM_2ndGlyphtwo;
-   pos base [LaLa.MAR.dv] <anchor 1121 0> mark @ABVM_2ndGlyphtwo;
-   pos base [VaLa.MAR.dv] <anchor 929 0> mark @ABVM_2ndGlyphtwo;
-   pos base [ShaKa.MAR.dv ShaKaNukta.MAR.dv] <anchor 935 0> mark @ABVM_2ndGlyphtwo;
-   pos base [ShaCha.MAR.dv] <anchor 1078 0> mark @ABVM_2ndGlyphtwo;
-   pos base [ShaTta.MAR.dv] <anchor 920 0> mark @ABVM_2ndGlyphtwo;
-   pos base [SaLa.MAR.dv] <anchor 1028 0> mark @ABVM_2ndGlyphtwo;
-   pos base [HaLa.MAR.dv] <anchor 544 0> mark @ABVM_2ndGlyphtwo;
+   pos base [LaRa.MAR.dv] <anchor 647 0> mark @top2;
+   pos base [KaSaPaLa.MAR.dv] <anchor 1838 0> mark @top2;
+   pos base [TaPaLa.MAR.dv] <anchor 1192 0> mark @top2;
+   pos base [KaLa.MAR.dv] <anchor 1138 0> mark @top2;
+   pos base [GaLa.MAR.dv] <anchor 935 0> mark @top2;
+   pos base [TaLa.MAR.dv] <anchor 908 0> mark @top2;
+   pos base [PaLa.MAR.dv] <anchor 875 0> mark @top2;
+   pos base [PhaLa.MAR.dv] <anchor 1164 0> mark @top2;
+   pos base [BaLa.MAR.dv] <anchor 964 0> mark @top2;
+   pos base [BhaLa.MAR.dv] <anchor 1020 0> mark @top2;
+   pos base [MaLa.MAR.dv] <anchor 931 0> mark @top2;
+   pos base [LaLa.MAR.dv] <anchor 1121 0> mark @top2;
+   pos base [VaLa.MAR.dv] <anchor 929 0> mark @top2;
+   pos base [ShaKa.MAR.dv ShaKaNukta.MAR.dv] <anchor 935 0> mark @top2;
+   pos base [ShaCha.MAR.dv] <anchor 1078 0> mark @top2;
+   pos base [ShaTta.MAR.dv] <anchor 920 0> mark @top2;
+   pos base [SaLa.MAR.dv] <anchor 1028 0> mark @top2;
+   pos base [HaLa.MAR.dv] <anchor 544 0> mark @top2;
 
 } abvm3;
 
@@ -1709,28 +1725,28 @@ lookup abvm3 { # positioning of all abovebase matras on characters
 
 #-------------------
 
-@ABVM_2ndGlyphthree = [RephChandrabindu.dv Reph.dv RephBindu.dv];
+@top3 = [RephChandrabindu.dv Reph.dv RephBindu.dv];
 
 #-------------------
 
 lookup abvm5 { # positioning of Reph matras on characters like Tha.dv                            
 
-	pos base [Tha.dv ThaRa.dv] <anchor 643 0> mark @ABVM_2ndGlyphthree;
-	pos base [Dha.dv DhaRa.dv] <anchor 639 0> mark @ABVM_2ndGlyphthree;
-	pos base [ShaRa.dv] <anchor 687 0> mark @ABVM_2ndGlyphthree;
-	pos base [KaTha.dv] <anchor 1160 0> mark @ABVM_2ndGlyphthree;
-	pos base [LaTha.dv] <anchor 1149 0> mark @ABVM_2ndGlyphthree;
-	pos base [NaTha.dv] <anchor 945 0> mark @ABVM_2ndGlyphthree;
-	pos base [PhaTha.dv] <anchor 1174 0> mark @ABVM_2ndGlyphthree;
-	pos base [SaTha.dv] <anchor 1055 0> mark @ABVM_2ndGlyphthree;
-	pos base [TaTha.dv] <anchor 935 0> mark @ABVM_2ndGlyphthree;
-	pos base [BaDha.dv] <anchor 875 0> mark @ABVM_2ndGlyphthree;
-	pos base [GaDha.dv] <anchor 932 0> mark @ABVM_2ndGlyphthree;
-	pos base [NaDha.dv NaDhaRa.dv] <anchor 879 0> mark @ABVM_2ndGlyphthree;
-	pos base [ShaCa.dv] <anchor 706 0> mark @ABVM_2ndGlyphthree; 
-	pos base [ShaNa.dv] <anchor 684 0> mark @ABVM_2ndGlyphthree;
-	pos base [ShaLa.dv] <anchor 711 0> mark @ABVM_2ndGlyphthree;
-	pos base [ShaVa.dv] <anchor 704 0> mark @ABVM_2ndGlyphthree;
+	pos base [Tha.dv ThaRa.dv] <anchor 643 0> mark @top3;
+	pos base [Dha.dv DhaRa.dv] <anchor 639 0> mark @top3;
+	pos base [ShaRa.dv] <anchor 687 0> mark @top3;
+	pos base [KaTha.dv] <anchor 1160 0> mark @top3;
+	pos base [LaTha.dv] <anchor 1149 0> mark @top3;
+	pos base [NaTha.dv] <anchor 945 0> mark @top3;
+	pos base [PhaTha.dv] <anchor 1174 0> mark @top3;
+	pos base [SaTha.dv] <anchor 1055 0> mark @top3;
+	pos base [TaTha.dv] <anchor 935 0> mark @top3;
+	pos base [BaDha.dv] <anchor 875 0> mark @top3;
+	pos base [GaDha.dv] <anchor 932 0> mark @top3;
+	pos base [NaDha.dv NaDhaRa.dv] <anchor 879 0> mark @top3;
+	pos base [ShaCa.dv] <anchor 706 0> mark @top3; 
+	pos base [ShaNa.dv] <anchor 684 0> mark @top3;
+	pos base [ShaLa.dv] <anchor 711 0> mark @top3;
+	pos base [ShaVa.dv] <anchor 704 0> mark @top3;
 
 } abvm5;
 
@@ -1738,37 +1754,37 @@ lookup abvm5 { # positioning of Reph matras on characters like Tha.dv
 
 #-------------------
 
-@ABVM_2ndGlyph = [Udatta.dv];
+@top4 = [Udatta.dv];
 
-@ABVM_1stGlyphone = [matraIi.dv matraIione.dv matraIitwo.dv matraIi3.dv];
+@markone = [matraIi.dv matraIione.dv matraIitwo.dv matraIi3.dv];
 
-@ABVM_1stGlyphtwo = [Bindu.dv Chandra.dv Chandrabinduone.dv ];
+@marktwo = [Bindu.dv Chandra.dv Chandrabinduone.dv ];
 
-@ABVM_1stGlyphthree = [matraAChandra.dv];
+@markthree = [matraAChandra.dv];
 
-@ABVM_1stGlyphfour = [matraIiBindu.dv matraIiBinduone.dv matraIiBindutwo.dv matraIiBindu3.dv matraOBindu.dv matraShortOBindu.dv matraIiChandrabindu.dv matraIiChandrabinduone.dv matraIiChandrabindutwo.dv matraIiChandrabindu3.dv matraOChandrabindu.dv matraAuBindu.dv matraAuChandrabindu.dv matraShortOChandrabindu.dv];
+@markfour = [matraIiBindu.dv matraIiBinduone.dv matraIiBindutwo.dv matraIiBindu3.dv matraOBindu.dv matraShortOBindu.dv matraIiChandrabindu.dv matraIiChandrabinduone.dv matraIiChandrabindutwo.dv matraIiChandrabindu3.dv matraOChandrabindu.dv matraAuBindu.dv matraAuChandrabindu.dv matraShortOChandrabindu.dv];
 
-@ABVM_1stGlyphfive = [matraE.dv matraAi.dv matraShortE.dv ];
+@markfive = [matraE.dv matraAi.dv matraShortE.dv ];
 
-@ABVM_1stGlyphsix = [matraO.dv matraAu.dv matraShortO.dv ];
+@marksix = [matraO.dv matraAu.dv matraShortO.dv ];
 
-@ABVM_1stGlyphseven = [matraA.dv];
+@markseven = [matraA.dv];
 
-@ABVM_1stGlypheight = [matraEBindu.dv matraAiBindu.dv matraShortEBindu.dv ];
+@markeight = [matraEBindu.dv matraAiBindu.dv matraShortEBindu.dv ];
 
-@ABVM_1stGlyphnine = [matraEChandrabindu.dv matraAiChandrabindu.dv matraShortEChandrabindu.dv];
+@marknine = [matraEChandrabindu.dv matraAiChandrabindu.dv matraShortEChandrabindu.dv];
 
-@ABVM_1stGlyphten = [Chandrabindu.dv Reph.dv RephBindu.dv RephChandrabindu.dv];
+@markten = [Chandrabindu.dv Reph.dv RephBindu.dv RephChandrabindu.dv];
 
-@ABVM_1stGlypheleven = [matraAChandrabindu.dv];
+@markeleven = [matraAChandrabindu.dv];
 
-@ABVM_1stGlyphtwelve = [matraIiReph.dv matraIiRephBindu.dv matraIiRephChandrabindu.dv matraIiRephone.dv matraIiRephBinduone.dv matraIiRephChandrabinduone.dv matraIiRephtwo.dv matraIiRephBindutwo.dv matraIiRephChandrabindutwo.dv matraIiReph3.dv matraIiRephBindu3.dv matraIiRephChandrabindu3.dv matraOReph.dv matraORephBindu.dv matraORephChandrabindu.dv matraAuReph.dv matraAuRephBindu.dv matraAuRephChandrabindu.dv matraShortOReph.dv matraShortORephBindu.dv matraShortORephChandrabindu.dv matraAReph.dv matraARephBindu.dv matraARephChandrabindu.dv];
+@marktwelve = [matraIiReph.dv matraIiRephBindu.dv matraIiRephChandrabindu.dv matraIiRephone.dv matraIiRephBinduone.dv matraIiRephChandrabinduone.dv matraIiRephtwo.dv matraIiRephBindutwo.dv matraIiRephChandrabindutwo.dv matraIiReph3.dv matraIiRephBindu3.dv matraIiRephChandrabindu3.dv matraOReph.dv matraORephBindu.dv matraORephChandrabindu.dv matraAuReph.dv matraAuRephBindu.dv matraAuRephChandrabindu.dv matraShortOReph.dv matraShortORephBindu.dv matraShortORephChandrabindu.dv matraAReph.dv matraARephBindu.dv matraARephChandrabindu.dv];
 
-@ABVM_1stGlyphthirteen =[matraEReph.dv matraERephBindu.dv matraERephChandrabindu.dv matraAiReph.dv matraAiRephBindu.dv matraAiRephChandrabindu.dv matraShortEReph.dv matraShortERephBindu.dv matraShortERephChandrabindu.dv];
+@markthirteen =[matraEReph.dv matraERephBindu.dv matraERephChandrabindu.dv matraAiReph.dv matraAiRephBindu.dv matraAiRephChandrabindu.dv matraShortEReph.dv matraShortERephBindu.dv matraShortERephChandrabindu.dv];
 
-@ABVM_1stGlyphfourteen =[Visarga.dv];
+@markfourteen =[Visarga.dv];
 
-@ABVM_1stGlyphfifteen =[matraABindu.dv];
+@markfifteen =[matraABindu.dv];
 
 #-------------------
 
@@ -1776,21 +1792,21 @@ lookup abvm5 { # positioning of Reph matras on characters like Tha.dv
 
 lookup abvm1 { # Udatta positioning on abovebase and postbase matras
 
-	pos mark @ABVM_1stGlyphone <anchor 330 0> mark @ABVM_2ndGlyph;
-	pos mark @ABVM_1stGlyphtwo <anchor 0 170> mark @ABVM_2ndGlyph;
-	pos mark @ABVM_1stGlyphthree <anchor 133 130> mark @ABVM_2ndGlyph;
-	pos mark @ABVM_1stGlyphfour <anchor 378 130> mark @ABVM_2ndGlyph;
-	pos mark @ABVM_1stGlyphfive <anchor 70 0> mark @ABVM_2ndGlyph;
-	pos mark @ABVM_1stGlyphsix <anchor 340 0> mark @ABVM_2ndGlyph;
-	pos mark @ABVM_1stGlyphseven <anchor 269 0> mark @ABVM_2ndGlyph;
-	pos mark @ABVM_1stGlypheight <anchor 100 140> mark @ABVM_2ndGlyph;
-	pos mark @ABVM_1stGlyphnine <anchor 71 180> mark @ABVM_2ndGlyph;
-	pos mark @ABVM_1stGlyphten <anchor 0 240> mark @ABVM_2ndGlyph;
-	pos mark @ABVM_1stGlypheleven <anchor 132 380> mark @ABVM_2ndGlyph;
-	pos mark @ABVM_1stGlyphtwelve <anchor 339 200> mark @ABVM_2ndGlyph;
-	pos mark @ABVM_1stGlyphthirteen <anchor 80 200> mark @ABVM_2ndGlyph;
-	pos mark @ABVM_1stGlyphfourteen <anchor 215 0> mark @ABVM_2ndGlyph;
-	pos mark @ABVM_1stGlyphfifteen <anchor 144 160> mark @ABVM_2ndGlyph;
+	pos mark @markone <anchor 330 0> mark @top4;
+	pos mark @marktwo <anchor 0 170> mark @top4;
+	pos mark @markthree <anchor 133 130> mark @top4;
+	pos mark @markfour <anchor 378 130> mark @top4;
+	pos mark @markfive <anchor 70 0> mark @top4;
+	pos mark @marksix <anchor 340 0> mark @top4;
+	pos mark @markseven <anchor 269 0> mark @top4;
+	pos mark @markeight <anchor 100 140> mark @top4;
+	pos mark @marknine <anchor 71 180> mark @top4;
+	pos mark @markten <anchor 0 240> mark @top4;
+	pos mark @markeleven <anchor 132 380> mark @top4;
+	pos mark @marktwelve <anchor 339 200> mark @top4;
+	pos mark @markthirteen <anchor 80 200> mark @top4;
+	pos mark @markfourteen <anchor 215 0> mark @top4;
+	pos mark @markfifteen <anchor 144 160> mark @top4;
 
 } abvm1;
 
@@ -1885,6 +1901,92 @@ lookup abvm4 { # Contextual positioning
 } abvm4;
 
 
+lookup abvm6 { # Contextual positioning
+
+# Chandrabindu positioning on characters with matraI
+
+   pos matraI.dv @matraIdefault Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraIone.dv @matraIone Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraItwo.dv @matraItwo Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraIthree.dv @matraIthree Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraIfour.dv @matraIfour Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraIfive.dv @matraIfive Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraIsix.dv @matraIsix Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraIseven.dv @matraIseven Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraIeight.dv @matraIeight Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraInine.dv @matraInine Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraIten.dv @matraIten Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraIeleven.dv @matraIeleven Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraItwelve.dv @matraItwelve Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraIthirteen.dv @matraIthirteen Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraIfourteen.dv @matraIfourteen Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraIfifteen.dv @matraIfifteen Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraIsixteen.dv @matraIsixteen Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraIseventeen.dv @matraIseventeen Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraIeighteen.dv @matraIeighteen Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraInineteen.dv @matraInineteen Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraItwenty.dv @matraItwenty Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraItwentyone.dv @matraItwentyone Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraItwentytwo.dv @matraItwentytwo Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+   pos matraItwentythree.dv @matraItwentythree Vattu.dv Chandrabinduone.dv' <100 0 0 0>;
+
+# Bindu positioning on characters with matraI
+
+   pos matraI.dv @matraIdefault Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraIone.dv @matraIone Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraItwo.dv @matraItwo Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraIthree.dv @matraIthree Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraIfour.dv @matraIfour Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraIfive.dv @matraIfive Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraIsix.dv @matraIsix Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraIseven.dv @matraIseven Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraIeight.dv @matraIeight Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraInine.dv @matraInine Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraIten.dv @matraIten Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraIeleven.dv @matraIeleven Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraItwelve.dv @matraItwelve Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraIthirteen.dv @matraIthirteen Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraIfourteen.dv @matraIfourteen Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraIfifteen.dv @matraIfifteen Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraIsixteen.dv @matraIsixteen Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraIseventeen.dv @matraIseventeen Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraIeighteen.dv @matraIeighteen Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraInineteen.dv @matraInineteen Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraItwenty.dv @matraItwenty Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraItwentyone.dv @matraItwentyone Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraItwentytwo.dv @matraItwentytwo Vattu.dv Bindu.dv' <90 0 0 0>;
+   pos matraItwentythree.dv @matraItwentythree Vattu.dv Bindu.dv' <90 0 0 0>;
+
+# Reph RephBindu RephChandrabindu positioning on characters with matraI
+
+
+   pos matraI.dv @matraIdefault Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraIone.dv @matraIone Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraItwo.dv @matraItwo Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraIthree.dv @matraIthree Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraIfour.dv @matraIfour Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraIfive.dv @matraIfive Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraIsix.dv @matraIsix Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraIseven.dv @matraIseven Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraIeight.dv @matraIeight Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraInine.dv @matraInine Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraIten.dv @matraIten Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraIeleven.dv @matraIeleven Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraItwelve.dv @matraItwelve Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraIthirteen.dv @matraIthirteen Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraIfourteen.dv @matraIfourteen Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraIfifteen.dv @matraIfifteen Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraIsixteen.dv @matraIsixteen Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraIseventeen.dv @matraIseventeen Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraIeighteen.dv @matraIeighteen Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraInineteen.dv @matraInineteen Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraItwenty.dv @matraItwenty Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraItwentyone.dv @matraItwentyone Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraItwentytwo.dv @matraItwentytwo Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+   pos matraItwentythree.dv @matraItwentythree Vattu.dv [Reph.dv RephBindu.dv RephChandrabindu.dv]' <5 0 0 0>;
+
+} abvm6;
+
 } abvm;
 
 #----------------------------------------------------------------------------------------------------------------
@@ -1900,13 +2002,13 @@ feature blwm { # positioning of all belowbase matras on characters
 #-------------------
 
 
-@BLWM_2ndGlyphone = [matraU.dv matraUsmall.dv matraUu.dv matraUusmall.dv matraRu.dv matraRusmall.dv matraRuu.dv Halant.dv];
+@bottom1 = [matraU.dv matraUsmall.dv matraUu.dv matraUusmall.dv matraRu.dv matraRusmall.dv matraRuu.dv];
 
-@BLWM_2ndGlyphtwo = [matraLru.dv matraLruu.dv];
+@bottom2 = [matraLru.dv matraLruu.dv];
 
-@BLWM_2ndGlyphthree = [Vattu.dv VattumatraU.dv VattumatraUsmall.dv VattumatraUu.dv VattumatraUusmall.dv VattumatraRu.dv VattumatraRusmall.dv NuktaVattumatraU.dv NuktaVattumatraUu.dv NuktaVattumatraRu.dv ];
+@bottom3 = [Vattu.dv VattumatraU.dv VattumatraUsmall.dv VattumatraUu.dv VattumatraUusmall.dv VattumatraRu.dv VattumatraRusmall.dv NuktaVattumatraU.dv NuktaVattumatraUu.dv NuktaVattumatraRu.dv Halant.dv];
 
-@BLWM_2ndGlyphfour = [Anudatta.dv];
+@bottom4 = [Anudatta.dv];
 
 
 
@@ -1914,549 +2016,551 @@ feature blwm { # positioning of all belowbase matras on characters
 # charcters in group @Width_matraIione
 
 	pos base [Cha.dv] 
-		<anchor 501 0> mark @BLWM_2ndGlyphone <anchor 532 10> mark @BLWM_2ndGlyphtwo
-		<anchor 468 15> mark @BLWM_2ndGlyphthree <anchor 635 0> mark @BLWM_2ndGlyphfour;
+		<anchor 501 0> mark @bottom1 <anchor 532 10> mark @bottom2
+		<anchor 468 15> mark @bottom3 <anchor 635 0> mark @bottom4;
 
 	pos base [Ddha.dv] 
-		<anchor 479 0> mark @BLWM_2ndGlyphone <anchor 531 0> mark @BLWM_2ndGlyphtwo
-		<anchor 444 6> mark @BLWM_2ndGlyphthree <anchor 602 0> mark @BLWM_2ndGlyphfour;
+		<anchor 479 0> mark @bottom1 <anchor 531 0> mark @bottom2
+		<anchor 444 6> mark @bottom3 <anchor 602 0> mark @bottom4;
+
+   pos base [DdhaNukta.dv] 
+      <anchor 479 -250> mark @bottom1 <anchor 531 -230> mark @bottom2
+      <anchor 444 -230> mark @bottom3 <anchor 602 -100> mark @bottom4;
 
 	pos base [Ra.dv RaNukta.dv] 
-		<anchor 420 0> mark @BLWM_2ndGlyphone <anchor 420 0> mark @BLWM_2ndGlyphtwo
-		<anchor 420 0> mark @BLWM_2ndGlyphthree <anchor 516 0> mark @BLWM_2ndGlyphfour;
+		<anchor 420 0> mark @bottom1 <anchor 420 0> mark @bottom2
+		<anchor 350 -10> mark @bottom3 <anchor 516 0> mark @bottom4;
 
-	pos base [Lla.dv LlaNukta.dv] 
-		<anchor 654 30> mark @BLWM_2ndGlyphone <anchor 617 33> mark @BLWM_2ndGlyphtwo
-		<anchor 641 45> mark @BLWM_2ndGlyphthree <anchor 671 39> mark @BLWM_2ndGlyphfour;
+	pos base [Lla.dv] 
+		<anchor 654 30> mark @bottom1 <anchor 617 0> mark @bottom2
+		<anchor 631 15> mark @bottom3 <anchor 671 39> mark @bottom4;
+
+   pos base [LlaNukta.dv] 
+      <anchor 654 -170> mark @bottom1 <anchor 617 -180> mark @bottom2
+      <anchor 641 -100> mark @bottom3 <anchor 671 -50> mark @bottom4;
 
 	pos base [La.MAR.dv] 
-		<anchor 624 40> mark @BLWM_2ndGlyphone <anchor 624 40> mark @BLWM_2ndGlyphtwo
-		<anchor 597 1> mark @BLWM_2ndGlyphthree <anchor 641 45> mark @BLWM_2ndGlyphfour;
+		<anchor 624 40> mark @bottom1 <anchor 624 40> mark @bottom2
+		<anchor 597 1> mark @bottom3 <anchor 641 45> mark @bottom4;
 
-	pos base [ChaRa.dv] 
-		<anchor 474 -251> mark @BLWM_2ndGlyphone <anchor 474 -251> mark @BLWM_2ndGlyphtwo
-		<anchor 474 -251> mark @BLWM_2ndGlyphthree <anchor 635 -186> mark @BLWM_2ndGlyphfour;
-
-	pos base [DdhaRa.dv] 
-		<anchor 452 -256> mark @BLWM_2ndGlyphone <anchor 452 -256> mark @BLWM_2ndGlyphtwo
-		<anchor 452 -256> mark @BLWM_2ndGlyphthree <anchor 615 -180> mark @BLWM_2ndGlyphfour;
 
 	pos base [ChaVa.dv] 
-		<anchor 574 -230> mark @BLWM_2ndGlyphone <anchor 562 -276> mark @BLWM_2ndGlyphtwo
-		<anchor 562 -276> mark @BLWM_2ndGlyphthree <anchor 635 -215> mark @BLWM_2ndGlyphfour;
+		<anchor 574 -230> mark @bottom1 <anchor 562 -276> mark @bottom2
+		<anchor 562 -276> mark @bottom3 <anchor 635 -215> mark @bottom4;
 
 	pos base [NgaKa.dv] 
-		<anchor 397 -260> mark @BLWM_2ndGlyphone <anchor 440 -276> mark @BLWM_2ndGlyphtwo
-		<anchor 394 -264> mark @BLWM_2ndGlyphthree <anchor 561 -241> mark @BLWM_2ndGlyphfour;
+		<anchor 397 -260> mark @bottom1 <anchor 440 -276> mark @bottom2
+		<anchor 394 -264> mark @bottom3 <anchor 561 -241> mark @bottom4;
 
 	pos base [NgaGa.dv] 
-		<anchor 514 -210> mark @BLWM_2ndGlyphone <anchor 502 -254> mark @BLWM_2ndGlyphtwo
-		<anchor 502 -254> mark @BLWM_2ndGlyphthree <anchor 554 -150> mark @BLWM_2ndGlyphfour;
+		<anchor 514 -210> mark @bottom1 <anchor 502 -254> mark @bottom2
+		<anchor 502 -254> mark @bottom3 <anchor 554 -150> mark @bottom4;
 
 	pos base [NgaMa.dv] 
-		<anchor 502 -210> mark @BLWM_2ndGlyphone <anchor 563 -220> mark @BLWM_2ndGlyphtwo
-		<anchor 563 -220> mark @BLWM_2ndGlyphthree <anchor 560 -223> mark @BLWM_2ndGlyphfour;
+		<anchor 502 -210> mark @bottom1 <anchor 563 -220> mark @bottom2
+		<anchor 563 -220> mark @bottom3 <anchor 560 -223> mark @bottom4;
 
 	pos base [TtaTta.dv TtaTtha.dv TthaTtha.dv DdhaDdha.dv] 
-		<anchor 431 -245> mark @BLWM_2ndGlyphone <anchor 474 -238> mark @BLWM_2ndGlyphtwo
-		<anchor 403 -235> mark @BLWM_2ndGlyphthree <anchor 530 -246> mark @BLWM_2ndGlyphfour;
+		<anchor 431 -245> mark @bottom1 <anchor 474 -238> mark @bottom2
+		<anchor 403 -235> mark @bottom3 <anchor 530 -246> mark @bottom4;
 
 	pos base [TtaVa.dv] 
-		<anchor 525 -240> mark @BLWM_2ndGlyphone <anchor 525 -240> mark @BLWM_2ndGlyphtwo
-		<anchor 525 -240> mark @BLWM_2ndGlyphthree <anchor 530 -246> mark @BLWM_2ndGlyphfour;
+		<anchor 525 -240> mark @bottom1 <anchor 525 -240> mark @bottom2
+		<anchor 525 -240> mark @bottom3 <anchor 530 -246> mark @bottom4;
 
 	pos base [DdaDda.dv DdaDdha.dv] 
-		<anchor 383 -246> mark @BLWM_2ndGlyphone <anchor 447 -242> mark @BLWM_2ndGlyphtwo
-		<anchor 367 -237> mark @BLWM_2ndGlyphthree <anchor 530 -260> mark @BLWM_2ndGlyphfour;
+		<anchor 383 -246> mark @bottom1 <anchor 447 -242> mark @bottom2
+		<anchor 367 -237> mark @bottom3 <anchor 530 -260> mark @bottom4;
 
 	pos base [CaChaVa.dv] 
-		<anchor 990 -230> mark @BLWM_2ndGlyphone <anchor 978 -270> mark @BLWM_2ndGlyphtwo
-		<anchor 978 -270> mark @BLWM_2ndGlyphthree <anchor 1073 -250> mark @BLWM_2ndGlyphfour;
+		<anchor 990 -230> mark @bottom1 <anchor 978 -270> mark @bottom2
+		<anchor 978 -270> mark @bottom3 <anchor 1073 -250> mark @bottom4;
 
 	pos base [CaCha.dv] 
-		<anchor 884 0> mark @BLWM_2ndGlyphone <anchor 884 0> mark @BLWM_2ndGlyphtwo
-		<anchor 884 0> mark @BLWM_2ndGlyphthree <anchor 1018 0> mark @BLWM_2ndGlyphfour;
+		<anchor 884 0> mark @bottom1 <anchor 930 0> mark @bottom2
+		<anchor 884 0> mark @bottom3 <anchor 1018 0> mark @bottom4;
 
 	pos base [NyaCha.dv NnaDdha.dv] 
-		<anchor 918 0> mark @BLWM_2ndGlyphone <anchor 918 0> mark @BLWM_2ndGlyphtwo
-		<anchor 918 0> mark @BLWM_2ndGlyphthree <anchor 1052 0> mark @BLWM_2ndGlyphfour;
+		<anchor 918 0> mark @bottom1 <anchor 918 0> mark @bottom2
+		<anchor 890 0> mark @bottom3 <anchor 1052 0> mark @bottom4;
 
 	pos base [NaCha.dv] 
-		<anchor 776 0> mark @BLWM_2ndGlyphone <anchor 776 0> mark @BLWM_2ndGlyphtwo
-		<anchor 776 0> mark @BLWM_2ndGlyphthree <anchor 910 0> mark @BLWM_2ndGlyphfour;
+		<anchor 776 0> mark @bottom1 <anchor 796 0> mark @bottom2
+		<anchor 756 0> mark @bottom3 <anchor 910 0> mark @bottom4;
 
 	pos base [LaDdha.dv ShaCha.dv] 
-		<anchor 969 0> mark @BLWM_2ndGlyphone <anchor 969 0> mark @BLWM_2ndGlyphtwo
-		<anchor 969 0> mark @BLWM_2ndGlyphthree <anchor 1092 0> mark @BLWM_2ndGlyphfour;
+		<anchor 969 0> mark @bottom1 <anchor 989 0> mark @bottom2
+		<anchor 907 0> mark @bottom3 <anchor 1092 0> mark @bottom4;
 
 	pos base [PaCha.dv] 
-		<anchor 780 0> mark @BLWM_2ndGlyphone <anchor 780 0> mark @BLWM_2ndGlyphtwo
-		<anchor 780 0> mark @BLWM_2ndGlyphthree <anchor 914 0> mark @BLWM_2ndGlyphfour;
+		<anchor 780 0> mark @bottom1 <anchor 800 0> mark @bottom2
+		<anchor 750 0> mark @bottom3 <anchor 914 0> mark @bottom4;
 
 
 # charcters in group @Width_matraIitwo
 
 	pos base [Ka.dv KaNukta.dv KaRa.dv KaNuktaRa.dv KaRaone.dv] 
-		<anchor 518 0> mark @BLWM_2ndGlyphone <anchor 573 10> mark @BLWM_2ndGlyphtwo
-		<anchor 518 0> mark @BLWM_2ndGlyphthree <anchor 680 0> mark @BLWM_2ndGlyphfour;
+		<anchor 518 0> mark @bottom1 <anchor 573 10> mark @bottom2
+		<anchor 518 0> mark @bottom3 <anchor 680 0> mark @bottom4;
 
 	pos base [Pha.dv PhaNukta.dv PhaRa.dv PhaNuktaRa.dv] 
-		<anchor 526 0> mark @BLWM_2ndGlyphone <anchor 559 6> mark @BLWM_2ndGlyphtwo
-		<anchor 526 0> mark @BLWM_2ndGlyphthree <anchor 685 0> mark @BLWM_2ndGlyphfour;
+		<anchor 526 0> mark @bottom1 <anchor 559 6> mark @bottom2
+		<anchor 526 0> mark @bottom3 <anchor 685 0> mark @bottom4;
 
 	pos base [TaKaRa.dv] 
-		<anchor 799 0> mark @BLWM_2ndGlyphone <anchor 848 15> mark @BLWM_2ndGlyphtwo
-		<anchor 799 0> mark @BLWM_2ndGlyphthree <anchor 961 0> mark @BLWM_2ndGlyphfour;
+		<anchor 799 0> mark @bottom1 <anchor 848 15> mark @bottom2
+		<anchor 799 0> mark @bottom3 <anchor 961 0> mark @bottom4;
 
 	pos base [TaSaPha.dv] 
-		<anchor 1296 0> mark @BLWM_2ndGlyphone <anchor 1331 10> mark @BLWM_2ndGlyphtwo
-		<anchor 1296 0> mark @BLWM_2ndGlyphthree <anchor 1455 0> mark @BLWM_2ndGlyphfour;
+		<anchor 1296 0> mark @bottom1 <anchor 1331 10> mark @bottom2
+		<anchor 1296 0> mark @bottom3 <anchor 1455 0> mark @bottom4;
 
 	pos base [SsaKaRa.dv SsaKa.dv] 
-		<anchor 813 0> mark @BLWM_2ndGlyphone <anchor 845 4> mark @BLWM_2ndGlyphtwo
-		<anchor 813 0> mark @BLWM_2ndGlyphthree <anchor 978 0> mark @BLWM_2ndGlyphfour;
+		<anchor 813 0> mark @bottom1 <anchor 845 4> mark @bottom2
+		<anchor 813 0> mark @bottom3 <anchor 978 0> mark @bottom4;
 
 	pos base [MaPha.dv] 
-		<anchor 816 0> mark @BLWM_2ndGlyphone <anchor 843 7> mark @BLWM_2ndGlyphtwo
-		<anchor 816 0> mark @BLWM_2ndGlyphthree <anchor 975 0> mark @BLWM_2ndGlyphfour;
+		<anchor 816 0> mark @bottom1 <anchor 843 7> mark @bottom2
+		<anchor 816 0> mark @bottom3 <anchor 975 0> mark @bottom4;
 
 	pos base [SaKaRa.dv] 
-		<anchor 893 0> mark @BLWM_2ndGlyphone <anchor 951 10> mark @BLWM_2ndGlyphtwo
-		<anchor 893 0> mark @BLWM_2ndGlyphthree <anchor 1055 0> mark @BLWM_2ndGlyphfour;
+		<anchor 893 0> mark @bottom1 <anchor 951 10> mark @bottom2
+		<anchor 893 0> mark @bottom3 <anchor 1055 0> mark @bottom4;
 
 
 	pos base [KaNuktaKaNukta.dv KaKa.dv] 
-		<anchor 1035 0> mark @BLWM_2ndGlyphone <anchor 1138 4> mark @BLWM_2ndGlyphtwo
-		<anchor 1035 0> mark @BLWM_2ndGlyphthree <anchor 1197 0> mark @BLWM_2ndGlyphfour;
+		<anchor 1035 0> mark @bottom1 <anchor 1138 4> mark @bottom2
+		<anchor 1035 0> mark @bottom3 <anchor 1197 0> mark @bottom4;
 
 	pos base [KaTa.dv] 
-		<anchor 611 0> mark @BLWM_2ndGlyphone <anchor 664 7> mark @BLWM_2ndGlyphtwo
-		<anchor 611 0> mark @BLWM_2ndGlyphthree <anchor 773 0> mark @BLWM_2ndGlyphfour;
+		<anchor 611 0> mark @bottom1 <anchor 664 7> mark @bottom2
+		<anchor 611 0> mark @bottom3 <anchor 773 0> mark @bottom4;
 
 	pos base [KaPha.dv KaNuktaPhaNukta.dv KaNuktaPha.dv] 
-		<anchor 1068 0> mark @BLWM_2ndGlyphone <anchor 1124 9> mark @BLWM_2ndGlyphtwo
-		<anchor 1068 0> mark @BLWM_2ndGlyphthree <anchor 1227 0> mark @BLWM_2ndGlyphfour;
+		<anchor 1068 0> mark @bottom1 <anchor 1124 9> mark @bottom2
+		<anchor 1068 0> mark @bottom3 <anchor 1227 0> mark @bottom4;
 
 	pos base [PhaPha.dv PhaNuktaPhaNukta.dv] 
-		<anchor 1086 0> mark @BLWM_2ndGlyphone <anchor 1115 10> mark @BLWM_2ndGlyphtwo
-		<anchor 1086 0> mark @BLWM_2ndGlyphthree <anchor 1245 0> mark @BLWM_2ndGlyphfour;
+		<anchor 1086 0> mark @bottom1 <anchor 1115 10> mark @bottom2
+		<anchor 1086 0> mark @bottom3 <anchor 1245 0> mark @bottom4;
 
 	pos base [JaKa.dv] 
-		<anchor 965 0> mark @BLWM_2ndGlyphone <anchor 986 6> mark @BLWM_2ndGlyphtwo
-		<anchor 965 0> mark @BLWM_2ndGlyphthree <anchor 1127 0> mark @BLWM_2ndGlyphfour;
+		<anchor 965 0> mark @bottom1 <anchor 986 6> mark @bottom2
+		<anchor 965 0> mark @bottom3 <anchor 1127 0> mark @bottom4;
 
 	pos base [SaPha.dv] 
-		<anchor 952 0> mark @BLWM_2ndGlyphone <anchor 1104 8> mark @BLWM_2ndGlyphtwo
-		<anchor 952 0> mark @BLWM_2ndGlyphthree <anchor 1111 0> mark @BLWM_2ndGlyphfour;
+		<anchor 952 0> mark @bottom1 <anchor 1104 8> mark @bottom2
+		<anchor 952 0> mark @bottom3 <anchor 1111 0> mark @bottom4;
 
 	pos base [TaKa.dv] 
-		<anchor 788 0> mark @BLWM_2ndGlyphone <anchor 825 8> mark @BLWM_2ndGlyphtwo
-		<anchor 788 0> mark @BLWM_2ndGlyphthree <anchor 950 0> mark @BLWM_2ndGlyphfour;
+		<anchor 788 0> mark @bottom1 <anchor 825 8> mark @bottom2
+		<anchor 788 0> mark @bottom3 <anchor 950 0> mark @bottom4;
 
 	pos base [TaPha.dv] 
-		<anchor 793 0> mark @BLWM_2ndGlyphone <anchor 809 7> mark @BLWM_2ndGlyphtwo
-		<anchor 793 0> mark @BLWM_2ndGlyphthree <anchor 952 0> mark @BLWM_2ndGlyphfour;
+		<anchor 793 0> mark @bottom1 <anchor 809 7> mark @bottom2
+		<anchor 793 0> mark @bottom3 <anchor 952 0> mark @bottom4;
 
 	pos base [NaKa.dv] 
-		<anchor 815 0> mark @BLWM_2ndGlyphone <anchor 860 10> mark @BLWM_2ndGlyphtwo
-		<anchor 815 0> mark @BLWM_2ndGlyphthree <anchor 977 0> mark @BLWM_2ndGlyphfour;
+		<anchor 815 0> mark @bottom1 <anchor 860 10> mark @bottom2
+		<anchor 815 0> mark @bottom3 <anchor 977 0> mark @bottom4;
 
 	pos base [NaPha.dv SsaPha.dv] 
-		<anchor 801 0> mark @BLWM_2ndGlyphone <anchor 846 8> mark @BLWM_2ndGlyphtwo
-		<anchor 801 0> mark @BLWM_2ndGlyphthree <anchor 960 0> mark @BLWM_2ndGlyphfour;
+		<anchor 801 0> mark @bottom1 <anchor 846 8> mark @bottom2
+		<anchor 801 0> mark @bottom3 <anchor 960 0> mark @bottom4;
 
 	pos base [PaPha.dv] 
-		<anchor 795 0> mark @BLWM_2ndGlyphone <anchor 833 7> mark @BLWM_2ndGlyphtwo
-		<anchor 795 0> mark @BLWM_2ndGlyphthree <anchor 954 0> mark @BLWM_2ndGlyphfour;
+		<anchor 795 0> mark @bottom1 <anchor 833 7> mark @bottom2
+		<anchor 795 0> mark @bottom3 <anchor 954 0> mark @bottom4;
 
 	pos base [LaKa.dv] 
-		<anchor 1018 0> mark @BLWM_2ndGlyphone <anchor 1056 9> mark @BLWM_2ndGlyphtwo
-		<anchor 1018 0> mark @BLWM_2ndGlyphthree <anchor 1180 0> mark @BLWM_2ndGlyphfour;
+		<anchor 1018 0> mark @bottom1 <anchor 1056 9> mark @bottom2
+		<anchor 1018 0> mark @bottom3 <anchor 1180 0> mark @bottom4;
 
 	pos base [LaPha.dv] 
-		<anchor 1027 0> mark @BLWM_2ndGlyphone <anchor 1061 6> mark @BLWM_2ndGlyphtwo
-		<anchor 1027 0> mark @BLWM_2ndGlyphthree <anchor 1186 0> mark @BLWM_2ndGlyphfour;
+		<anchor 1027 0> mark @bottom1 <anchor 1061 6> mark @bottom2
+		<anchor 1027 0> mark @bottom3 <anchor 1186 0> mark @bottom4;
 
 	pos base [ShaKa.dv ShaKaNukta.dv] 
-		<anchor 935 0> mark @BLWM_2ndGlyphone <anchor 978 9> mark @BLWM_2ndGlyphtwo
-		<anchor 935 0> mark @BLWM_2ndGlyphthree <anchor 1097 0> mark @BLWM_2ndGlyphfour;
+		<anchor 935 0> mark @bottom1 <anchor 978 9> mark @bottom2
+		<anchor 935 0> mark @bottom3 <anchor 1097 0> mark @bottom4;
 
 	pos base [SaKa.dv] 
-		<anchor 903 0> mark @BLWM_2ndGlyphone <anchor 944 6> mark @BLWM_2ndGlyphtwo
-		<anchor 903 0> mark @BLWM_2ndGlyphthree <anchor 1065 0> mark @BLWM_2ndGlyphfour;
+		<anchor 903 0> mark @bottom1 <anchor 944 6> mark @bottom2
+		<anchor 903 0> mark @bottom3 <anchor 1065 0> mark @bottom4;
 
 
 	pos base [KaKaone.dv KaVaone.dv] 
-		<anchor 491 -85> mark @BLWM_2ndGlyphone <anchor 533 -76> mark @BLWM_2ndGlyphtwo
-		<anchor 491 -79> mark @BLWM_2ndGlyphthree <anchor 650 -93> mark @BLWM_2ndGlyphfour;
+		<anchor 491 -85> mark @bottom1 <anchor 533 -76> mark @bottom2
+		<anchor 491 -79> mark @bottom3 <anchor 650 -93> mark @bottom4;
 
 
 # charcters in group @Width_matraIithree
 
-	pos base [Nga.dv] 
-		<anchor 453 0> mark @BLWM_2ndGlyphone <anchor 485 3> mark @BLWM_2ndGlyphtwo
-		<anchor 404 5> mark @BLWM_2ndGlyphthree <anchor 549 0> mark @BLWM_2ndGlyphfour;
-
 	pos base [Ttha.dv] 
-		<anchor 467 0> mark @BLWM_2ndGlyphone <anchor 518 5> mark @BLWM_2ndGlyphtwo
-		<anchor 426 21> mark @BLWM_2ndGlyphthree <anchor 595 0> mark @BLWM_2ndGlyphfour;
+		<anchor 467 0> mark @bottom1 <anchor 518 5> mark @bottom2
+		<anchor 426 21> mark @bottom3 <anchor 595 0> mark @bottom4;
 
 	pos base [NnaTtha.dv] 
-		<anchor 892 0> mark @BLWM_2ndGlyphone <anchor 948 8> mark @BLWM_2ndGlyphtwo
-		<anchor 864 10> mark @BLWM_2ndGlyphthree <anchor 1020 0> mark @BLWM_2ndGlyphfour;
+		<anchor 892 0> mark @bottom1 <anchor 948 8> mark @bottom2
+		<anchor 864 10> mark @bottom3 <anchor 1020 0> mark @bottom4;
 
 	pos base [LaTtha.dv] 
-		<anchor 958 0> mark @BLWM_2ndGlyphone <anchor 991 7> mark @BLWM_2ndGlyphtwo
-		<anchor 919 0> mark @BLWM_2ndGlyphthree <anchor 1086 0> mark @BLWM_2ndGlyphfour;
+		<anchor 958 0> mark @bottom1 <anchor 991 7> mark @bottom2
+		<anchor 919 0> mark @bottom3 <anchor 1086 0> mark @bottom4;
 
 	pos base [LaLaone.dv PaLaone.dv] 
-		<anchor 570 -63> mark @BLWM_2ndGlyphone <anchor 570 -63> mark @BLWM_2ndGlyphtwo
-		<anchor 570 -63> mark @BLWM_2ndGlyphthree <anchor 615 -95> mark @BLWM_2ndGlyphfour;
+		<anchor 570 -63> mark @bottom1 <anchor 570 -63> mark @bottom2
+		<anchor 570 -63> mark @bottom3 <anchor 615 -95> mark @bottom4;
 
-	pos base [TthaRa.dv] 
-		<anchor 436 -250> mark @BLWM_2ndGlyphone <anchor 436 -250> mark @BLWM_2ndGlyphtwo
-		<anchor 436 -250> mark @BLWM_2ndGlyphthree <anchor 600 -200> mark @BLWM_2ndGlyphfour;
 
 
 # Tta, Dda, Da, Ha ending characters
 
 	pos base [Tta.dv] 
-		<anchor 450 0> mark @BLWM_2ndGlyphone <anchor 508 5> mark @BLWM_2ndGlyphtwo
-		<anchor 431 12> mark @BLWM_2ndGlyphthree <anchor 562 0> mark @BLWM_2ndGlyphfour;
+		<anchor 450 0> mark @bottom1 <anchor 508 5> mark @bottom2
+		<anchor 431 12> mark @bottom3 <anchor 562 0> mark @bottom4;
 
 	pos base [Da.dv] 
-		<anchor 558 -21> mark @BLWM_2ndGlyphone <anchor 558 -21> mark @BLWM_2ndGlyphtwo
-		<anchor 558 -21> mark @BLWM_2ndGlyphthree <anchor 604 0> mark @BLWM_2ndGlyphfour;
-
-	pos base [TtaRa.dv] 
-		<anchor 410 -250> mark @BLWM_2ndGlyphone <anchor 410 -250> mark @BLWM_2ndGlyphtwo
-		<anchor 410 -250> mark @BLWM_2ndGlyphthree <anchor 562 -200> mark @BLWM_2ndGlyphfour;
-
-	pos base [DdaRa.dv] 
-		<anchor 370 -250> mark @BLWM_2ndGlyphone <anchor 370 -250> mark @BLWM_2ndGlyphtwo
-		<anchor 370 -250> mark @BLWM_2ndGlyphthree <anchor 546 -200> mark @BLWM_2ndGlyphfour;
+		<anchor 558 -21> mark @bottom1 <anchor 558 -21> mark @bottom2
+		<anchor 558 -31> mark @bottom3 <anchor 604 0> mark @bottom4;
 
 	pos base [Ha.dv] 
-		<anchor 450 -40> mark @BLWM_2ndGlyphone <anchor 407 -11> mark @BLWM_2ndGlyphtwo
-		<anchor 407 -11> mark @BLWM_2ndGlyphthree <anchor 54 -87> mark @BLWM_2ndGlyphfour;
+		<anchor 450 -40> mark @bottom1 <anchor 470 -11> mark @bottom2
+		<anchor 400 -150> mark @bottom3 <anchor 554 -87> mark @bottom4;
 
 	pos base [DaRa.dv] 
-		<anchor 562 -24> mark @BLWM_2ndGlyphone <anchor 562 -24> mark @BLWM_2ndGlyphtwo
-		<anchor 562 -24> mark @BLWM_2ndGlyphthree <anchor 608 0> mark @BLWM_2ndGlyphfour;
+		<anchor 562 -24> mark @bottom1 <anchor 562 -24> mark @bottom2
+		<anchor 562 -24> mark @bottom3 <anchor 608 0> mark @bottom4;
 
 	pos base [HaRa.dv] 
-		<anchor 450 -40> mark @BLWM_2ndGlyphone <anchor 440 -30> mark @BLWM_2ndGlyphtwo
-		<anchor 440 -30> mark @BLWM_2ndGlyphthree <anchor 560 -110> mark @BLWM_2ndGlyphfour;
+		<anchor 450 -40> mark @bottom1 <anchor 440 -30> mark @bottom2
+		<anchor 400 -150> mark @bottom3 <anchor 550 -110> mark @bottom4;
 
 	pos base [KaSaTta.dv] 
-		<anchor 1387 0> mark @BLWM_2ndGlyphone <anchor 1430 5> mark @BLWM_2ndGlyphtwo
-		<anchor 1359 12> mark @BLWM_2ndGlyphthree <anchor 1510 0> mark @BLWM_2ndGlyphfour;
+		<anchor 1387 0> mark @bottom1 <anchor 1430 5> mark @bottom2
+		<anchor 1345 12> mark @bottom3 <anchor 1510 0> mark @bottom4;
 
-	pos base [Dda.dv DdaNukta.dv] 
-		<anchor 425 0> mark @BLWM_2ndGlyphone <anchor 485 0> mark @BLWM_2ndGlyphtwo
-		<anchor 407 5> mark @BLWM_2ndGlyphthree <anchor 546 0> mark @BLWM_2ndGlyphfour;
+	pos base [Dda.dv Nga.dv] 
+		<anchor 425 0> mark @bottom1 <anchor 485 0> mark @bottom2
+		<anchor 386 0> mark @bottom3 <anchor 546 0> mark @bottom4;
+
+   pos base [DdaNukta.dv] 
+      <anchor 425 -250> mark @bottom1 <anchor 485 -230> mark @bottom2
+      <anchor 407 -230> mark @bottom3 <anchor 546 -100> mark @bottom4;
 
 	pos base [NaSaTta.dv] 
-		<anchor 1123 0> mark @BLWM_2ndGlyphone <anchor 1177 7> mark @BLWM_2ndGlyphtwo
-		<anchor 1107 10> mark @BLWM_2ndGlyphthree <anchor 1235 0> mark @BLWM_2ndGlyphfour;
+		<anchor 1123 0> mark @bottom1 <anchor 1177 7> mark @bottom2
+		<anchor 1097 10> mark @bottom3 <anchor 1235 0> mark @bottom4;
 
 	pos base [LaDaRa.dv] 
-		<anchor 1028 -25> mark @BLWM_2ndGlyphone <anchor 1028 -25> mark @BLWM_2ndGlyphtwo
-		<anchor 1028 -25> mark @BLWM_2ndGlyphthree <anchor 1222 0> mark @BLWM_2ndGlyphfour;
+		<anchor 1028 -25> mark @bottom1 <anchor 1028 -25> mark @bottom2
+		<anchor 1028 -25> mark @bottom3 <anchor 1222 0> mark @bottom4;
 
 	pos base [LaVaDda.dv] 
-		<anchor 1208 0> mark @BLWM_2ndGlyphone <anchor 1200 0> mark @BLWM_2ndGlyphtwo
-		<anchor 1130 0> mark @BLWM_2ndGlyphthree <anchor 1300 0> mark @BLWM_2ndGlyphfour;
+		<anchor 1208 0> mark @bottom1 <anchor 1220 0> mark @bottom2
+		<anchor 1165 0> mark @bottom3 <anchor 1300 0> mark @bottom4;
 
 	pos base [KaTta.dv] 
-		<anchor 970 0> mark @BLWM_2ndGlyphone <anchor 960 20> mark @BLWM_2ndGlyphtwo
-		<anchor 900 0> mark @BLWM_2ndGlyphthree <anchor 1070 0> mark @BLWM_2ndGlyphfour;
+		<anchor 970 0> mark @bottom1 <anchor 1000 0> mark @bottom2
+		<anchor 920 0> mark @bottom3 <anchor 1070 0> mark @bottom4;
 
 	pos base [KaDa.dv] 
-		<anchor 1099 -32> mark @BLWM_2ndGlyphone <anchor 1060 -30> mark @BLWM_2ndGlyphtwo
-		<anchor 1060 -30> mark @BLWM_2ndGlyphthree <anchor 1080 0> mark @BLWM_2ndGlyphfour;
+		<anchor 1099 -32> mark @bottom1 <anchor 1060 -30> mark @bottom2
+		<anchor 1060 -30> mark @bottom3 <anchor 1080 0> mark @bottom4;
 
 	pos base [GaDa.dv] 
-		<anchor 864 -12> mark @BLWM_2ndGlyphone <anchor 867 -30> mark @BLWM_2ndGlyphtwo
-		<anchor 867 -30> mark @BLWM_2ndGlyphthree <anchor 880 0> mark @BLWM_2ndGlyphfour;
+		<anchor 864 -12> mark @bottom1 <anchor 867 -30> mark @bottom2
+		<anchor 867 -30> mark @bottom3 <anchor 880 0> mark @bottom4;
 
 	pos base [JaTta.dv] 
-		<anchor 917 0> mark @BLWM_2ndGlyphone <anchor 900 20> mark @BLWM_2ndGlyphtwo
-		<anchor 850 0> mark @BLWM_2ndGlyphthree <anchor 1000 0> mark @BLWM_2ndGlyphfour;
+		<anchor 917 0> mark @bottom1 <anchor 930 0> mark @bottom2
+		<anchor 860 0> mark @bottom3 <anchor 1000 0> mark @bottom4;
 
 	pos base [JaDda.dv] 
-		<anchor 871 0> mark @BLWM_2ndGlyphone <anchor 860 0> mark @BLWM_2ndGlyphtwo
-		<anchor 800 0> mark @BLWM_2ndGlyphthree <anchor 980 0> mark @BLWM_2ndGlyphfour;
+		<anchor 871 0> mark @bottom1 <anchor 900 0> mark @bottom2
+		<anchor 830 0> mark @bottom3 <anchor 980 0> mark @bottom4;
 
 	pos base [JaDa.dv] 
-		<anchor 1035 -30> mark @BLWM_2ndGlyphone <anchor 1000 -30> mark @BLWM_2ndGlyphtwo
-		<anchor 1000 -30> mark @BLWM_2ndGlyphthree <anchor 1050 0> mark @BLWM_2ndGlyphfour;
+		<anchor 1035 -30> mark @bottom1 <anchor 1000 -30> mark @bottom2
+		<anchor 1000 -30> mark @bottom3 <anchor 1050 0> mark @bottom4;
 
 	pos base [NnaTta.dv] 
-		<anchor 866 0> mark @BLWM_2ndGlyphone <anchor 870 20> mark @BLWM_2ndGlyphtwo
-		<anchor 820 0> mark @BLWM_2ndGlyphthree <anchor 980 0> mark @BLWM_2ndGlyphfour;
+		<anchor 866 0> mark @bottom1 <anchor 900 0> mark @bottom2
+		<anchor 830 0> mark @bottom3 <anchor 980 0> mark @bottom4;
 
 	pos base [NnaDda.dv] 
-		<anchor 843 0> mark @BLWM_2ndGlyphone <anchor 850 0> mark @BLWM_2ndGlyphtwo
-		<anchor 800 0> mark @BLWM_2ndGlyphthree <anchor 960 0> mark @BLWM_2ndGlyphfour;
+		<anchor 843 0> mark @bottom1 <anchor 880 0> mark @bottom2
+		<anchor 800 0> mark @bottom3 <anchor 960 0> mark @bottom4;
 
 	pos base [NaTta.dv] 
-		<anchor 723 0> mark @BLWM_2ndGlyphone <anchor 740 20> mark @BLWM_2ndGlyphtwo
-		<anchor 690 0> mark @BLWM_2ndGlyphthree <anchor 850 0> mark @BLWM_2ndGlyphfour;
+		<anchor 723 0> mark @bottom1 <anchor 740 0> mark @bottom2
+		<anchor 690 0> mark @bottom3 <anchor 850 0> mark @bottom4;
 
 	pos base [NaHa.dv] 
-		<anchor 740 -40> mark @BLWM_2ndGlyphone <anchor 741 -50> mark @BLWM_2ndGlyphtwo
-		<anchor 741 -50> mark @BLWM_2ndGlyphthree <anchor 840 0> mark @BLWM_2ndGlyphfour;
+		<anchor 740 -40> mark @bottom1 <anchor 741 -50> mark @bottom2
+		<anchor 741 -50> mark @bottom3 <anchor 840 0> mark @bottom4;
 
 	pos base [PaTta.dv] 
-		<anchor 444 0> mark @BLWM_2ndGlyphone <anchor 440 0> mark @BLWM_2ndGlyphtwo
-		<anchor 390 0> mark @BLWM_2ndGlyphthree <anchor 570 0> mark @BLWM_2ndGlyphfour;
+		<anchor 444 0> mark @bottom1 <anchor 440 0> mark @bottom2
+		<anchor 390 0> mark @bottom3 <anchor 570 0> mark @bottom4;
 
 	pos base [PhaTta.dv] 
-		<anchor 1003 0> mark @BLWM_2ndGlyphone <anchor 980 0> mark @BLWM_2ndGlyphtwo
-		<anchor 920 0> mark @BLWM_2ndGlyphthree <anchor 1060 0> mark @BLWM_2ndGlyphfour;
+		<anchor 1003 0> mark @bottom1 <anchor 1020 0> mark @bottom2
+		<anchor 960 0> mark @bottom3 <anchor 1060 0> mark @bottom4;
 
 	pos base [MaDa.dv BaDa.dv] 
-		<anchor 879 -36> mark @BLWM_2ndGlyphone <anchor 870 -30> mark @BLWM_2ndGlyphtwo
-		<anchor 870 -30> mark @BLWM_2ndGlyphthree <anchor 880 0> mark @BLWM_2ndGlyphfour;
+		<anchor 879 -36> mark @bottom1 <anchor 870 -30> mark @bottom2
+		<anchor 870 -30> mark @bottom3 <anchor 880 0> mark @bottom4;
 
 	pos base [MaHa.dv] 
-		<anchor 760 -40> mark @BLWM_2ndGlyphone <anchor 740 -50> mark @BLWM_2ndGlyphtwo
-		<anchor 740 -50> mark @BLWM_2ndGlyphthree <anchor 850 -50> mark @BLWM_2ndGlyphfour;
+		<anchor 760 -40> mark @bottom1 <anchor 740 -50> mark @bottom2
+		<anchor 740 -50> mark @bottom3 <anchor 850 -50> mark @bottom4;
 
 	pos base [LaTta.dv] 
-		<anchor 914 0> mark @BLWM_2ndGlyphone <anchor 890 0> mark @BLWM_2ndGlyphtwo
-		<anchor 870 0> mark @BLWM_2ndGlyphthree <anchor 1020 0> mark @BLWM_2ndGlyphfour;
+		<anchor 914 0> mark @bottom1 <anchor 934 0> mark @bottom2
+		<anchor 870 0> mark @bottom3 <anchor 1020 0> mark @bottom4;
 
 	pos base [LaDda.dv] 
-		<anchor 922 0> mark @BLWM_2ndGlyphone <anchor 880 0> mark @BLWM_2ndGlyphtwo
-		<anchor 840 0> mark @BLWM_2ndGlyphthree <anchor 1000 0> mark @BLWM_2ndGlyphfour;
+		<anchor 922 0> mark @bottom1 <anchor 940 0> mark @bottom2
+		<anchor 860 0> mark @bottom3 <anchor 1000 0> mark @bottom4;
 
-	pos base [LaDa.dv] 
-		<anchor 1070 -30> mark @BLWM_2ndGlyphone <anchor 1030 -30> mark @BLWM_2ndGlyphtwo
-		<anchor 1030 -30> mark @BLWM_2ndGlyphthree <anchor 1150 0> mark @BLWM_2ndGlyphfour;
+	pos base [LaDa.dv]  
+		<anchor 1070 -30> mark @bottom1 <anchor 1030 -30> mark @bottom2
+		<anchor 1030 -30> mark @bottom3 <anchor 1150 0> mark @bottom4;
 
 	pos base [LaHa.dv] 
-		<anchor 950 -40> mark @BLWM_2ndGlyphone <anchor 1020 -50> mark @BLWM_2ndGlyphtwo
-		<anchor 1020 -50> mark @BLWM_2ndGlyphthree <anchor 1030 -50> mark @BLWM_2ndGlyphfour;
+		<anchor 950 -40> mark @bottom1 <anchor 1020 -50> mark @bottom2
+		<anchor 1020 -50> mark @bottom3 <anchor 1030 -50> mark @bottom4;
 
 	pos base [VaHa.dv] 
-		<anchor 740 -40> mark @BLWM_2ndGlyphone <anchor 710 -50> mark @BLWM_2ndGlyphtwo
-		<anchor 710 -50> mark @BLWM_2ndGlyphthree <anchor 820 -50> mark @BLWM_2ndGlyphfour;
+		<anchor 740 -40> mark @bottom1 <anchor 710 -50> mark @bottom2
+		<anchor 710 -50> mark @bottom3 <anchor 820 -50> mark @bottom4;
 
 	pos base [ShaTta.dv] 
-		<anchor 857 -10> mark @BLWM_2ndGlyphone <anchor 930 -30> mark @BLWM_2ndGlyphtwo
-		<anchor 930 -30> mark @BLWM_2ndGlyphthree <anchor 1060 0> mark @BLWM_2ndGlyphfour;
+		<anchor 857 -10> mark @bottom1 <anchor 890 0> mark @bottom2
+		<anchor 791 0> mark @bottom3 <anchor 940 0> mark @bottom4;
 
 	pos base [SaTta.dv] 
-		<anchor 880 0> mark @BLWM_2ndGlyphone <anchor 880 0> mark @BLWM_2ndGlyphtwo             
-		<anchor 880 0> mark @BLWM_2ndGlyphthree <anchor 992 0> mark @BLWM_2ndGlyphfour;
-
+		<anchor 880 0> mark @bottom1 <anchor 880 0> mark @bottom2             
+		<anchor 830 0> mark @bottom3 <anchor 992 0> mark @bottom4;
+ 
 	pos base [SaDa.dv] 
-		<anchor 1016 -50> mark @BLWM_2ndGlyphone <anchor 930 -30> mark @BLWM_2ndGlyphtwo
-		<anchor 930 -30> mark @BLWM_2ndGlyphthree <anchor 1060 0> mark @BLWM_2ndGlyphfour;
+		<anchor 1016 -50> mark @bottom1 <anchor 930 -30> mark @bottom2
+		<anchor 930 -30> mark @bottom3 <anchor 1060 0> mark @bottom4;
 
 	pos base [HaNna.dv] 
-		<anchor 653 -20> mark @BLWM_2ndGlyphone <anchor 483 -90> mark @BLWM_2ndGlyphtwo
-		<anchor 470 -90> mark @BLWM_2ndGlyphthree <anchor 600 -90> mark @BLWM_2ndGlyphfour;
+		<anchor 653 -20> mark @bottom1 <anchor 483 -90> mark @bottom2
+		<anchor 470 -90> mark @bottom3 <anchor 600 -90> mark @bottom4;
 
 	pos base [HaNa.dv] 
-		<anchor 634 -30> mark @BLWM_2ndGlyphone <anchor 483 -90> mark @BLWM_2ndGlyphtwo
-		<anchor 470 -90> mark @BLWM_2ndGlyphthree <anchor 600 -90> mark @BLWM_2ndGlyphfour;
+		<anchor 634 -30> mark @bottom1 <anchor 483 -90> mark @bottom2
+		<anchor 470 -90> mark @bottom3 <anchor 600 -90> mark @bottom4;
 
 	pos base [HaLa.dv] 
-		<anchor 647 -50> mark @BLWM_2ndGlyphone <anchor 500 -110> mark @BLWM_2ndGlyphtwo
-		<anchor 450 -150> mark @BLWM_2ndGlyphthree <anchor 600 -110> mark @BLWM_2ndGlyphfour;
+		<anchor 647 -50> mark @bottom1 <anchor 500 -110> mark @bottom2
+		<anchor 450 -150> mark @bottom3 <anchor 600 -110> mark @bottom4;
 
 	pos base [HaVa.dv] 
-		<anchor 602 -56> mark @BLWM_2ndGlyphone <anchor 490 -100> mark @BLWM_2ndGlyphtwo
-		<anchor 450 -100> mark @BLWM_2ndGlyphthree <anchor 600 -90> mark @BLWM_2ndGlyphfour;
+		<anchor 602 -56> mark @bottom1 <anchor 490 -100> mark @bottom2
+		<anchor 450 -100> mark @bottom3 <anchor 600 -90> mark @bottom4;
 
 	pos base [NaDa.dv NaDaRa.dv] 
-		<anchor 900 -20> mark @BLWM_2ndGlyphone <anchor 900 -20> mark @BLWM_2ndGlyphtwo		
-		<anchor 900 -20> mark @BLWM_2ndGlyphthree <anchor 900 0> mark @BLWM_2ndGlyphfour;
+		<anchor 900 -20> mark @bottom1 <anchor 900 -20> mark @bottom2		
+		<anchor 900 -20> mark @bottom3 <anchor 900 0> mark @bottom4;
 
 	pos base [NaDda.dv] 
-		<anchor 700 0> mark @BLWM_2ndGlyphone <anchor 700 0> mark @BLWM_2ndGlyphtwo	
-		<anchor 650 0> mark @BLWM_2ndGlyphthree <anchor 800 0> mark @BLWM_2ndGlyphfour;
+		<anchor 700 0> mark @bottom1 <anchor 730 0> mark @bottom2	
+		<anchor 665 0> mark @bottom3 <anchor 800 0> mark @bottom4;
 
 
 # remaining vertical conjuncts, characters
 
 	pos base [DaGa.dv] 
-		<anchor 568 -52> mark @BLWM_2ndGlyphone <anchor 590 -80> mark @BLWM_2ndGlyphtwo
-		<anchor 590 -80> mark @BLWM_2ndGlyphthree <anchor 610 -80> mark @BLWM_2ndGlyphfour;
+		<anchor 568 -52> mark @bottom1 <anchor 590 -80> mark @bottom2
+		<anchor 590 -80> mark @bottom3 <anchor 610 -80> mark @bottom4;
 
 	pos base [DaNa.dv] 
-		<anchor 598 -50> mark @BLWM_2ndGlyphone <anchor 590 -80> mark @BLWM_2ndGlyphtwo
-		<anchor 590 -80> mark @BLWM_2ndGlyphthree <anchor 610 -80> mark @BLWM_2ndGlyphfour;
+		<anchor 598 -50> mark @bottom1 <anchor 590 -80> mark @bottom2
+		<anchor 590 -80> mark @bottom3 <anchor 610 -80> mark @bottom4;
 
 	pos base [DaDa.dv] 
-		<anchor 545 -122> mark @BLWM_2ndGlyphone <anchor 540 -120> mark @BLWM_2ndGlyphtwo
-		<anchor 540 -120> mark @BLWM_2ndGlyphthree <anchor 600 -120> mark @BLWM_2ndGlyphfour;
+		<anchor 545 -122> mark @bottom1 <anchor 540 -120> mark @bottom2
+		<anchor 540 -120> mark @bottom3 <anchor 600 -120> mark @bottom4;
 
 	pos base [DaDha.dv] 
-		<anchor 827 -52> mark @BLWM_2ndGlyphone <anchor 800 -80> mark @BLWM_2ndGlyphtwo
-		<anchor 800 -80> mark @BLWM_2ndGlyphthree <anchor 840 -80> mark @BLWM_2ndGlyphfour;
+		<anchor 827 -52> mark @bottom1 <anchor 800 -80> mark @bottom2
+		<anchor 800 -80> mark @bottom3 <anchor 840 -80> mark @bottom4;
 
 	pos base [DaBa.dv] 
-		<anchor 621 -76> mark @BLWM_2ndGlyphone <anchor 610 -100> mark @BLWM_2ndGlyphtwo
-		<anchor 610 -100> mark @BLWM_2ndGlyphthree <anchor 620 -100> mark @BLWM_2ndGlyphfour;
+		<anchor 621 -76> mark @bottom1 <anchor 610 -100> mark @bottom2
+		<anchor 610 -100> mark @bottom3 <anchor 620 -100> mark @bottom4;
 	
 	pos base [DaVa.dv] 
-		<anchor 618 -73> mark @BLWM_2ndGlyphone <anchor 610 -100> mark @BLWM_2ndGlyphtwo
-		<anchor 610 -100> mark @BLWM_2ndGlyphthree <anchor 620 -100> mark @BLWM_2ndGlyphfour;
+		<anchor 618 -73> mark @bottom1 <anchor 610 -100> mark @bottom2
+		<anchor 610 -100> mark @bottom3 <anchor 620 -100> mark @bottom4;
 
 	
 	pos base [DaBha.dv] 
-		<anchor 876 -48> mark @BLWM_2ndGlyphone <anchor 840 -50> mark @BLWM_2ndGlyphtwo
-		<anchor 840 -50> mark @BLWM_2ndGlyphthree <anchor 860 -50> mark @BLWM_2ndGlyphfour;
+		<anchor 876 -48> mark @bottom1 <anchor 840 -50> mark @bottom2
+		<anchor 840 -50> mark @bottom3 <anchor 860 -50> mark @bottom4;
 
 	pos base [NyaCa.dv] 
-		<anchor 628 -112> mark @BLWM_2ndGlyphone <anchor 610 -100> mark @BLWM_2ndGlyphtwo
-		<anchor 610 -100> mark @BLWM_2ndGlyphthree <anchor 620 -100> mark @BLWM_2ndGlyphfour;
+		<anchor 628 -112> mark @bottom1 <anchor 610 -100> mark @bottom2
+		<anchor 610 -100> mark @bottom3 <anchor 620 -100> mark @bottom4;
 
 	pos base [NyaJa.dv] 
-		<anchor 592 -80> mark @BLWM_2ndGlyphone <anchor 590 -80> mark @BLWM_2ndGlyphtwo
-		<anchor 590 -80> mark @BLWM_2ndGlyphthree <anchor 600 -80> mark @BLWM_2ndGlyphfour;
+		<anchor 592 -80> mark @bottom1 <anchor 590 -80> mark @bottom2
+		<anchor 590 -80> mark @bottom3 <anchor 600 -80> mark @bottom4;
 
 	pos base [DhaNa.dv] 
-		<anchor 613 -33> mark @BLWM_2ndGlyphone <anchor 600 -40> mark @BLWM_2ndGlyphtwo
-		<anchor 600 -40> mark @BLWM_2ndGlyphthree <anchor 590 -40> mark @BLWM_2ndGlyphfour;
+		<anchor 613 -33> mark @bottom1 <anchor 600 -40> mark @bottom2
+		<anchor 600 -40> mark @bottom3 <anchor 590 -40> mark @bottom4;
 
 	pos base [SsaTta.dv SsaTtha.dv] 
-		<anchor 407 0> mark @BLWM_2ndGlyphone <anchor 430 -30> mark @BLWM_2ndGlyphtwo
-		<anchor 380 -30> mark @BLWM_2ndGlyphthree <anchor 550 -30> mark @BLWM_2ndGlyphfour;
+		<anchor 407 0> mark @bottom1 <anchor 430 -30> mark @bottom2
+		<anchor 380 -30> mark @bottom3 <anchor 550 -30> mark @bottom4;
 
 	pos base [CaCaone.dv] 
-		<anchor 614 -52> mark @BLWM_2ndGlyphone <anchor 570 -60> mark @BLWM_2ndGlyphtwo
-		<anchor 570 -86> mark @BLWM_2ndGlyphthree <anchor 560 -60> mark @BLWM_2ndGlyphfour;
+		<anchor 614 -52> mark @bottom1 <anchor 570 -60> mark @bottom2
+		<anchor 570 -86> mark @bottom3 <anchor 560 -60> mark @bottom4;
 
 	pos base [JaNa.dv] 
-		<anchor 706 -80> mark @BLWM_2ndGlyphone <anchor 706 -80> mark @BLWM_2ndGlyphtwo
-		<anchor 706 -80> mark @BLWM_2ndGlyphthree <anchor 706 -80> mark @BLWM_2ndGlyphfour;
+		<anchor 706 -80> mark @bottom1 <anchor 706 -80> mark @bottom2
+		<anchor 706 -80> mark @bottom3 <anchor 706 -80> mark @bottom4;
 
 	pos base [NaDaVa.dv] 
-		<anchor 925 -90> mark @BLWM_2ndGlyphone <anchor 925 -90> mark @BLWM_2ndGlyphtwo
-		<anchor 925 -90> mark @BLWM_2ndGlyphthree <anchor 925 -90> mark @BLWM_2ndGlyphfour;
+		<anchor 925 -90> mark @bottom1 <anchor 925 -90> mark @bottom2
+		<anchor 925 -90> mark @bottom3 <anchor 925 -90> mark @bottom4;
 
 	pos base [KaSaDda.dv] 
-		<anchor 1361 0> mark @BLWM_2ndGlyphone <anchor 1361 0> mark @BLWM_2ndGlyphtwo			    
-		<anchor 1361 0> mark @BLWM_2ndGlyphthree <anchor 1480 0> mark @BLWM_2ndGlyphfour;
+		<anchor 1361 0> mark @bottom1 <anchor 1361 0> mark @bottom2			    
+		<anchor 1335 0> mark @bottom3 <anchor 1480 0> mark @bottom4;
 
 	pos base [NaSaKaRa.dv] 
-		<anchor 1231 0> mark @BLWM_2ndGlyphone <anchor 1231 0> mark @BLWM_2ndGlyphtwo			    
-		<anchor 1231 0> mark @BLWM_2ndGlyphthree <anchor 1391 0> mark @BLWM_2ndGlyphfour;
+		<anchor 1231 0> mark @bottom1 <anchor 1231 0> mark @bottom2			    
+		<anchor 1231 0> mark @bottom3 <anchor 1391 0> mark @bottom4;
 
 	pos base [VaDda.dv BaDda.dv] 
-		<anchor 700 0> mark @BLWM_2ndGlyphone <anchor 700 0> mark @BLWM_2ndGlyphtwo			    
-		<anchor 700 0> mark @BLWM_2ndGlyphthree <anchor 860 0> mark @BLWM_2ndGlyphfour;
+		<anchor 700 0> mark @bottom1 <anchor 740 0> mark @bottom2			    
+		<anchor 700 0> mark @bottom3 <anchor 860 0> mark @bottom4;
 
 	pos base [LlaLla.dv] 
-		<anchor 1200 30> mark @BLWM_2ndGlyphone <anchor 1200 30> mark @BLWM_2ndGlyphtwo			    
-		<anchor 1200 30> mark @BLWM_2ndGlyphthree <anchor 1200 0> mark @BLWM_2ndGlyphfour;
+		<anchor 1200 30> mark @bottom1 <anchor 1200 30> mark @bottom2
+		<anchor 1200 30> mark @bottom3 <anchor 1200 0> mark @bottom4;
+
+   pos base [BaSaTta.dv] 
+      <anchor 1171 0> mark @bottom1 <anchor 1230 0> mark @bottom2
+      <anchor 1150 0> mark @bottom3 <anchor 1300 0> mark @bottom4;   
+
+   pos base [ShaCha.MAR.dv] 
+      <anchor 894 0> mark @bottom1 <anchor 954 0> mark @bottom2
+      <anchor 894 0> mark @bottom3 <anchor 1044 0> mark @bottom4; 
+
+   pos base [ShaTta.MAR.dv] 
+      <anchor 860 0> mark @bottom1 <anchor 920 0> mark @bottom2
+      <anchor 822 0> mark @bottom3 <anchor 972 0> mark @bottom4; 
+
 
 lookup blwm_extra{
 
-	pos base [ShaCa.dv] <anchor 703 -47> mark @BLWM_2ndGlyphone <anchor 700 -50> mark @BLWM_2ndGlyphfour;      
+	pos base [ShaCa.dv] <anchor 703 -47> mark @bottom1 <anchor 700 -50> mark @bottom4;      
 
-	pos base [ShaNa.dv] <anchor 690 10> mark @BLWM_2ndGlyphone <anchor 651 -50> mark @BLWM_2ndGlyphfour;     
+	pos base [ShaNa.dv] <anchor 690 10> mark @bottom1 <anchor 651 -50> mark @bottom4;     
 
-	pos base [ShaLa.dv] <anchor 708 -48> mark @BLWM_2ndGlyphone <anchor 700 -50> mark @BLWM_2ndGlyphfour;      
+	pos base [ShaLa.dv] <anchor 708 -48> mark @bottom1 <anchor 700 -50> mark @bottom4;      
 
-	pos base [ShaVa.dv] <anchor 701 -48> mark @BLWM_2ndGlyphone <anchor 720 -50> mark @BLWM_2ndGlyphfour;      
+	pos base [ShaVa.dv] <anchor 701 -48> mark @bottom1 <anchor 720 -50> mark @bottom4;      
 
-	pos base [DaYa.dv] <anchor 630 -10> mark @BLWM_2ndGlyphone <anchor 610 0> mark @BLWM_2ndGlyphfour;       
+	pos base [DaYa.dv] <anchor 630 -10> mark @bottom1 <anchor 610 0> mark @bottom4;        
 
-	pos base [BaSaTtaRa.dv] <anchor 1171 -170> mark @BLWM_2ndGlyphone <anchor 1349 -150> mark @BLWM_2ndGlyphfour;    
+	pos base [NaVaHa.dv] <anchor 1053 -32> mark @bottom1 <anchor 1179 100> mark @bottom4;    
 
-	pos base [NaVaHa.dv] <anchor 1053 -32> mark @BLWM_2ndGlyphone <anchor 1179 100> mark @BLWM_2ndGlyphfour;    
+	pos base [NaHaYa.dv] <anchor 1050 -73> mark @bottom1 <anchor 1039 -140> mark @bottom4;     
 
-	pos base [NaHaYa.dv] <anchor 1050 -73> mark @BLWM_2ndGlyphone <anchor 1039 -140> mark @BLWM_2ndGlyphfour;     
+	pos base [LaHaYa.dv] <anchor 1202 -81> mark @bottom1 <anchor 1181 -50> mark @bottom4;      
 
-	pos base [LaHaYa.dv] <anchor 1202 -81> mark @BLWM_2ndGlyphone <anchor 1181 -50> mark @BLWM_2ndGlyphfour;      
+	pos base [HaMa.dv] <anchor 806 -52> mark @bottom1 <anchor 800 -50> mark @bottom4;      
 
-	pos base [HaMa.dv] <anchor 806 -52> mark @BLWM_2ndGlyphone <anchor 800 -50> mark @BLWM_2ndGlyphfour;      
-
-	pos base [HaYa.dv] <anchor 777 -46> mark @BLWM_2ndGlyphone <anchor 800 -140> mark @BLWM_2ndGlyphfour;     
-
-	pos base [KamatraLru.dv PamatraLru.dv] <anchor 637 -200> mark @BLWM_2ndGlyphfour;      
-
-	pos base [KamatraLruu.dv PamatraLruu.dv] <anchor 638 -310> mark @BLWM_2ndGlyphfour;     
+	pos base [HaYa.dv] <anchor 777 -46> mark @bottom1 <anchor 800 -140> mark @bottom4;     
   
+   
+
 }blwm_extra;
 	
 
+lookup blwm_extra1{
 
+   pos base [KamatraLru.dv PamatraLru.dv] <anchor 637 -200> mark @bottom4;      
+
+   pos base [KamatraLruu.dv PamatraLruu.dv] <anchor 638 -310> mark @bottom4;   
+
+}blwm_extra1;
 
 #----------------------------------------------------------------------------------------------------------------
 
-@BLWM_Halant = [Halant.dv];
+@bottom5 = [Halant.dv];
 
 #-------------------
 
+lookup blwm1 { # positioning Halant below Vattu
 
-lookup blwm1 { # positioning Halant on Ha and Ra
-
-	pos base [Ha.dv] <anchor 400 -150> mark @BLWM_Halant;
-
-	pos base [Ra.dv RaNukta.dv] <anchor 350 -50> mark @BLWM_Halant;
+   pos mark [Vattu.dv] <anchor 0 -190> mark @bottom5;
 
 }blwm1;
 
 #----------------------------------------------------------------------------------------------------------------
 
-@BLWM_Nukta = [Nukta.dv];
+@bottom6 = [Nukta.dv];
 
 #-------------------
 
 lookup blwm2 { # positioning Nukta on single characters
 
-	pos base [Gha.dv] <anchor 489 62> mark @BLWM_Nukta;
+	pos base [Gha.dv] <anchor 489 62> mark @bottom6;
 
-	pos base [Nga.dv] <anchor 683 -48> mark @BLWM_Nukta;
+	pos base [Nga.dv] <anchor 683 -48> mark @bottom6;
 
-	pos base [Ca.dv] <anchor 488 69> mark @BLWM_Nukta;
+	pos base [Ca.dv] <anchor 488 69> mark @bottom6;
 
-	pos base [Cha.dv] <anchor 758 38> mark @BLWM_Nukta;
+	pos base [Cha.dv] <anchor 758 38> mark @bottom6;
 
-	pos base [Jha.dv] <anchor 449 -30> mark @BLWM_Nukta;
+	pos base [Jha.dv] <anchor 449 -30> mark @bottom6;
 
-	pos base [Nya.dv] <anchor 518 30> mark @BLWM_Nukta;
+	pos base [Nya.dv] <anchor 518 30> mark @bottom6;
 
-	pos base [Tta.dv] <anchor 708 -30> mark @BLWM_Nukta;
+	pos base [Tta.dv] <anchor 708 -30> mark @bottom6;
 
-	pos base [Ttha.dv] <anchor 712 -40> mark @BLWM_Nukta;
+	pos base [Ttha.dv] <anchor 712 -40> mark @bottom6;
 
-	pos base [Dda.dv] <anchor 680 -40> mark @BLWM_Nukta;
+	pos base [Dda.dv] <anchor 680 -40> mark @bottom6;
 
-	pos base [Nna.dv] <anchor 644 100> mark @BLWM_Nukta;
+	pos base [Nna.dv] <anchor 644 100> mark @bottom6;
 
-	pos base [Ta.dv] <anchor 396 40> mark @BLWM_Nukta;
+	pos base [Ta.dv] <anchor 396 40> mark @bottom6;
 
-	pos base [Tha.dv] <anchor 459 78> mark @BLWM_Nukta;
+	pos base [Tha.dv] <anchor 459 78> mark @bottom6;
 
-	pos base [Da.dv] <anchor 492 20> mark @BLWM_Nukta;
+	pos base [Da.dv] <anchor 492 20> mark @bottom6;
 
-	pos base [Dha.dv] <anchor 510 20> mark @BLWM_Nukta;
+	pos base [Dha.dv] <anchor 510 20> mark @bottom6;
 
-	pos base [Pa.dv Ssa.dv] <anchor 528 118> mark @BLWM_Nukta;
+	pos base [Pa.dv Ssa.dv] <anchor 528 118> mark @bottom6;
 
-	pos base [Ba.dv] <anchor 480 70> mark @BLWM_Nukta;
+	pos base [Ba.dv] <anchor 480 70> mark @bottom6;
 
-	pos base [Bha.dv] <anchor 481 60> mark @BLWM_Nukta;
+	pos base [Bha.dv] <anchor 481 60> mark @bottom6;
 
-	pos base [Ma.dv] <anchor 465 50> mark @BLWM_Nukta;
+	pos base [Ma.dv] <anchor 465 50> mark @bottom6;
 
-	pos base [La.dv La.MAR.dv] <anchor 442 60> mark @BLWM_Nukta;
+	pos base [La.dv La.MAR.dv] <anchor 442 60> mark @bottom6;
 
-	pos base [Sha.dv Sa.dv Sha.MAR.dv] <anchor 471 80> mark @BLWM_Nukta;
+	pos base [Sha.dv Sa.dv Sha.MAR.dv] <anchor 471 80> mark @bottom6;
 
-	pos base [Ha.dv] <anchor 541 -120> mark @BLWM_Nukta;
+	pos base [Ha.dv] <anchor 541 -120> mark @bottom6;
 
-	pos base [KaSsa.dv] <anchor 600 -40> mark @BLWM_Nukta;
+	pos base [KaSsa.dv] <anchor 600 -40> mark @bottom6;
 
-	pos base [JaNya.dv] <anchor 480 70> mark @BLWM_Nukta;
+	pos base [JaNya.dv] <anchor 480 70> mark @bottom6;
 
 }blwm2;
 
@@ -2470,56 +2574,54 @@ lookup blwm2 { # positioning Nukta on single characters
 
 lookup blwm3 { # Positioning Anudatta below matras
 
-	pos mark [matraU.dv] <anchor 140 -150> mark @BLWM_2ndGlyphfour;
+	pos mark [matraU.dv] <anchor 140 -180> mark @bottom4;
 
-	pos mark [matraUu.dv] <anchor 230 -150> mark @BLWM_2ndGlyphfour;
+	pos mark [matraUu.dv] <anchor 230 -180> mark @bottom4;
 
-	pos mark [matraRu.dv] <anchor 160 -250> mark @BLWM_2ndGlyphfour;
+	pos mark [matraRu.dv] <anchor 160 -180> mark @bottom4;
 
-	pos mark [matraRuu.dv] <anchor 158 -250> mark @BLWM_2ndGlyphfour;  
+	pos mark [matraRuu.dv] <anchor 158 -250> mark @bottom4;  
 
-	pos mark [Halant.dv] <anchor 230 -200> mark @BLWM_2ndGlyphfour;
+	pos mark [Halant.dv] <anchor 230 -200> mark @bottom4;
 
-	pos mark [matraLru.dv] <anchor 100 -250> mark @BLWM_2ndGlyphfour;
+	pos mark [matraLru.dv] <anchor 100 -250> mark @bottom4;
 
-	pos mark [matraUsmall.dv] <anchor 80 -200> mark @BLWM_2ndGlyphfour;
+	pos mark [matraUsmall.dv] <anchor 80 -200> mark @bottom4;
 
-	pos mark [matraUusmall.dv] <anchor 230 -150> mark @BLWM_2ndGlyphfour;
+	pos mark [matraUusmall.dv] <anchor 230 -150> mark @bottom4;
 
-	pos mark [matraRusmall.dv] <anchor 170 -180> mark @BLWM_2ndGlyphfour;
+	pos mark [matraRusmall.dv] <anchor 170 -180> mark @bottom4;
 
-	pos mark [Vattu.dv] <anchor 180 -200> mark @BLWM_2ndGlyphfour;
+	pos mark [Vattu.dv] <anchor 180 -200> mark @bottom4;
 
-	pos mark [VattumatraU.dv] <anchor 166 -400> mark @BLWM_2ndGlyphfour;
+	pos mark [VattumatraU.dv] <anchor 166 -400> mark @bottom4;
 
-	pos mark [VattumatraUsmall.dv VattumatraUusmall.dv VattumatraRu.dv] <anchor 165 -300> mark @BLWM_2ndGlyphfour;
+	pos mark [VattumatraUsmall.dv VattumatraUusmall.dv VattumatraRu.dv] <anchor 165 -300> mark @bottom4;
 
-	pos mark [VattumatraUu.dv VattumatraRusmall.dv NuktaVattumatraU.dv NuktaVattumatraUu.dv NuktaVattumatraRu.dv] <anchor 165 -400> mark @BLWM_2ndGlyphfour;
+	pos mark [VattumatraUu.dv VattumatraRusmall.dv NuktaVattumatraU.dv NuktaVattumatraUu.dv NuktaVattumatraRu.dv] <anchor 165 -400> mark @bottom4;
 
-	pos mark [matraLruu.dv] <anchor 100 -400> mark @BLWM_2ndGlyphfour;    
+	pos mark [matraLruu.dv] <anchor 100 -400> mark @bottom4;    
 
 } blwm3;
 
 
 lookup blwm4 { # positioning of ukars below marathi sha la conjuncts
 
-   pos base [LaRa.MAR.dv] <anchor 654 40> mark @BLWM_2ndGlyphone;
-   pos base [KaSaPaLa.MAR.dv] <anchor 1844 40> mark @BLWM_2ndGlyphone;
-   pos base [TaPaLa.MAR.dv] <anchor 1199 40> mark @BLWM_2ndGlyphone;
-   pos base [KaLa.MAR.dv] <anchor 1144 40> mark @BLWM_2ndGlyphone;
-   pos base [GaLa.MAR.dv] <anchor 940 40> mark @BLWM_2ndGlyphone;
-   pos base [TaLa.MAR.dv] <anchor 915 40> mark @BLWM_2ndGlyphone;
-   pos base [PaLa.MAR.dv] <anchor 880 40> mark @BLWM_2ndGlyphone;
-   pos base [PhaLa.MAR.dv] <anchor 1169 40> mark @BLWM_2ndGlyphone;
-   pos base [BaLa.MAR.dv] <anchor 970 40> mark @BLWM_2ndGlyphone;
-   pos base [BhaLa.MAR.dv] <anchor 1026 40> mark @BLWM_2ndGlyphone;
-   pos base [MaLa.MAR.dv] <anchor 937 40> mark @BLWM_2ndGlyphone;
-   pos base [LaLa.MAR.dv] <anchor 1127 40> mark @BLWM_2ndGlyphone;
-   pos base [VaLa.MAR.dv] <anchor 936 40> mark @BLWM_2ndGlyphone;
-   pos base [ShaKa.MAR.dv ShaKaNukta.MAR.dv] <anchor 935 0> mark @BLWM_2ndGlyphone;
-   pos base [ShaCha.MAR.dv] <anchor 894 0> mark @BLWM_2ndGlyphone;
-   pos base [ShaTta.MAR.dv] <anchor 860 0> mark @BLWM_2ndGlyphone;
-   pos base [SaLa.MAR.dv] <anchor 1034 40> mark @BLWM_2ndGlyphone;
+   pos base [LaRa.MAR.dv] <anchor 654 40> mark @bottom1;
+   pos base [KaSaPaLa.MAR.dv] <anchor 1844 40> mark @bottom1;
+   pos base [TaPaLa.MAR.dv] <anchor 1199 40> mark @bottom1;
+   pos base [KaLa.MAR.dv] <anchor 1144 40> mark @bottom1;
+   pos base [GaLa.MAR.dv] <anchor 940 40> mark @bottom1;
+   pos base [TaLa.MAR.dv] <anchor 915 40> mark @bottom1;
+   pos base [PaLa.MAR.dv] <anchor 880 40> mark @bottom1;
+   pos base [PhaLa.MAR.dv] <anchor 1169 40> mark @bottom1;
+   pos base [BaLa.MAR.dv] <anchor 970 40> mark @bottom1;
+   pos base [BhaLa.MAR.dv] <anchor 1026 40> mark @bottom1;
+   pos base [MaLa.MAR.dv] <anchor 937 40> mark @bottom1;
+   pos base [LaLa.MAR.dv] <anchor 1127 40> mark @bottom1;
+   pos base [VaLa.MAR.dv] <anchor 936 40> mark @bottom1;
+   pos base [ShaKa.MAR.dv ShaKaNukta.MAR.dv] <anchor 935 0> mark @bottom1;
+   pos base [SaLa.MAR.dv] <anchor 1034 40> mark @bottom1;
 
 }blwm4;
 

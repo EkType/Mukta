@@ -628,7 +628,6 @@ uni1CF1	uni1CF1
 uni1CF0	uni1CF0	
 Sha.MAR.dv	Sha.MAR.dv	
 La.MAR.dv	La.MAR.dv	
-glyph53.001	glyph53.001	
 vowelIiBindu.dv	vowelIiBindu.dv	
 vowelIiChandrabindu.dv	vowelIiChandrabindu.dv	
 matraUsmall.dv	matraUsmall.dv	
@@ -661,14 +660,9 @@ KhaRa.dv	KhaRa.dv
 GaRa.dv	GaRa.dv	
 GhaRa.dv	GhaRa.dv	
 CaRa.dv	CaRa.dv	
-ChaRa.dv	ChaRa.dv	
 JaRa.dv	JaRa.dv	
 JhaRa.dv	JhaRa.dv	
-NyaRa.dv	NyaRa.dv	
-TtaRa.dv	TtaRa.dv	
-TthaRa.dv	TthaRa.dv	
-DdaRa.dv	DdaRa.dv	
-DdhaRa.dv	DdhaRa.dv	
+NyaRa.dv	NyaRa.dv		
 NnaRa.dv	NnaRa.dv	
 TaRa.dv	TaRa.dv	
 TaRaone.dv	TaRaone.dv	
@@ -760,7 +754,7 @@ TaSaNaYa.dv	TaSaNaYa.dv
 NaPhaLaYa.dv	NaPhaLaYa.dv	
 NaTaRaYa.dv	NaTaRaYa.dv	
 NaSaMaYa.dv	NaSaMaYa.dv	
-BaSaTtaRa.dv	BaSaTtaRa.dv	
+BaSaTta.dv	BaSaTta.dv	
 KaTaYa.dv	KaTaYa.dv	
 KaTaRa.dv	KaTaRa.dv	
 KaTaVa.dv	KaTaVa.dv	
@@ -1194,13 +1188,6 @@ PhaNuktaHalant.dv	PhaNuktaHalant.dv
 YaNuktaHalant.dv	YaNuktaHalant.dv	
 KaSsaHalant.dv	KaSsaHalant.dv	
 JaNyaHalant.dv	JaNyaHalant.dv	
-NgaHalant.dv	NgaHalant.dv	
-ChaHalant.dv	ChaHalant.dv	
-TtaHalant.dv	TtaHalant.dv	
-TthaHalant.dv	TthaHalant.dv	
-DdaHalant.dv	DdaHalant.dv	
-DdhaHalant.dv	DdhaHalant.dv	
-DaHalant.dv	DaHalant.dv	
 matraIione.dv	matraIione.dv	
 matraIiBinduone.dv	matraIiBinduone.dv	
 matraIiChandrabinduone.dv	matraIiChandrabinduone.dv	
@@ -1271,7 +1258,7 @@ KaVaone.dv	KaVaone.dv
 CaCaone.dv	CaCaone.dv	
 LaLaone.dv	LaLaone.dv	
 PaLaone.dv	PaLaone.dv	
-Swastik	Swastik	
+Swastik	Swastik	uni0FD5
 Chandrabinduone.dv	Chandrabinduone.dv	
 matraAReph.dv	matraAReph.dv	
 matraARephBindu.dv	matraARephBindu.dv	
@@ -1296,12 +1283,10 @@ matraShortOReph.dv	matraShortOReph.dv
 matraShortORephChandrabindu.dv	matraShortORephChandrabindu.dv	
 matraShortORephBindu.dv	matraShortORephBindu.dv	
 matraShortERephBindu.dv	matraShortERephBindu.dv	
-glyph1.047	glyph1.047	
+Shirorekha.dv	Shirorekha.dv	uniA8FB
 JaNuktaNya.dv	JaNuktaNya.dv	
 KaSsamatraU.dv	KaSsamatraU.dv	
 JaNyamatraU.dv	JaNyamatraU.dv	
-ChaRaHalant.dv	ChaRaHalant.dv	
-DdhaRaHalant.dv	DdhaRaHalant.dv	
 tabularzero	tabularzero	
 tabularone	tabularone	
 tabulartwo	tabulartwo	
@@ -1376,4 +1361,8 @@ EkslashChaar.dv	EkslashChaar.dv
 TeenslashChaar.dv	TeenslashChaar.dv	
 EkslashTeen.dv	EkslashTeen.dv	
 matraEone.dv	matraEone.dv	
+dummy1	dummy1
+dummy2	dummy2
+dummy3	dummy3
+dummy4	dummy4
 Ek_Type	Ek_Type	

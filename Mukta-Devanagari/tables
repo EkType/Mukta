@@ -1,7 +1,5 @@
 
-table head {
-	FontRevision 2.203;
-} head;
+
 
 table hhea {
 	Ascender 1130;

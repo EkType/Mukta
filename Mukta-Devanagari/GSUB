@@ -198,14 +198,9 @@ feature rkrf { # Rakar
 		sub Ga.dv Halant.dv Ra.dv by GaRa.dv;
 		sub Gha.dv Halant.dv Ra.dv by GhaRa.dv;
 		sub Ca.dv Halant.dv Ra.dv by CaRa.dv;
-		sub Cha.dv Halant.dv Ra.dv by ChaRa.dv;
 		sub Ja.dv Halant.dv Ra.dv by JaRa.dv;
 		sub Jha.dv Halant.dv Ra.dv by JhaRa.dv;
 		sub Nya.dv Halant.dv Ra.dv by NyaRa.dv;
-		sub Tta.dv Halant.dv Ra.dv by TtaRa.dv;
-		sub Dda.dv Halant.dv Ra.dv by DdaRa.dv;
-		sub Ttha.dv Halant.dv Ra.dv by TthaRa.dv;
-		sub Ddha.dv Halant.dv Ra.dv by DdhaRa.dv;
 		sub Nna.dv Halant.dv Ra.dv by NnaRa.dv;
 		sub Ta.dv Halant.dv Ra.dv by TaRa.dv;
 		sub Tha.dv Halant.dv Ra.dv by ThaRa.dv;
@@ -218,7 +213,8 @@ feature rkrf { # Rakar
 		sub Bha.dv Halant.dv Ra.dv by BhaRa.dv;
 		sub Ma.dv Halant.dv Ra.dv by MaRa.dv;
 		sub Ya.dv Halant.dv Ra.dv by YaRa.dv;
-		sub [La.dv La.MAR.dv] Halant.dv Ra.dv by LaRa.dv;
+		sub La.dv Halant.dv Ra.dv by LaRa.dv;
+		sub La.MAR.dv Halant.dv Ra.dv by LaRa.MAR.dv;
 		sub Va.dv Halant.dv Ra.dv by VaRa.dv;
 		sub [Sha.dv Sha.MAR.dv] Halant.dv Ra.dv by ShaRa.dv;
 		sub Sa.dv Halant.dv Ra.dv by SaRa.dv;
@@ -296,8 +292,7 @@ feature half  {  # Half Forms
 		 sub ShaRa.dv Halant.dv by ShaRaHalant.dv;
 		 sub SsaRa.dv Halant.dv by SsaRaHalant.dv;
 		 sub SaRa.dv Halant.dv by SaRaHalant.dv;
-		 sub ChaRa.dv Halant.dv by ChaRaHalant.dv;
-		 sub DdhaRa.dv Halant.dv by DdhaRaHalant.dv;
+
 } half_rakar;
 
 	lookup half1 {
@@ -322,9 +317,11 @@ feature half  {  # Half Forms
 		sub Ya.dv Halant.dv by YaHalant.dv;
 		sub RaNukta.dv Halant.dv by RaNuktaHalant.dv;
 		sub La.dv Halant.dv by LaHalant.dv;
+		sub La.MAR.dv Halant.dv by LaHalant.dv;
 		sub Lla.dv Halant.dv by LlaHalant.dv;
 		sub Va.dv Halant.dv by VaHalant.dv;
 		sub Sha.dv Halant.dv by ShaHalant.dv;
+		sub Sha.MAR.dv Halant.dv by ShaHalant.MAR.dv;
 		sub Ssa.dv Halant.dv by SsaHalant.dv;
 		sub Sa.dv Halant.dv by SaHalant.dv;
 		sub Ha.dv Halant.dv by HaHalant.dv;
@@ -342,13 +339,7 @@ feature half  {  # Half Forms
 
 
 lookup haln1 {
-	sub Nga.dv Halant.dv by NgaHalant.dv;
-	sub Cha.dv Halant.dv by ChaHalant.dv;
-	sub Tta.dv Halant.dv by TtaHalant.dv;
-	sub Ttha.dv Halant.dv by TthaHalant.dv;
-	sub Dda.dv Halant.dv by DdaHalant.dv;
-	sub Ddha.dv Halant.dv by DdhaHalant.dv;
-	sub Da.dv Halant.dv by DaHalant.dv;
+	sub DaRa.dv Halant.dv by DaRaHalant.dv;
 } haln1;
 
 
@@ -397,14 +388,9 @@ feature vatu { # Vattu
 		sub Ga.dv Vattu.dv by GaRa.dv;
 		sub Gha.dv Vattu.dv by GhaRa.dv;
 		sub Ca.dv Vattu.dv by CaRa.dv;
-		sub Cha.dv Vattu.dv by ChaRa.dv;
 		sub Ja.dv Vattu.dv by JaRa.dv;
 		sub Jha.dv Vattu.dv by JhaRa.dv;
 		sub Nya.dv Vattu.dv by NyaRa.dv;
-		sub Tta.dv Vattu.dv by TtaRa.dv;
-		sub Dda.dv Vattu.dv by DdaRa.dv;
-		sub Ttha.dv Vattu.dv by TthaRa.dv;
-		sub Ddha.dv Vattu.dv by DdhaRa.dv;
 		sub Nna.dv Vattu.dv by NnaRa.dv;
 		sub Ta.dv Vattu.dv by TaRa.dv;
 		sub Tha.dv Vattu.dv by ThaRa.dv;
@@ -417,7 +403,8 @@ feature vatu { # Vattu
 		sub Bha.dv Vattu.dv by BhaRa.dv;
 		sub Ma.dv Vattu.dv by MaRa.dv;
 		sub Ya.dv Vattu.dv by YaRa.dv;
-		sub [La.dv La.MAR.dv] Vattu.dv by LaRa.dv;
+		sub La.dv Vattu.dv by LaRa.dv;
+		sub La.MAR.dv Vattu.dv by LaRa.MAR.dv;
 		sub Va.dv Vattu.dv by VaRa.dv;
 		sub [Sha.dv Sha.MAR.dv] Vattu.dv by ShaRa.dv;
 		sub Sa.dv Vattu.dv by SaRa.dv;
@@ -435,16 +422,15 @@ feature vatu { # Vattu
 		sub KaHalant.dv Vattu.dv by KaRaHalant.dv;
 		sub GaHalant.dv Vattu.dv by GaRaHalant.dv;
 		sub GhaHalant.dv Vattu.dv by GhaRaHalant.dv;
-		sub ChaHalant.dv Vattu.dv by ChaRaHalant.dv;
-		sub DdhaHalant.dv Vattu.dv by DdhaRaHalant.dv;
 		sub TaHalant.dv Vattu.dv by TaRaHalant.dv;
-		sub DaHalant.dv Vattu.dv by DaRaHalant.dv;
+		sub Da.dv Halant.dv Vattu.dv by DaRaHalant.dv;
 		sub DhaHalant.dv Vattu.dv by DhaRaHalant.dv;
 		sub VaHalant.dv Vattu.dv by VaRaHalant.dv;
 		sub BhaHalant.dv Vattu.dv by BhaRaHalant.dv;
 		sub SaHalant.dv Vattu.dv by SaRaHalant.dv;
 		sub SsaHalant.dv Vattu.dv by SsaRaHalant.dv;
 		sub ShaHalant.dv Vattu.dv by ShaRaHalant.dv;
+		sub ShaHalant.MAR.dv Vattu.dv by ShaRaHalant.dv;
 } vatu_half;
 
 	script deva;
@@ -472,12 +458,13 @@ lookup pres4 { # Four-letter conjuncts
 	sub KaSsaHalant.dv MaHalant.dv Ya.dv by KaSsaMaYa.dv;
 	sub KaHalant.dv SaHalant.dv PaRa.dv by KaSaPaRa.dv;
 	sub KaHalant.dv SaHalant.dv PaHalant.dv La.dv by KaSaPaLa.dv;
+	sub KaHalant.dv SaHalant.dv PaHalant.dv La.MAR.dv by KaSaPaLa.MAR.dv;
 	sub TaHalant.dv SaHalant.dv NaHalant.dv Ya.dv by TaSaNaYa.dv;
 	sub NaHalant.dv PhaHalant.dv LaHalant.dv Ya.dv by NaPhaLaYa.dv;
 	sub NaHalant.dv TaRaHalant.dv Ya.dv by NaTaRaYa.dv;
 	sub NaHalant.dv SaHalant.dv KaRa.dv by NaSaKaRa.dv;
 	sub NaHalant.dv SaHalant.dv MaHalant.dv Ya.dv by NaSaMaYa.dv;
-	sub BaHalant.dv SaHalant.dv TtaRa.dv by BaSaTtaRa.dv;
+	sub BaHalant.dv SaHalant.dv Tta.dv by BaSaTta.dv;
 } pres4;
 
 lookup pres3 { # Three-letter conjuncts
@@ -504,17 +491,17 @@ lookup pres3 { # Three-letter conjuncts
 	sub GaHalant.dv DhaHalant.dv Va.dv by GaDhaVa.dv;
 	sub GaHalant.dv NaHalant.dv Ya.dv by GaNaYa.dv;
 	sub GaHalant.dv BhaHalant.dv Ya.dv by GaBhaYa.dv;
-	sub CaHalant.dv ChaHalant.dv Va.dv by CaChaVa.dv;
-	sub ChaRaHalant.dv Ya.dv by ChaRaYa.dv;
+	sub CaHalant.dv Cha.dv Halant.dv Va.dv by CaChaVa.dv;
+	sub Cha.dv Vattu.dv Halant.dv Ya.dv by ChaRaYa.dv;
 	sub JaHalant.dv JaNya.dv by JaJaNya.dv;
 	sub JaHalant.dv JaHalant.dv Ya.dv by JaJaYa.dv;
 	sub JaHalant.dv JaHalant.dv Va.dv by JaJaVa.dv;
 	sub NyaHalant.dv CaHalant.dv Ya.dv by NyaCaYa.dv;
 	sub NyaHalant.dv JaHalant.dv Ya.dv by NyaJaYa.dv;
-	sub TtaHalant.dv TtaHalant.dv Ya.dv by TtaTtaYa.dv;
-	sub TthaHalant.dv TthaHalant.dv Ya.dv by TthaTthaYa.dv;
-	sub DdaHalant.dv DdaHalant.dv Ya.dv by DdaDdaYa.dv;
-	sub DdhaRaHalant.dv Ya.dv by DdhaRaYa.dv;
+	sub Tta.dv Halant.dv Tta.dv Halant.dv Ya.dv by TtaTtaYa.dv;
+	sub Ttha.dv Halant.dv Ttha.dv Halant.dv Ya.dv by TthaTthaYa.dv;
+	sub Dda.dv Halant.dv Dda.dv Halant.dv Ya.dv by DdaDdaYa.dv;
+	sub Ddha.dv Vattu.dv Halant.dv Ya.dv by DdhaRaYa.dv;
 	sub TaHalant.dv KaHalant.dv Ya.dv by TaKaYa.dv;
 	sub TaHalant.dv KaRa.dv by TaKaRa.dv;
 	sub TaHalant.dv KaHalant.dv Va.dv by TaKaVa.dv;
@@ -526,15 +513,16 @@ lookup pres3 { # Three-letter conjuncts
 	sub TaHalant.dv NaHalant.dv Ya.dv by TaNaYa.dv;
 	sub TaHalant.dv PaRa.dv by TaPaRa.dv;
 	sub TaHalant.dv PaHalant.dv La.dv by TaPaLa.dv;
+	sub TaHalant.dv PaHalant.dv La.MAR.dv by TaPaLa.MAR.dv;
 	sub TaHalant.dv MaHalant.dv Ya.dv by TaMaYa.dv;
 	sub TaHalant.dv SaHalant.dv Na.dv by TaSaNa.dv;
 	sub TaHalant.dv SaHalant.dv Ya.dv by TaSaYa.dv;
 	sub TaHalant.dv SaHalant.dv Va.dv by TaSaVa.dv;
 	sub TaHalant.dv SaHalant.dv Pha.dv by TaSaPha.dv;
-	sub DaHalant.dv DaHalant.dv Ya.dv by DaDaYa.dv;
-	sub DaHalant.dv DhaHalant.dv Ya.dv by DaDhaYa.dv;
-	sub DaHalant.dv BhaHalant.dv Ya.dv by DaBhaYa.dv;
-	sub DaHalant.dv VaHalant.dv Ya.dv by DaVaYa.dv;
+	sub Da.dv Halant.dv Da.dv Halant.dv Ya.dv by DaDaYa.dv;
+	sub Da.dv Halant.dv DhaHalant.dv Ya.dv by DaDhaYa.dv;
+	sub Da.dv Halant.dv BhaHalant.dv Ya.dv by DaBhaYa.dv;
+	sub Da.dv Halant.dv VaHalant.dv Ya.dv by DaVaYa.dv;
 	sub DhaHalant.dv NaHalant.dv Ya.dv by DhaNaYa.dv;
 	sub NaHalant.dv NaHalant.dv Ya.dv by NaNaYa.dv;
 	sub NaHalant.dv KaHalant.dv Sa.dv by NaKaSa.dv;
@@ -543,7 +531,7 @@ lookup pres3 { # Three-letter conjuncts
 	sub NaHalant.dv TaHalant.dv Sa.dv by NaTaSa.dv;
 	sub NaHalant.dv ThaHalant.dv Ya.dv by NaThaYa.dv;
 	sub NaHalant.dv ThaHalant.dv Va.dv by NaThaVa.dv;
-	sub NaHalant.dv DaHalant.dv Va.dv by NaDaVa.dv;
+	sub NaHalant.dv Da.dv Halant.dv Va.dv by NaDaVa.dv;
 	sub NaHalant.dv DaRa.dv by NaDaRa.dv;
 	sub NaHalant.dv DhaHalant.dv Ya.dv by NaDhaYa.dv;
 	sub NaHalant.dv DhaRa.dv by NaDhaRa.dv;
@@ -573,8 +561,8 @@ lookup pres3 { # Three-letter conjuncts
 	sub LaHalant.dv LaHalant.dv Ya.dv by LaLaYa.dv;
 	sub LaHalant.dv VaHalant.dv Dda.dv by LaVaDda.dv;
 	sub LaHalant.dv HaHalant.dv Ya.dv by LaHaYa.dv;
-	sub SsaHalant.dv TtaHalant.dv Ya.dv by SsaTtaYa.dv;
-	sub SsaHalant.dv TthaHalant.dv Ya.dv by SsaTthaYa.dv;
+	sub SsaHalant.dv Tta.dv Halant.dv Ya.dv by SsaTtaYa.dv;
+	sub SsaHalant.dv Ttha.dv Halant.dv Ya.dv by SsaTthaYa.dv;
 	sub SsaHalant.dv KaRa.dv by SsaKaRa.dv;
 	sub SsaHalant.dv NnaHalant.dv Ya.dv by SsaNnaYa.dv;
 	sub SsaHalant.dv PaRa.dv by SsaPaRa.dv;
@@ -606,8 +594,10 @@ lookup pres2 { # Two-letter conjuncts
 	sub KaHalant.dv Ma.dv by KaMa.dv;
 	sub KaHalant.dv Ya.dv by KaYa.dv;
 	sub KaHalant.dv La.dv by KaLa.dv;
+	sub KaHalant.dv La.MAR.dv by KaLa.MAR.dv;
 	sub KaHalant.dv Va.dv by KaVa.dv;
 	sub KaHalant.dv Sha.dv by KaSha.dv;
+	sub KaHalant.dv Sha.MAR.dv by KaSha.MAR.dv;
 	sub KaHalant.dv Sa.dv by KaSa.dv;
 	sub KaHalant.dv matraLru.dv by KamatraLru.dv;
 	sub KaHalant.dv matraLruu.dv by KamatraLruu.dv;
@@ -618,6 +608,7 @@ lookup pres2 { # Two-letter conjuncts
 	sub KhaHalant.dv Ya.dv by KhaYa.dv;
 	sub KhaHalant.dv Va.dv by KhaVa.dv;
 	sub KhaHalant.dv Sha.dv by KhaSha.dv;
+	sub KhaHalant.dv Sha.MAR.dv by KhaSha.MAR.dv;
 	sub GaHalant.dv Ga.dv by GaGa.dv;
 	sub GaHalant.dv Gha.dv by GaGha.dv;
 	sub GaHalant.dv Ja.dv by GaJa.dv;
@@ -630,22 +621,23 @@ lookup pres2 { # Two-letter conjuncts
 	sub GaHalant.dv Ma.dv by GaMa.dv;
 	sub GaHalant.dv Ya.dv by GaYa.dv;
 	sub GaHalant.dv La.dv by GaLa.dv;
+	sub GaHalant.dv La.MAR.dv by GaLa.MAR.dv;
 	sub GaHalant.dv Va.dv by GaVa.dv;
 	sub GaHalant.dv Sa.dv by GaSa.dv;
 	sub GhaHalant.dv Na.dv by GhaNa.dv;
 	sub GhaHalant.dv Ma.dv by GhaMa.dv;
 	sub GhaHalant.dv Ya.dv by GhaYa.dv;
-	sub NgaHalant.dv Ka.dv by NgaKa.dv;
-	sub NgaHalant.dv Ga.dv by NgaGa.dv;
-	sub NgaHalant.dv Ma.dv by NgaMa.dv;
-	sub NgaHalant.dv Ya.dv by NgaYa.dv;
+	sub Nga.dv Halant.dv Ka.dv by NgaKa.dv;
+	sub Nga.dv Halant.dv Ga.dv by NgaGa.dv;
+	sub Nga.dv Halant.dv Ma.dv by NgaMa.dv;
+	sub Nga.dv Halant.dv Ya.dv by NgaYa.dv;
 	sub CaHalant.dv Ca.dv by CaCa.dv;
 	sub CaHalant.dv Cha.dv by CaCha.dv;
 	sub CaHalant.dv Na.dv by CaNa.dv;
 	sub CaHalant.dv Ma.dv by CaMa.dv;
 	sub CaHalant.dv Ya.dv by CaYa.dv;
-	sub ChaHalant.dv Ya.dv by ChaYa.dv;
-	sub ChaHalant.dv Va.dv by ChaVa.dv;
+	sub Cha.dv Halant.dv Ya.dv by ChaYa.dv;
+	sub Cha.dv Halant.dv Va.dv by ChaVa.dv;
 	sub JaHalant.dv Ka.dv by JaKa.dv;
 	sub JaHalant.dv Ja.dv by JaJa.dv;
 	sub JaHalant.dv Jha.dv by JaJha.dv;
@@ -665,17 +657,18 @@ lookup pres2 { # Two-letter conjuncts
 	sub NyaHalant.dv Cha.dv by NyaCha.dv;
 	sub NyaHalant.dv Ja.dv by NyaJa.dv;
 	sub NyaHalant.dv Sha.dv by NyaSha.dv;
-	sub TtaHalant.dv Tta.dv by TtaTta.dv;
-	sub TtaHalant.dv Ttha.dv by TtaTtha.dv;
-	sub TtaHalant.dv Ya.dv by TtaYa.dv;
-	sub TtaHalant.dv Va.dv by TtaVa.dv;
-	sub TthaHalant.dv Ya.dv by TthaYa.dv;
-	sub TthaHalant.dv Ttha.dv by TthaTtha.dv;
-	sub DdaHalant.dv Dda.dv by DdaDda.dv;
-	sub DdaHalant.dv Ddha.dv by DdaDdha.dv;
-	sub DdaHalant.dv Ya.dv by DdaYa.dv;
-	sub DdhaHalant.dv Ya.dv by DdhaYa.dv;
-	sub DdhaHalant.dv Ddha.dv by DdhaDdha.dv;
+	sub NyaHalant.dv Sha.MAR.dv by NyaSha.MAR.dv;
+	sub Tta.dv Halant.dv Tta.dv by TtaTta.dv;
+	sub Tta.dv Halant.dv Ttha.dv by TtaTtha.dv;
+	sub Tta.dv Halant.dv Ya.dv by TtaYa.dv;
+	sub Tta.dv Halant.dv Va.dv by TtaVa.dv;
+	sub Ttha.dv Halant.dv Ya.dv by TthaYa.dv;
+	sub Ttha.dv Halant.dv Ttha.dv by TthaTtha.dv;
+	sub Dda.dv Halant.dv Dda.dv by DdaDda.dv;
+	sub Dda.dv Halant.dv Ddha.dv by DdaDdha.dv;
+	sub Dda.dv Halant.dv Ya.dv by DdaYa.dv;
+	sub Ddha.dv Halant.dv Ya.dv by DdhaYa.dv;
+	sub Ddha.dv Halant.dv Ddha.dv by DdhaDdha.dv;
 	sub NnaHalant.dv Tta.dv by NnaTta.dv;
 	sub NnaHalant.dv Ttha.dv by NnaTtha.dv;
 	sub NnaHalant.dv Dda.dv by NnaDda.dv;
@@ -694,19 +687,20 @@ lookup pres2 { # Two-letter conjuncts
 	sub TaHalant.dv Ma.dv by TaMa.dv;
 	sub TaHalant.dv Ya.dv by TaYa.dv;
 	sub TaHalant.dv La.dv by TaLa.dv;
+	sub TaHalant.dv La.MAR.dv by TaLa.MAR.dv;
 	sub TaHalant.dv Va.dv by TaVa.dv;
 	sub TaHalant.dv Sa.dv by TaSa.dv;
 	sub ThaHalant.dv Ya.dv by ThaYa.dv;
 	sub ThaHalant.dv Va.dv by ThaVa.dv;
-	sub DaHalant.dv Ga.dv by DaGa.dv;
-	sub DaHalant.dv Da.dv by DaDa.dv;
-	sub DaHalant.dv Va.dv by DaVa.dv;
-	sub DaHalant.dv Dha.dv by DaDha.dv;
-	sub DaHalant.dv Na.dv by DaNa.dv;
-	sub DaHalant.dv Ba.dv by DaBa.dv;
-	sub DaHalant.dv Bha.dv by DaBha.dv;
-	sub DaHalant.dv Ma.dv by DaMa.dv;
-	sub DaHalant.dv Ya.dv by DaYa.dv;
+	sub Da.dv Halant.dv Ga.dv by DaGa.dv;
+	sub Da.dv Halant.dv Da.dv by DaDa.dv;
+	sub Da.dv Halant.dv Va.dv by DaVa.dv;
+	sub Da.dv Halant.dv Dha.dv by DaDha.dv;
+	sub Da.dv Halant.dv Na.dv by DaNa.dv;
+	sub Da.dv Halant.dv Ba.dv by DaBa.dv;
+	sub Da.dv Halant.dv Bha.dv by DaBha.dv;
+	sub Da.dv Halant.dv Ma.dv by DaMa.dv;
+	sub Da.dv Halant.dv Ya.dv by DaYa.dv;
 	sub DhaHalant.dv Na.dv by DhaNa.dv;
 	sub DhaHalant.dv Ma.dv by DhaMa.dv;
 	sub DhaHalant.dv Ya.dv by DhaYa.dv;
@@ -730,6 +724,7 @@ lookup pres2 { # Two-letter conjuncts
 	sub NaHalant.dv Ya.dv by NaYa.dv;
 	sub NaHalant.dv Va.dv by NaVa.dv;
 	sub NaHalant.dv Sha.dv by NaSha.dv;
+	sub NaHalant.dv Sha.MAR.dv by NaSha.MAR.dv;
 	sub NaHalant.dv Sa.dv by NaSa.dv;
 	sub NaHalant.dv Ha.dv by NaHa.dv;
 	sub PaHalant.dv Cha.dv by PaCha.dv;
@@ -741,8 +736,10 @@ lookup pres2 { # Two-letter conjuncts
 	sub PaHalant.dv Ma.dv by PaMa.dv;
 	sub PaHalant.dv Ya.dv by PaYa.dv;
 	sub PaHalant.dv La.dv by PaLa.dv;
+	sub PaHalant.dv La.MAR.dv by PaLa.MAR.dv;
 	sub PaHalant.dv Va.dv by PaVa.dv;
 	sub PaHalant.dv Sha.dv by PaSha.dv;
+	sub PaHalant.dv Sha.MAR.dv by PaSha.MAR.dv;
 	sub PaHalant.dv Sa.dv by PaSa.dv;
 	sub PaHalant.dv matraLru.dv by PamatraLru.dv;
 	sub PaHalant.dv matraLruu.dv by PamatraLruu.dv;
@@ -754,7 +751,9 @@ lookup pres2 { # Two-letter conjuncts
 	sub PhaHalant.dv Pha.dv by PhaPha.dv;
 	sub PhaHalant.dv Ya.dv by PhaYa.dv;
 	sub PhaHalant.dv La.dv by PhaLa.dv;
+	sub PhaHalant.dv La.MAR.dv by PhaLa.MAR.dv;
 	sub PhaHalant.dv Sha.dv by PhaSha.dv;
+	sub PhaHalant.dv Sha.MAR.dv by PhaSha.MAR.dv;
 	sub BaHalant.dv Ja.dv by BaJa.dv;
 	sub BaHalant.dv Jha.dv by BaJha.dv;
 	sub BaHalant.dv Dda.dv by BaDda.dv;
@@ -766,12 +765,15 @@ lookup pres2 { # Two-letter conjuncts
 	sub BaHalant.dv Bha.dv by BaBha.dv;
 	sub BaHalant.dv Ya.dv by BaYa.dv;
 	sub BaHalant.dv La.dv by BaLa.dv;
+	sub BaHalant.dv La.MAR.dv by BaLa.MAR.dv;
 	sub BaHalant.dv Va.dv by BaVa.dv;
 	sub BaHalant.dv Sha.dv by BaSha.dv;
+	sub BaHalant.dv Sha.MAR.dv by BaSha.MAR.dv;
 	sub BaHalant.dv Sa.dv by BaSa.dv;
 	sub BaHalant.dv JaNukta.dv by BaJa.dv;
 	sub BhaHalant.dv Ya.dv by BhaYa.dv;
 	sub BhaHalant.dv La.dv by BhaLa.dv;
+	sub BhaHalant.dv La.MAR.dv by BhaLa.MAR.dv;
 	sub BhaHalant.dv Va.dv by BhaVa.dv;
 	sub MaHalant.dv Ta.dv by MaTa.dv;
 	sub MaHalant.dv Da.dv by MaDa.dv;
@@ -783,8 +785,10 @@ lookup pres2 { # Two-letter conjuncts
 	sub MaHalant.dv Bha.dv by MaBha.dv;
 	sub MaHalant.dv Ya.dv by MaYa.dv;
 	sub MaHalant.dv La.dv by MaLa.dv;
+	sub MaHalant.dv La.MAR.dv by MaLa.MAR.dv;
 	sub MaHalant.dv Va.dv by MaVa.dv;
 	sub MaHalant.dv Sha.dv by MaSha.dv;
+	sub MaHalant.dv Sha.MAR.dv by MaSha.MAR.dv;
 	sub MaHalant.dv Sa.dv by MaSa.dv;
 	sub MaHalant.dv Ha.dv by MaHa.dv;
 	sub YaHalant.dv Ya.dv by YaYa.dv;
@@ -807,8 +811,10 @@ lookup pres2 { # Two-letter conjuncts
 	sub LaHalant.dv Ma.dv by LaMa.dv;
 	sub LaHalant.dv Ya.dv by LaYa.dv;
 	sub LaHalant.dv La.dv by LaLa.dv;
+	sub LaHalant.dv La.MAR.dv by LaLa.MAR.dv;
 	sub LaHalant.dv Va.dv by LaVa.dv;
 	sub LaHalant.dv Sha.dv by LaSha.dv;
+	sub LaHalant.dv Sha.MAR.dv by LaSha.MAR.dv;
 	sub LaHalant.dv Sa.dv by LaSa.dv;
 	sub LaHalant.dv Ha.dv by LaHa.dv;
 	sub LaHalant.dv JaNukta.dv by LaJaNukta.dv;
@@ -817,6 +823,7 @@ lookup pres2 { # Two-letter conjuncts
 	sub VaHalant.dv Dda.dv by VaDda.dv;
 	sub VaHalant.dv Ya.dv by VaYa.dv;
 	sub VaHalant.dv La.dv by VaLa.dv;
+	sub VaHalant.dv La.MAR.dv by VaLa.MAR.dv;
 	sub VaHalant.dv Va.dv by VaVa.dv;
 	sub VaHalant.dv Ha.dv by VaHa.dv;
 	sub ShaHalant.dv Ka.dv by ShaKa.dv;
@@ -831,6 +838,18 @@ lookup pres2 { # Two-letter conjuncts
 	sub ShaHalant.dv Va.dv by ShaVa.dv;
 	sub ShaHalant.dv Sha.dv by ShaSha.dv;
 	sub ShaHalant.dv KaNukta.dv by ShaKaNukta.dv;
+	sub ShaHalant.MAR.dv Ka.dv by ShaKa.MAR.dv;
+	sub ShaHalant.MAR.dv Ca.dv by ShaCa.dv;
+	sub ShaHalant.MAR.dv Cha.dv by ShaCha.MAR.dv;
+	sub ShaHalant.MAR.dv Tta.dv by ShaTta.MAR.dv;
+	sub ShaHalant.MAR.dv Ta.dv by ShaTa.MAR.dv;
+	sub ShaHalant.MAR.dv Na.dv by ShaNa.dv;
+	sub ShaHalant.MAR.dv Ma.dv by ShaMa.MAR.dv;
+	sub ShaHalant.MAR.dv Ya.dv by ShaYa.MAR.dv;
+	sub ShaHalant.MAR.dv La.MAR.dv by ShaLa.dv;
+	sub ShaHalant.MAR.dv Va.dv by ShaVa.dv;
+	sub ShaHalant.MAR.dv Sha.MAR.dv by ShaSha.MAR.dv;
+	sub ShaHalant.MAR.dv KaNukta.dv by ShaKaNukta.MAR.dv;
 	sub SsaHalant.dv Ka.dv by SsaKa.dv;
 	sub SsaHalant.dv Tta.dv by SsaTta.dv;
 	sub SsaHalant.dv Ttha.dv by SsaTtha.dv;
@@ -856,6 +875,7 @@ lookup pres2 { # Two-letter conjuncts
 	sub SaHalant.dv Ma.dv by SaMa.dv;
 	sub SaHalant.dv Ya.dv by SaYa.dv;
 	sub SaHalant.dv La.dv by SaLa.dv;
+	sub SaHalant.dv La.MAR.dv by SaLa.MAR.dv;
 	sub SaHalant.dv Va.dv by SaVa.dv;
 	sub SaHalant.dv Sa.dv by SaSa.dv;
 	sub HaHalant.dv Nna.dv by HaNna.dv;
@@ -863,6 +883,7 @@ lookup pres2 { # Two-letter conjuncts
 	sub HaHalant.dv Ma.dv by HaMa.dv;
 	sub HaHalant.dv Ya.dv by HaYa.dv;
 	sub HaHalant.dv La.dv by HaLa.dv;
+	sub HaHalant.dv La.MAR.dv by HaLa.MAR.dv;
 	sub HaHalant.dv Va.dv by HaVa.dv;
 	sub KaNuktaHalant.dv Ta.dv by KaNuktaTa.dv;
 	sub KaNuktaHalant.dv Ba.dv by KaNuktaBa.dv;
@@ -875,6 +896,7 @@ lookup pres2 { # Two-letter conjuncts
 	sub KhaNuktaHalant.dv Ya.dv by KhaNuktaYa.dv;
 	sub KhaNuktaHalant.dv Va.dv by KhaNuktaVa.dv;
 	sub KhaNuktaHalant.dv Sha.dv by KhaNuktaSha.dv;
+	sub KhaNuktaHalant.dv Sha.MAR.dv by KhaNuktaSha.MAR.dv;
 	sub KhaNuktaHalant.dv Sa.dv by KhaNuktaSa.dv;
 	sub JaNuktaHalant.dv Ya.dv by JaNuktaYa.dv;
 	sub JaNuktaHalant.dv JaNukta.dv by JaNuktaJaNukta.dv;
@@ -892,7 +914,7 @@ lookup pres_half { # half-conjuncts CHECK IF NEEDED
 	sub MaHalant.dv BhaHalant.dv by MaBhaHalant.dv;
 	sub LaHalant.dv BhaHalant.dv by LaBhaHalant.dv;
 	sub KaSsaHalant.dv MaHalant.dv by KaSsaMaHalant.dv;
-	sub DaHalant.dv DaHalant.dv by DamatraRu.dv;
+	sub Da.dv Halant.dv Da.dv Halant.dv by DamatraRu.dv;
 } pres_half;
 
 
@@ -927,7 +949,140 @@ lookup pres_matraI { # matraI substitutions
 
 
 #--------------------------------------------------------------------
+
+
+feature cjct {
+
+	sub Tta.dv Halant.dv Tta.dv Halant.dv Ya.dv by TtaTtaYa.dv;
+	sub SsaHalant.dv Tta.dv Halant.dv Ya.dv by SsaTtaYa.dv;
+	sub Ssa.dv Halant.dv Tta.dv Halant.dv Ya.dv by SsaTtaYa.dv;
+
+	sub Ttha.dv Halant.dv Ttha.dv Halant.dv Ya.dv by TthaTthaYa.dv;
+	sub SsaHalant.dv Ttha.dv Halant.dv Ya.dv by SsaTthaYa.dv;
+	sub Ssa.dv Halant.dv Ttha.dv Halant.dv Ya.dv by SsaTthaYa.dv;
+
+	sub Ddha.dv Vattu.dv Halant.dv Ya.dv by DdhaRaYa.dv;
+	sub Ddha.dv Halant.dv Ra.dv Halant.dv Ya.dv by DdhaRaYa.dv;
+
+	sub CaHalant.dv Cha.dv Halant.dv Va.dv by CaChaVa.dv;
+	sub Cha.dv Vattu.dv Halant.dv Ya.dv by ChaRaYa.dv;
+	sub Cha.dv Halant.dv Ra.dv Halant.dv Ya.dv by ChaRaYa.dv;
+
+	sub DaRaHalant.dv Ya.dv by DaRaYa.dv;
+	sub Da.dv Halant.dv Da.dv Halant.dv Ya.dv by DaDaYa.dv;
+	sub Da.dv Halant.dv Dha.dv Halant.dv Ya.dv by DaDhaYa.dv;
+	sub Da.dv Halant.dv BhaHalant.dv Ya.dv by DaBhaYa.dv;
+	sub Da.dv Halant.dv VaHalant.dv Ya.dv by DaVaYa.dv;
+	sub Da.dv Halant.dv Va.dv Halant.dv Ya.dv by DaVaYa.dv;
+	sub NaHalant.dv Da.dv Halant.dv Va.dv by NaDaVa.dv;
+
+	sub Na.dv Halant.dv DaRa.dv by NaDaRa.dv;
+	sub Na.dv Halant.dv Da.dv Ra.dv by NaDaRa.dv;
+	sub La.dv Halant.dv DaRa.dv by LaDaRa.dv;
+	sub La.dv Halant.dv Da.dv Ra.dv by LaDaRa.dv;
+	sub La.MAR.dv Halant.dv DaRa.dv by LaDaRa.dv;
+	sub La.MAR.dv Halant.dv Da.dv Ra.dv by LaDaRa.dv;
+
+	sub NaHalant.dv Ha.dv Halant.dv Ya.dv by NaHaYa.dv;
+	sub Na.dv Halant.dv Ha.dv Halant.dv Ya.dv by NaHaYa.dv;
+	sub LaHalant.dv Ha.dv Halant.dv Ya.dv by LaHaYa.dv;
+	sub La.dv Halant.dv Ha.dv Halant.dv Ya.dv by LaHaYa.dv;
+	sub La.MAR.dv Halant.dv Ha.dv Halant.dv Ya.dv by LaHaYa.dv;
+	sub Ha.dv Halant.dv MaHalant.dv Ya.dv by HaMaYa.dv;
+	sub Ha.dv Halant.dv Ma.dv Halant.dv Ya.dv by HaMaYa.dv;
+
+	sub Ddha.dv Halant.dv Ya.dv by DdhaYa.dv;
+	sub Ddha.dv Halant.dv Ddha.dv by DdhaDdha.dv;
+
+	sub Dda.dv Halant.dv Dda.dv by DdaDda.dv;
+	sub Dda.dv Halant.dv Ddha.dv by DdaDdha.dv;
+	sub Dda.dv Halant.dv Ya.dv by DdaYa.dv;
+
+	sub Tta.dv Halant.dv Tta.dv by TtaTta.dv;
+	sub Tta.dv Halant.dv Ttha.dv by TtaTtha.dv;
+	sub Tta.dv Halant.dv Ya.dv by TtaYa.dv;
+	sub Tta.dv Halant.dv Va.dv by TtaVa.dv;
+
+	sub Ttha.dv Halant.dv Ya.dv by TthaYa.dv;
+	sub Ttha.dv Halant.dv Ttha.dv by TthaTtha.dv;
+
+	sub Da.dv Halant.dv Ga.dv by DaGa.dv;
+	sub Da.dv Halant.dv Da.dv by DaDa.dv;
+	sub Da.dv Halant.dv Va.dv by DaVa.dv;
+	sub Da.dv Halant.dv Dha.dv by DaDha.dv;
+	sub Da.dv Halant.dv Na.dv by DaNa.dv;
+	sub Da.dv Halant.dv Ba.dv by DaBa.dv;
+	sub Da.dv Halant.dv Bha.dv by DaBha.dv;
+	sub Da.dv Halant.dv Ma.dv by DaMa.dv;
+	sub Da.dv Halant.dv Ya.dv by DaYa.dv;
+
+	sub Cha.dv Halant.dv Va.dv by ChaVa.dv;
+	sub Cha.dv Halant.dv Ya.dv by ChaYa.dv;
+
+	sub Nga.dv Halant.dv Ka.dv by NgaKa.dv;
+	sub Nga.dv Halant.dv Ga.dv by NgaGa.dv;
+	sub Nga.dv Halant.dv Ma.dv by NgaMa.dv;
+	sub Nga.dv Halant.dv Ya.dv by NgaYa.dv;
+
+	sub Ha.dv Halant.dv Nna.dv by HaNna.dv;
+	sub Ha.dv Halant.dv Na.dv by HaNa.dv;
+	sub Ha.dv Halant.dv Ma.dv by HaMa.dv;
+	sub Ha.dv Halant.dv Ya.dv by HaYa.dv;
+	sub Ha.dv Halant.dv La.dv by HaLa.dv;
+	sub Ha.dv Halant.dv La.MAR.dv by HaLa.MAR.dv;
+	sub Ha.dv Halant.dv Va.dv by HaVa.dv;
+
+} cjct;
+
+
+#--------------------------------------------------------------------
+
 feature abvs { # Abovebase matra substitutions
+
+# The next two lookup operations are to get the right output for Ra.dv + matraRu.dv = vowelRu.dv Reph.dv, etc. 
+
+lookup abvs6{ 
+	sub Ra.dv matraRu.dv by dummy1;
+	sub Ra.dv matraRuu.dv by dummy2;
+	sub Ra.dv matraLru.dv by dummy3;
+	sub Ra.dv matraLruu.dv by dummy4;
+}abvs6;
+
+lookup abvs5{
+	sub dummy1 by vowelRu.dv Reph.dv;
+	sub dummy2 by vowelRuu.dv Reph.dv;
+	sub dummy3 by vowelLru.dv Reph.dv;
+	sub dummy4 by vowelLruu.dv Reph.dv;
+}abvs5;
+
+
+lookup abvs4 {
+	sub matraI.dv @matraIdefault Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIone.dv @matraIone Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraItwo.dv @matraItwo Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIthree.dv @matraIthree Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIfour.dv @matraIfour Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIfive.dv @matraIfive Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIsix.dv @matraIsix Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIseven.dv @matraIseven Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIeight.dv @matraIeight Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraInine.dv @matraInine Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIten.dv @matraIten Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIeleven.dv @matraIeleven Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraItwelve.dv @matraItwelve Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIthirteen.dv @matraIthirteen Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIfourteen.dv @matraIfourteen Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIfifteen.dv @matraIfifteen Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIsixteen.dv @matraIsixteen Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIseventeen.dv @matraIseventeen Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraIeighteen.dv @matraIeighteen Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraInineteen.dv @matraInineteen Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraItwenty.dv @matraItwenty Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraItwentyone.dv @matraItwenty Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraItwentytwo.dv @matraItwentytwo Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+	sub matraItwentythree.dv @matraItwentythree Vattu.dv Chandrabindu.dv' by Chandrabinduone.dv;
+} abvs4;
+
 
 lookup abvs3 {
 	sub vowelAi.dv Chandrabindu.dv' by Chandrabinduone.dv;
@@ -960,6 +1115,7 @@ lookup abvs3 {
 	sub matraItwentytwo.dv @matraItwentytwo Chandrabindu.dv' by Chandrabinduone.dv;
 	sub matraItwentythree.dv @matraItwentythree Chandrabindu.dv' by Chandrabinduone.dv;
 } abvs3;
+
 
 
 lookup abvs2 {
@@ -1043,6 +1199,7 @@ lookup blws1 {
 	sub Da.dv matraRu.dv by DamatraRu.dv;
 	sub Ha.dv matraRu.dv by HamatraRu.dv;
 	sub Sha.dv matraRu.dv by ShamatraRu.dv;
+	sub Sha.MAR.dv matraRu.dv by ShamatraRu.dv;
 	sub KaSsa.dv matraU.dv by KaSsamatraU.dv;
 	sub JaNya.dv matraU.dv by JaNyamatraU.dv;
 	sub Ka.dv matraLru.dv by KamatraLru.dv;
@@ -1072,24 +1229,6 @@ lookup blws_Vertical_Conjuncts {
 } blws_Vertical_Conjuncts;
 
 
-lookup blws_Vattu_Characters {
-	sub TtaRa.dv matraU.dv' by matraUsmall.dv;
-	sub TtaRa.dv matraUu.dv' by matraUusmall.dv;
-	sub TtaRa.dv matraRu.dv' by matraRusmall.dv;
-	sub DdaRa.dv matraU.dv' by matraUsmall.dv;
-	sub DdaRa.dv matraUu.dv' by matraUusmall.dv;
-	sub DdaRa.dv matraRu.dv' by matraRusmall.dv;
-	sub TthaRa.dv matraU.dv' by matraUsmall.dv;
-	sub TthaRa.dv matraUu.dv' by matraUusmall.dv;
-	sub TthaRa.dv matraRu.dv' by matraRusmall.dv;
-	sub DdhaRa.dv matraU.dv' by matraUsmall.dv;
-	sub DdhaRa.dv matraUu.dv' by matraUusmall.dv;
-	sub DdhaRa.dv matraRu.dv' by matraRusmall.dv;
-	sub ChaRa.dv matraU.dv' by matraUsmall.dv;
-	sub ChaRa.dv matraUu.dv' by matraUusmall.dv;
-	sub ChaRa.dv matraRu.dv' by matraRusmall.dv;
-} blws_Vattu_Characters;
-
 } blws;
 
 
@@ -1104,6 +1243,11 @@ lookup psts1 { # Postbase matra substitutions
 	sub @Width_matraIithree @matraIidefault' by @matraIithree;
 } psts1;
 
+lookup psts2 { # Postbase matra substitutions if vattu comes
+	sub @Width_matraIione Vattu.dv @matraIidefault' by @matraIione;
+	sub @Width_matraIitwo Vattu.dv @matraIidefault' by @matraIitwo;
+	sub @Width_matraIithree Vattu.dv @matraIidefault' by @matraIithree;
+} psts2;
 
 } psts;
 
@@ -1177,7 +1321,7 @@ feature ss02 { # Stylistic Set 2
 lookup salt2 {	
     sub [TaRa.dv TaRaHalant.dv TaRaYa.dv] by [TaRaone.dv TaRaoneHalant.dv TaRaYaone.dv];
     sub [KaRa.dv KaKa.dv KaVa.dv CaCa.dv] by [KaRaone.dv KaKaone.dv KaVaone.dv CaCaone.dv];
-    sub [PaTa.dv PaLa.dv LaLa.dv] by [PaTaone.dv PaLaone.dv LaLaone.dv];
+    sub [PaTa.dv PaLa.dv PaLa.MAR.dv LaLa.dv LaLa.MAR.dv] by [PaTaone.dv PaLaone.dv PaLaone.dv LaLaone.dv LaLaone.dv];
 } salt2;
 	
 
@@ -1191,6 +1335,7 @@ lookup ss02_1 {
 	sub matraIten.dv' PaTaone.dv by matraIthree.dv;
 } ss02_1;
 
+
 lookup ss02_2 {
 	sub [KaRaone.dv KaVaone.dv] @matraIidefault' by @matraIithree;
 	sub [LaLaone.dv PaLaone.dv] @matraIidefault' by @matraIitwo;
@@ -1201,7 +1346,13 @@ lookup ss02_2 {
 #--------------------------------------------------------------------
 
 
+feature ss03 { # Stylistic Set 3 _ for short alternate matraE
 
+	sub matraE.dv by matraEone.dv;
+
+} ss03;	
+
+#--------------------------------------------------------------------
 
 
 feature salt { # Stylistic Alternates

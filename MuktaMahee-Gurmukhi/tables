@@ -1,0 +1,70 @@
+
+
+table hhea {
+	Ascender 1130;
+	Descender -532;
+	LineGap 0;
+} hhea;
+
+
+#------------------------------------------------------------------
+
+table OS/2 {
+	FSType 0;
+	Panose 2 11 0 0 0 0 0 0 0 0;
+	UnicodeRange
+	0	# Basic Latin
+	1	# Latin-1 Supplement
+	2	# Latin Extended-A
+	3	# Latin Extended-B
+	5	# Spacing Modifier Letters
+	17 	# Gurmukhi
+	29	# Latin Extended Additional
+	31	# General Punctuation
+	32	# Superscripts And Subscripts
+	33	# Currency Symbol
+	35	# Letterlike Symbols
+	38	# Mathematical Operators
+	45	# Geometric Shapes
+	62	# Alphabetic Presentation Forms
+;
+	TypoAscender 1130;
+	TypoDescender -532;
+	TypoLineGap 0;
+	winAscent 1130;
+	winDescent 532;
+
+	WidthClass 5;
+	Vendor "EKTF";
+
+} OS/2;
+
+
+#------------------------------------------------------------------
+
+
+table name {
+
+	nameid 0   "Copyright (c) 2017, Ek Type. All rights reserved.";
+	nameid 0 1 "Copyright (c) 2017, Ek Type. All rights reserved.";
+
+	nameid 8   "Ek Type";
+	nameid 8 1 "Ek Type";
+
+	nameid 9   "Shuchita Grover, Noopur Datye, Girish Dalvi, Yashodeep Gholap";
+	nameid 9 1 "Shuchita Grover, Noopur Datye, Girish Dalvi, Yashodeep Gholap";
+
+	nameid 11   "www.ektype.in";
+	nameid 11 1 "www.ektype.in";
+
+	nameid 12   "www.ektype.in";
+	nameid 12 1 "www.ektype.in";
+
+	nameid 13 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+	nameid 13 1 "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+
+	nameid 14   "http://scripts.sil.org/OFL";
+	nameid 14 1 "http://scripts.sil.org/OFL";
+
+} name
+

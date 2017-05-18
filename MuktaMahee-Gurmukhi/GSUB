@@ -1,0 +1,445 @@
+#--------------------------------------------------------------------
+
+languagesystem DFLT dflt;
+languagesystem latn dflt;
+languagesystem guru dflt;
+languagesystem gur2 dflt;
+
+#--------------------------------------------------------------------
+
+#--------------------------------------------------------------------
+
+###-------L A T I N-------###
+
+#--------------------------------------------------------------------
+
+
+feature onum { # Oldstyle figures
+	sub @Numbers by @Oldstyle;
+	sub percent by percentoldstyle; 
+} onum;
+
+
+#--------------------------------------------------------------------
+
+feature liga { # Standard Ligatures
+	sub f f i by ffi;
+	sub f f j by f_f_j;
+	sub f f l by ffl;
+	sub f f by ff;
+	sub f i by fi;
+	sub f j by f_j;
+	sub f l by fl;
+} liga;
+
+
+#--------------------------------------------------------------------
+
+
+feature dlig { # Discretionary Ligatures
+	sub s t by s_t;
+	sub c t by c_t;
+} dlig;
+
+
+#--------------------------------------------------------------------
+
+
+feature smcp { # Small Capitals
+	sub @Lowercase by @Small_Caps;
+} smcp;
+
+
+#--------------------------------------------------------------------
+
+
+feature subs { # Subscript
+	sub @Numbers by @Subscript;
+	sub parenleft by parenleft.inferior;
+	sub parenright by parenright.inferior;
+  sub parenleft.lat by parenleft.inferior;
+  sub parenright.lat by parenright.inferior;
+} subs;
+
+
+#--------------------------------------------------------------------
+
+
+feature sups { # Superscript
+	sub @Numbers by @Superscript;
+	sub parenleft by parenleft.superior;
+	sub parenright by parenright.superior;
+  sub parenleft.lat by parenleft.superior;
+  sub parenright.lat by parenright.superior;
+} sups;
+
+
+#--------------------------------------------------------------------
+
+
+feature dnom { # Denominator
+	sub @Numbers by @Denominator;
+} dnom;
+
+
+#--------------------------------------------------------------------
+
+
+feature numr { # Numerator
+	sub @Numbers by @Numerator;
+} numr;
+
+
+#--------------------------------------------------------------------
+
+
+feature tnum { # Tabular figures
+	sub @Numbers by @Tabular;
+	sub @Oldstyle by @Tabular_Old;
+} tnum;
+
+
+#--------------------------------------------------------------------
+
+
+feature frac { # Fractions Latin and Devanagari
+
+    sub one slash two by onehalf;
+    sub one slash four by onequarter;
+    sub three slash four by threequarters;
+
+} frac;
+
+#--------------------------------------------------------------------
+
+
+feature ss01 {
+sub [a g] by [a.alt g.alt];
+} ss01;
+
+
+#--------------------------------------------------------------------
+
+
+feature ss03 { # numbers and punctuations for latin
+sub [exclam numbersign percent parenleft parenright plus slash zero one two three four five six seven eight nine equal question bracketleft bracketright bar divide minus dollar Euro perthousand sterling yen plusminus uni20A8 uni20B9 onehalf onequarter threequarters] by 
+[exclam.lat numbersign.lat percent.lat parenleft.lat parenright.lat plus.lat slash.lat zero.lat one.lat two.lat three.lat four.lat five.lat six.lat seven.lat eight.lat nine.lat equal.lat question.lat bracketleft.lat bracketright.lat bar.lat divide.lat minus.lat dollar.lat Euro.lat perthousand.lat sterling.lat yen.lat plusminus.lat uni20A8.lat uni20B9.lat onehalf.lat onequarter.lat threequarters.lat];
+} ss03;
+
+#--------------------------------------------------------------------
+
+###-------G U R M U K H I-------###
+
+#--------------------------------------------------------------------
+
+
+feature nukt { # Nukta consonants
+
+script guru; #Gurmukhi
+lookup lookup1 {
+    sub Kha.gm Nukta.gm by Khha.gm;
+    sub Ga.gm Nukta.gm by Ghha.gm;
+    sub Sa.gm Nukta.gm by Sha.gm;
+    sub La.gm Nukta.gm by Lla.gm;
+    sub Ja.gm Nukta.gm by Za.gm;
+    sub Pha.gm Nukta.gm by Fa.gm;
+    sub Dda.gm Nukta.gm by Rra.gm;
+} lookup1;
+
+script gur2; #Gurmukhi v.2
+lookup lookup1;
+} nukt;
+
+#--------------------------------------------------------------------
+
+feature akhn { #Akhanda Forms
+
+script guru;
+  sub Ka.gm RaVirama.gm by KaViramaRa.gm;
+  sub Rra.gm HaVirama.gm by Rha.gm;
+script gur2;
+  sub Ka.gm RaVirama.gm by KaViramaRa.gm;
+  sub Rra.gm HaVirama.gm by Rha.gm;
+
+} akhn;
+
+#--------------------------------------------------------------------
+
+feature blwf { #Below Base Form 
+
+#Pairin forms of Ga, Ca, Tta, Ttha, Ta, Da, Na and Tha occur in rare cases in old manuscript texts. 
+
+
+script gur2;
+lookup lookup2 {
+  sub Virama.gm Ra.gm by PairinRa.gm;
+  sub Virama.gm Ha.gm by PairinHa.gm;
+  sub Virama.gm Va.gm by PairinVa.gm;
+  sub Virama.gm Ga.gm by PairinGa.gm;
+  sub Virama.gm Ca.gm by PairinCa.gm;
+  sub Virama.gm Tta.gm by PairinTta.gm;  
+  sub Virama.gm Ttha.gm by PairinTtha.gm;
+  sub Virama.gm Ta.gm by PairinTa.gm;
+  sub Virama.gm Da.gm by PairinDa.gm;
+  sub Virama.gm Na.gm by PairinNa.gm;
+  sub Virama.gm Tha.gm by PairinTha.gm;
+ 
+
+} lookup2;
+
+script guru; 
+  sub Ra.gm Virama.gm by PairinRa.gm;
+  sub Ha.gm Virama.gm by PairinHa.gm;
+  sub Va.gm Virama.gm by PairinVa.gm;
+  sub Ga.gm Virama.gm by PairinGa.gm;
+  sub Ca.gm Virama.gm by PairinCa.gm;
+  sub Tta.gm Virama.gm by PairinTta.gm;  
+  sub Ttha.gm Virama.gm by PairinTtha.gm;
+  sub Ta.gm Virama.gm by PairinTa.gm;
+  sub Da.gm Virama.gm by PairinDa.gm;
+  sub Na.gm Virama.gm by PairinNa.gm;
+  sub Tha.gm Virama.gm by PairinTha.gm;
+
+
+
+} blwf;
+
+#--------------------------------------------------------------------
+
+
+feature pstf { # Post Base Forms
+
+#AddhaMa and AddhaTha forms occur in rare cases in old manuscript texts.
+
+script guru;
+  sub Ya.gm Virama.gm by AddhaYa.gm;
+  sub Ma.gm Virama.gm by AddhaMa.gm;
+  sub Tha.gm Virama.gm by AddhaTha.gm;
+
+script gur2;
+  sub Virama.gm Ya.gm by AddhaYa.gm;
+  sub Virama.gm Ma.gm by AddhaMa.gm;
+  sub Virama.gm Tha.gm by AddhaTha.gm;
+  
+} pstf;
+
+#--------------------------------------------------------------------
+
+
+feature abvs { # Above Base Substitutions
+
+script guru;
+lookup lookup3 {
+    sub MatraEe.gm Bindi.gm by MatraEeBindi.gm;
+    sub MatraAi.gm Bindi.gm by MatraAiBindi.gm;
+    sub MatraOo.gm Bindi.gm by MatraOoBindi.gm;
+    sub MatraAu.gm Bindi.gm by MatraAuBindi.gm;
+    sub MatraIi.gm Bindi.gm by MatraIiBindi.gm;
+    sub MatraEe.gm Tippi.gm by MatraEeBindi.gm;
+    sub MatraAi.gm Tippi.gm by MatraAiBindi.gm;
+    sub MatraOo.gm Tippi.gm by MatraOoBindi.gm;
+    sub MatraAu.gm Tippi.gm by MatraAuBindi.gm;
+    sub MatraIi.gm Tippi.gm by MatraIiBindi.gm;
+    sub MatraEe.gm Addak.gm by MatraEeAddak.gm;
+    sub MatraAi.gm Addak.gm by MatraAiAddak.gm;
+    sub MatraOo.gm Addak.gm by MatraOoAddak.gm;
+    sub MatraAu.gm Addak.gm by MatraAuAddak.gm;
+    sub MatraEe.gm AddakBindi.gm by MatraEeAddakBindi.gm;
+    sub MatraAi.gm AddakBindi.gm by MatraAiAddakBindi.gm;
+    sub MatraOo.gm AddakBindi.gm by MatraOoAddakBindi.gm;
+    sub MatraAu.gm AddakBindi.gm by MatraAuAddakBindi.gm;
+  
+} lookup3;
+
+lookup lookup4 {
+  sub [Na.gm Ttha.gm] [MatraEe.gm MatraAi.gm MatraOo.gm MatraAu.gm]' by [MatraEe.gm.alt MatraAi.gm.alt MatraOo.gm.alt MatraAu.gm.alt];
+  sub [Na.gm Ttha.gm] [MatraEeBindi.gm MatraAiBindi.gm MatraOoBindi.gm MatraAuBindi.gm MatraEeAddak.gm MatraAiAddak.gm MatraOoAddak.gm MatraAuAddak.gm MatraEeAddakBindi.gm MatraAiAddakBindi.gm MatraOoAddakBindi.gm MatraAuAddakBindi.gm]' by [MatraEeBindi.gm.alt MatraAiBindi.gm.alt MatraOoBindi.gm.alt MatraAuBindi.gm.alt MatraEeAddak.gm.alt MatraAiAddak.gm.alt MatraOoAddak.gm.alt MatraAuAddak.gm.alt MatraEeAddakBindi.gm.alt MatraAiAddakBindi.gm.alt MatraOoAddakBindi.gm.alt MatraAuAddakBindi.gm.alt];
+  sub [VowelIi.gm VowelU.gm VowelUu.gm VowelEe.gm VowelAi.gm VowelOo.gm VowelAu.gm MatraIi.gm Ura.gm] [Bindi.gm Addak.gm AddakBindi.gm]' by [Bindi.gm.alt Addak.gm.alt AddakBindi.gm.alt];
+} lookup4;
+
+lookup lookup5 {
+  sub MatraEe.gm.alt Addak.gm by MatraEeAddak.gm.alt;
+  sub MatraAi.gm.alt Addak.gm by MatraAiAddak.gm.alt;
+  sub MatraOo.gm.alt Addak.gm by MatraOoAddak.gm.alt;
+  sub MatraAu.gm.alt Addak.gm by MatraAuAddak.gm.alt;
+  sub MatraEe.gm.alt AddakBindi.gm by MatraEeAddakBindi.gm.alt;
+  sub MatraAi.gm.alt AddakBindi.gm by MatraAiAddakBindi.gm.alt;
+  sub MatraOo.gm.alt AddakBindi.gm by MatraOoAddakBindi.gm.alt;
+  sub MatraAu.gm.alt AddakBindi.gm by MatraAuAddakBindi.gm.alt;
+} lookup5;
+
+lookup lookup6 {
+  sub [VowelIi.gm VowelU.gm VowelUu.gm VowelOo.gm VowelEe.gm VowelAi.gm VowelAu.gm] Tippi.gm' by Bindi.gm.alt;
+} lookup6;
+
+script gur2;
+lookup lookup3;
+lookup lookup4;
+lookup lookup5;
+lookup lookup6;
+
+
+} abvs;
+
+#--------------------------------------------------------------------
+
+
+feature blws { # Below Base Substitutions
+
+script guru;
+lookup blws1 { #Half characters 
+  sub PairinRa.gm Virama.gm by PairinRaVirama.gm;
+  sub PairinHa.gm Virama.gm by PairinHaVirama.gm;
+  sub PairinVa.gm Virama.gm by PairinVaVirama.gm;
+  sub PairinGa.gm Virama.gm by PairinGaVirama.gm;
+  sub PairinCa.gm Virama.gm by PairinCaVirama.gm;
+  sub PairinTta.gm Virama.gm by PairinTtaVirama.gm;
+  sub PairinTtha.gm Virama.gm by PairinTthaVirama.gm;
+  sub PairinTa.gm Virama.gm by PairinTaVirama.gm;
+  sub PairinDa.gm Virama.gm by PairinDaVirama.gm;
+  sub PairinNa.gm Virama.gm by PairinNaVirama.gm;
+  sub PairinTha.gm Virama.gm by PairinThaVirama.gm;
+  sub PairinYa.gm Virama.gm by PairinYaVirama.gm;
+  sub Yakash.gm Virama.gm by YakashVirama.gm;
+
+  sub PairinRa.gm MatraU.gm by PairinRaMatraU.gm;
+  sub PairinHa.gm MatraU.gm by PairinHaMatraU.gm;
+  sub PairinVa.gm MatraU.gm by PairinVaMatraU.gm;
+  sub PairinGa.gm MatraU.gm by PairinGaMatraU.gm;
+  sub PairinCa.gm MatraU.gm by PairinCaMatraU.gm;
+  sub PairinTta.gm MatraU.gm by PairinTtaMatraU.gm;
+  sub PairinTtha.gm MatraU.gm by PairinTthaMatraU.gm;
+  sub PairinTa.gm MatraU.gm by PairinTaMatraU.gm;
+  sub PairinDa.gm MatraU.gm by PairinDaMatraU.gm;
+  sub PairinNa.gm MatraU.gm by PairinNaMatraU.gm;
+  sub PairinTha.gm MatraU.gm by PairinThaMatraU.gm;
+  sub PairinYa.gm MatraU.gm by PairinYaMatraU.gm;
+  sub Yakash.gm MatraU.gm by YakashMatraU.gm;
+
+  sub PairinRa.gm MatraUu.gm by PairinRaMatraUu.gm;
+  sub PairinHa.gm MatraUu.gm by PairinHaMatraUu.gm;
+  sub PairinVa.gm MatraUu.gm by PairinVaMatraUu.gm;
+  sub PairinGa.gm MatraUu.gm by PairinGaMatraUu.gm;
+  sub PairinCa.gm MatraUu.gm by PairinCaMatraUu.gm;
+  sub PairinTta.gm MatraUu.gm by PairinTtaMatraUu.gm;
+  sub PairinTtha.gm MatraUu.gm by PairinTthaMatraUu.gm;
+  sub PairinTa.gm MatraUu.gm by PairinTaMatraUu.gm;
+  sub PairinDa.gm MatraUu.gm by PairinDaMatraUu.gm;
+  sub PairinNa.gm MatraUu.gm by PairinNaMatraUu.gm;
+  sub PairinTha.gm MatraUu.gm by PairinThaMatraUu.gm;
+  sub PairinYa.gm MatraUu.gm by PairinYaMatraUu.gm;
+  sub Yakash.gm MatraUu.gm by YakashMatraUu.gm;
+} blws1;
+
+
+lookup blws2 {
+  sub @bottom MatraU.gm' by MatraU.gm.alt;
+  sub @bottom MatraUu.gm' by MatraUu.gm.alt;
+  sub @bottom Virama.gm' by Virama.gm.alt;
+} blws2;
+
+
+script gur2;
+lookup blws1;
+lookup blws2;  
+
+} blws;
+
+
+#--------------------------------------------------------------------
+
+
+feature haln { #Halant forms
+
+script guru; 
+lookup haln1 {
+  sub Ka.gm Virama.gm by KaVirama.gm;
+  sub Kha.gm Virama.gm by KhaVirama.gm;
+  sub Ga.gm Virama.gm by GaVirama.gm;
+  sub Gha.gm Virama.gm by GhaVirama.gm;
+  sub Nga.gm Virama.gm by NgaVirama.gm;
+  sub Ca.gm Virama.gm by CaVirama.gm;
+  sub Cha.gm Virama.gm by ChaVirama.gm;
+  sub Ja.gm Virama.gm by JaVirama.gm;
+  sub Jha.gm Virama.gm by JhaVirama.gm;
+  sub Nya.gm Virama.gm by NyaVirama.gm;
+  sub Tta.gm Virama.gm by TtaVirama.gm;
+  sub Ttha.gm Virama.gm by TthaVirama.gm;
+  sub Dda.gm Virama.gm by DdaVirama.gm;
+  sub Ddha.gm Virama.gm by DdhaVirama.gm;
+  sub Nna.gm Virama.gm by NnaVirama.gm;
+  sub Ta.gm Virama.gm by TaVirama.gm;
+  sub Tha.gm Virama.gm by ThaVirama.gm;
+  sub Da.gm Virama.gm by DaVirama.gm;
+  sub Dha.gm Virama.gm by DhaVirama.gm;
+  sub Na.gm Virama.gm by NaVirama.gm;
+  sub Pa.gm Virama.gm by PaVirama.gm;
+  sub Pha.gm Virama.gm by PhaVirama.gm;
+  sub Ba.gm Virama.gm by BaVirama.gm;
+  sub Bha.gm Virama.gm by BhaVirama.gm;
+  sub Ma.gm Virama.gm by MaVirama.gm;
+  sub Ya.gm Virama.gm by YaVirama.gm;
+  sub Ra.gm Virama.gm by RaVirama.gm;
+  sub La.gm Virama.gm by LaVirama.gm;
+  sub Lla.gm Virama.gm by LlaVirama.gm;
+  sub Va.gm Virama.gm by VaVirama.gm;
+  sub Sha.gm Virama.gm by ShaVirama.gm;
+  sub Sa.gm Virama.gm by SaVirama.gm;
+  sub Ha.gm Virama.gm by HaVirama.gm;
+  sub Khha.gm Virama.gm by KhhaVirama.gm;
+  sub Ghha.gm Virama.gm by GhhaVirama.gm;
+  sub Za.gm Virama.gm by ZaVirama.gm;
+  sub Rra.gm Virama.gm by RraVirama.gm;
+  sub Fa.gm Virama.gm by FaVirama.gm;
+} haln1;
+
+script gur2;
+lookup haln1;
+
+} haln;
+
+#--------------------------------------------------------------------
+
+feature ss02 { #Stylistic Set for Additional Pairin and Addha Forms
+script guru;
+
+lookup salt1{ #Pairin Forms
+
+  sub AddhaYa.gm by PairinYa.gm;
+} salt1;
+
+lookup salt2{ #Addha Forms
+  sub PairinTha.gm by AddhaTha.gm;
+}salt2;
+
+script gur2;
+lookup salt1;
+lookup salt2;
+} ss02;
+
+
+#--------------------------------------------------------------------
+
+
+feature salt { #Stylistic Set for Additional Pairin and Addha Forms
+
+#----------------
+
+#latin
+sub [a g] by [a.alt g.alt];
+
+#----------------
+
+script guru;
+
+lookup salt1;
+lookup salt2;
+
+script gur2;
+
+lookup salt1;
+lookup salt2;
+
+} salt;
+
+#--------------------------------------------------------------------
