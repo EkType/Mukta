@@ -1,4 +1,5 @@
-# Mukta
+
+![Mukta](https://github.com/EkType/Mukta/blob/master/Promotion/banner.png "Mukta")
 
 Mukta is a Unicode compliant, versatile, contemporary, humanist, mono-linear typeface available in seven weights, supporting Devanagari, Gujarati, Tamil and Latin scripts. 
 This type family is a libre licensed version of Ek's self-titled multi-script project, an ongoing effort to develop a unified type family for each Indian script. 
