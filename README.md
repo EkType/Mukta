@@ -15,11 +15,14 @@ Each font supports one Indian script along with Latin.
 
 - Mukta Vaani for Gujarati
 
+- Mukta Mahee for Gurmukhi
+
 - Mukta Malar for Tamil
 
 Mukta was designed by [Girish Dalvi](http://www.idc.iitb.ac.in/~girish) and [Yashodeep Gholap](http://www.yashodeepgholap.com). 
 Mukta Vaani was designed by Noopur Datye and Pallavi Karambelkar with support from [Sarang Kulkarni](http://ektype.in) and [Maithili Shingre](http://ektype.in).
-Mukta Malar was designed by Aadarsh Rajan.
+Mukta Malar was designed by Aadarsh Rajan. 
+Mukta Mahee was designed by Shuchita Grover and Noopur Datye. 
 We would like to thank Vinay Saynekar, Santosh Kshirsagar, Shubhanand Jog, Yogesh Jahargirdar, Pradnya Naik, Snehal Patil, Omkar Shende and Dave Crossland for their suggestions and feedback during the font design process. 
 We would also like to thank faculty and friends from the Industrial Design Centre, IIT Bombay, and from Sir J J Institute of Applied Art, for their support and encouragement.
 
